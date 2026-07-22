@@ -10,7 +10,7 @@
 
 このサイトは静的HTMLなので、GitHub Pagesでは `main` ブランチのルートを公開元にすれば表示できます。
 
-1. GitHubで空のリポジトリを作成
+1. GitHubで `nightingaledanceinfohp` という名前の空リポジトリを作成
 2. このフォルダをpush
 3. Repository Settings > Pages
 4. Sourceを `Deploy from a branch` に設定
