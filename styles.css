@@ -425,6 +425,14 @@ h2 span { color: var(--purple); }
   background: #fff;
 }
 
+.footer small {
+  margin-left: auto;
+  color: #777;
+  font-family: "Yu Gothic", Meiryo, sans-serif;
+  font-size: .72rem;
+  font-weight: 700;
+}
+
 @media (max-width: 900px) {
   .topbar,
   .section-head,
