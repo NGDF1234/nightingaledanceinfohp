@@ -125,8 +125,8 @@ a { color: inherit; }
   padding: .18em .42em .24em;
   color: var(--yellow);
   font-size: clamp(2.6rem, 7.8vw, 6.8rem);
-  line-height: .96;
-  white-space: nowrap;
+  font-weight: 950;
+  line-height: .88;
   transform: skew(-8deg) rotate(-4deg);
   text-shadow:
     3px 3px 0 #fff,
@@ -135,6 +135,10 @@ a { color: inherit; }
   -webkit-text-stroke: 3px #111;
   filter: drop-shadow(0 9px 0 rgba(0,0,0,.25));
   isolation: isolate;
+}
+
+.hero-title h1 span {
+  display: block;
 }
 
 .hero-title h1::before {
@@ -500,7 +504,7 @@ h2 span { color: var(--purple); }
     transform: translateY(34px);
   }
   .hero-title h1 {
-    font-size: clamp(2rem, 10vw, 3.4rem);
+    font-size: clamp(2.2rem, 12vw, 4rem);
     padding: .18em .38em .24em;
     text-shadow:
       2px 2px 0 #fff,
