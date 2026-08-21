@@ -86,10 +86,12 @@ a { color: inherit; }
 
 .nav {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: flex-end;
   gap: 16px 34px;
+  overflow-x: auto;
   font-size: 1rem;
+  white-space: nowrap;
 }
 
 .nav a {
@@ -246,18 +248,22 @@ a { color: inherit; }
 }
 
 .news-grid {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  display: flex;
   gap: 18px;
+  overflow-x: auto;
+  padding: 2px 4px 12px;
+  scroll-snap-type: x proximity;
 }
 
 .news-card {
+  flex: 0 0 260px;
   min-height: 190px;
   padding: 18px;
   border: 2px solid var(--line);
   border-radius: 8px;
   background: #fff;
   box-shadow: 4px 5px 0 rgba(0,0,0,.12);
+  scroll-snap-align: start;
 }
 
 .news-tag {
@@ -288,7 +294,9 @@ a { color: inherit; }
 
 .info-band {
   display: grid;
-  grid-template-columns: .9fr 1.1fr;
+  grid-template-columns: minmax(420px, .9fr) minmax(560px, 1.1fr);
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
 }
 
 .about-panel,
@@ -297,6 +305,7 @@ a { color: inherit; }
   min-height: 300px;
   padding: 38px clamp(24px, 5vw, 64px);
   color: #fff;
+  scroll-snap-align: start;
 }
 
 .about-panel {
@@ -396,12 +405,15 @@ a { color: inherit; }
 }
 
 .profile-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  display: flex;
   gap: 22px;
+  overflow-x: auto;
+  padding: 2px 4px 12px;
+  scroll-snap-type: x proximity;
 }
 
 .profile-card {
+  flex: 0 0 min(540px, 88vw);
   display: grid;
   grid-template-columns: 112px 1fr;
   gap: 20px;
@@ -412,6 +424,22 @@ a { color: inherit; }
   border-radius: 8px;
   background: #fff;
   box-shadow: 4px 5px 0 rgba(0,0,0,.08);
+  scroll-snap-align: start;
+}
+
+.nav::-webkit-scrollbar,
+.news-grid::-webkit-scrollbar,
+.info-band::-webkit-scrollbar,
+.profile-grid::-webkit-scrollbar {
+  height: 8px;
+}
+
+.nav::-webkit-scrollbar-thumb,
+.news-grid::-webkit-scrollbar-thumb,
+.info-band::-webkit-scrollbar-thumb,
+.profile-grid::-webkit-scrollbar-thumb {
+  background: #111;
+  border-radius: 999px;
 }
 
 .portrait {
@@ -501,16 +529,8 @@ a { color: inherit; }
   }
 
   .nav {
+    width: 100%;
     justify-content: flex-start;
-  }
-
-  .news-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .info-band,
-  .profile-grid {
-    grid-template-columns: 1fr;
   }
 }
 
@@ -544,8 +564,7 @@ a { color: inherit; }
   }
 
   .hero-actions,
-  .clip-card,
-  .profile-card {
+  .clip-card {
     grid-template-columns: 1fr;
   }
 
@@ -554,7 +573,7 @@ a { color: inherit; }
     align-items: center;
   }
 
-  .news-grid {
-    grid-template-columns: 1fr;
+  .info-band {
+    grid-template-columns: minmax(320px, 88vw) minmax(360px, 92vw);
   }
 }
