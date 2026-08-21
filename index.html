@@ -9,9 +9,10 @@
   </head>
   <body>
     <header class="topbar">
-      <a class="logo" href="#top" aria-label="ホーム">
-        <strong>ナイチンゲールダンス</strong>
-        <span>非公式まとめサイト</span>
+      <a class="site-logo" href="#top" aria-label="ホーム">
+        <span class="logo-burst" aria-hidden="true"></span>
+        <strong><span>ナイチンゲール</span><span>ダンス</span></strong>
+        <em>非公式まとめサイト</em>
       </a>
       <nav class="nav" aria-label="主要ナビゲーション">
         <a href="#top">HOME</a>
@@ -25,30 +26,67 @@
     <main id="top">
       <section class="hero">
         <img class="hero-art" src="assets/hero-comic.jpg" alt="青、黄色、紫のコミック調背景に二人のシルエットが立つイメージ">
-        <div class="hero-shade"></div>
         <div class="hero-title">
           <h1><span>ナイチンゲール</span><span>ダンス</span></h1>
+          <p>二人のリズムで、今日も世界を笑わせる！</p>
           <div class="hero-actions">
-            <a class="pill yellow" href="#news">最新情報を見る</a>
-            <a class="pill purple" href="#profile">プロフィールを見る</a>
+            <a class="button yellow" href="#news">最新情報をチェック!</a>
+            <a class="button purple" href="#profile">プロフィールを見る</a>
           </div>
         </div>
       </section>
 
-      <section class="about" id="about">
-        <div class="comic-heading">ABOUT</div>
-        <p>
-          ナイチンゲールダンスのライブ・テレビ・YouTube・SNS等の情報をまとめた非公式サイトです。
-        </p>
-        <div class="sparkles" aria-hidden="true">★ ★ ★</div>
+      <section class="news-section" id="news">
+        <div class="section-title row-title">
+          <div>
+            <h2>NEWS</h2>
+            <span>最新情報</span>
+          </div>
+          <a href="https://ticket.fany.lol/search/event?keyword=%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB%E3%83%80%E3%83%B3%E3%82%B9" target="_blank" rel="noreferrer">NEWS一覧へ →</a>
+        </div>
+        <div class="news-grid" id="news-grid" aria-live="polite"></div>
       </section>
 
-      <section class="section" id="profile">
-        <h2>PROFILE <span>★</span></h2>
-        <div class="profile-grid">
-          <article class="profile-card blue-card">
+      <section class="info-band">
+        <article class="about-panel" id="about">
+          <div class="section-title light-title">
+            <h2>ABOUT</h2>
+            <span>ナイチンゲールダンスとは?</span>
+          </div>
+          <p>
+            ナイチンゲールダンスのライブ・テレビ・YouTube・SNS等の情報をまとめた非公式サイトです。
+          </p>
+          <div class="more-burst" aria-hidden="true">MORE!</div>
+        </article>
+
+        <article class="clips-panel" id="clips">
+          <div class="section-title light-title row-title">
             <div>
-              <h3>中野なかるてぃん</h3>
+              <h2>CLIPS</h2>
+              <span>おすすめ動画</span>
+            </div>
+            <a href="https://www.youtube.com/@nightingaledance" target="_blank" rel="noreferrer">一覧へ →</a>
+          </div>
+          <a class="clip-card" href="https://youtu.be/Z0mjkhTVWIc?si=JYSImYsEhikjpC1L" target="_blank" rel="noreferrer">
+            <span class="clip-thumb" aria-hidden="true"></span>
+            <span>
+              <strong>【漫才】同窓会</strong>
+              <small>2022.12.30</small>
+            </span>
+          </a>
+        </article>
+      </section>
+
+      <section class="profile-section" id="profile">
+        <div class="section-title">
+          <h2>PROFILE</h2>
+          <span>プロフィール</span>
+        </div>
+        <div class="profile-grid">
+          <article class="profile-card nakaru-card">
+            <div class="portrait" aria-hidden="true"></div>
+            <div>
+              <h3>なかるてぃん</h3>
               <p class="standing-position">立ち位置は向かって左。</p>
               <p>ボケ担当。山梨県出身、1994年8月28日生まれ。</p>
               <p class="chip-heading">趣味・特技</p>
@@ -57,7 +95,8 @@
               </div>
             </div>
           </article>
-          <article class="profile-card purple-card">
+          <article class="profile-card yasu-card">
+            <div class="portrait" aria-hidden="true"></div>
             <div>
               <h3>ヤス</h3>
               <p class="standing-position">立ち位置は向かって右。</p>
@@ -70,37 +109,14 @@
           </article>
         </div>
       </section>
-
-      <section class="section" id="news">
-        <div class="section-head">
-          <h2>NEWS / SCHEDULE <span>★</span></h2>
-          <div class="filters" aria-label="表示切り替え">
-            <button class="active" type="button" data-filter="all">ALL</button>
-            <button type="button" data-filter="live">LIVE</button>
-            <button type="button" data-filter="media">MEDIA</button>
-          </div>
-        </div>
-        <div class="news-grid" id="news-grid" aria-live="polite"></div>
-      </section>
-
-      <section class="section" id="clips">
-        <h2>おすすめ動画・ネタ <span>★</span></h2>
-        <div class="clip-grid featured-only">
-          <a class="clip-card featured-clip" href="https://youtu.be/Z0mjkhTVWIc?si=JYSImYsEhikjpC1L" target="_blank" rel="noreferrer">
-            <span class="clip-thumb"></span>
-            <span class="clip-content">
-              <span class="clip-label">おすすめネタ動画</span>
-              <strong>【漫才】同窓会【ナイチンゲールダンス】</strong>
-              <p>指定のネタ動画を表示しています。YouTubeで開く。</p>
-              <small>動画時間: 3分48秒 / 確認: 2026年8月21日</small>
-            </span>
-          </a>
-        </div>
-      </section>
     </main>
 
     <footer class="footer">
-      <span>このサイトは非公式まとめサイトです。公式情報は各公式ページで確認してください。</span>
+      <div class="footer-logo">
+        <strong><span>ナイチンゲール</span><span>ダンス</span></strong>
+        <em>非公式まとめサイト</em>
+      </div>
+      <p>このサイトは非公式まとめサイトです。公式情報は各公式ページで確認してください。</p>
       <small>AIによって作成されています。</small>
     </footer>
 
