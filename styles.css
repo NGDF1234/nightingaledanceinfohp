@@ -131,16 +131,6 @@ a { color: inherit; }
   box-shadow: 5px 5px 0 #111;
 }
 
-.hero-copy {
-  display: inline-block;
-  margin: 0;
-  padding: 8px 22px;
-  background: #fff;
-  font-family: "Yu Gothic", Meiryo, sans-serif;
-  font-weight: 800;
-  box-shadow: 4px 4px 0 rgba(0,0,0,.35);
-}
-
 .hero-actions {
   display: flex;
   justify-content: center;
