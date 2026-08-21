@@ -227,12 +227,12 @@ h2 span { color: var(--purple); }
   background: #fff;
 }
 
-.blue-card {
+.profile-card.blue-card {
   color: #111;
   background: var(--yellow);
 }
 
-.purple-card {
+.profile-card.purple-card {
   color: #111;
   background: var(--purple);
 }
