@@ -38,10 +38,10 @@ main {
   z-index: 20;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-  min-height: 138px;
-  padding: 16px clamp(20px, 5vw, 64px);
+  justify-content: flex-start;
+  gap: clamp(14px, 3vw, 34px);
+  min-height: 82px;
+  padding: 8px clamp(14px, 4vw, 54px);
   border-bottom: 4px solid #111;
   background: #fff;
 }
@@ -50,7 +50,7 @@ main {
 .footer-logo {
   display: block;
   flex: 0 0 auto;
-  width: min(360px, 44vw);
+  width: clamp(150px, 20vw, 230px);
   text-decoration: none;
 }
 
@@ -65,7 +65,7 @@ main {
 .nav {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: 16px 34px;
   overflow-x: auto;
   font-size: 1rem;
@@ -106,15 +106,15 @@ main {
   display: grid;
   place-content: center;
   justify-items: center;
-  padding: 80px 24px 30px;
+  padding: 72px 24px 30px;
   text-align: center;
   transform: translateY(24px);
 }
 
 .hero-logo {
-  width: min(760px, 74vw);
+  width: min(820px, 78vw);
   filter: drop-shadow(8px 8px 0 rgba(0,0,0,.5));
-  transform: rotate(-4deg);
+  transform: rotate(-3deg);
 }
 
 .hero-title p {
@@ -133,6 +133,22 @@ main {
   justify-content: center;
   gap: 14px;
   margin-top: 18px;
+}
+
+.button-art-link {
+  display: block;
+  width: min(330px, 40vw);
+  transition: transform .12s ease;
+}
+
+.button-art-link:hover {
+  transform: translateY(-2px);
+}
+
+.button-art-link img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .button {
@@ -342,23 +358,14 @@ main {
   content: "";
   position: absolute;
   inset: 50% auto auto 50%;
-  width: 54px;
-  height: 54px;
-  border: 4px solid #111;
-  border-radius: 50%;
-  background: #fff;
+  width: 70px;
+  height: 70px;
+  background: url("assets/play-icon-v2.png") center / contain no-repeat;
   transform: translate(-50%, -50%);
 }
 
 .clip-thumb::before {
-  content: "";
-  position: absolute;
-  inset: 50% auto auto 50%;
-  z-index: 1;
-  border-top: 12px solid transparent;
-  border-bottom: 12px solid transparent;
-  border-left: 18px solid #111;
-  transform: translate(-35%, -50%);
+  content: none;
 }
 
 .clip-card strong,
@@ -386,12 +393,12 @@ main {
 }
 
 .profile-card {
-  flex: 0 0 min(540px, 88vw);
+  flex: 0 0 min(560px, 88vw);
   display: grid;
-  grid-template-columns: 112px 1fr;
+  grid-template-columns: 128px 1fr;
   gap: 20px;
-  align-items: center;
-  min-height: 170px;
+  align-items: stretch;
+  min-height: 230px;
   padding: 20px;
   border: 2px solid #d9d9d9;
   border-radius: 8px;
@@ -416,21 +423,21 @@ main {
 }
 
 .portrait {
-  width: 96px;
-  height: 96px;
+  align-self: end;
+  width: 120px;
+  height: 190px;
   border: 4px solid #111;
-  border-radius: 50%;
-  background:
-    radial-gradient(circle at 50% 34%, #050505 0 28%, transparent 29%),
-    linear-gradient(#050505 0 0) center bottom / 54% 45% no-repeat,
-    var(--blue);
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
 }
 
-.yasu-card .portrait {
-  background:
-    radial-gradient(circle at 50% 34%, #050505 0 28%, transparent 29%),
-    linear-gradient(#050505 0 0) center bottom / 54% 45% no-repeat,
-    var(--purple);
+.portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center bottom;
 }
 
 .profile-card h3 {
@@ -502,10 +509,12 @@ main {
 
   .topbar {
     position: static;
+    flex-direction: row;
+    align-items: center;
   }
 
   .nav {
-    width: 100%;
+    width: auto;
     justify-content: flex-start;
   }
 }
@@ -514,19 +523,21 @@ main {
   .topbar {
     min-height: 0;
     align-items: center;
+    flex-direction: row;
     gap: 12px;
-    padding: 14px 12px;
+    padding: 8px 10px;
   }
 
   .site-logo {
-    width: min(330px, 92vw);
+    width: 112px;
   }
 
   .nav {
     justify-content: flex-start;
-    gap: 18px;
+    gap: 14px;
+    flex: 1 1 auto;
     padding: 0 4px 4px;
-    font-size: .78rem;
+    font-size: .72rem;
   }
 
   .hero {
@@ -544,7 +555,7 @@ main {
   }
 
   .hero-logo {
-    width: min(370px, 94vw);
+    width: min(360px, 92vw);
   }
 
   .hero-title p {
@@ -557,6 +568,10 @@ main {
     justify-content: center;
     padding-inline: 14px;
     font-size: .9rem;
+  }
+
+  .button-art-link {
+    width: min(310px, calc(100vw - 40px));
   }
 
   .news-section,
@@ -629,14 +644,15 @@ main {
 
   .profile-card {
     flex-basis: min(330px, 86vw);
-    grid-template-columns: 76px 1fr;
+    grid-template-columns: 82px 1fr;
     gap: 12px;
     padding: 14px;
+    min-height: 200px;
   }
 
   .portrait {
-    width: 70px;
-    height: 70px;
+    width: 78px;
+    height: 160px;
   }
 
   .footer {
