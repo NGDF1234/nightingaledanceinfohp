@@ -1,7 +1,9 @@
 :root {
   --blue: #086bff;
   --yellow: #ffd900;
+  --soft-yellow: #fff28a;
   --purple: #8d3cff;
+  --soft-purple: #d9c2ff;
   --pink: #e83cff;
   --ink: #111111;
   --paper: #ffffff;
@@ -229,20 +231,20 @@ h2 span { color: var(--purple); }
 
 .profile-card.blue-card {
   color: #111;
-  background: var(--yellow) !important;
+  background: var(--soft-yellow) !important;
 }
 
 .profile-card.purple-card {
   color: #111;
-  background: var(--purple) !important;
+  background: var(--soft-purple) !important;
 }
 
 .profile-card.blue-card > div {
-  background: var(--yellow);
+  background: var(--soft-yellow);
 }
 
 .profile-card.purple-card > div {
-  background: var(--purple);
+  background: var(--soft-purple);
 }
 
 .profile-card h3,
