@@ -265,16 +265,17 @@ h2 span { color: var(--purple); }
 .chips {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 4px 10px;
 }
 
 .chips span {
-  padding: 3px 10px;
-  border: 2px solid #111;
-  border-radius: 999px;
-  background: #fff;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   color: #111;
-  font-size: .78rem;
+  font-family: "Yu Gothic", Meiryo, sans-serif;
+  font-size: .9rem;
   font-weight: 900;
 }
 
