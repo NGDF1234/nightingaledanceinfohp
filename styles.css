@@ -246,14 +246,6 @@ h2 span { color: var(--purple); }
   color: #111;
 }
 
-.role {
-  margin: 0 0 6px;
-  color: currentColor !important;
-  font-family: Impact, "Arial Black", sans-serif !important;
-  font-size: 2rem;
-  line-height: 1;
-}
-
 .chips {
   display: flex;
   flex-wrap: wrap;
