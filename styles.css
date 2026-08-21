@@ -121,10 +121,11 @@ a { color: inherit; }
   position: relative;
   margin: 0;
   display: inline-block;
-  max-width: 1040px;
+  width: max-content;
+  max-width: none;
   padding: .18em .42em .24em;
   color: var(--yellow);
-  font-size: clamp(2.6rem, 7.8vw, 6.8rem);
+  font-size: clamp(2.4rem, 7.2vw, 6.4rem);
   font-weight: 950;
   line-height: .88;
   transform: skew(-8deg) rotate(-4deg);
@@ -139,6 +140,8 @@ a { color: inherit; }
 
 .hero-title h1 span {
   display: block;
+  white-space: nowrap;
+  width: max-content;
 }
 
 .hero-title h1::before {
@@ -504,7 +507,7 @@ h2 span { color: var(--purple); }
     transform: translateY(34px);
   }
   .hero-title h1 {
-    font-size: clamp(2.2rem, 12vw, 4rem);
+    font-size: clamp(1.55rem, 8.8vw, 3.2rem);
     padding: .18em .38em .24em;
     text-shadow:
       2px 2px 0 #fff,
