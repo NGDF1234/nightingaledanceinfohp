@@ -246,6 +246,15 @@ h2 span { color: var(--purple); }
   color: #111;
 }
 
+.profile-card p {
+  margin-bottom: 8px;
+}
+
+.standing-position {
+  margin-bottom: 4px !important;
+  font-weight: 900 !important;
+}
+
 .chips {
   display: flex;
   flex-wrap: wrap;
