@@ -113,6 +113,7 @@ a { color: inherit; }
   padding: 0 18px;
   text-align: center;
   pointer-events: none;
+  transform: translateY(54px);
 }
 
 .hero-title h1 {
@@ -121,8 +122,9 @@ a { color: inherit; }
   display: inline-block;
   max-width: 1040px;
   color: #fff;
-  font-size: clamp(3.4rem, 9vw, 7.4rem);
+  font-size: clamp(2.6rem, 7.8vw, 6.8rem);
   line-height: .96;
+  white-space: nowrap;
   transform: skew(-7deg) rotate(-1deg);
   text-shadow:
     4px 4px 0 #111,
@@ -476,8 +478,11 @@ h2 span { color: var(--purple); }
 @media (max-width: 560px) {
   .hero { min-height: 590px; }
   .hero-art { object-position: center top; }
+  .hero-title {
+    transform: translateY(34px);
+  }
   .hero-title h1 {
-    font-size: clamp(3rem, 15vw, 4.4rem);
+    font-size: clamp(2rem, 10vw, 3.4rem);
     text-shadow:
       3px 3px 0 #111,
       6px 6px 0 var(--yellow),
