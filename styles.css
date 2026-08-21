@@ -228,17 +228,13 @@ h2 span { color: var(--purple); }
 }
 
 .blue-card {
-  color: var(--blue);
-  background:
-    repeating-radial-gradient(circle at 90% 20%, rgba(255,217,0,.6) 0 2px, transparent 3px 10px),
-    #fff;
+  color: #111;
+  background: var(--yellow);
 }
 
 .purple-card {
-  color: var(--purple);
-  background:
-    repeating-radial-gradient(circle at 90% 35%, rgba(141,60,255,.35) 0 2px, transparent 3px 10px),
-    #fff;
+  color: #111;
+  background: var(--purple);
 }
 
 .profile-card h3,
