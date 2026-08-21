@@ -229,11 +229,19 @@ h2 span { color: var(--purple); }
 
 .profile-card.blue-card {
   color: #111;
-  background: var(--yellow);
+  background: var(--yellow) !important;
 }
 
 .profile-card.purple-card {
   color: #111;
+  background: var(--purple) !important;
+}
+
+.profile-card.blue-card > div {
+  background: var(--yellow);
+}
+
+.profile-card.purple-card > div {
   background: var(--purple);
 }
 
