@@ -562,6 +562,12 @@ main {
   }
 }
 
+@media (orientation: landscape) and (max-height: 640px) {
+  .hero {
+    height: 90svh;
+  }
+}
+
 @media (max-width: 560px) {
   .topbar {
     min-height: 0;
