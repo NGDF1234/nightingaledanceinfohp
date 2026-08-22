@@ -1,4 +1,5 @@
 const DATA_PATH = "./data/nightingale-info.json";
+const CLIPS_DATA_PATH = "./data/nightingale-youtube-clips.json";
 
 const fallbackNewsItems = [
   {
@@ -332,15 +333,25 @@ async function loadInfo() {
     if (!response.ok) throw new Error(`Failed to load ${DATA_PATH}`);
     const data = await response.json();
     renderNews(Array.isArray(data.news) ? data.news : fallbackNewsItems);
-    renderClips(Array.isArray(data.clips) ? data.clips : fallbackClipItems);
     scheduleItems = Array.isArray(data.schedule) ? data.schedule : [];
     renderSchedule(scheduleItems);
   } catch (error) {
     console.warn(error);
     renderNews(fallbackNewsItems);
-    renderClips(fallbackClipItems);
     scheduleItems = [];
     renderSchedule([]);
+  }
+}
+
+async function loadClips() {
+  try {
+    const response = await fetch(CLIPS_DATA_PATH, { cache: "no-store" });
+    if (!response.ok) throw new Error(`Failed to load ${CLIPS_DATA_PATH}`);
+    const data = await response.json();
+    renderClips(Array.isArray(data.clips) ? data.clips : fallbackClipItems);
+  } catch (error) {
+    console.warn(error);
+    renderClips(fallbackClipItems);
   }
 }
 
@@ -423,4 +434,5 @@ document.addEventListener("keydown", (event) => {
 });
 
 loadInfo();
+loadClips();
 renderRegular();
