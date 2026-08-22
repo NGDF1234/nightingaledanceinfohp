@@ -179,6 +179,28 @@ function clipSortDate(item) {
   return item.uploadDate || item.firstSeenAt || item.lastStatsUpdatedAt || "";
 }
 
+function shuffleItems(items = []) {
+  const shuffled = [...items];
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+    [shuffled[index], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[index]];
+  }
+  return shuffled;
+}
+
+function topClipsByViews(items = [], kind = "video", limit = 10) {
+  return items
+    .filter((item) => item.kind === kind)
+    .sort((a, b) => (Number(b.viewCount) || 0) - (Number(a.viewCount) || 0))
+    .slice(0, limit);
+}
+
+function homeRecommendedClips(items = []) {
+  const videos = shuffleItems(topClipsByViews(items, "video", 10)).slice(0, 3);
+  const shorts = shuffleItems(topClipsByViews(items, "shorts", 10)).slice(0, 3);
+  return shuffleItems([...videos, ...shorts]);
+}
+
 function scheduleSearchText(item) {
   const categoryWords = {
     TV: "テレビ tv",
@@ -342,7 +364,6 @@ function renderClips(items = fallbackClipItems) {
   if (!clipsGrid && !clipsList) return;
 
   const clipItems = items
-    .filter((item) => item.kind !== "shorts")
     .map((item) => ({ ...item, videoId: item.videoId || youtubeVideoId(item.url) }))
     .filter((item) => item.videoId);
   const sourceItems = clipItems.length ? clipItems : fallbackClipItems.map((item) => ({ ...item, videoId: youtubeVideoId(item.url) }));
@@ -360,7 +381,7 @@ function renderClips(items = fallbackClipItems) {
       }
       return (Number(b.viewCount) || 0) - (Number(a.viewCount) || 0) || clipSortDate(b).localeCompare(clipSortDate(a));
     });
-  const visibleItems = showAllClips ? sortedItems : sortedItems.slice(0, 12);
+  const visibleItems = showAllClips ? sortedItems : homeRecommendedClips(sourceItems);
 
   if (!visibleItems.length) {
     const empty = `
