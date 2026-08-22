@@ -372,15 +372,16 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .news-action-links a {
   flex: 0 0 auto;
-  max-width: min(280px, 72vw);
-  padding: 3px 10px;
+  max-width: min(300px, 76vw);
+  padding: 7px 12px 7px 14px;
   border: 2px solid #111;
-  border-radius: 999px;
-  background: var(--yellow);
-  box-shadow: 3px 3px 0 #111;
+  border-left: 8px solid var(--yellow);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 3px 3px 0 rgba(0,0,0,.22);
   color: #111;
   font-family: "Yu Gothic", Meiryo, sans-serif;
-  font-size: .74rem;
+  font-size: .8rem;
   font-weight: 950;
   line-height: 1.25;
   text-decoration: none;
