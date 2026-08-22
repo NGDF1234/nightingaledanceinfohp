@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T22:26:27+09:00",
+  "updatedAt": "2026-08-22T23:15:49+09:00",
   "news": [
     {
       "date": "2026-08-21",
@@ -258,6 +258,17 @@
       "url": "https://bsy.co.jp/timetable"
     },
     {
+      "date": "2026-08-26",
+      "day": "水",
+      "startTime": "19:00",
+      "endTime": "",
+      "tag": "LIVE",
+      "title": "よしもと　ド夏笑い(どかわらい) 3DAYS in 神戸2026",
+      "note": "",
+      "place": "神戸国際会館　こくさいホール（兵庫県）",
+      "url": "https://ticket.fany.lol/reception/57345/47120"
+    },
+    {
       "date": "2026-08-28",
       "day": "金",
       "startTime": "14:30",
@@ -267,6 +278,17 @@
       "note": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2026-08-28",
+      "day": "金",
+      "startTime": "19:00",
+      "endTime": "",
+      "tag": "LIVE",
+      "title": "よしもとお笑いライブin千葉2026～笑って乗り切る残暑お見舞い！～",
+      "note": "",
+      "place": "千葉市民会館　大ホール（千葉県）",
+      "url": "https://ticket.fany.lol/reception/55390/45504"
     },
     {
       "date": "2026-08-29",
@@ -415,6 +437,17 @@
       "date": "2026-09-13",
       "day": "日",
       "startTime": "18:00",
+      "endTime": "",
+      "tag": "LIVE",
+      "title": "ギャグを科学する60分スーパーギャグサイエンス",
+      "note": "",
+      "place": "歌舞伎町Sparkle（東京都）",
+      "url": "https://ticket.fany.lol/reception/62699/50492"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "日",
+      "startTime": "18:00",
       "endTime": "19:00",
       "tag": "TV",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
@@ -454,6 +487,17 @@
       "note": "",
       "place": "長崎国際テレビ（NIB）",
       "url": "https://www.nib.jp/tv/vtimes/"
+    },
+    {
+      "date": "2026-09-19",
+      "day": "土",
+      "startTime": "15:30",
+      "endTime": "",
+      "tag": "LIVE",
+      "title": "トーキョーマンゲキフェス2026ー渋神三世代決戦ー",
+      "note": "※中野なかるてぃんのみ出演",
+      "place": "LINE CUBE SHIBUYA（東京都）",
+      "url": "https://ticket.fany.lol/reception/63809/51190"
     },
     {
       "date": "2026-09-19",
@@ -509,6 +553,17 @@
       "note": "",
       "place": "長崎国際テレビ（NIB）",
       "url": "https://www.nib.jp/tv/vtimes/"
+    },
+    {
+      "date": "2026-09-26",
+      "day": "土",
+      "startTime": "19:00",
+      "endTime": "",
+      "tag": "LIVE",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
+      "note": "※中野なかるてぃんのみ出演",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "url": "https://ticket.fany.lol/reception/64088/51586"
     },
     {
       "date": "2026-09-26",
@@ -1631,6 +1686,44 @@
       "note": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
+    }
+  ],
+  "clips": [
+    {
+      "kind": "video",
+      "rank": 1,
+      "title": "【緊急】エバース町田裁判【事件】",
+      "url": "https://www.youtube.com/watch?v=HA_49K189P8"
+    },
+    {
+      "kind": "video",
+      "rank": 2,
+      "title": "【町田裁判】町田さん、もう逃げられませんよ【こたけ正義感】",
+      "url": "https://www.youtube.com/watch?v=TlSSNkMQlZw"
+    },
+    {
+      "kind": "video",
+      "rank": 3,
+      "title": "【町田裁判】ついに決着、町田裁判最終決【最終章】",
+      "url": "https://www.youtube.com/watch?v=ZyFKWUFK67o"
+    },
+    {
+      "kind": "shorts",
+      "rank": 1,
+      "title": "【クイズ】ONEOKROCKの曲名かイナズマイレブンの技名かクイズ【ワンオク】",
+      "url": "https://www.youtube.com/shorts/CDcpOGlmWxk"
+    },
+    {
+      "kind": "shorts",
+      "rank": 2,
+      "title": "【なぞなぞ】落としたものは何でしょう？【問題】",
+      "url": "https://www.youtube.com/shorts/sq0aeOHFDSs"
+    },
+    {
+      "kind": "shorts",
+      "rank": 3,
+      "title": "【BL】カーナビがBL声優だったら【メロい】",
+      "url": "https://www.youtube.com/shorts/pJBKPXQRJR8"
     }
   ]
 }
