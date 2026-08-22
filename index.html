@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>NightingaleDanceInfo | ナイチンゲールダンス非公式まとめサイト</title>
     <meta name="description" content="ナイチンゲールダンスの情報をまとめる非公式まとめサイトです。">
-    <link rel="stylesheet" href="styles.css?v=64">
+    <link rel="stylesheet" href="styles.css?v=65">
   </head>
   <body>
     <header class="topbar">
@@ -20,7 +20,7 @@
         <a href="#schedule">SCHEDULE</a>
         <a href="#clips">CLIPS</a>
       </nav>
-      <span class="update-count" aria-label="確認用カウント">確認 64</span>
+      <span class="update-count" aria-label="確認用カウント">確認 65</span>
     </header>
 
     <main id="top">
@@ -151,24 +151,27 @@
             <a href="https://www.youtube.com/@nightingaledance" target="_blank" rel="noreferrer">一覧へ →</a>
           </div>
           <div class="clips-grid">
-            <article class="clip-card clip-embed-card">
-              <div class="clip-embed">
-                <iframe
-                  src="https://www.youtube.com/embed/Z0mjkhTVWIc"
-                  title="【漫才】同窓会"
-                  loading="lazy"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
-              </div>
+            <button class="clip-card" type="button" data-video-id="Z0mjkhTVWIc" data-video-title="【漫才】同窓会">
+              <span class="clip-thumb">
+                <img src="https://img.youtube.com/vi/Z0mjkhTVWIc/hqdefault.jpg" alt="【漫才】同窓会">
+              </span>
               <span>
                 <strong>【漫才】同窓会</strong>
                 <small>2022.12.30</small>
               </span>
-            </article>
+            </button>
           </div>
         </article>
       </section>
     </main>
+
+    <div class="video-modal" id="video-modal" hidden>
+      <div class="video-modal-backdrop" data-video-close></div>
+      <div class="video-modal-panel" role="dialog" aria-modal="true" aria-label="YouTube動画">
+        <button class="video-modal-close" type="button" data-video-close aria-label="閉じる">×</button>
+        <div class="video-modal-frame" id="video-modal-frame"></div>
+      </div>
+    </div>
 
     <footer class="footer">
       <p>このサイトは非公式まとめサイトです。公式情報は各公式ページで確認してください。</p>

@@ -651,6 +651,9 @@ main > section:nth-of-type(3n+1):not(.hero) {
   background: #fff;
   box-shadow: 4px 5px 0 rgba(0,0,0,.12);
   color: var(--ink);
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
   text-decoration: none;
   scroll-snap-align: start;
 }
@@ -678,9 +681,18 @@ main > section:nth-of-type(3n+1):not(.hero) {
 .clip-thumb {
   position: relative;
   min-height: 140px;
+  overflow: hidden;
   border: 4px solid #111;
   border-radius: 7px;
   background: #fff;
+}
+
+.clip-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 140px;
+  object-fit: cover;
 }
 
 .clip-thumb::after {
@@ -711,6 +723,62 @@ main > section:nth-of-type(3n+1):not(.hero) {
   margin-top: 4px;
   color: rgba(255,255,255,.82);
   font-weight: 900;
+}
+
+.video-modal[hidden] {
+  display: none;
+}
+
+.video-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: 22px;
+}
+
+.video-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.72);
+}
+
+.video-modal-panel {
+  position: relative;
+  width: min(900px, 94vw);
+  border: 4px solid #111;
+  border-radius: 10px;
+  background: #111;
+  box-shadow: 10px 10px 0 rgba(0,0,0,.35);
+}
+
+.video-modal-close {
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  z-index: 2;
+  width: 42px;
+  height: 42px;
+  border: 3px solid #111;
+  border-radius: 999px;
+  background: var(--yellow);
+  color: #111;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 950;
+  line-height: 1;
+}
+
+.video-modal-frame {
+  aspect-ratio: 16 / 9;
+}
+
+.video-modal-frame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 .profile-grid {

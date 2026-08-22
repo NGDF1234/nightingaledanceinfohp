@@ -32,6 +32,8 @@ const scheduleSearchForm = document.querySelector("#schedule-search-form");
 const scheduleTitleSearch = document.querySelector("#schedule-title-search");
 const scheduleDateFrom = document.querySelector("#schedule-date-from");
 const scheduleDateTo = document.querySelector("#schedule-date-to");
+const videoModal = document.querySelector("#video-modal");
+const videoModalFrame = document.querySelector("#video-modal-frame");
 let scheduleItems = [];
 let showAllSchedules = document.body.dataset.scheduleMode === "all";
 let scheduleFilters = {
@@ -309,6 +311,36 @@ if (scheduleSearchForm) {
   if (!control) return;
   control.addEventListener("input", updateScheduleFilters);
   control.addEventListener("change", updateScheduleFilters);
+});
+
+function closeVideoModal() {
+  if (!videoModal || !videoModalFrame) return;
+  videoModal.hidden = true;
+  videoModalFrame.innerHTML = "";
+}
+
+document.querySelectorAll("[data-video-id]").forEach((button) => {
+  button.addEventListener("click", () => {
+    if (!videoModal || !videoModalFrame) return;
+    const videoId = button.dataset.videoId;
+    const title = button.dataset.videoTitle || "YouTube動画";
+    videoModalFrame.innerHTML = `
+      <iframe
+        src="https://www.youtube.com/embed/${escapeHtml(videoId)}?autoplay=1"
+        title="${escapeHtml(title)}"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    `;
+    videoModal.hidden = false;
+  });
+});
+
+document.querySelectorAll("[data-video-close]").forEach((button) => {
+  button.addEventListener("click", closeVideoModal);
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") closeVideoModal();
 });
 
 loadInfo();
