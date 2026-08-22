@@ -109,6 +109,25 @@ function formatTime(item) {
   return end ? `${start}-${end}` : start;
 }
 
+function scheduleSearchText(item) {
+  const categoryWords = {
+    TV: "テレビ tv",
+    RADIO: "ラジオ radio",
+    LIVE: "ライブ live",
+    YouTube: "youtube ユーチューブ 動画",
+    WEB: "web ウェブ",
+    EVENT: "イベント event"
+  };
+  const tag = item.tag || "";
+  return [
+    item.title,
+    item.place,
+    item.note,
+    tag,
+    categoryWords[tag] || ""
+  ].filter(Boolean).join(" ").toLowerCase();
+}
+
 function todayKey() {
   return new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Tokyo" }).format(new Date());
 }
@@ -199,7 +218,7 @@ function renderSchedule(items = []) {
     .sort((a, b) => `${normalizeDate(a.date)} ${a.startTime || ""}`.localeCompare(`${normalizeDate(b.date)} ${b.startTime || ""}`));
   const visibleItems = upcomingItems
     .filter((item) => showAllSchedules || !item.date || normalizeDate(item.date) <= weekEnd)
-    .filter((item) => !titleQuery || `${item.title || ""} ${item.place || ""} ${item.note || ""}`.toLowerCase().includes(titleQuery))
+    .filter((item) => !titleQuery || scheduleSearchText(item).includes(titleQuery))
     .filter((item) => !dateFrom || !item.date || normalizeDate(item.date) >= dateFrom)
     .filter((item) => !dateTo || !item.date || normalizeDate(item.date) <= dateTo);
 
