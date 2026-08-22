@@ -26,6 +26,7 @@ const fallbackNewsItems = [
 
 const newsGrid = document.querySelector("#news-grid");
 const regularGrid = document.querySelector("#regular-grid");
+const clipsGrid = document.querySelector("#clips-grid");
 const scheduleList = document.querySelector("#schedule-list");
 const scheduleToggle = document.querySelector("#schedule-toggle");
 const scheduleSearchForm = document.querySelector("#schedule-search-form");
@@ -81,6 +82,16 @@ const regularPrograms = [
   }
 ];
 
+const fallbackClipItems = [
+  {
+    kind: "video",
+    title: "【漫才】同窓会【ナイチンゲールダンス】",
+    url: "https://www.youtube.com/watch?v=Z0mjkhTVWIc",
+    viewCount: 0,
+    uploadDate: "2022-12-30"
+  }
+];
+
 function escapeHtml(value = "") {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -125,6 +136,16 @@ function formatTime(item) {
   const start = item.startTime || "";
   const end = item.endTime || "";
   return end ? `${start}-${end}` : start;
+}
+
+function formatClipDate(date = "") {
+  return date ? formatNewsDate(date) : "";
+}
+
+function formatViewCount(value) {
+  const count = Number(value);
+  if (!Number.isFinite(count) || count <= 0) return "";
+  return `${count.toLocaleString("ja-JP")}回再生`;
 }
 
 function scheduleSearchText(item) {
@@ -286,17 +307,44 @@ function renderSchedule(items = []) {
   }).join("");
 }
 
+function renderClips(items = fallbackClipItems) {
+  if (!clipsGrid) return;
+
+  const clipItems = items
+    .filter((item) => item.kind !== "shorts")
+    .map((item) => ({ ...item, videoId: youtubeVideoId(item.url) }))
+    .filter((item) => item.videoId);
+  const visibleItems = clipItems.length ? clipItems : fallbackClipItems.map((item) => ({ ...item, videoId: youtubeVideoId(item.url) }));
+
+  clipsGrid.innerHTML = visibleItems.map((item) => {
+    const meta = [formatClipDate(item.uploadDate), formatViewCount(item.viewCount)].filter(Boolean).join(" / ");
+    return `
+      <button class="clip-card" type="button" data-video-id="${escapeHtml(item.videoId)}" data-video-title="${escapeHtml(item.title)}">
+        <span class="clip-thumb">
+          <img src="https://img.youtube.com/vi/${escapeHtml(item.videoId)}/hqdefault.jpg" alt="${escapeHtml(item.title)}" loading="lazy">
+        </span>
+        <span>
+          <strong>${escapeHtml(item.title)}</strong>
+          ${meta ? `<small>${escapeHtml(meta)}</small>` : ""}
+        </span>
+      </button>
+    `;
+  }).join("");
+}
+
 async function loadInfo() {
   try {
     const response = await fetch(DATA_PATH, { cache: "no-store" });
     if (!response.ok) throw new Error(`Failed to load ${DATA_PATH}`);
     const data = await response.json();
     renderNews(Array.isArray(data.news) ? data.news : fallbackNewsItems);
+    renderClips(Array.isArray(data.clips) ? data.clips : fallbackClipItems);
     scheduleItems = Array.isArray(data.schedule) ? data.schedule : [];
     renderSchedule(scheduleItems);
   } catch (error) {
     console.warn(error);
     renderNews(fallbackNewsItems);
+    renderClips(fallbackClipItems);
     scheduleItems = [];
     renderSchedule([]);
   }

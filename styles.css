@@ -710,11 +710,16 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .clip-card strong {
   font-size: 1.05rem;
+  display: -webkit-box;
+  overflow: hidden;
+  line-height: 1.35;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .clip-card small {
   margin-top: 4px;
-  color: rgba(255,255,255,.82);
+  color: rgba(17,17,17,.62);
   font-weight: 900;
 }
 
