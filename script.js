@@ -176,10 +176,6 @@ function regularDisplayQuarter(dateKey = todayKey()) {
   return dateKey >= addDaysKey(current.nextStart, -7) ? quarterFor(current.nextStart) : current;
 }
 
-function formatQuarterRange(quarter) {
-  return `${formatNewsDate(quarter.start)}〜${formatNewsDate(quarter.end)}`;
-}
-
 function renderNews(items = fallbackNewsItems) {
   if (!newsGrid) return;
 
@@ -218,11 +214,9 @@ function renderNews(items = fallbackNewsItems) {
 function renderRegular(items = regularPrograms) {
   if (!regularGrid) return;
 
-  const quarter = regularDisplayQuarter();
   regularGrid.innerHTML = items.map((item) => `
     <article class="news-card regular-card">
       <span class="news-tag">${escapeHtml(item.tag || "INFO")}</span>
-      <p class="regular-quarter">${escapeHtml(formatQuarterRange(quarter))}</p>
       <h3>${escapeHtml(item.title)}</h3>
       ${item.note ? `<p class="regular-note">${escapeHtml(item.note)}</p>` : ""}
       <p class="regular-label">日時</p>
