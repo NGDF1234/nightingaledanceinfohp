@@ -16,8 +16,7 @@ body {
   margin: 0;
   color: var(--ink);
   background:
-    linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.95)),
-    url("assets/bg-yellow.jpg") center top / cover fixed no-repeat,
+    url("assets/page-bg-v26.jpg") center top / cover fixed no-repeat,
     #fff;
   font-family: Impact, "Arial Black", "Yu Gothic", Meiryo, sans-serif;
   line-height: 1.65;
@@ -211,9 +210,7 @@ main {
   width: 100%;
   margin: 0;
   padding: 42px max(20px, calc((100vw - 1180px) / 2));
-  background:
-    linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.95)),
-    url("assets/bg-yellow.jpg") center / cover no-repeat;
+  background: url("assets/page-bg-v26.jpg") center / cover no-repeat;
 }
 
 .section-title {
@@ -338,9 +335,7 @@ main {
 }
 
 .clips-panel {
-  background:
-    linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.95)),
-    url("assets/bg-yellow.jpg") center / cover no-repeat;
+  background: url("assets/page-bg-v26.jpg") center / cover no-repeat;
   color: var(--ink);
 }
 
