@@ -83,6 +83,19 @@ main {
   border-color: var(--blue);
 }
 
+.update-count {
+  margin-left: auto;
+  padding: 5px 10px;
+  border: 3px solid #111;
+  border-radius: 999px;
+  background: var(--yellow);
+  color: #111;
+  font-family: "Yu Gothic", Meiryo, sans-serif;
+  font-size: .8rem;
+  font-weight: 950;
+  white-space: nowrap;
+}
+
 .hero {
   position: relative;
   min-height: 560px;
@@ -560,6 +573,11 @@ main {
     flex: 1 1 auto;
     padding: 0 4px 4px;
     font-size: .72rem;
+  }
+
+  .update-count {
+    padding: 3px 7px;
+    font-size: .68rem;
   }
 
   .hero {
