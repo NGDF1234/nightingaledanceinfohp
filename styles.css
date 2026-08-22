@@ -100,9 +100,11 @@ main {
 
 .hero {
   position: relative;
-  aspect-ratio: 16 / 9;
-  height: auto;
-  max-height: 34svh;
+  display: block;
+  width: 100%;
+  height: min(34svh, 34vw);
+  aspect-ratio: auto;
+  max-height: none;
   min-height: 0;
   overflow: hidden;
   border-bottom: 5px solid #111;
