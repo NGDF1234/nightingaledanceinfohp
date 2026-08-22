@@ -41,6 +41,7 @@ const scheduleDateFrom = document.querySelector("#schedule-date-from");
 const scheduleDateTo = document.querySelector("#schedule-date-to");
 const videoModal = document.querySelector("#video-modal");
 const videoModalFrame = document.querySelector("#video-modal-frame");
+const pageLoader = document.querySelector("#page-loader");
 let scheduleItems = [];
 let showAllSchedules = document.body.dataset.scheduleMode === "all";
 let scheduleFilters = {
@@ -439,6 +440,27 @@ function renderClips(items = fallbackClipItems) {
   }
 }
 
+function waitForImage(img) {
+  if (!img || img.complete) return Promise.resolve();
+  return new Promise((resolve) => {
+    img.addEventListener("load", resolve, { once: true });
+    img.addEventListener("error", resolve, { once: true });
+  });
+}
+
+function waitForPageImages(timeout = 4500) {
+  const images = Array.from(document.images);
+  const imageLoad = Promise.all(images.map(waitForImage));
+  const fallbackTimer = new Promise((resolve) => window.setTimeout(resolve, timeout));
+  return Promise.race([imageLoad, fallbackTimer]);
+}
+
+function hidePageLoader() {
+  if (!pageLoader) return;
+  pageLoader.classList.add("is-hidden");
+  document.body.classList.remove("is-loading");
+}
+
 async function loadInfo() {
   try {
     const response = await fetch(DATA_PATH, { cache: "no-store" });
@@ -569,6 +591,11 @@ document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") closeVideoModal();
 });
 
-loadInfo();
-loadClips();
-renderRegular();
+async function initPage() {
+  renderRegular();
+  await Promise.allSettled([loadInfo(), loadClips()]);
+  await waitForPageImages();
+  hidePageLoader();
+}
+
+initPage();

@@ -23,10 +23,58 @@ body {
   overflow-x: hidden;
 }
 
+body.is-loading {
+  overflow: hidden;
+}
+
 a { color: inherit; }
 
 img {
   max-width: 100%;
+}
+
+.page-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background:
+    url("assets/page-bg-v26.jpg") center / cover no-repeat,
+    #fff8df;
+  opacity: 1;
+  transition: opacity .28s ease, visibility .28s ease;
+}
+
+.page-loader.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.loader-card {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+}
+
+.loader-card img {
+  display: block;
+  width: min(58vw, 280px);
+  height: auto;
+}
+
+.loader-card span {
+  display: inline-block;
+  padding: 6px 18px;
+  border: 3px solid #111;
+  border-radius: 999px;
+  background: var(--yellow);
+  box-shadow: 4px 4px 0 #111;
+  color: #111;
+  font-size: .95rem;
+  font-weight: 950;
 }
 
 main {
