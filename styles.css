@@ -14,7 +14,6 @@ html { scroll-behavior: smooth; }
 body {
   width: 100%;
   margin: 0;
-  padding-top: 82px;
   color: var(--ink);
   background:
     url("assets/page-bg-v26.jpg") center top / cover fixed no-repeat,
@@ -36,7 +35,7 @@ main {
 }
 
 .topbar {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -577,10 +576,6 @@ main {
 }
 
 @media (max-width: 560px) {
-  body {
-    padding-top: 72px;
-  }
-
   .topbar {
     min-height: 72px;
     align-items: center;
