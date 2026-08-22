@@ -98,7 +98,9 @@ main {
 
 .hero {
   position: relative;
-  height: clamp(320px, 34svh, 460px);
+  aspect-ratio: 16 / 9;
+  height: auto;
+  max-height: 34svh;
   min-height: 0;
   overflow: hidden;
   border-bottom: 5px solid #111;
@@ -581,7 +583,9 @@ main {
   }
 
   .hero {
-    height: clamp(260px, 34svh, 340px);
+    aspect-ratio: 16 / 9;
+    height: auto;
+    max-height: none;
     min-height: 0;
     width: 100%;
   }
