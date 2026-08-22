@@ -354,12 +354,17 @@ main {
 
 .clips-panel {
   background:
-    linear-gradient(90deg, rgba(93,21,168,.9), rgba(116,44,238,.76)),
-    url("assets/bg-purple.jpg") center / cover no-repeat;
+    linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.95)),
+    url("assets/bg-yellow.jpg") center / cover no-repeat;
+  color: var(--ink);
 }
 
 .light-title {
   color: #fff;
+}
+
+.clips-panel .light-title {
+  color: var(--ink);
 }
 
 .light-title h2 {
