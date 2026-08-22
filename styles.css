@@ -98,7 +98,8 @@ main {
 
 .hero {
   position: relative;
-  min-height: 560px;
+  height: clamp(320px, 34svh, 460px);
+  min-height: 0;
   overflow: hidden;
   border-bottom: 5px solid #111;
   background: linear-gradient(100deg, #026bff 0%, #0752d8 45%, #7b25df 100%);
@@ -141,13 +142,13 @@ main {
   display: grid;
   place-content: center;
   justify-items: center;
-  padding: 84px 24px 34px;
+  padding: clamp(34px, 5svh, 62px) 24px 24px;
   text-align: center;
   transform: translateY(18px);
 }
 
 .hero-logo {
-  width: min(620px, 58vw);
+  width: min(520px, 48vw);
   filter: drop-shadow(8px 8px 0 rgba(0,0,0,.4));
   transform: rotate(-3deg);
 }
@@ -172,7 +173,7 @@ main {
 
 .button-art-link {
   display: block;
-  width: min(250px, 28vw);
+  width: min(210px, 23vw);
   transition: transform .12s ease;
 }
 
@@ -581,7 +582,8 @@ main {
   }
 
   .hero {
-    min-height: 420px;
+    height: clamp(330px, 50svh, 430px);
+    min-height: 0;
     width: 100%;
   }
 
@@ -610,7 +612,7 @@ main {
   }
 
   .hero-logo {
-    width: min(300px, 70vw);
+    width: min(270px, 66vw);
   }
 
   .hero-title p {
@@ -626,7 +628,7 @@ main {
   }
 
   .button-art-link {
-    width: min(150px, calc((100vw - 42px) / 2));
+    width: min(132px, calc((100vw - 50px) / 2));
   }
 
   .news-section,
