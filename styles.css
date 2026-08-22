@@ -160,6 +160,19 @@ main {
   transform: rotate(-3deg);
 }
 
+.hero-note {
+  position: absolute;
+  right: clamp(12px, 3vw, 34px);
+  bottom: 10px;
+  z-index: 3;
+  margin: 0;
+  color: #fff;
+  font-family: "Yu Gothic", Meiryo, sans-serif;
+  font-size: clamp(.68rem, 1.4vw, .9rem);
+  font-weight: 900;
+  text-shadow: 2px 2px 0 rgba(0,0,0,.65);
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
