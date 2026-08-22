@@ -356,7 +356,8 @@ main > section:nth-of-type(3n+1):not(.hero) {
   display: flex;
   gap: 12px;
   overflow-x: auto;
-  padding: 14px 4px 0;
+  margin-top: -2rem;
+  padding: 0 4px;
   scroll-snap-type: x proximity;
 }
 
@@ -392,8 +393,8 @@ main > section:nth-of-type(3n+1):not(.hero) {
   flex-direction: column;
   align-items: flex-start;
   flex: 0 0 260px;
-  min-height: 190px;
-  padding: 18px;
+  min-height: 158px;
+  padding: 14px 18px;
   border: 2px solid var(--line);
   border-radius: 8px;
   background: #fff;
@@ -425,7 +426,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
 .news-tag {
   display: inline-block;
   align-self: flex-start;
-  margin-bottom: 14px;
+  margin-bottom: 8px;
   padding: 3px 10px;
   border-radius: 4px;
   background: var(--yellow);
@@ -438,8 +439,9 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .news-card h3 {
   align-self: stretch;
-  margin: 6px 0;
+  margin: 3px 0;
   font-size: 1rem;
+  line-height: 1.28;
   text-align: left;
 }
 
@@ -456,11 +458,12 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .news-card p {
   align-self: stretch;
-  margin: 0 0 8px;
+  margin: 0 0 5px;
   color: var(--muted);
   font-family: "Yu Gothic", Meiryo, sans-serif;
   font-size: .86rem;
   font-weight: 800;
+  line-height: 1.38;
   text-align: left;
 }
 
