@@ -54,7 +54,7 @@ let showAllClips = document.body.dataset.clipsMode === "all";
 let clipFilters = {
   keyword: "",
   channelTypes: [],
-  sort: "popular"
+  sort: "updated-desc"
 };
 
 const regularPrograms = [
@@ -525,7 +525,7 @@ function updateClipFilters() {
   clipFilters = {
     keyword: (clipsKeywordSearch?.value || "").trim().toLowerCase(),
     channelTypes: clipChannelCheckboxes.filter((control) => control.checked).map((control) => control.value),
-    sort: clipsSortSearch?.value || "popular"
+    sort: clipsSortSearch?.value || "updated-desc"
   };
   renderClips(clipItems);
 }

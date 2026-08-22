@@ -303,8 +303,8 @@ main > section:nth-of-type(3n+1):not(.hero) {
 }
 
 .heading-schedule-art {
-  height: clamp(76px, 10.5vw, 126px);
-  max-width: min(430px, 64vw);
+  height: clamp(92px, 13vw, 156px);
+  max-width: min(520px, 74vw);
 }
 
 .section-title h2 {
