@@ -468,11 +468,6 @@ main {
   scroll-snap-align: start;
 }
 
-.profile-sparkles {
-  width: 92px;
-  margin-left: auto;
-}
-
 .nav::-webkit-scrollbar,
 .news-grid::-webkit-scrollbar,
 .info-band::-webkit-scrollbar,
@@ -682,11 +677,6 @@ main {
     right: 14px;
     bottom: 14px;
     width: 94px;
-  }
-
-  .profile-sparkles {
-    width: 62px;
-    margin-left: 0;
   }
 
   .section-title span {
