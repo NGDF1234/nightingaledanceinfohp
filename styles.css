@@ -727,8 +727,12 @@ main > section:nth-of-type(3n+1):not(.hero) {
   position: fixed;
   inset: 0;
   z-index: 100;
-  display: grid;
-  place-items: center;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  max-width: 100vw;
   padding: 22px;
 }
 
@@ -740,7 +744,9 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .video-modal-panel {
   position: relative;
-  width: min(900px, 94vw);
+  flex: 0 1 min(900px, calc(100vw - 44px));
+  width: min(900px, calc(100vw - 44px));
+  max-width: 100%;
   border: 4px solid #111;
   border-radius: 10px;
   background: #111;
