@@ -696,13 +696,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
 }
 
 .clip-thumb::after {
-  content: "";
-  position: absolute;
-  inset: 50% auto auto 50%;
-  width: 112px;
-  height: 112px;
-  background: url("assets/clip-play-v27.png") center / contain no-repeat;
-  transform: translate(-50%, -50%);
+  content: none;
 }
 
 .clip-thumb::before {
