@@ -26,6 +26,9 @@ const fallbackNewsItems = [
 
 const newsGrid = document.querySelector("#news-grid");
 const scheduleList = document.querySelector("#schedule-list");
+const scheduleToggle = document.querySelector("#schedule-toggle");
+let scheduleItems = [];
+let showAllSchedules = false;
 
 function escapeHtml(value = "") {
   return String(value)
@@ -61,15 +64,22 @@ function todayKey() {
   return new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Tokyo" }).format(new Date());
 }
 
+function addDaysKey(dateKey, days) {
+  const date = new Date(`${dateKey}T00:00:00+09:00`);
+  date.setDate(date.getDate() + days);
+  return new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Tokyo" }).format(date);
+}
+
 function renderNews(items = fallbackNewsItems) {
   const visibleItems = items.slice(0, 12);
 
   newsGrid.innerHTML = visibleItems.map((item) => {
+    const text = item.text || item.note || "";
     const body = `
       <span class="news-tag">${escapeHtml(item.tag || "INFO")}</span>
       <p>${escapeHtml(formatNewsDate(item.date))}</p>
       <h3>${escapeHtml(item.title)}</h3>
-      <p>${escapeHtml(item.text)}</p>
+      <p>${escapeHtml(text)}</p>
     `;
 
     if (!item.url) {
@@ -86,10 +96,16 @@ function renderNews(items = fallbackNewsItems) {
 
 function renderSchedule(items = []) {
   const today = todayKey();
-  const visibleItems = items
+  const weekEnd = addDaysKey(today, 6);
+  const upcomingItems = items
     .filter((item) => !item.date || normalizeDate(item.date) >= today)
-    .sort((a, b) => `${normalizeDate(a.date)} ${a.startTime || ""}`.localeCompare(`${normalizeDate(b.date)} ${b.startTime || ""}`))
-    .slice(0, 12);
+    .sort((a, b) => `${normalizeDate(a.date)} ${a.startTime || ""}`.localeCompare(`${normalizeDate(b.date)} ${b.startTime || ""}`));
+  const visibleItems = upcomingItems
+    .filter((item) => showAllSchedules || !item.date || normalizeDate(item.date) <= weekEnd);
+
+  if (scheduleToggle) {
+    scheduleToggle.hidden = showAllSchedules || visibleItems.length === upcomingItems.length;
+  }
 
   if (!visibleItems.length) {
     scheduleList.innerHTML = `
@@ -106,7 +122,7 @@ function renderSchedule(items = []) {
   }
 
   scheduleList.innerHTML = visibleItems.map((item) => {
-    const detail = [formatTime(item), item.place].filter(Boolean).join(" / ");
+    const detail = [formatTime(item), item.place, item.note].filter(Boolean).join(" / ");
     const body = `
       <div class="schedule-date">${formatScheduleDate(item)}</div>
       <div class="schedule-main">
@@ -135,12 +151,21 @@ async function loadInfo() {
     if (!response.ok) throw new Error(`Failed to load ${DATA_PATH}`);
     const data = await response.json();
     renderNews(Array.isArray(data.news) ? data.news : fallbackNewsItems);
-    renderSchedule(Array.isArray(data.schedule) ? data.schedule : []);
+    scheduleItems = Array.isArray(data.schedule) ? data.schedule : [];
+    renderSchedule(scheduleItems);
   } catch (error) {
     console.warn(error);
     renderNews(fallbackNewsItems);
+    scheduleItems = [];
     renderSchedule([]);
   }
+}
+
+if (scheduleToggle) {
+  scheduleToggle.addEventListener("click", () => {
+    showAllSchedules = true;
+    renderSchedule(scheduleItems);
+  });
 }
 
 loadInfo();

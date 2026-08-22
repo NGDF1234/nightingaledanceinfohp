@@ -290,6 +290,19 @@ main > section:nth-of-type(3n+1):not(.hero) {
   border-bottom: 3px solid var(--blue);
 }
 
+.section-link-button {
+  appearance: none;
+  padding: 0;
+  border: 0;
+  border-bottom: 3px solid var(--blue);
+  background: transparent;
+  color: #111;
+  cursor: pointer;
+  font: inherit;
+  font-family: "Yu Gothic", Meiryo, sans-serif;
+  font-weight: 900;
+}
+
 .news-grid,
 .regular-grid {
   display: flex;
