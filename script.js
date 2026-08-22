@@ -98,6 +98,22 @@ function formatNewsDate(date = "") {
   return normalizeDate(date).replaceAll("-", ".");
 }
 
+function youtubeVideoId(url = "") {
+  try {
+    const parsedUrl = new URL(url);
+    const host = parsedUrl.hostname.replace(/^www\./, "");
+    if (host === "youtu.be") return parsedUrl.pathname.split("/").filter(Boolean)[0] || "";
+    if (host === "youtube.com" || host === "m.youtube.com") {
+      const parts = parsedUrl.pathname.split("/").filter(Boolean);
+      if (parts[0] === "watch") return parsedUrl.searchParams.get("v") || "";
+      if (parts[0] === "shorts" || parts[0] === "embed") return parts[1] || "";
+    }
+  } catch (error) {
+    return "";
+  }
+  return "";
+}
+
 function formatScheduleDate(item) {
   const date = normalizeDate(item.date);
   const [, month = "", day = ""] = date.split("-");
@@ -180,6 +196,15 @@ function renderNews(items = fallbackNewsItems) {
 
     if (!item.url) {
       return `<article class="news-card">${body}</article>`;
+    }
+
+    const videoId = item.tag === "YouTube" ? youtubeVideoId(item.url) : "";
+    if (videoId) {
+      return `
+        <button class="news-card news-card-link video-news-card" type="button" data-video-id="${escapeHtml(videoId)}" data-video-title="${escapeHtml(item.title)}">
+          ${body}
+        </button>
+      `;
     }
 
     return `
@@ -319,20 +344,19 @@ function closeVideoModal() {
   videoModalFrame.innerHTML = "";
 }
 
-document.querySelectorAll("[data-video-id]").forEach((button) => {
-  button.addEventListener("click", () => {
-    if (!videoModal || !videoModalFrame) return;
-    const videoId = button.dataset.videoId;
-    const title = button.dataset.videoTitle || "YouTube動画";
-    videoModalFrame.innerHTML = `
-      <iframe
-        src="https://www.youtube.com/embed/${escapeHtml(videoId)}?autoplay=1"
-        title="${escapeHtml(title)}"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-    `;
-    videoModal.hidden = false;
-  });
+document.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-video-id]");
+  if (!button || !videoModal || !videoModalFrame) return;
+  const videoId = button.dataset.videoId;
+  const title = button.dataset.videoTitle || "YouTube動画";
+  videoModalFrame.innerHTML = `
+    <iframe
+      src="https://www.youtube.com/embed/${escapeHtml(videoId)}?autoplay=1"
+      title="${escapeHtml(title)}"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  `;
+  videoModal.hidden = false;
 });
 
 document.querySelectorAll("[data-video-close]").forEach((button) => {

@@ -342,6 +342,12 @@ main > section:nth-of-type(3n+1):not(.hero) {
   text-decoration: none;
 }
 
+.video-news-card {
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+}
+
 .regular-card {
   flex-basis: 340px;
   min-height: 220px;
