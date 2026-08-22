@@ -126,8 +126,8 @@ main {
   position: absolute;
   z-index: 1;
   bottom: -10px;
-  width: clamp(220px, 27vw, 370px);
-  height: min(92%, 520px);
+  width: clamp(245px, 30vw, 410px);
+  height: min(98%, 570px);
   object-fit: contain;
   object-position: bottom center;
   pointer-events: none;
@@ -860,8 +860,8 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
   .hero-silhouette {
     bottom: -6px;
-    width: clamp(118px, 35vw, 168px);
-    height: min(78%, 345px);
+    width: clamp(132px, 39vw, 188px);
+    height: min(86%, 380px);
   }
 
   .hero-silhouette-left {
