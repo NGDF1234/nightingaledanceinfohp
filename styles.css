@@ -205,6 +205,7 @@ main {
 
 .news-section,
 .regular-section,
+.schedule-section,
 .profile-section {
   width: min(1180px, calc(100% - 40px));
   margin: 0 auto;
@@ -212,7 +213,8 @@ main {
 }
 
 .news-section,
-.regular-section {
+.regular-section,
+.schedule-section {
   width: 100%;
   margin: 0;
   padding: 42px max(20px, calc((100vw - 1180px) / 2));
@@ -306,6 +308,11 @@ main > section:nth-of-type(3n+1):not(.hero) {
   background: #fff;
   box-shadow: 4px 5px 0 rgba(0,0,0,.12);
   scroll-snap-align: start;
+}
+
+.news-card-link {
+  color: var(--ink);
+  text-decoration: none;
 }
 
 .regular-card {
@@ -402,6 +409,70 @@ main > section:nth-of-type(3n+1):not(.hero) {
   text-decoration: none;
   border-bottom: 3px solid var(--blue);
   max-width: 100%;
+}
+
+.schedule-list {
+  display: grid;
+  gap: 10px;
+}
+
+.schedule-row {
+  display: grid;
+  grid-template-columns: 88px 1fr auto;
+  align-items: center;
+  gap: 16px;
+  min-height: 76px;
+  padding: 12px 16px;
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 4px 5px 0 rgba(0,0,0,.12);
+  color: #111;
+  text-decoration: none;
+}
+
+.schedule-date {
+  display: grid;
+  place-items: center;
+  min-height: 52px;
+  border-right: 3px solid #111;
+  font-size: 1.1rem;
+  font-weight: 950;
+  line-height: 1.1;
+}
+
+.schedule-date small {
+  font-family: "Yu Gothic", Meiryo, sans-serif;
+  font-size: .76rem;
+}
+
+.schedule-main {
+  min-width: 0;
+}
+
+.schedule-main h3 {
+  margin: 0 0 3px;
+  overflow: hidden;
+  font-size: 1rem;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.schedule-main p {
+  margin: 0;
+  overflow: hidden;
+  color: var(--muted);
+  font-family: "Yu Gothic", Meiryo, sans-serif;
+  font-size: .84rem;
+  font-weight: 800;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.schedule-arrow {
+  font-size: 1.4rem;
+  font-weight: 950;
 }
 
 .info-band {
@@ -763,6 +834,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
   .news-section,
   .regular-section,
+  .schedule-section,
   .profile-section {
     width: 100%;
     padding: 30px 12px;
@@ -812,6 +884,17 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
   .regular-card {
     flex-basis: min(300px, 82vw);
+  }
+
+  .schedule-row {
+    grid-template-columns: 64px 1fr auto;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .schedule-date {
+    min-height: 48px;
+    font-size: .95rem;
   }
 
   .clip-card {
