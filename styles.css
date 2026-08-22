@@ -307,8 +307,8 @@ main > section:nth-of-type(3n+1):not(.hero) {
 }
 
 .heading-schedule-art {
-  height: clamp(92px, 13vw, 156px);
-  max-width: min(520px, 74vw);
+  height: clamp(112px, 15vw, 180px);
+  max-width: min(600px, 82vw);
 }
 
 .section-title h2 {
@@ -1257,6 +1257,15 @@ main > section:nth-of-type(3n+1):not(.hero) {
   .heading-art {
     height: 96px;
     max-width: calc(100vw - 24px);
+  }
+
+  .heading-schedule-art {
+    height: 122px;
+    max-width: calc(100vw - 24px);
+  }
+
+  .news-section {
+    padding-bottom: 82px;
   }
 
   .more-burst-img {
