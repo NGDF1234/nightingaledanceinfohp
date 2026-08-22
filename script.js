@@ -142,12 +142,6 @@ function formatClipDate(date = "") {
   return date ? formatNewsDate(date) : "";
 }
 
-function formatViewCount(value) {
-  const count = Number(value);
-  if (!Number.isFinite(count) || count <= 0) return "";
-  return `${count.toLocaleString("ja-JP")}回再生`;
-}
-
 function scheduleSearchText(item) {
   const categoryWords = {
     TV: "テレビ tv",
@@ -317,7 +311,7 @@ function renderClips(items = fallbackClipItems) {
   const visibleItems = clipItems.length ? clipItems : fallbackClipItems.map((item) => ({ ...item, videoId: youtubeVideoId(item.url) }));
 
   clipsGrid.innerHTML = visibleItems.map((item) => {
-    const meta = [formatClipDate(item.uploadDate), formatViewCount(item.viewCount)].filter(Boolean).join(" / ");
+    const meta = formatClipDate(item.uploadDate);
     return `
       <button class="clip-card" type="button" data-video-id="${escapeHtml(item.videoId)}" data-video-title="${escapeHtml(item.title)}">
         <span class="clip-thumb">
