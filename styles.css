@@ -155,13 +155,18 @@ main {
 }
 
 .hero-title p {
-  margin: 10px 0 0;
+  position: absolute;
+  left: 50%;
+  bottom: clamp(30px, 5svh, 52px);
+  margin: 0;
   padding: 7px 20px;
   color: #fff;
   background: #111;
   font-family: "Yu Gothic", Meiryo, sans-serif;
   font-size: clamp(.95rem, 2vw, 1.35rem);
   font-weight: 900;
+  transform: translateX(-50%);
+  white-space: nowrap;
 }
 
 .hero-actions {
@@ -169,7 +174,11 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   gap: 14px;
-  margin-top: 10px;
+  position: absolute;
+  left: 50%;
+  bottom: 6px;
+  margin-top: 0;
+  transform: translateX(-50%);
 }
 
 .button-art-link {
@@ -631,8 +640,8 @@ main {
   }
 
   .hero-title p {
+    bottom: 26px;
     max-width: calc(100vw - 28px);
-    margin-top: 8px;
     font-size: .76rem;
   }
 
@@ -704,6 +713,7 @@ main {
     flex-direction: row;
     align-items: center;
     gap: 8px;
+    bottom: 4px;
   }
 
   .info-band {
