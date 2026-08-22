@@ -317,6 +317,31 @@ main > section:nth-of-type(3n+1):not(.hero) {
   text-decoration: none;
 }
 
+.news-action-links {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 0 4px 16px;
+  scroll-snap-type: x proximity;
+}
+
+.news-action-links a {
+  flex: 0 0 auto;
+  max-width: min(330px, 82vw);
+  padding: 10px 14px;
+  border: 3px solid #111;
+  border-radius: 999px;
+  background: var(--yellow);
+  box-shadow: 4px 4px 0 #111;
+  color: #111;
+  font-family: "Yu Gothic", Meiryo, sans-serif;
+  font-size: .88rem;
+  font-weight: 950;
+  text-decoration: none;
+  white-space: nowrap;
+  scroll-snap-align: start;
+}
+
 .news-grid,
 .regular-grid {
   display: flex;
