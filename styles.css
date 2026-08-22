@@ -302,6 +302,11 @@ main > section:nth-of-type(3n+1):not(.hero) {
   object-fit: contain;
 }
 
+.heading-schedule-art {
+  height: clamp(76px, 10.5vw, 126px);
+  max-width: min(430px, 64vw);
+}
+
 .section-title h2 {
   margin: 0;
   font-size: clamp(2.1rem, 4.8vw, 3.7rem);
