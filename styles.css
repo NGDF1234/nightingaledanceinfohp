@@ -335,9 +335,16 @@ main {
   font-weight: 950;
 }
 
-.regular-card .regular-name {
+.regular-card .regular-name,
+.regular-note {
   color: #111;
   font-weight: 950;
+}
+
+.regular-note {
+  margin: 0 0 8px;
+  font-family: "Yu Gothic", Meiryo, sans-serif;
+  font-size: .86rem;
 }
 
 .regular-link {
