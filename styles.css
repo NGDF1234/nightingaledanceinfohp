@@ -157,21 +157,6 @@ main {
   transform: rotate(-3deg);
 }
 
-.hero-title p {
-  position: absolute;
-  left: 50%;
-  bottom: clamp(30px, 5svh, 52px);
-  margin: 0;
-  padding: 7px 20px;
-  color: #fff;
-  background: #111;
-  font-family: "Yu Gothic", Meiryo, sans-serif;
-  font-size: clamp(.95rem, 2vw, 1.35rem);
-  font-weight: 900;
-  transform: translateX(-50%);
-  white-space: nowrap;
-}
-
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -651,12 +636,6 @@ main {
 
   .hero-logo {
     width: min(238px, 62vw);
-  }
-
-  .hero-title p {
-    bottom: 52px;
-    max-width: calc(100vw - 28px);
-    font-size: .76rem;
   }
 
   .button {
