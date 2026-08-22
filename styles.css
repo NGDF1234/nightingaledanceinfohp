@@ -338,7 +338,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
   min-height: 3.1em;
   margin-bottom: 8px;
   overflow: hidden;
-  font-size: clamp(.86rem, 1.8vw, 1rem);
+  font-size: clamp(1rem, 2vw, 1.16rem);
   line-height: 1.55;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
@@ -385,7 +385,9 @@ main > section:nth-of-type(3n+1):not(.hero) {
 }
 
 .regular-link {
-  display: -webkit-box;
+  display: inline-flex;
+  align-self: flex-start;
+  align-items: center;
   min-height: 2.8em;
   margin-top: auto;
   overflow: hidden;
@@ -396,8 +398,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
   font-weight: 950;
   text-decoration: none;
   border-bottom: 3px solid var(--blue);
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  max-width: 100%;
 }
 
 .info-band {
