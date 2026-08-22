@@ -582,7 +582,7 @@ main {
   }
 
   .hero {
-    height: clamp(330px, 50svh, 430px);
+    height: clamp(260px, 34svh, 340px);
     min-height: 0;
     width: 100%;
   }
@@ -607,17 +607,17 @@ main {
   }
 
   .hero-title {
-    padding: 58px 14px 24px;
+    padding: 34px 14px 18px;
     transform: translateY(4px);
   }
 
   .hero-logo {
-    width: min(270px, 66vw);
+    width: min(238px, 62vw);
   }
 
   .hero-title p {
     max-width: calc(100vw - 28px);
-    font-size: .86rem;
+    font-size: .76rem;
   }
 
   .button {
@@ -628,7 +628,7 @@ main {
   }
 
   .button-art-link {
-    width: min(132px, calc((100vw - 50px) / 2));
+    width: min(116px, calc((100vw - 58px) / 2));
   }
 
   .news-section,
