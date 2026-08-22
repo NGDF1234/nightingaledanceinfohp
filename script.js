@@ -27,11 +27,17 @@ const fallbackNewsItems = [
 const newsGrid = document.querySelector("#news-grid");
 const scheduleList = document.querySelector("#schedule-list");
 const scheduleToggle = document.querySelector("#schedule-toggle");
+const scheduleSearchForm = document.querySelector("#schedule-search-form");
 const scheduleTitleSearch = document.querySelector("#schedule-title-search");
-const scheduleDateSearch = document.querySelector("#schedule-date-search");
-const schedulePeriodSearch = document.querySelector("#schedule-period-search");
+const scheduleDateFrom = document.querySelector("#schedule-date-from");
+const scheduleDateTo = document.querySelector("#schedule-date-to");
 let scheduleItems = [];
 let showAllSchedules = document.body.dataset.scheduleMode === "all";
+let scheduleFilters = {
+  keyword: "",
+  dateFrom: "",
+  dateTo: ""
+};
 
 function escapeHtml(value = "") {
   return String(value)
@@ -104,18 +110,17 @@ function renderSchedule(items = []) {
 
   const today = todayKey();
   const weekEnd = addDaysKey(today, 6);
-  const titleQuery = (scheduleTitleSearch?.value || "").trim().toLowerCase();
-  const dateQuery = scheduleDateSearch?.value || "";
-  const periodValue = schedulePeriodSearch?.value || "";
-  const periodEnd = periodValue && periodValue !== "all" ? addDaysKey(today, Number(periodValue) - 1) : "";
+  const titleQuery = scheduleFilters.keyword;
+  const dateFrom = scheduleFilters.dateFrom;
+  const dateTo = scheduleFilters.dateTo;
   const upcomingItems = items
     .filter((item) => !item.date || normalizeDate(item.date) >= today)
     .sort((a, b) => `${normalizeDate(a.date)} ${a.startTime || ""}`.localeCompare(`${normalizeDate(b.date)} ${b.startTime || ""}`));
   const visibleItems = upcomingItems
     .filter((item) => showAllSchedules || !item.date || normalizeDate(item.date) <= weekEnd)
     .filter((item) => !titleQuery || `${item.title || ""} ${item.place || ""} ${item.note || ""}`.toLowerCase().includes(titleQuery))
-    .filter((item) => !dateQuery || normalizeDate(item.date) === dateQuery)
-    .filter((item) => !periodEnd || !item.date || normalizeDate(item.date) <= periodEnd);
+    .filter((item) => !dateFrom || !item.date || normalizeDate(item.date) >= dateFrom)
+    .filter((item) => !dateTo || !item.date || normalizeDate(item.date) <= dateTo);
 
   if (scheduleToggle) {
     scheduleToggle.hidden = showAllSchedules || visibleItems.length === upcomingItems.length;
@@ -183,10 +188,27 @@ if (scheduleToggle) {
   });
 }
 
-[scheduleTitleSearch, scheduleDateSearch, schedulePeriodSearch].forEach((control) => {
+function updateScheduleFilters() {
+  showAllSchedules = true;
+  scheduleFilters = {
+    keyword: (scheduleTitleSearch?.value || "").trim().toLowerCase(),
+    dateFrom: scheduleDateFrom?.value || "",
+    dateTo: scheduleDateTo?.value || ""
+  };
+  renderSchedule(scheduleItems);
+}
+
+if (scheduleSearchForm) {
+  scheduleSearchForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    updateScheduleFilters();
+  });
+}
+
+[scheduleTitleSearch, scheduleDateFrom, scheduleDateTo].forEach((control) => {
   if (!control) return;
-  control.addEventListener("input", () => renderSchedule(scheduleItems));
-  control.addEventListener("change", () => renderSchedule(scheduleItems));
+  control.addEventListener("input", updateScheduleFilters);
+  control.addEventListener("change", updateScheduleFilters);
 });
 
 loadInfo();
