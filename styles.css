@@ -640,7 +640,7 @@ main {
   }
 
   .hero-title p {
-    bottom: 26px;
+    bottom: 52px;
     max-width: calc(100vw - 28px);
     font-size: .76rem;
   }
@@ -713,7 +713,7 @@ main {
     flex-direction: row;
     align-items: center;
     gap: 8px;
-    bottom: 4px;
+    bottom: 8px;
   }
 
   .info-band {
