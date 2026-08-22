@@ -276,6 +276,10 @@ main {
   background: url("assets/section-bg-profile-v30.jpg") center / cover no-repeat;
 }
 
+.news-section {
+  padding-bottom: 74px;
+}
+
 main > section:nth-of-type(3n+2) {
   background: url("assets/section-cycle-1-v49.jpg") center / cover no-repeat;
 }
