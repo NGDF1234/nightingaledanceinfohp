@@ -27,8 +27,11 @@ const fallbackNewsItems = [
 const newsGrid = document.querySelector("#news-grid");
 const scheduleList = document.querySelector("#schedule-list");
 const scheduleToggle = document.querySelector("#schedule-toggle");
+const scheduleTitleSearch = document.querySelector("#schedule-title-search");
+const scheduleDateSearch = document.querySelector("#schedule-date-search");
+const schedulePeriodSearch = document.querySelector("#schedule-period-search");
 let scheduleItems = [];
-let showAllSchedules = false;
+let showAllSchedules = document.body.dataset.scheduleMode === "all";
 
 function escapeHtml(value = "") {
   return String(value)
@@ -71,6 +74,8 @@ function addDaysKey(dateKey, days) {
 }
 
 function renderNews(items = fallbackNewsItems) {
+  if (!newsGrid) return;
+
   const visibleItems = items.slice(0, 12);
 
   newsGrid.innerHTML = visibleItems.map((item) => {
@@ -95,13 +100,22 @@ function renderNews(items = fallbackNewsItems) {
 }
 
 function renderSchedule(items = []) {
+  if (!scheduleList) return;
+
   const today = todayKey();
   const weekEnd = addDaysKey(today, 6);
+  const titleQuery = (scheduleTitleSearch?.value || "").trim().toLowerCase();
+  const dateQuery = scheduleDateSearch?.value || "";
+  const periodValue = schedulePeriodSearch?.value || "";
+  const periodEnd = periodValue && periodValue !== "all" ? addDaysKey(today, Number(periodValue) - 1) : "";
   const upcomingItems = items
     .filter((item) => !item.date || normalizeDate(item.date) >= today)
     .sort((a, b) => `${normalizeDate(a.date)} ${a.startTime || ""}`.localeCompare(`${normalizeDate(b.date)} ${b.startTime || ""}`));
   const visibleItems = upcomingItems
-    .filter((item) => showAllSchedules || !item.date || normalizeDate(item.date) <= weekEnd);
+    .filter((item) => showAllSchedules || !item.date || normalizeDate(item.date) <= weekEnd)
+    .filter((item) => !titleQuery || `${item.title || ""} ${item.place || ""} ${item.note || ""}`.toLowerCase().includes(titleQuery))
+    .filter((item) => !dateQuery || normalizeDate(item.date) === dateQuery)
+    .filter((item) => !periodEnd || !item.date || normalizeDate(item.date) <= periodEnd);
 
   if (scheduleToggle) {
     scheduleToggle.hidden = showAllSchedules || visibleItems.length === upcomingItems.length;
@@ -167,5 +181,11 @@ if (scheduleToggle) {
     renderSchedule(scheduleItems);
   });
 }
+
+[scheduleTitleSearch, scheduleDateSearch, schedulePeriodSearch].forEach((control) => {
+  if (!control) return;
+  control.addEventListener("input", () => renderSchedule(scheduleItems));
+  control.addEventListener("change", () => renderSchedule(scheduleItems));
+});
 
 loadInfo();
