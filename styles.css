@@ -205,13 +205,15 @@ main {
 .button.purple { background: var(--purple); color: #fff; }
 
 .news-section,
+.regular-section,
 .profile-section {
   width: min(1180px, calc(100% - 40px));
   margin: 0 auto;
   padding: 42px 0;
 }
 
-.news-section {
+.news-section,
+.regular-section {
   width: 100%;
   margin: 0;
   padding: 42px max(20px, calc((100vw - 1180px) / 2));
@@ -271,7 +273,8 @@ main {
   border-bottom: 3px solid var(--blue);
 }
 
-.news-grid {
+.news-grid,
+.regular-grid {
   display: flex;
   gap: 18px;
   overflow-x: auto;
@@ -473,6 +476,7 @@ main {
 
 .nav::-webkit-scrollbar,
 .news-grid::-webkit-scrollbar,
+.regular-grid::-webkit-scrollbar,
 .info-band::-webkit-scrollbar,
 .clips-grid::-webkit-scrollbar {
   height: 8px;
@@ -480,6 +484,7 @@ main {
 
 .nav::-webkit-scrollbar-thumb,
 .news-grid::-webkit-scrollbar-thumb,
+.regular-grid::-webkit-scrollbar-thumb,
 .info-band::-webkit-scrollbar-thumb,
 .clips-grid::-webkit-scrollbar-thumb {
   background: #111;
@@ -648,6 +653,7 @@ main {
   }
 
   .news-section,
+  .regular-section,
   .profile-section {
     width: 100%;
     padding: 30px 12px;
@@ -680,7 +686,8 @@ main {
     font-size: .82rem;
   }
 
-  .news-grid {
+  .news-grid,
+  .regular-grid {
     width: 100%;
     max-width: calc(100vw - 24px);
   }
