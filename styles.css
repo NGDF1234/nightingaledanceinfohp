@@ -468,8 +468,13 @@ main > section:nth-of-type(3n+1):not(.hero) {
 .schedule-search input,
 .schedule-search select {
   box-sizing: border-box;
+  display: block;
   width: 100%;
+  max-width: 100%;
+  inline-size: 100%;
+  max-inline-size: 100%;
   min-width: 0;
+  min-inline-size: 0;
   min-height: 42px;
   padding: 8px 10px;
   border: 3px solid #111;
@@ -479,6 +484,11 @@ main > section:nth-of-type(3n+1):not(.hero) {
   font: inherit;
   font-family: "Yu Gothic", Meiryo, sans-serif;
   font-weight: 800;
+}
+
+.schedule-search input[type="date"] {
+  overflow: hidden;
+  text-overflow: clip;
 }
 
 .range-separator {
