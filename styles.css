@@ -331,6 +331,12 @@ main {
   scroll-snap-type: x proximity;
 }
 
+.info-band:has(.about-panel:only-child),
+.info-band.clips-only {
+  grid-template-columns: 1fr;
+  overflow-x: hidden;
+}
+
 .about-panel,
 .clips-panel {
   position: relative;
