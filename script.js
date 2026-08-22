@@ -380,6 +380,25 @@ if (scheduleSearchForm) {
   control.addEventListener("change", updateScheduleFilters);
 });
 
+if (scheduleDateFrom && scheduleDateTo) {
+  scheduleDateFrom.addEventListener("change", () => {
+    if (!scheduleDateFrom.value) return;
+    scheduleDateTo.min = scheduleDateFrom.value;
+    if (scheduleDateTo.value && scheduleDateTo.value < scheduleDateFrom.value) {
+      scheduleDateTo.value = "";
+      updateScheduleFilters();
+    }
+    if (!scheduleDateTo.value) {
+      window.setTimeout(() => {
+        scheduleDateTo.focus();
+        if (typeof scheduleDateTo.showPicker === "function") {
+          scheduleDateTo.showPicker();
+        }
+      }, 120);
+    }
+  });
+}
+
 function closeVideoModal() {
   if (!videoModal || !videoModalFrame) return;
   videoModal.hidden = true;
