@@ -235,7 +235,7 @@ main {
 .heading-art {
   display: block;
   width: auto;
-  height: clamp(68px, 9vw, 112px);
+  height: clamp(92px, 13vw, 156px);
   object-fit: contain;
 }
 
@@ -662,7 +662,7 @@ main {
   }
 
   .heading-art {
-    height: 74px;
+    height: 96px;
     max-width: calc(100vw - 24px);
   }
 
