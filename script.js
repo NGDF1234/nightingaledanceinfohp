@@ -28,6 +28,11 @@ const fallbackNewsItems = [
 const newsGrid = document.querySelector("#news-grid");
 const regularGrid = document.querySelector("#regular-grid");
 const clipsGrid = document.querySelector("#clips-grid");
+const clipsList = document.querySelector("#clips-list");
+const clipsSearchForm = document.querySelector("#clips-search-form");
+const clipsKeywordSearch = document.querySelector("#clips-keyword-search");
+const clipsSortSearch = document.querySelector("#clips-sort-search");
+const clipChannelCheckboxes = Array.from(document.querySelectorAll("input[name='clip-channel']"));
 const scheduleList = document.querySelector("#schedule-list");
 const scheduleToggle = document.querySelector("#schedule-toggle");
 const scheduleSearchForm = document.querySelector("#schedule-search-form");
@@ -42,6 +47,13 @@ let scheduleFilters = {
   keyword: "",
   dateFrom: "",
   dateTo: ""
+};
+let clipItems = [];
+let showAllClips = document.body.dataset.clipsMode === "all";
+let clipFilters = {
+  keyword: "",
+  channelTypes: [],
+  sort: "popular"
 };
 
 const regularPrograms = [
@@ -86,6 +98,8 @@ const regularPrograms = [
 const fallbackClipItems = [
   {
     kind: "video",
+    channelType: "combo_official",
+    channelName: "ナイチンゲールダンスチャンネル",
     title: "【漫才】同窓会【ナイチンゲールダンス】",
     url: "https://www.youtube.com/watch?v=Z0mjkhTVWIc",
     viewCount: 0,
@@ -141,6 +155,28 @@ function formatTime(item) {
 
 function formatClipDate(date = "") {
   return date ? formatNewsDate(date) : "";
+}
+
+function clipSearchText(item) {
+  return [
+    item.title,
+    item.channelName,
+    item.channelType,
+    item.kind
+  ].filter(Boolean).join(" ").toLowerCase();
+}
+
+function clipChannelLabel(type = "") {
+  const labels = {
+    combo_official: "ナイチンゲールダンスチャンネル",
+    nakano_personal: "個人（中野）",
+    yasu_personal: "個人（ヤス）"
+  };
+  return labels[type] || type || "YouTube";
+}
+
+function clipSortDate(item) {
+  return item.uploadDate || item.firstSeenAt || item.lastStatsUpdatedAt || "";
 }
 
 function scheduleSearchText(item) {
@@ -303,15 +339,46 @@ function renderSchedule(items = []) {
 }
 
 function renderClips(items = fallbackClipItems) {
-  if (!clipsGrid) return;
+  if (!clipsGrid && !clipsList) return;
 
   const clipItems = items
     .filter((item) => item.kind !== "shorts")
-    .map((item) => ({ ...item, videoId: youtubeVideoId(item.url) }))
+    .map((item) => ({ ...item, videoId: item.videoId || youtubeVideoId(item.url) }))
     .filter((item) => item.videoId);
-  const visibleItems = clipItems.length ? clipItems : fallbackClipItems.map((item) => ({ ...item, videoId: youtubeVideoId(item.url) }));
+  const sourceItems = clipItems.length ? clipItems : fallbackClipItems.map((item) => ({ ...item, videoId: youtubeVideoId(item.url) }));
+  const selectedChannels = clipFilters.channelTypes;
+  const keyword = clipFilters.keyword;
+  const sortedItems = sourceItems
+    .filter((item) => !selectedChannels.length || selectedChannels.includes(item.channelType || ""))
+    .filter((item) => !keyword || clipSearchText(item).includes(keyword))
+    .sort((a, b) => {
+      if (clipFilters.sort === "updated-asc") {
+        return clipSortDate(a).localeCompare(clipSortDate(b)) || (a.title || "").localeCompare(b.title || "");
+      }
+      if (clipFilters.sort === "updated-desc") {
+        return clipSortDate(b).localeCompare(clipSortDate(a)) || (a.title || "").localeCompare(b.title || "");
+      }
+      return (Number(b.viewCount) || 0) - (Number(a.viewCount) || 0) || clipSortDate(b).localeCompare(clipSortDate(a));
+    });
+  const visibleItems = showAllClips ? sortedItems : sortedItems.slice(0, 12);
 
-  clipsGrid.innerHTML = visibleItems.map((item) => {
+  if (!visibleItems.length) {
+    const empty = `
+      <article class="schedule-row">
+        <div class="schedule-date">--<small></small></div>
+        <div class="schedule-main">
+          <h3>動画が見つかりません</h3>
+          <p>検索条件を変えて確認してください。</p>
+        </div>
+        <span class="schedule-arrow" aria-hidden="true">→</span>
+      </article>
+    `;
+    if (clipsGrid) clipsGrid.innerHTML = empty;
+    if (clipsList) clipsList.innerHTML = empty;
+    return;
+  }
+
+  const cardHtml = visibleItems.map((item) => {
     const meta = formatClipDate(item.uploadDate);
     return `
       <button class="clip-card" type="button" data-video-id="${escapeHtml(item.videoId)}" data-video-title="${escapeHtml(item.title)}">
@@ -325,6 +392,30 @@ function renderClips(items = fallbackClipItems) {
       </button>
     `;
   }).join("");
+
+  if (clipsGrid) clipsGrid.innerHTML = cardHtml;
+
+  if (clipsList) {
+    clipsList.innerHTML = visibleItems.map((item) => {
+      const meta = [
+        formatClipDate(item.uploadDate),
+        clipChannelLabel(item.channelType)
+      ].filter(Boolean).join(" / ");
+      return `
+        <button class="clip-list-card" type="button" data-video-id="${escapeHtml(item.videoId)}" data-video-title="${escapeHtml(item.title)}">
+          <span class="clip-list-thumb">
+            <img src="https://img.youtube.com/vi/${escapeHtml(item.videoId)}/hqdefault.jpg" alt="${escapeHtml(item.title)}" loading="lazy">
+          </span>
+          <span class="clip-list-main">
+            <span class="news-tag">${escapeHtml(item.kind === "shorts" ? "Shorts" : "YouTube")}</span>
+            <strong>${escapeHtml(item.title)}</strong>
+            <small>${escapeHtml(meta)}</small>
+          </span>
+          <span class="schedule-arrow" aria-hidden="true">→</span>
+        </button>
+      `;
+    }).join("");
+  }
 }
 
 async function loadInfo() {
@@ -348,10 +439,12 @@ async function loadClips() {
     const response = await fetch(CLIPS_DATA_PATH, { cache: "no-store" });
     if (!response.ok) throw new Error(`Failed to load ${CLIPS_DATA_PATH}`);
     const data = await response.json();
-    renderClips(Array.isArray(data.clips) ? data.clips : fallbackClipItems);
+    clipItems = Array.isArray(data.clips) ? data.clips : fallbackClipItems;
+    renderClips(clipItems);
   } catch (error) {
     console.warn(error);
-    renderClips(fallbackClipItems);
+    clipItems = fallbackClipItems;
+    renderClips(clipItems);
   }
 }
 
@@ -383,6 +476,28 @@ if (scheduleSearchForm) {
   if (!control) return;
   control.addEventListener("input", updateScheduleFilters);
   control.addEventListener("change", updateScheduleFilters);
+});
+
+function updateClipFilters() {
+  clipFilters = {
+    keyword: (clipsKeywordSearch?.value || "").trim().toLowerCase(),
+    channelTypes: clipChannelCheckboxes.filter((control) => control.checked).map((control) => control.value),
+    sort: clipsSortSearch?.value || "popular"
+  };
+  renderClips(clipItems);
+}
+
+if (clipsSearchForm) {
+  clipsSearchForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    updateClipFilters();
+  });
+}
+
+[clipsKeywordSearch, clipsSortSearch, ...clipChannelCheckboxes].forEach((control) => {
+  if (!control) return;
+  control.addEventListener("input", updateClipFilters);
+  control.addEventListener("change", updateClipFilters);
 });
 
 if (scheduleDateFrom && scheduleDateTo) {

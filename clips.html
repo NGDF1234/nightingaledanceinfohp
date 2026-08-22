@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CLIPS | ナイチンゲールダンス非公式まとめサイト</title>
+    <meta name="description" content="ナイチンゲールダンス関連の公式YouTube動画一覧です。">
+    <link rel="stylesheet" href="styles.css?v=79">
+  </head>
+  <body data-clips-mode="all">
+    <header class="topbar">
+      <a class="site-logo" href="index.html#top" aria-label="ホーム">
+        <img src="assets/header-logo-v3.jpg" alt="ナイチンゲールダンス 非公式まとめサイト">
+      </a>
+      <nav class="nav" aria-label="主なナビゲーション">
+        <a href="index.html#top">HOME</a>
+        <a href="index.html#news">NEWS</a>
+        <a href="index.html#profile">PROFILE</a>
+        <a href="index.html#regular">REGULAR</a>
+        <a href="schedule.html">SCHEDULE</a>
+        <a href="clips.html">CLIPS</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="schedule-section clips-list-section" id="clips">
+        <div class="section-title row-title">
+          <div>
+            <h2>CLIPS</h2>
+          </div>
+          <a class="section-link-button" href="index.html#clips">戻る →</a>
+        </div>
+        <form class="clips-search" id="clips-search-form" role="search">
+          <label>
+            <span>キーワード</span>
+            <input id="clips-keyword-search" type="search" autocomplete="off" placeholder="キーワード">
+          </label>
+          <label>
+            <span>並べ替え</span>
+            <select id="clips-sort-search">
+              <option value="popular">人気順</option>
+              <option value="updated-desc">更新日時 降順</option>
+              <option value="updated-asc">更新日時 昇順</option>
+            </select>
+          </label>
+          <fieldset class="clips-channel-filter">
+            <legend>チャンネル</legend>
+            <label><input type="checkbox" name="clip-channel" value="combo_official" checked> ナイチンゲールダンスチャンネル</label>
+            <label><input type="checkbox" name="clip-channel" value="nakano_personal" checked> 個人（中野）</label>
+            <label><input type="checkbox" name="clip-channel" value="yasu_personal" checked> 個人（ヤス）</label>
+          </fieldset>
+        </form>
+        <div class="clips-list" id="clips-list" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <div class="video-modal" id="video-modal" hidden>
+      <div class="video-modal-backdrop" data-video-close></div>
+      <div class="video-modal-panel" role="dialog" aria-modal="true" aria-label="YouTube動画">
+        <button class="video-modal-close" type="button" data-video-close aria-label="閉じる">×</button>
+        <div class="video-modal-frame" id="video-modal-frame"></div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>このサイトは非公式まとめサイトです。公式情報は各公式ページで確認してください。</p>
+      <small>AIによって作成されています。</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

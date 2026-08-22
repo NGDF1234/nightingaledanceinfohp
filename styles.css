@@ -503,6 +503,73 @@ main > section:nth-of-type(3n+1):not(.hero) {
   text-overflow: clip;
 }
 
+.clips-search {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(180px, .6fr);
+  gap: 12px 16px;
+  align-items: end;
+  margin-bottom: 18px;
+}
+
+.clips-search label {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+  font-family: "Yu Gothic", Meiryo, sans-serif;
+  font-weight: 950;
+}
+
+.clips-search input[type="search"],
+.clips-search select {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-height: 42px;
+  padding: 8px 10px;
+  border: 3px solid #111;
+  border-radius: 8px;
+  background: #fff;
+  color: #111;
+  font: inherit;
+  font-family: "Yu Gothic", Meiryo, sans-serif;
+  font-weight: 800;
+}
+
+.clips-channel-filter {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  min-width: 0;
+  margin: 0;
+  padding: 10px 12px;
+  border: 3px solid #111;
+  border-radius: 8px;
+  background: rgba(255,255,255,.72);
+  font-family: "Yu Gothic", Meiryo, sans-serif;
+  font-weight: 900;
+}
+
+.clips-channel-filter legend {
+  padding: 0 6px;
+  font-weight: 950;
+}
+
+.clips-channel-filter label {
+  display: inline-flex;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 6px;
+  width: auto;
+}
+
+.clips-channel-filter input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--yellow);
+}
+
 .range-separator {
   padding-bottom: 8px;
   font-size: 1.2rem;
@@ -575,6 +642,70 @@ main > section:nth-of-type(3n+1):not(.hero) {
 .schedule-arrow {
   font-size: 1.4rem;
   font-weight: 950;
+}
+
+.clips-list {
+  display: grid;
+  gap: 10px;
+}
+
+.clip-list-card {
+  display: grid;
+  grid-template-columns: 160px 1fr auto;
+  align-items: center;
+  gap: 16px;
+  min-height: 112px;
+  padding: 12px 16px;
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 4px 5px 0 rgba(0,0,0,.12);
+  color: #111;
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+}
+
+.clip-list-thumb {
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  border: 3px solid #111;
+  border-radius: 7px;
+  background: #111;
+}
+
+.clip-list-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.clip-list-main {
+  min-width: 0;
+}
+
+.clip-list-main strong,
+.clip-list-main small {
+  display: block;
+  font-family: "Yu Gothic", Meiryo, sans-serif;
+}
+
+.clip-list-main strong {
+  margin-top: 6px;
+  overflow: hidden;
+  font-size: 1rem;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.clip-list-main small {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: .84rem;
+  font-weight: 800;
 }
 
 .info-band {
@@ -952,6 +1083,10 @@ main > section:nth-of-type(3n+1):not(.hero) {
     grid-template-columns: 1fr;
   }
 
+  .clips-search {
+    grid-template-columns: 1fr;
+  }
+
   .range-separator {
     justify-self: center;
     padding-bottom: 0;
@@ -1090,6 +1225,19 @@ main > section:nth-of-type(3n+1):not(.hero) {
     grid-template-columns: 64px 1fr auto;
     gap: 10px;
     padding: 10px;
+  }
+
+  .clip-list-card {
+    grid-template-columns: 104px 1fr auto;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .clip-list-main strong {
+    display: -webkit-box;
+    white-space: normal;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
   }
 
   .schedule-search {
