@@ -519,7 +519,7 @@ main {
 
 .footer {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: 1fr auto;
   align-items: center;
   gap: 28px;
   padding: 34px clamp(22px, 5vw, 70px);
