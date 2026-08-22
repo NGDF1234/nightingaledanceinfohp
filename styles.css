@@ -310,7 +310,8 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .regular-card {
   flex-basis: 340px;
-  min-height: 250px;
+  min-height: 220px;
+  padding: 14px;
   display: flex;
   flex-direction: column;
 }
@@ -335,8 +336,8 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .regular-card h3 {
   display: -webkit-box;
-  min-height: 3.1em;
-  margin-bottom: 8px;
+  min-height: 2.8em;
+  margin: 2px 0 4px;
   overflow: hidden;
   font-size: clamp(1rem, 2vw, 1.16rem);
   line-height: 1.55;
@@ -353,8 +354,8 @@ main > section:nth-of-type(3n+1):not(.hero) {
 }
 
 .regular-card .regular-label {
-  margin-top: 10px;
-  margin-bottom: 2px;
+  margin-top: 2px;
+  margin-bottom: 0;
   color: #111;
   font-size: .78rem;
   font-weight: 950;
@@ -367,8 +368,8 @@ main > section:nth-of-type(3n+1):not(.hero) {
 }
 
 .regular-note {
-  min-height: 1.5em;
-  margin: 0 0 8px;
+  min-height: 1.35em;
+  margin: 0 0 2px;
   font-family: "Yu Gothic", Meiryo, sans-serif;
   font-size: .86rem;
   line-height: 1.5;
@@ -376,7 +377,8 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .regular-time {
   display: -webkit-box;
-  min-height: 3em;
+  min-height: 2.5em;
+  margin-bottom: 4px !important;
   overflow: hidden;
   font-size: clamp(.78rem, 1.7vw, .86rem) !important;
   line-height: 1.5;
@@ -388,7 +390,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
   display: inline-flex;
   align-self: flex-start;
   align-items: center;
-  min-height: 2.8em;
+  min-height: 2.4em;
   margin-top: auto;
   overflow: hidden;
   color: #111;
