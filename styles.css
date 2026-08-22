@@ -396,6 +396,13 @@ main > section:nth-of-type(3n+1):not(.hero) {
   font-weight: 950;
 }
 
+.regular-quarter {
+  margin: -6px 0 2px !important;
+  color: var(--muted);
+  font-size: .76rem !important;
+  font-weight: 900 !important;
+}
+
 .regular-card .regular-name,
 .regular-note {
   color: #111;

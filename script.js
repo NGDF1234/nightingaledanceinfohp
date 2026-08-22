@@ -25,6 +25,7 @@ const fallbackNewsItems = [
 ];
 
 const newsGrid = document.querySelector("#news-grid");
+const regularGrid = document.querySelector("#regular-grid");
 const scheduleList = document.querySelector("#schedule-list");
 const scheduleToggle = document.querySelector("#schedule-toggle");
 const scheduleSearchForm = document.querySelector("#schedule-search-form");
@@ -38,6 +39,45 @@ let scheduleFilters = {
   dateFrom: "",
   dateTo: ""
 };
+
+const regularPrograms = [
+  {
+    tag: "TV",
+    title: "Vタイムズ",
+    time: "毎週土曜 9:25〜10:15",
+    url: "https://www.nib.jp/tv/vtimes/",
+    linkText: "NIB「Vタイムズ」公式"
+  },
+  {
+    tag: "RADIO",
+    title: "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
+    time: "毎週金曜 24:00〜24:30",
+    url: "https://hicbc.com/radio/nightin/",
+    linkText: "CBCラジオ公式"
+  },
+  {
+    tag: "RADIO",
+    title: "ヤスマロティン",
+    time: "毎週金曜 18:00頃 配信",
+    url: "https://artistspoken.com/lp/",
+    linkText: "Artistspoken公式"
+  },
+  {
+    tag: "TV",
+    title: "東西南北よしもと麻雀リーグ season7",
+    note: "※毎週出演ではありません",
+    time: "毎週土曜 22:00〜23:00",
+    url: "https://bsy.co.jp/programs/by0000018915",
+    linkText: "BSよしもと公式"
+  },
+  {
+    tag: "WEB",
+    title: "ヤスのコラム",
+    time: "毎月第1金曜日頃 更新予定",
+    url: "https://www.walkerplus.com/article_list/tags/%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB%E3%83%80%E3%83%B3%E3%82%B9/",
+    linkText: "ウォーカープラス「ヤスのコラム」"
+  }
+];
 
 function escapeHtml(value = "") {
   return String(value)
@@ -79,6 +119,30 @@ function addDaysKey(dateKey, days) {
   return new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Tokyo" }).format(date);
 }
 
+function addMonthsKey(dateKey, months) {
+  const date = new Date(`${dateKey}T00:00:00+09:00`);
+  date.setMonth(date.getMonth() + months);
+  return new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Tokyo" }).format(date);
+}
+
+function quarterFor(dateKey) {
+  const [year, month] = dateKey.split("-").map(Number);
+  const startMonth = Math.floor((month - 1) / 3) * 3 + 1;
+  const start = `${year}-${String(startMonth).padStart(2, "0")}-01`;
+  const nextStart = addMonthsKey(start, 3);
+  const end = addDaysKey(nextStart, -1);
+  return { start, end, nextStart };
+}
+
+function regularDisplayQuarter(dateKey = todayKey()) {
+  const current = quarterFor(dateKey);
+  return dateKey >= addDaysKey(current.nextStart, -7) ? quarterFor(current.nextStart) : current;
+}
+
+function formatQuarterRange(quarter) {
+  return `${formatNewsDate(quarter.start)}〜${formatNewsDate(quarter.end)}`;
+}
+
 function renderNews(items = fallbackNewsItems) {
   if (!newsGrid) return;
 
@@ -103,6 +167,23 @@ function renderNews(items = fallbackNewsItems) {
       </a>
     `;
   }).join("");
+}
+
+function renderRegular(items = regularPrograms) {
+  if (!regularGrid) return;
+
+  const quarter = regularDisplayQuarter();
+  regularGrid.innerHTML = items.map((item) => `
+    <article class="news-card regular-card">
+      <span class="news-tag">${escapeHtml(item.tag || "INFO")}</span>
+      <p class="regular-quarter">${escapeHtml(formatQuarterRange(quarter))}</p>
+      <h3>${escapeHtml(item.title)}</h3>
+      ${item.note ? `<p class="regular-note">${escapeHtml(item.note)}</p>` : ""}
+      <p class="regular-label">日時</p>
+      <p class="regular-time">${escapeHtml(item.time)}</p>
+      <a class="regular-link" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.linkText)} →</a>
+    </article>
+  `).join("");
 }
 
 function renderSchedule(items = []) {
@@ -212,3 +293,4 @@ if (scheduleSearchForm) {
 });
 
 loadInfo();
+renderRegular();
