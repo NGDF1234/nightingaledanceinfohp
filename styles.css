@@ -210,7 +210,14 @@ main {
   width: 100%;
   margin: 0;
   padding: 42px max(20px, calc((100vw - 1180px) / 2));
-  background: url("assets/page-bg-v26.jpg") center / cover no-repeat;
+  background: url("assets/section-bg-news-v30.jpg") center / cover no-repeat;
+}
+
+.profile-section {
+  width: 100%;
+  margin: 0;
+  padding: 42px max(20px, calc((100vw - 1180px) / 2));
+  background: url("assets/section-bg-profile-v30.jpg") center / cover no-repeat;
 }
 
 .section-title {
@@ -335,7 +342,7 @@ main {
 }
 
 .clips-panel {
-  background: url("assets/page-bg-v26.jpg") center / cover no-repeat;
+  background: url("assets/section-bg-clips-v30.jpg") center / cover no-repeat;
   color: var(--ink);
 }
 
