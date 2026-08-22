@@ -15,7 +15,10 @@ body {
   width: 100%;
   margin: 0;
   color: var(--ink);
-  background: #fff;
+  background:
+    linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.95)),
+    url("assets/bg-yellow.jpg") center top / cover fixed no-repeat,
+    #fff;
   font-family: Impact, "Arial Black", "Yu Gothic", Meiryo, sans-serif;
   line-height: 1.65;
   overflow-x: hidden;
