@@ -145,7 +145,7 @@ main {
   justify-items: center;
   padding: clamp(34px, 5svh, 62px) 24px 24px;
   text-align: center;
-  transform: translateY(30px);
+  transform: translateY(44px);
 }
 
 .hero-logo {
@@ -623,7 +623,7 @@ main {
 
   .hero-title {
     padding: 34px 14px 18px;
-    transform: translateY(14px);
+    transform: translateY(24px);
   }
 
   .hero-logo {
