@@ -366,7 +366,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
   gap: 12px;
   overflow-x: auto;
   margin-top: 0;
-  padding: 10px 4px 0;
+  padding: 10px 4px 8px;
   scroll-snap-type: x proximity;
 }
 
