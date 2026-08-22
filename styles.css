@@ -296,6 +296,11 @@ main {
   scroll-snap-align: start;
 }
 
+.regular-card {
+  flex-basis: 340px;
+  min-height: 300px;
+}
+
 .news-tag {
   display: inline-block;
   margin-bottom: 14px;
@@ -320,6 +325,30 @@ main {
   font-family: "Yu Gothic", Meiryo, sans-serif;
   font-size: .86rem;
   font-weight: 800;
+}
+
+.regular-card .regular-label {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  color: #111;
+  font-size: .78rem;
+  font-weight: 950;
+}
+
+.regular-card .regular-name {
+  color: #111;
+  font-weight: 950;
+}
+
+.regular-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #111;
+  font-family: "Yu Gothic", Meiryo, sans-serif;
+  font-size: .86rem;
+  font-weight: 950;
+  text-decoration: none;
+  border-bottom: 3px solid var(--blue);
 }
 
 .info-band {
@@ -726,6 +755,10 @@ main {
 
   .news-card {
     flex-basis: min(250px, 78vw);
+  }
+
+  .regular-card {
+    flex-basis: min(300px, 82vw);
   }
 
   .clip-card {
