@@ -299,6 +299,8 @@ main {
 .regular-card {
   flex-basis: 340px;
   min-height: 300px;
+  display: flex;
+  flex-direction: column;
 }
 
 .news-tag {
@@ -317,6 +319,17 @@ main {
 .news-card h3 {
   margin: 6px 0;
   font-size: 1rem;
+}
+
+.regular-card h3 {
+  display: -webkit-box;
+  min-height: 3.1em;
+  margin-bottom: 8px;
+  overflow: hidden;
+  font-size: clamp(.86rem, 1.8vw, 1rem);
+  line-height: 1.55;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .news-card p {
@@ -342,20 +355,37 @@ main {
 }
 
 .regular-note {
+  min-height: 1.5em;
   margin: 0 0 8px;
   font-family: "Yu Gothic", Meiryo, sans-serif;
   font-size: .86rem;
+  line-height: 1.5;
+}
+
+.regular-time {
+  display: -webkit-box;
+  min-height: 3em;
+  overflow: hidden;
+  font-size: clamp(.78rem, 1.7vw, .86rem) !important;
+  line-height: 1.5;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .regular-link {
-  display: inline-block;
-  margin-top: 8px;
+  display: -webkit-box;
+  min-height: 2.8em;
+  margin-top: auto;
+  overflow: hidden;
   color: #111;
   font-family: "Yu Gothic", Meiryo, sans-serif;
-  font-size: .86rem;
+  font-size: clamp(.78rem, 1.7vw, .86rem);
+  line-height: 1.4;
   font-weight: 950;
   text-decoration: none;
   border-bottom: 3px solid var(--blue);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .info-band {
