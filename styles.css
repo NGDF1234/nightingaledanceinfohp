@@ -578,8 +578,16 @@ main > section:nth-of-type(3n+1):not(.hero) {
 }
 
 .schedule-search input[type="date"] {
+  width: 12ch;
+  max-width: 12ch;
+  inline-size: 12ch;
+  max-inline-size: 12ch;
   overflow: hidden;
   text-overflow: clip;
+}
+
+.schedule-date-field {
+  width: 12ch;
 }
 
 .clips-search {
