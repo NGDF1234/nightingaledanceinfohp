@@ -597,7 +597,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .clips-search {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(180px, .6fr);
+  grid-template-columns: minmax(0, 1fr);
   gap: 12px 16px;
   align-items: end;
   margin-bottom: 18px;
@@ -660,6 +660,11 @@ main > section:nth-of-type(3n+1):not(.hero) {
   width: 18px;
   height: 18px;
   accent-color: var(--yellow);
+}
+
+.clips-sort-field {
+  justify-self: end;
+  width: min(240px, 100%);
 }
 
 .clips-result-count {
