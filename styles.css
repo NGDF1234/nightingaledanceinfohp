@@ -662,11 +662,6 @@ main > section:nth-of-type(3n+1):not(.hero) {
   accent-color: var(--yellow);
 }
 
-.clips-sort-field {
-  justify-self: end;
-  width: min(240px, 100%);
-}
-
 .clips-result-count {
   grid-column: 1 / -1;
   justify-self: end;
