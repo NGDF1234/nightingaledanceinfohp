@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T23:01:34+09:00",
+  "updatedAt": "2026-08-24T00:01:30+09:00",
   "news": [
     {
       "date": "2026-08-23",
@@ -84,34 +84,9 @@
       "title": "名曲考察教室",
       "note": "",
       "url": "https://news.yahoo.co.jp/articles/120ab95a0e5d345d543d1f9ef6214e5e4f33fc80"
-    },
-    {
-      "date": "2026-08-17",
-      "tag": "RADIO",
-      "title": "伝説のアンプラグドライブ #ナイチンゲールダンス #もうきて #cbcラジオ #マイケルジャクソン",
-      "note": "",
-      "url": "https://youtube.com/shorts/zNRFy3FyfGE?si=Z1xPljXpnk-b4-d5"
-    },
-    {
-      "date": "2026-08-17",
-      "tag": "YouTube",
-      "title": "指ハート、ガチのハートの人 #中野なかるてぃん #ギャグ #お笑い",
-      "note": "",
-      "url": "https://www.youtube.com/shorts/ZaplbpfZVoE"
     }
   ],
   "schedule": [
-    {
-      "date": "2026-08-23",
-      "day": "日",
-      "startTime": "18:00",
-      "endTime": "19:00",
-      "tag": "TV",
-      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "note": "※ヤスさんのみ出演",
-      "place": "BSよしもと 265ch",
-      "url": "https://bsy.co.jp/timetable"
-    },
     {
       "date": "2026-08-28",
       "day": "金",
@@ -1571,6 +1546,39 @@
       "endTime": "15:30",
       "tag": "TV",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
+      "note": "※ヤスさんのみ出演",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-02-20",
+      "day": "土",
+      "startTime": "00:00",
+      "endTime": "00:30",
+      "tag": "RADIO",
+      "title": "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
+      "note": "",
+      "place": "CBCラジオ",
+      "url": "https://hicbc.com/radio/nightin/"
+    },
+    {
+      "date": "2027-02-20",
+      "day": "土",
+      "startTime": "09:25",
+      "endTime": "10:15",
+      "tag": "TV",
+      "title": "Vタイムズ",
+      "note": "",
+      "place": "長崎国際テレビ（NIB）",
+      "url": "https://www.nib.jp/tv/vtimes/"
+    },
+    {
+      "date": "2027-02-20",
+      "day": "土",
+      "startTime": "22:00",
+      "endTime": "23:00",
+      "tag": "TV",
+      "title": "東西南北よしもと麻雀リーグ season7",
       "note": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
