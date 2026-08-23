@@ -46,16 +46,6 @@
             <span>キーワード</span>
             <input id="schedule-title-search" type="search" autocomplete="off" placeholder="キーワード">
           </label>
-          <label class="schedule-category-field">
-            <span>カテゴリ</span>
-            <select id="schedule-category-search">
-              <option value="">すべて</option>
-              <option value="TV">テレビ</option>
-              <option value="RADIO">ラジオ</option>
-              <option value="LIVE">ライブ</option>
-              <option value="YouTube">配信</option>
-            </select>
-          </label>
           <div class="schedule-date-range">
             <label class="schedule-date-field">
               <span>日付</span>
@@ -67,6 +57,16 @@
               <input id="schedule-date-to" type="date" aria-label="終了日">
             </label>
           </div>
+          <label class="schedule-category-field">
+            <span>カテゴリ</span>
+            <select id="schedule-category-search">
+              <option value="">すべて</option>
+              <option value="TV">テレビ</option>
+              <option value="RADIO">ラジオ</option>
+              <option value="LIVE">ライブ</option>
+              <option value="YouTube">配信</option>
+            </select>
+          </label>
         </form>
         <div class="schedule-list" id="schedule-list" aria-live="polite"></div>
       </section>
