@@ -40,9 +40,7 @@ img {
   display: grid;
   place-items: center;
   padding: 24px;
-  background:
-    url("assets/page-bg-v26.jpg") center / cover no-repeat,
-    #fff8df;
+  background: #fff8df;
   opacity: 1;
   transition: opacity .28s ease, visibility .28s ease;
 }
@@ -56,25 +54,23 @@ img {
 .loader-card {
   display: grid;
   justify-items: center;
-  gap: 12px;
+  align-content: center;
+  gap: clamp(14px, 3vh, 28px);
+  width: min(76vw, 420px);
 }
 
-.loader-card img {
+.loader-logo,
+.loader-motion {
   display: block;
-  width: min(58vw, 280px);
   height: auto;
 }
 
-.loader-card span {
-  display: inline-block;
-  padding: 6px 18px;
-  border: 3px solid #111;
-  border-radius: 999px;
-  background: var(--yellow);
-  box-shadow: 4px 4px 0 #111;
-  color: #111;
-  font-size: .95rem;
-  font-weight: 950;
+.loader-logo {
+  width: min(72vw, 360px);
+}
+
+.loader-motion {
+  width: min(44vw, 180px);
 }
 
 main {
