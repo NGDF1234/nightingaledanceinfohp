@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-08-23T20:14:47+09:00",
+  "updatedAt": "2026-08-23T23:01:34+09:00",
   "news": [
+    {
+      "date": "2026-08-23",
+      "tag": "LIVE",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
+      "note": "※中野さんのみ出演",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20874"
+    },
+    {
+      "date": "2026-08-23",
+      "tag": "LIVE",
+      "title": "中野なかるてぃんのイントロクイズネオ",
+      "note": "※中野さんのみ出演",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20871"
+    },
     {
       "date": "2026-08-23",
       "tag": "TV",
@@ -49,13 +63,6 @@
       "title": "溜め、センスない人　 #中野なかるてぃん #ギャグ #お笑い",
       "note": "",
       "url": "https://www.youtube.com/shorts/tKkiyILRrVk"
-    },
-    {
-      "date": "2026-08-21",
-      "tag": "LIVE",
-      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
-      "note": "※中野さんのみ出演",
-      "url": "https://ticket.fany.lol/reception/64088/51586"
     },
     {
       "date": "2026-08-20",
@@ -417,12 +424,12 @@
       "date": "2026-09-26",
       "day": "土",
       "startTime": "19:00",
-      "endTime": "",
+      "endTime": "20:00",
       "tag": "LIVE",
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
       "note": "※中野さんのみ出演",
       "place": "渋谷よしもと漫才劇場（東京都）",
-      "url": "https://ticket.fany.lol/reception/64088/51586"
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20874"
     },
     {
       "date": "2026-09-26",
@@ -698,6 +705,17 @@
       "note": "",
       "place": "長崎国際テレビ（NIB）",
       "url": "https://www.nib.jp/tv/vtimes/"
+    },
+    {
+      "date": "2026-10-31",
+      "day": "土",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "tag": "LIVE",
+      "title": "中野なかるてぃんのイントロクイズネオ",
+      "note": "※中野さんのみ出演",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20871"
     },
     {
       "date": "2026-10-31",
