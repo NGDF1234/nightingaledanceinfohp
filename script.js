@@ -328,6 +328,11 @@ function renderSchedule(items = []) {
   }
 
   if (!visibleItems.length) {
+    if (showAllSchedules) {
+      scheduleList.innerHTML = `<p class="empty-count">0件</p>`;
+      return;
+    }
+
     scheduleList.innerHTML = `
       <article class="schedule-row">
         <div class="schedule-date">--<small></small></div>

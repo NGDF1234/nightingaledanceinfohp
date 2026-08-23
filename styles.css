@@ -569,6 +569,15 @@ main > section:nth-of-type(3n+1):not(.hero) {
   gap: 10px;
 }
 
+.empty-count {
+  margin: 0;
+  padding: 12px 4px;
+  color: #111;
+  font-family: "Yu Gothic", Meiryo, sans-serif;
+  font-size: 1rem;
+  font-weight: 950;
+}
+
 .schedule-search {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(132px, .34fr) auto;
