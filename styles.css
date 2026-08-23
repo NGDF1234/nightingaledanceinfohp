@@ -680,6 +680,44 @@ main > section:nth-of-type(3n+1):not(.hero) {
   text-overflow: clip;
 }
 
+.clips-detail-search {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+.clips-detail-search summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 8px 14px;
+  border: 3px solid #111;
+  border-radius: 8px;
+  background: var(--yellow);
+  box-shadow: 4px 4px 0 #111;
+  cursor: pointer;
+  font-family: "Yu Gothic", Meiryo, sans-serif;
+  font-weight: 950;
+}
+
+.clips-detail-search-body {
+  display: grid;
+  gap: 12px 16px;
+  margin-top: 14px;
+}
+
+.clips-duration-range {
+  display: flex;
+  align-items: end;
+  gap: 1em;
+}
+
+.clips-duration-range .range-separator {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  height: 42px;
+}
+
 .clips-channel-filter {
   grid-column: 1 / -1;
   display: flex;
@@ -1468,13 +1506,15 @@ main > section:nth-of-type(3n+1):not(.hero) {
 }
 
 @media (max-width: 340px) {
-  .schedule-date-range {
+  .schedule-date-range,
+  .clips-duration-range {
     flex-direction: column;
     align-items: flex-start;
     gap: 6px;
   }
 
-  .schedule-date-range .range-separator {
+  .schedule-date-range .range-separator,
+  .clips-duration-range .range-separator {
     width: 12ch;
     height: auto;
   }

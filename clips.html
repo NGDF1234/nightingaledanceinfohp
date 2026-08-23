@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CLIPS | ナイチンゲールダンス非公式まとめサイト</title>
     <meta name="description" content="ナイチンゲールダンス関連の公式YouTube動画一覧です。">
-    <link rel="stylesheet" href="styles.css?v=122">
+    <link rel="stylesheet" href="styles.css?v=123">
   </head>
   <body class="is-loading" data-clips-mode="all">
     <div class="page-loader" id="page-loader" aria-live="polite" aria-label="読み込み中">
@@ -43,17 +43,59 @@
             <span>キーワード</span>
             <input id="clips-keyword-search" type="search" autocomplete="off" placeholder="キーワード">
           </label>
-          <div class="schedule-date-range">
-            <label class="schedule-date-field">
-              <span>投稿日</span>
-              <input id="clips-date-from" type="date" aria-label="投稿日 開始日">
-            </label>
-            <span class="range-separator">〜</span>
-            <label class="schedule-date-field">
-              <span class="date-to-label">終了日</span>
-              <input id="clips-date-to" type="date" aria-label="投稿日 終了日">
-            </label>
-          </div>
+          <details class="clips-detail-search">
+            <summary>詳細検索</summary>
+            <div class="clips-detail-search-body">
+              <div class="schedule-date-range">
+                <label class="schedule-date-field">
+                  <span>投稿日</span>
+                  <input id="clips-date-from" type="date" aria-label="投稿日 開始日">
+                </label>
+                <span class="range-separator">〜</span>
+                <label class="schedule-date-field">
+                  <span class="date-to-label">終了日</span>
+                  <input id="clips-date-to" type="date" aria-label="投稿日 終了日">
+                </label>
+              </div>
+              <label>
+                <span>タイプ</span>
+                <select id="clips-kind-search">
+                  <option value="">すべて</option>
+                  <option value="video">動画</option>
+                  <option value="shorts">ショート</option>
+                </select>
+              </label>
+              <div class="clips-duration-range">
+                <label>
+                  <span>再生時間</span>
+                  <select id="clips-duration-min" aria-label="再生時間 何分以上">
+                    <option value="">指定なし</option>
+                    <option value="1">1分以上</option>
+                    <option value="3">3分以上</option>
+                    <option value="5">5分以上</option>
+                    <option value="10">10分以上</option>
+                    <option value="15">15分以上</option>
+                    <option value="30">30分以上</option>
+                    <option value="60">60分以上</option>
+                  </select>
+                </label>
+                <span class="range-separator">〜</span>
+                <label>
+                  <span class="date-to-label">上限</span>
+                  <select id="clips-duration-max" aria-label="再生時間 何分以下">
+                    <option value="">指定なし</option>
+                    <option value="1">1分以下</option>
+                    <option value="3">3分以下</option>
+                    <option value="5">5分以下</option>
+                    <option value="10">10分以下</option>
+                    <option value="15">15分以下</option>
+                    <option value="30">30分以下</option>
+                    <option value="60">60分以下</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+          </details>
           <fieldset class="clips-channel-filter">
             <legend>チャンネル</legend>
             <label><input type="checkbox" name="clip-channel" value="combo_official" checked> ナイチンゲールダンスチャンネル</label>

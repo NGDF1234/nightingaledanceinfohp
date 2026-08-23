@@ -34,6 +34,9 @@ const clipsKeywordSearch = document.querySelector("#clips-keyword-search");
 const clipsSortSearch = document.querySelector("#clips-sort-search");
 const clipsDateFrom = document.querySelector("#clips-date-from");
 const clipsDateTo = document.querySelector("#clips-date-to");
+const clipsKindSearch = document.querySelector("#clips-kind-search");
+const clipsDurationMin = document.querySelector("#clips-duration-min");
+const clipsDurationMax = document.querySelector("#clips-duration-max");
 const clipsResultCount = document.querySelector("#clips-result-count");
 const clipChannelCheckboxes = Array.from(document.querySelectorAll("input[name='clip-channel']"));
 const scheduleList = document.querySelector("#schedule-list");
@@ -61,6 +64,9 @@ let clipFilters = {
   channelTypes: [],
   dateFrom: "",
   dateTo: "",
+  kind: "",
+  durationMin: "",
+  durationMax: "",
   sort: "updated-desc"
 };
 
@@ -189,6 +195,30 @@ function hasUploadDate(item) {
 
 function clipSortDate(item) {
   return normalizeDate(item.uploadDate) || "";
+}
+
+function clipDurationSeconds(item) {
+  const raw = item.durationSeconds ?? item.durationSec ?? item.lengthSeconds ?? item.duration;
+  if (raw === undefined || raw === null || raw === "") return null;
+  if (typeof raw === "number" && Number.isFinite(raw)) return raw;
+
+  const text = String(raw).trim();
+  if (/^\d+$/.test(text)) return Number(text);
+
+  const isoMatch = text.match(/^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/i);
+  if (isoMatch) {
+    const [, hours = "0", minutes = "0", seconds = "0"] = isoMatch;
+    return (Number(hours) * 3600) + (Number(minutes) * 60) + Number(seconds);
+  }
+
+  if (text.includes(":")) {
+    const parts = text.split(":").map((part) => Number(part));
+    if (parts.every((part) => Number.isFinite(part))) {
+      return parts.reduce((total, part) => (total * 60) + part, 0);
+    }
+  }
+
+  return null;
 }
 
 function shuffleItems(items = []) {
@@ -394,11 +424,23 @@ function renderClips(items = fallbackClipItems) {
   const keyword = clipFilters.keyword;
   const dateFrom = clipFilters.dateFrom;
   const dateTo = clipFilters.dateTo;
+  const kind = clipFilters.kind;
+  const durationMin = clipFilters.durationMin ? Number(clipFilters.durationMin) * 60 : 0;
+  const durationMax = clipFilters.durationMax ? Number(clipFilters.durationMax) * 60 : 0;
   const sortedItems = sourceItems
     .filter((item) => !selectedChannels.length || selectedChannels.includes(item.channelType || ""))
     .filter((item) => !keyword || clipSearchText(item).includes(keyword))
     .filter((item) => !dateFrom || clipSortDate(item) >= dateFrom)
     .filter((item) => !dateTo || clipSortDate(item) <= dateTo)
+    .filter((item) => !kind || item.kind === kind)
+    .filter((item) => {
+      if (!durationMin && !durationMax) return true;
+      const seconds = clipDurationSeconds(item);
+      if (seconds === null) return false;
+      if (durationMin && seconds < durationMin) return false;
+      if (durationMax && seconds > durationMax) return false;
+      return true;
+    })
     .sort((a, b) => {
       if (clipFilters.sort === "updated-asc") {
         return clipSortDate(a).localeCompare(clipSortDate(b)) || (a.title || "").localeCompare(b.title || "");
@@ -572,6 +614,9 @@ function updateClipFilters() {
     channelTypes: clipChannelCheckboxes.filter((control) => control.checked).map((control) => control.value),
     dateFrom: clipsDateFrom?.value || "",
     dateTo: clipsDateTo?.value || "",
+    kind: clipsKindSearch?.value || "",
+    durationMin: clipsDurationMin?.value || "",
+    durationMax: clipsDurationMax?.value || "",
     sort: clipsSortSearch?.value || "updated-desc"
   };
   renderClips(clipItems);
@@ -586,6 +631,15 @@ function normalizeClipDateRange() {
   clipsDateTo.value = from;
 }
 
+function normalizeClipDurationRange() {
+  if (!clipsDurationMin || !clipsDurationMax) return;
+  const min = clipsDurationMin.value;
+  const max = clipsDurationMax.value;
+  if (!min || !max || Number(min) <= Number(max)) return;
+  clipsDurationMin.value = max;
+  clipsDurationMax.value = min;
+}
+
 if (clipsSearchForm) {
   clipsSearchForm.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -593,14 +647,16 @@ if (clipsSearchForm) {
   });
 }
 
-[clipsKeywordSearch, clipsDateFrom, clipsDateTo, clipsSortSearch, ...clipChannelCheckboxes].forEach((control) => {
+[clipsKeywordSearch, clipsDateFrom, clipsDateTo, clipsKindSearch, clipsDurationMin, clipsDurationMax, clipsSortSearch, ...clipChannelCheckboxes].forEach((control) => {
   if (!control) return;
   control.addEventListener("input", () => {
     normalizeClipDateRange();
+    normalizeClipDurationRange();
     updateClipFilters();
   });
   control.addEventListener("change", () => {
     normalizeClipDateRange();
+    normalizeClipDurationRange();
     updateClipFilters();
   });
 });
