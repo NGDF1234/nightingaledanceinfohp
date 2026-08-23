@@ -542,7 +542,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .schedule-search {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) auto;
   gap: 12px 16px;
   align-items: end;
   margin-bottom: 18px;
@@ -589,6 +589,20 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .schedule-date-field {
   width: 12ch;
+}
+
+.schedule-date-range {
+  display: grid;
+  grid-template-columns: 12ch auto 12ch;
+  align-items: end;
+  gap: 0 10px;
+}
+
+.schedule-date-range .range-separator {
+  display: grid;
+  height: 42px;
+  place-items: center;
+  padding-bottom: 0;
 }
 
 .clips-search {
@@ -1400,5 +1414,17 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
   .footer-logo {
     width: min(240px, 72vw);
+  }
+}
+
+@media (max-width: 340px) {
+  .schedule-date-range {
+    grid-template-columns: 12ch;
+    gap: 6px;
+  }
+
+  .schedule-date-range .range-separator {
+    width: 12ch;
+    height: auto;
   }
 }

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SCHEDULE | ナイチンゲールダンス非公式まとめサイト</title>
     <meta name="description" content="ナイチンゲールダンスのスケジュール一覧です。">
-    <link rel="stylesheet" href="styles.css?v=99">
+    <link rel="stylesheet" href="styles.css?v=100">
   </head>
   <body class="is-loading" data-schedule-mode="all">
     <div class="page-loader" id="page-loader" aria-live="polite" aria-label="読み込み中">
@@ -41,15 +41,17 @@
             <span>キーワード</span>
             <input id="schedule-title-search" type="search" autocomplete="off" placeholder="キーワード">
           </label>
-          <label class="schedule-date-field">
-            <span>日付</span>
-            <input id="schedule-date-from" type="date" aria-label="開始日">
-          </label>
-          <span class="range-separator">〜</span>
-          <label class="schedule-date-field">
-            <span class="date-to-label">終了日</span>
-            <input id="schedule-date-to" type="date" aria-label="終了日">
-          </label>
+          <div class="schedule-date-range">
+            <label class="schedule-date-field">
+              <span>日付</span>
+              <input id="schedule-date-from" type="date" aria-label="開始日">
+            </label>
+            <span class="range-separator">〜</span>
+            <label class="schedule-date-field">
+              <span class="date-to-label">終了日</span>
+              <input id="schedule-date-to" type="date" aria-label="終了日">
+            </label>
+          </div>
         </form>
         <div class="schedule-list" id="schedule-list" aria-live="polite"></div>
       </section>
