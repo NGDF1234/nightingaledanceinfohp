@@ -38,6 +38,7 @@ const scheduleList = document.querySelector("#schedule-list");
 const scheduleToggle = document.querySelector("#schedule-toggle");
 const scheduleSearchForm = document.querySelector("#schedule-search-form");
 const scheduleTitleSearch = document.querySelector("#schedule-title-search");
+const scheduleCategorySearch = document.querySelector("#schedule-category-search");
 const scheduleDateFrom = document.querySelector("#schedule-date-from");
 const scheduleDateTo = document.querySelector("#schedule-date-to");
 const videoModal = document.querySelector("#video-modal");
@@ -47,6 +48,7 @@ let scheduleItems = [];
 let showAllSchedules = document.body.dataset.scheduleMode === "all";
 let scheduleFilters = {
   keyword: "",
+  category: "",
   dateFrom: "",
   dateTo: ""
 };
@@ -308,6 +310,7 @@ function renderSchedule(items = []) {
   const today = todayKey();
   const weekEnd = addDaysKey(today, 6);
   const titleQuery = scheduleFilters.keyword;
+  const category = scheduleFilters.category;
   const dateFrom = scheduleFilters.dateFrom;
   const dateTo = scheduleFilters.dateTo;
   const upcomingItems = items
@@ -316,6 +319,7 @@ function renderSchedule(items = []) {
   const visibleItems = upcomingItems
     .filter((item) => showAllSchedules || !item.date || normalizeDate(item.date) <= weekEnd)
     .filter((item) => !titleQuery || scheduleSearchText(item).includes(titleQuery))
+    .filter((item) => !category || String(item.tag || "").toLowerCase() === category)
     .filter((item) => !dateFrom || !item.date || normalizeDate(item.date) >= dateFrom)
     .filter((item) => !dateTo || !item.date || normalizeDate(item.date) <= dateTo);
 
@@ -506,6 +510,7 @@ function updateScheduleFilters() {
   showAllSchedules = true;
   scheduleFilters = {
     keyword: (scheduleTitleSearch?.value || "").trim().toLowerCase(),
+    category: (scheduleCategorySearch?.value || "").trim().toLowerCase(),
     dateFrom: scheduleDateFrom?.value || "",
     dateTo: scheduleDateTo?.value || ""
   };
@@ -519,7 +524,7 @@ if (scheduleSearchForm) {
   });
 }
 
-[scheduleTitleSearch, scheduleDateFrom, scheduleDateTo].forEach((control) => {
+[scheduleTitleSearch, scheduleCategorySearch, scheduleDateFrom, scheduleDateTo].forEach((control) => {
   if (!control) return;
   control.addEventListener("input", updateScheduleFilters);
   control.addEventListener("change", updateScheduleFilters);
