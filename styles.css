@@ -649,12 +649,17 @@ main > section:nth-of-type(3n+1):not(.hero) {
   font-weight: 950;
 }
 
-.clips-search input[type="search"],
+.clips-search input,
 .clips-search select {
   box-sizing: border-box;
   display: block;
   width: 100%;
   max-width: 100%;
+  inline-size: 100%;
+  max-inline-size: 100%;
+  min-width: 0;
+  min-inline-size: 0;
+  height: 42px;
   min-height: 42px;
   padding: 8px 10px;
   border: 3px solid #111;
@@ -664,6 +669,15 @@ main > section:nth-of-type(3n+1):not(.hero) {
   font: inherit;
   font-family: "Yu Gothic", Meiryo, sans-serif;
   font-weight: 800;
+}
+
+.clips-search input[type="date"] {
+  width: 12ch;
+  max-width: 12ch;
+  inline-size: 12ch;
+  max-inline-size: 12ch;
+  overflow: hidden;
+  text-overflow: clip;
 }
 
 .clips-channel-filter {
