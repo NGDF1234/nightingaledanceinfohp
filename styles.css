@@ -1231,7 +1231,8 @@ main > section:nth-of-type(3n+1):not(.hero) {
   }
 
   .topbar {
-    position: static;
+    position: sticky;
+    top: 0;
     flex-direction: row;
     align-items: center;
   }
