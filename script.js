@@ -32,6 +32,7 @@ const clipsList = document.querySelector("#clips-list");
 const clipsSearchForm = document.querySelector("#clips-search-form");
 const clipsKeywordSearch = document.querySelector("#clips-keyword-search");
 const clipsSortSearch = document.querySelector("#clips-sort-search");
+const clipsResultCount = document.querySelector("#clips-result-count");
 const clipChannelCheckboxes = Array.from(document.querySelectorAll("input[name='clip-channel']"));
 const scheduleList = document.querySelector("#schedule-list");
 const scheduleToggle = document.querySelector("#schedule-toggle");
@@ -383,6 +384,9 @@ function renderClips(items = fallbackClipItems) {
       return (Number(b.viewCount) || 0) - (Number(a.viewCount) || 0) || clipSortDate(b).localeCompare(clipSortDate(a));
     });
   const visibleItems = showAllClips ? sortedItems : homeRecommendedClips(sourceItems);
+  if (clipsResultCount) {
+    clipsResultCount.textContent = `${visibleItems.length}件`;
+  }
 
   if (!visibleItems.length) {
     const empty = `

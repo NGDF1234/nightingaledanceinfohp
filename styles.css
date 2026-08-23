@@ -649,6 +649,16 @@ main > section:nth-of-type(3n+1):not(.hero) {
   accent-color: var(--yellow);
 }
 
+.clips-result-count {
+  grid-column: 1 / -1;
+  justify-self: end;
+  margin: -6px 4px 0 0;
+  color: #333;
+  font-family: "Yu Gothic", Meiryo, sans-serif;
+  font-size: .82rem;
+  font-weight: 900;
+}
+
 .range-separator {
   padding-bottom: 8px;
   font-size: 1.2rem;
