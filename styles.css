@@ -71,6 +71,17 @@ img {
 
 .loader-motion {
   width: min(44vw, 180px);
+  animation: loader-motion-float .7s ease-in-out infinite alternate;
+  transform-origin: 50% 70%;
+}
+
+@keyframes loader-motion-float {
+  from {
+    transform: translateY(0) scale(1);
+  }
+  to {
+    transform: translateY(-8px) scale(1.03);
+  }
 }
 
 main {
