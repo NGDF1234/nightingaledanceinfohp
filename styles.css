@@ -1045,21 +1045,23 @@ main > section:nth-of-type(3n+1):not(.hero) {
   box-shadow: 4px 5px 0 rgba(0,0,0,.08);
 }
 
+.nav,
+.news-action-links,
+.news-grid,
+.regular-grid,
+.info-band,
+.clips-grid {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 .nav::-webkit-scrollbar,
+.news-action-links::-webkit-scrollbar,
 .news-grid::-webkit-scrollbar,
 .regular-grid::-webkit-scrollbar,
 .info-band::-webkit-scrollbar,
 .clips-grid::-webkit-scrollbar {
-  height: 8px;
-}
-
-.nav::-webkit-scrollbar-thumb,
-.news-grid::-webkit-scrollbar-thumb,
-.regular-grid::-webkit-scrollbar-thumb,
-.info-band::-webkit-scrollbar-thumb,
-.clips-grid::-webkit-scrollbar-thumb {
-  background: #111;
-  border-radius: 999px;
+  display: none;
 }
 
 .profile-card h3 {
