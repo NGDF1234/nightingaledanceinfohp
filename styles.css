@@ -589,6 +589,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .schedule-date-field {
   width: 12ch;
+  justify-self: start;
 }
 
 .schedule-date-range {
@@ -601,7 +602,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
 .schedule-date-range .range-separator {
   display: grid;
   height: 42px;
-  place-items: center;
+  place-items: center start;
   padding-bottom: 0;
 }
 
