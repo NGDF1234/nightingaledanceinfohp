@@ -32,6 +32,8 @@ const clipsList = document.querySelector("#clips-list");
 const clipsSearchForm = document.querySelector("#clips-search-form");
 const clipsKeywordSearch = document.querySelector("#clips-keyword-search");
 const clipsSortSearch = document.querySelector("#clips-sort-search");
+const clipsDateFrom = document.querySelector("#clips-date-from");
+const clipsDateTo = document.querySelector("#clips-date-to");
 const clipsResultCount = document.querySelector("#clips-result-count");
 const clipChannelCheckboxes = Array.from(document.querySelectorAll("input[name='clip-channel']"));
 const scheduleList = document.querySelector("#schedule-list");
@@ -57,6 +59,8 @@ let showAllClips = document.body.dataset.clipsMode === "all";
 let clipFilters = {
   keyword: "",
   channelTypes: [],
+  dateFrom: "",
+  dateTo: "",
   sort: "updated-desc"
 };
 
@@ -388,9 +392,13 @@ function renderClips(items = fallbackClipItems) {
   const sourceItems = clipItems.length ? clipItems : fallbackItems;
   const selectedChannels = clipFilters.channelTypes;
   const keyword = clipFilters.keyword;
+  const dateFrom = clipFilters.dateFrom;
+  const dateTo = clipFilters.dateTo;
   const sortedItems = sourceItems
     .filter((item) => !selectedChannels.length || selectedChannels.includes(item.channelType || ""))
     .filter((item) => !keyword || clipSearchText(item).includes(keyword))
+    .filter((item) => !dateFrom || clipSortDate(item) >= dateFrom)
+    .filter((item) => !dateTo || clipSortDate(item) <= dateTo)
     .sort((a, b) => {
       if (clipFilters.sort === "updated-asc") {
         return clipSortDate(a).localeCompare(clipSortDate(b)) || (a.title || "").localeCompare(b.title || "");
@@ -562,9 +570,20 @@ function updateClipFilters() {
   clipFilters = {
     keyword: (clipsKeywordSearch?.value || "").trim().toLowerCase(),
     channelTypes: clipChannelCheckboxes.filter((control) => control.checked).map((control) => control.value),
+    dateFrom: clipsDateFrom?.value || "",
+    dateTo: clipsDateTo?.value || "",
     sort: clipsSortSearch?.value || "updated-desc"
   };
   renderClips(clipItems);
+}
+
+function normalizeClipDateRange() {
+  if (!clipsDateFrom || !clipsDateTo) return;
+  const from = clipsDateFrom.value;
+  const to = clipsDateTo.value;
+  if (!from || !to || from <= to) return;
+  clipsDateFrom.value = to;
+  clipsDateTo.value = from;
 }
 
 if (clipsSearchForm) {
@@ -574,11 +593,31 @@ if (clipsSearchForm) {
   });
 }
 
-[clipsKeywordSearch, clipsSortSearch, ...clipChannelCheckboxes].forEach((control) => {
+[clipsKeywordSearch, clipsDateFrom, clipsDateTo, clipsSortSearch, ...clipChannelCheckboxes].forEach((control) => {
   if (!control) return;
-  control.addEventListener("input", updateClipFilters);
-  control.addEventListener("change", updateClipFilters);
+  control.addEventListener("input", () => {
+    normalizeClipDateRange();
+    updateClipFilters();
+  });
+  control.addEventListener("change", () => {
+    normalizeClipDateRange();
+    updateClipFilters();
+  });
 });
+
+if (clipsDateFrom && clipsDateTo) {
+  clipsDateFrom.addEventListener("change", () => {
+    if (!clipsDateFrom.value) return;
+    if (!clipsDateTo.value) {
+      window.setTimeout(() => {
+        clipsDateTo.focus();
+        if (typeof clipsDateTo.showPicker === "function") {
+          clipsDateTo.showPicker();
+        }
+      }, 0);
+    }
+  });
+}
 
 if (scheduleDateFrom && scheduleDateTo) {
   scheduleDateFrom.addEventListener("change", () => {
