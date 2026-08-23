@@ -179,8 +179,12 @@ function clipChannelLabel(type = "") {
   return labels[type] || type || "YouTube";
 }
 
+function hasUploadDate(item) {
+  return Boolean(normalizeDate(item.uploadDate));
+}
+
 function clipSortDate(item) {
-  return item.uploadDate || item.firstSeenAt || item.lastStatsUpdatedAt || "";
+  return normalizeDate(item.uploadDate) || "";
 }
 
 function shuffleItems(items = []) {
@@ -200,8 +204,9 @@ function topClipsByViews(items = [], kind = "video", limit = 10) {
 }
 
 function homeRecommendedClips(items = []) {
-  const videos = shuffleItems(topClipsByViews(items, "video", 10)).slice(0, 3);
-  const shorts = shuffleItems(topClipsByViews(items, "shorts", 10)).slice(0, 3);
+  const datedItems = items.filter(hasUploadDate);
+  const videos = shuffleItems(topClipsByViews(datedItems, "video", 10)).slice(0, 3);
+  const shorts = shuffleItems(topClipsByViews(datedItems, "shorts", 10)).slice(0, 3);
   return shuffleItems([...videos, ...shorts]);
 }
 
@@ -376,8 +381,11 @@ function renderClips(items = fallbackClipItems) {
 
   const clipItems = items
     .map((item) => ({ ...item, videoId: item.videoId || youtubeVideoId(item.url) }))
-    .filter((item) => item.videoId);
-  const sourceItems = clipItems.length ? clipItems : fallbackClipItems.map((item) => ({ ...item, videoId: youtubeVideoId(item.url) }));
+    .filter((item) => item.videoId && hasUploadDate(item));
+  const fallbackItems = fallbackClipItems
+    .map((item) => ({ ...item, videoId: item.videoId || youtubeVideoId(item.url) }))
+    .filter((item) => item.videoId && hasUploadDate(item));
+  const sourceItems = clipItems.length ? clipItems : fallbackItems;
   const selectedChannels = clipFilters.channelTypes;
   const keyword = clipFilters.keyword;
   const sortedItems = sourceItems
