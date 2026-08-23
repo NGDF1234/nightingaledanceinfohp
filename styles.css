@@ -595,7 +595,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
   display: grid;
   grid-template-columns: 12ch auto 12ch;
   align-items: end;
-  gap: 0 4px;
+  gap: 0 1em;
 }
 
 .schedule-date-range .range-separator {
