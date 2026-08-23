@@ -153,7 +153,7 @@ main {
 }
 
 .nav a:hover,
-.nav a:first-child {
+.nav a.is-active {
   color: var(--blue);
   border-color: var(--blue);
 }
