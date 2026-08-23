@@ -1209,6 +1209,13 @@ main > section:nth-of-type(3n+1):not(.hero) {
   font-weight: 800;
 }
 
+.footer a {
+  color: #fff;
+  font-weight: 950;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .footer-logo {
   width: min(240px, 42vw);
   padding: 5px;
