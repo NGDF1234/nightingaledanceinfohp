@@ -51,23 +51,10 @@ img {
   pointer-events: none;
 }
 
-.loader-card {
-  display: grid;
-  justify-items: center;
-  align-content: center;
-  gap: clamp(14px, 3vh, 28px);
-  width: min(76vw, 420px);
-}
-
-.loader-logo,
 .loader-motion,
 .loader-motion img {
   display: block;
   height: auto;
-}
-
-.loader-logo {
-  width: min(72vw, 360px);
 }
 
 .loader-motion {
