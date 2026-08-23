@@ -624,16 +624,16 @@ main > section:nth-of-type(3n+1):not(.hero) {
 .schedule-date-range {
   grid-column: 1 / -1;
   justify-self: start;
-  display: grid;
-  grid-template-columns: 12ch auto 12ch;
+  display: flex;
   align-items: end;
-  gap: 0 1em;
+  gap: 1em;
 }
 
 .schedule-date-range .range-separator {
-  display: grid;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
   height: 42px;
-  place-items: center start;
   padding-bottom: 0;
 }
 
@@ -1451,7 +1451,8 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 @media (max-width: 340px) {
   .schedule-date-range {
-    grid-template-columns: 12ch;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 6px;
   }
 
