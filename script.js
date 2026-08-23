@@ -517,6 +517,15 @@ function updateScheduleFilters() {
   renderSchedule(scheduleItems);
 }
 
+function normalizeScheduleDateRange() {
+  if (!scheduleDateFrom || !scheduleDateTo) return;
+  const from = scheduleDateFrom.value;
+  const to = scheduleDateTo.value;
+  if (!from || !to || from <= to) return;
+  scheduleDateFrom.value = to;
+  scheduleDateTo.value = from;
+}
+
 if (scheduleSearchForm) {
   scheduleSearchForm.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -526,8 +535,14 @@ if (scheduleSearchForm) {
 
 [scheduleTitleSearch, scheduleCategorySearch, scheduleDateFrom, scheduleDateTo].forEach((control) => {
   if (!control) return;
-  control.addEventListener("input", updateScheduleFilters);
-  control.addEventListener("change", updateScheduleFilters);
+  control.addEventListener("input", () => {
+    normalizeScheduleDateRange();
+    updateScheduleFilters();
+  });
+  control.addEventListener("change", () => {
+    normalizeScheduleDateRange();
+    updateScheduleFilters();
+  });
 });
 
 function updateClipFilters() {
@@ -555,11 +570,6 @@ if (clipsSearchForm) {
 if (scheduleDateFrom && scheduleDateTo) {
   scheduleDateFrom.addEventListener("change", () => {
     if (!scheduleDateFrom.value) return;
-    scheduleDateTo.min = scheduleDateFrom.value;
-    if (scheduleDateTo.value && scheduleDateTo.value < scheduleDateFrom.value) {
-      scheduleDateTo.value = "";
-      updateScheduleFilters();
-    }
     if (!scheduleDateTo.value) {
       window.setTimeout(() => {
         scheduleDateTo.focus();
