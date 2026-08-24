@@ -86,7 +86,7 @@ let clipFilters = {
 const fallbackRegularItems = [
   {
     title: "Vタイムズ",
-    category: "テレビ",
+    tag: "テレビ",
     media: "長崎国際テレビ",
     comment: "",
     time: "毎週土曜 9:25〜10:15",
@@ -95,7 +95,7 @@ const fallbackRegularItems = [
   },
   {
     title: "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
-    category: "ラジオ",
+    tag: "ラジオ",
     media: "CBCラジオ",
     comment: "",
     time: "毎週金曜 24:00〜24:30",
@@ -104,7 +104,7 @@ const fallbackRegularItems = [
   },
   {
     title: "ヤスマロティン",
-    category: "配信",
+    tag: "ラジオ",
     media: "Artistspoken",
     comment: "",
     time: "毎週金曜 18:00頃 配信",
@@ -113,7 +113,7 @@ const fallbackRegularItems = [
   },
   {
     title: "東西南北よしもと麻雀リーグ season7",
-    category: "テレビ",
+    tag: "テレビ",
     media: "BSよしもと",
     comment: "※毎週出演ではありません",
     time: "毎週土曜 22:00〜23:00",
@@ -122,7 +122,7 @@ const fallbackRegularItems = [
   },
   {
     title: "ヤスのコラム",
-    category: "WEB",
+    tag: "イベント",
     media: "ウォーカープラス",
     comment: "",
     time: "毎月第1金曜日頃 更新予定",
@@ -469,7 +469,7 @@ function renderRegular(items = fallbackRegularItems) {
 
   regularGrid.innerHTML = sourceItems.map((item) => `
     <article class="news-card regular-card">
-      <span class="news-tag">${escapeHtml(item.category || "REGULAR")}</span>
+      <span class="news-tag">${escapeHtml(item.tag || item.category || "REGULAR")}</span>
       <h3>${escapeHtml(item.title)}</h3>
       ${item.comment ? `<p class="regular-note">${escapeHtml(item.comment)}</p>` : ""}
       ${item.media ? `<p class="regular-label">媒体</p><p class="regular-time">${escapeHtml(item.media)}</p>` : ""}
