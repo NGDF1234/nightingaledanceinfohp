@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T23:53:16+09:00",
+  "updatedAt": "2026-08-24T23:58:19+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -58874,23 +58874,6 @@
       "uploadDate": "2019-10-27",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-24T23:55:09+09:00"
-    },
-    {
-      "id": "youtube|P20h81AbPbA",
-      "videoId": "P20h81AbPbA",
-      "kind": "video",
-      "channelName": "ヤスチャンネル",
-      "channelType": "yasu_personal",
-      "channelUrl": "https://www.youtube.com/@vlog-ju3mn",
-      "channelId": "UC2sTd5vefWLrDsm6U99a0vg",
-      "title": "メンバーシップっ子達へ",
-      "url": "https://www.youtube.com/watch?v=P20h81AbPbA",
-      "viewCount": 0,
-      "durationSeconds": 0,
-      "duration": "",
-      "uploadDate": "",
-      "firstSeenAt": "2026-08-23T00:15:30+09:00",
-      "lastStatsUpdatedAt": "2026-08-23T05:31:12+09:00"
     }
   ]
 }
