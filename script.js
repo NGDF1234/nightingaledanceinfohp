@@ -122,7 +122,7 @@ const fallbackRegularItems = [
   },
   {
     title: "ヤスのコラム",
-    tag: "イベント",
+    tag: "連載・コラム",
     media: "ウォーカープラス",
     comment: "",
     time: "毎月第1金曜日頃 更新予定",
