@@ -115,7 +115,7 @@ NEWS と SCHEDULE を入れるJSONです。
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
-      "channelType": "combo_official",
+      "channelType": "combi_official",
       "channelUrl": "https://www.youtube.com/@nightingaledance",
       "channelId": "UCK_5obaQBnlzrRnVN7G6yrA"
     }
@@ -126,7 +126,7 @@ NEWS と SCHEDULE を入れるJSONです。
       "videoId": "VIDEO_ID",
       "kind": "video",
       "channelName": "ナイチンゲールダンスチャンネル",
-      "channelType": "combo_official",
+      "channelType": "combi_official",
       "channelUrl": "https://www.youtube.com/@nightingaledance",
       "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
       "title": "動画タイトル",

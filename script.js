@@ -112,7 +112,7 @@ const regularPrograms = [
 const fallbackClipItems = [
   {
     kind: "video",
-    channelType: "combo_official",
+    channelType: "combi_official",
     channelName: "ナイチンゲールダンスチャンネル",
     title: "【漫才】同窓会【ナイチンゲールダンス】",
     url: "https://www.youtube.com/watch?v=Z0mjkhTVWIc",
@@ -180,14 +180,19 @@ function clipSearchText(item) {
   ].filter(Boolean).join(" ").toLowerCase();
 }
 
+function normalizeClipChannelType(type = "") {
+  return type === "combo_official" ? "combi_official" : type;
+}
+
 function clipChannelFilterType(type = "") {
-  const knownTypes = ["combo_official", "nakano_personal", "yasu_personal"];
-  return knownTypes.includes(type) ? type : "other";
+  const normalizedType = normalizeClipChannelType(type);
+  const knownTypes = ["combi_official", "nakano_personal", "yasu_personal"];
+  return knownTypes.includes(normalizedType) ? normalizedType : "other";
 }
 
 function clipChannelLabel(type = "") {
   const labels = {
-    combo_official: "ナイチンゲールダンスチャンネル",
+    combi_official: "ナイチンゲールダンスチャンネル",
     nakano_personal: "個人（中野）",
     yasu_personal: "個人（ヤス）",
     other: "その他"
