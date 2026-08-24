@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-24T00:01:30+09:00",
+  "updatedAt": "2026-08-24T11:01:28+09:00",
   "news": [
     {
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "tag": "LIVE",
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
       "note": "※中野さんのみ出演",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20874"
+      "url": "https://ticket.fany.lol/reception/64088/51586"
     },
     {
       "date": "2026-08-23",
@@ -399,12 +399,12 @@
       "date": "2026-09-26",
       "day": "土",
       "startTime": "19:00",
-      "endTime": "20:00",
+      "endTime": "",
       "tag": "LIVE",
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
       "note": "※中野さんのみ出演",
       "place": "渋谷よしもと漫才劇場（東京都）",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20874"
+      "url": "https://ticket.fany.lol/reception/64088/51586"
     },
     {
       "date": "2026-09-26",
