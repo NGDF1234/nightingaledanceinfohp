@@ -23,7 +23,7 @@
 - ホーム画面: `index.html`
 - スケジュール一覧: `schedule.html`
 - 動画一覧: `clips.html`
-- ニュース・スケジュールデータ: `data/nightingale-info.json`
+- ニュース・レギュラー・スケジュールデータ: `data/nightingale-info.json`
 - YouTube動画データ: `data/nightingale-youtube-clips.json`
 
 ## 注意

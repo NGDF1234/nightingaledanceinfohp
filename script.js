@@ -70,42 +70,41 @@ let clipFilters = {
   sort: "updated-desc"
 };
 
-const regularPrograms = [
+const fallbackRegularItems = [
   {
-    tag: "TV",
     title: "Vタイムズ",
+    comment: "",
     time: "毎週土曜 9:25〜10:15",
-    url: "https://www.nib.jp/tv/vtimes/",
-    linkText: "NIB「Vタイムズ」公式"
+    period: { startDate: "2026-08-25" },
+    url: "https://www.nib.jp/tv/vtimes/"
   },
   {
-    tag: "RADIO",
     title: "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
+    comment: "",
     time: "毎週金曜 24:00〜24:30",
-    url: "https://hicbc.com/radio/nightin/",
-    linkText: "CBCラジオ公式"
+    period: { startDate: "2026-08-25" },
+    url: "https://hicbc.com/radio/nightin/"
   },
   {
-    tag: "RADIO",
     title: "ヤスマロティン",
+    comment: "",
     time: "毎週金曜 18:00頃 配信",
-    url: "https://artistspoken.com/lp/",
-    linkText: "Artistspoken公式"
+    period: { startDate: "2026-08-25" },
+    url: "https://artistspoken.com/lp/"
   },
   {
-    tag: "TV",
     title: "東西南北よしもと麻雀リーグ season7",
-    note: "※毎週出演ではありません",
+    comment: "※毎週出演ではありません",
     time: "毎週土曜 22:00〜23:00",
-    url: "https://bsy.co.jp/programs/by0000018915",
-    linkText: "BSよしもと公式"
+    period: { startDate: "2026-08-25" },
+    url: "https://bsy.co.jp/programs/by0000018915"
   },
   {
-    tag: "WEB",
     title: "ヤスのコラム",
+    comment: "",
     time: "毎月第1金曜日頃 更新予定",
-    url: "https://www.walkerplus.com/article_list/tags/%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB%E3%83%80%E3%83%B3%E3%82%B9/",
-    linkText: "ウォーカープラス「ヤスのコラム」"
+    period: { startDate: "2026-08-25" },
+    url: "https://www.walkerplus.com/article_list/tags/%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB%E3%83%80%E3%83%B3%E3%82%B9/"
   }
 ];
 
@@ -284,26 +283,6 @@ function addDaysKey(dateKey, days) {
   return new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Tokyo" }).format(date);
 }
 
-function addMonthsKey(dateKey, months) {
-  const date = new Date(`${dateKey}T00:00:00+09:00`);
-  date.setMonth(date.getMonth() + months);
-  return new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Tokyo" }).format(date);
-}
-
-function quarterFor(dateKey) {
-  const [year, month] = dateKey.split("-").map(Number);
-  const startMonth = Math.floor((month - 1) / 3) * 3 + 1;
-  const start = `${year}-${String(startMonth).padStart(2, "0")}-01`;
-  const nextStart = addMonthsKey(start, 3);
-  const end = addDaysKey(nextStart, -1);
-  return { start, end, nextStart };
-}
-
-function regularDisplayQuarter(dateKey = todayKey()) {
-  const current = quarterFor(dateKey);
-  return dateKey >= addDaysKey(current.nextStart, -7) ? quarterFor(current.nextStart) : current;
-}
-
 function renderNews(items = fallbackNewsItems) {
   if (!newsGrid) return;
 
@@ -339,17 +318,50 @@ function renderNews(items = fallbackNewsItems) {
   }).join("");
 }
 
-function renderRegular(items = regularPrograms) {
+function regularPeriodStart(item) {
+  return normalizeDate(item?.period?.startDate || item?.startDate || "");
+}
+
+function regularPeriodEnd(item) {
+  return normalizeDate(item?.period?.endDate || item?.endDate || "");
+}
+
+function activeRegularItems(items = []) {
+  const today = todayKey();
+  return items.filter((item) => {
+    const startDate = regularPeriodStart(item);
+    const endDate = regularPeriodEnd(item);
+    if (startDate && startDate > today) return false;
+    if (endDate && endDate < today) return false;
+    return true;
+  });
+}
+
+function renderRegular(items = fallbackRegularItems) {
   if (!regularGrid) return;
 
-  regularGrid.innerHTML = items.map((item) => `
+  const visibleItems = activeRegularItems(items);
+  const sourceItems = visibleItems.length ? visibleItems : (items.length ? [] : fallbackRegularItems);
+
+  if (!sourceItems.length) {
+    regularGrid.innerHTML = `
+      <article class="news-card regular-card">
+        <span class="news-tag">REGULAR</span>
+        <h3>レギュラー番組準備中</h3>
+        <p class="regular-note">データ更新後に表示されます。</p>
+      </article>
+    `;
+    return;
+  }
+
+  regularGrid.innerHTML = sourceItems.map((item) => `
     <article class="news-card regular-card">
-      <span class="news-tag">${escapeHtml(item.tag || "INFO")}</span>
+      <span class="news-tag">REGULAR</span>
       <h3>${escapeHtml(item.title)}</h3>
-      ${item.note ? `<p class="regular-note">${escapeHtml(item.note)}</p>` : ""}
+      ${item.comment ? `<p class="regular-note">${escapeHtml(item.comment)}</p>` : ""}
       <p class="regular-label">日時</p>
       <p class="regular-time">${escapeHtml(item.time)}</p>
-      <a class="regular-link" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.linkText)} →</a>
+      ${item.url ? `<a class="regular-link" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">公式サイト →</a>` : ""}
     </article>
   `).join("");
 }
@@ -549,11 +561,13 @@ async function loadInfo() {
     if (!response.ok) throw new Error(`Failed to load ${DATA_PATH}`);
     const data = await response.json();
     renderNews(Array.isArray(data.news) ? data.news : fallbackNewsItems);
+    renderRegular(Array.isArray(data.regular) ? data.regular : fallbackRegularItems);
     scheduleItems = Array.isArray(data.schedule) ? data.schedule : [];
     renderSchedule(scheduleItems);
   } catch (error) {
     console.warn(error);
     renderNews(fallbackNewsItems);
+    renderRegular(fallbackRegularItems);
     scheduleItems = [];
     renderSchedule([]);
   }
@@ -730,7 +744,6 @@ document.addEventListener("keydown", (event) => {
 });
 
 async function initPage() {
-  renderRegular();
   await Promise.allSettled([loadInfo(), loadClips()]);
   await waitForPageImages();
   hidePageLoader();

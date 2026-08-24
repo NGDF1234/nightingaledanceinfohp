@@ -68,7 +68,7 @@ data/nightingale-youtube-clips.json
 
 ## `data/nightingale-info.json`
 
-NEWS と SCHEDULE を入れるJSONです。
+NEWS、REGULAR、SCHEDULE を入れるJSONです。
 
 ```json
 {
@@ -79,6 +79,18 @@ NEWS と SCHEDULE を入れるJSONです。
       "tag": "LIVE",
       "title": "タイトル",
       "text": "補足文",
+      "url": "https://example.com/"
+    }
+  ],
+  "regular": [
+    {
+      "title": "番組名",
+      "comment": "補足コメント",
+      "time": "毎週土曜 9:25〜10:15",
+      "period": {
+        "startDate": "2026-08-25",
+        "endDate": "2026-12-31"
+      },
       "url": "https://example.com/"
     }
   ],
@@ -104,6 +116,7 @@ NEWS と SCHEDULE を入れるJSONです。
 - キーワード検索はタイトル、カテゴリ、放送局、補足文に部分一致。
 - 今日の予定は薄い青で表示。
 - YouTubeのNEWSは `url` から動画IDを判定できる場合、ポップアップ再生になります。
+- REGULARは `period.startDate` 以降に表示し、`period.endDate` がある場合はその日まで表示します。終了日未定の場合は `endDate` を入れません。
 
 ## `data/nightingale-youtube-clips.json`
 
@@ -150,8 +163,8 @@ NEWS と SCHEDULE を入れるJSONです。
 
 ## REGULAR の更新
 
-レギュラー番組は現在 `script.js` の `regularPrograms` にあります。  
-1クール分を入れて、次クールの1週間前までに消さなかった場合は次クール分を表示する運用です。
+レギュラー番組は `data/nightingale-info.json` の `regular` にあります。  
+別プログラムから追加する場合も、ホームページフォルダ基準の相対パスでこのJSONへ出力してください。
 
 ## 作業時の注意
 
