@@ -21,6 +21,7 @@
 - 引き継ぎ手順: `HANDOFF.md`
 - 画面デザイン: `styles.css`
 - ホーム画面: `index.html`
+- NEWS一覧: `news.html`
 - スケジュール一覧: `schedule.html`
 - 動画一覧: `clips.html`
 - ニュース・レギュラー・スケジュールデータ: `data/nightingale-info.json`

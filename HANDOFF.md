@@ -8,6 +8,7 @@ GitHub Pages で公開している静的サイトなので、別ワークスペ�
 ## 公開URL
 
 - ホーム: https://ngdf1234.github.io/nightingaledanceinfohp/
+- NEWS一覧: https://ngdf1234.github.io/nightingaledanceinfohp/news.html
 - スケジュール一覧: https://ngdf1234.github.io/nightingaledanceinfohp/schedule.html
 - 動画一覧: https://ngdf1234.github.io/nightingaledanceinfohp/clips.html
 
@@ -36,6 +37,7 @@ git push
 ## 主要ファイル
 
 - `index.html`: ホーム画面のHTML。ヘッダー、ヒーロー、NEWS、PROFILE、REGULAR、SCHEDULE、CLIPS の並び。
+- `news.html`: NEWS一覧画面。
 - `schedule.html`: スケジュール一覧画面。
 - `clips.html`: 動画一覧画面。
 - `styles.css`: 全ページ共通デザイン。見た目の調整は基本ここ。
@@ -76,7 +78,7 @@ NEWS、REGULAR、SCHEDULE を入れるJSONです。
   "news": [
     {
       "date": "2026-08-21",
-      "tag": "LIVE",
+      "category": "公演情報",
       "title": "タイトル",
       "text": "補足文",
       "url": "https://example.com/"
@@ -115,6 +117,8 @@ NEWS、REGULAR、SCHEDULE を入れるJSONです。
 - `schedule.html` は今日以降を初期表示。
 - キーワード検索はタイトル、カテゴリ、放送局、補足文に部分一致。
 - 今日の予定は薄い青で表示。
+- NEWS一覧のカテゴリは `公演情報`、`イベント`、`テレビ`、`ラジオ`、`賞レース`、`雑誌・書籍`、`連載・コラム`、`YouTube`、`YouTube Shorts`、`公式情報`、`その他`。
+- NEWSは `category` があれば優先し、古い `tag` だけのデータも表示できます。
 - YouTubeのNEWSは `url` から動画IDを判定できる場合、ポップアップ再生になります。
 - REGULARは `period.startDate` 以降に表示し、`period.endDate` がある場合はその日まで表示します。終了日未定の場合は `endDate` を入れません。
 

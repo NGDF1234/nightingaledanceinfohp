@@ -4,14 +4,14 @@ const CLIPS_DATA_PATH = "./data/nightingale-youtube-clips.json";
 const fallbackNewsItems = [
   {
     date: "2026-07-05",
-    tag: "LIVE",
+    tag: "公演情報",
     title: "単独ライブ情報",
     text: "FANY掲載情報を公式ページで確認。",
     url: ""
   },
   {
     date: "2026-06-17",
-    tag: "LIVE",
+    tag: "公演情報",
     title: "ピンネタライブ出演情報",
     text: "劇場・配信の詳細を更新しました。",
     url: ""
@@ -26,6 +26,12 @@ const fallbackNewsItems = [
 ];
 
 const newsGrid = document.querySelector("#news-grid");
+const newsList = document.querySelector("#news-list");
+const newsSearchForm = document.querySelector("#news-search-form");
+const newsKeywordSearch = document.querySelector("#news-keyword-search");
+const newsCategorySearch = document.querySelector("#news-category-search");
+const newsDateFrom = document.querySelector("#news-date-from");
+const newsDateTo = document.querySelector("#news-date-to");
 const regularGrid = document.querySelector("#regular-grid");
 const clipsGrid = document.querySelector("#clips-grid");
 const clipsList = document.querySelector("#clips-list");
@@ -50,6 +56,13 @@ const videoModal = document.querySelector("#video-modal");
 const videoModalFrame = document.querySelector("#video-modal-frame");
 const pageLoader = document.querySelector("#page-loader");
 let scheduleItems = [];
+let newsItems = [];
+let newsFilters = {
+  keyword: "",
+  category: "",
+  dateFrom: "",
+  dateTo: ""
+};
 let showAllSchedules = document.body.dataset.scheduleMode === "all";
 let scheduleFilters = {
   keyword: "",
@@ -135,6 +148,30 @@ function normalizeDate(date = "") {
 
 function formatNewsDate(date = "") {
   return normalizeDate(date).replaceAll("-", ".");
+}
+
+function newsCategory(item = {}) {
+  if (item.category) return item.category;
+
+  const tag = String(item.tag || "").trim();
+  const upperTag = tag.toUpperCase();
+  const title = String(item.title || "");
+  const url = String(item.url || "");
+  const text = `${tag} ${title} ${url}`.toLowerCase();
+
+  if (upperTag === "LIVE" || tag === "ライブ" || tag === "公演情報") return "公演情報";
+  if (upperTag === "EVENT" || tag === "イベント") return "イベント";
+  if (upperTag === "TV" || tag === "テレビ") return "テレビ";
+  if (upperTag === "RADIO" || tag === "ラジオ") return "ラジオ";
+  if (upperTag === "YOUTUBE" || tag === "YouTube") {
+    return text.includes("/shorts/") || item.kind === "shorts" ? "YouTube Shorts" : "YouTube";
+  }
+  if (tag === "YouTube Shorts" || tag === "Shorts") return "YouTube Shorts";
+  if (upperTag === "AWARD" || tag === "賞レース") return "賞レース";
+  if (upperTag === "MAGAZINE" || tag === "雑誌・書籍") return "雑誌・書籍";
+  if (upperTag === "COLUMN" || upperTag === "WEB" || tag === "連載・コラム") return "連載・コラム";
+  if (upperTag === "INFO" || tag === "公式情報") return "公式情報";
+  return tag || "その他";
 }
 
 function youtubeVideoId(url = "") {
@@ -273,6 +310,17 @@ function scheduleSearchText(item) {
   ].filter(Boolean).join(" ").toLowerCase();
 }
 
+function newsSearchText(item) {
+  const category = newsCategory(item);
+  return [
+    item.title,
+    item.text,
+    item.note,
+    item.tag,
+    category
+  ].filter(Boolean).join(" ").toLowerCase();
+}
+
 function todayKey() {
   return new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Tokyo" }).format(new Date());
 }
@@ -290,8 +338,9 @@ function renderNews(items = fallbackNewsItems) {
 
   newsGrid.innerHTML = visibleItems.map((item) => {
     const text = item.text || item.note || "";
+    const category = newsCategory(item);
     const body = `
-      <span class="news-tag">${escapeHtml(item.tag || "INFO")}</span>
+      <span class="news-tag">${escapeHtml(category)}</span>
       <p>${escapeHtml(formatNewsDate(item.date))}</p>
       <h3>${escapeHtml(item.title)}</h3>
       <p>${escapeHtml(text)}</p>
@@ -301,7 +350,7 @@ function renderNews(items = fallbackNewsItems) {
       return `<article class="news-card">${body}</article>`;
     }
 
-    const videoId = item.tag === "YouTube" ? youtubeVideoId(item.url) : "";
+    const videoId = category.startsWith("YouTube") ? youtubeVideoId(item.url) : "";
     if (videoId) {
       return `
         <button class="news-card news-card-link video-news-card" type="button" data-video-id="${escapeHtml(videoId)}" data-video-title="${escapeHtml(item.title)}">
@@ -312,6 +361,60 @@ function renderNews(items = fallbackNewsItems) {
 
     return `
       <a class="news-card news-card-link" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">
+        ${body}
+      </a>
+    `;
+  }).join("");
+}
+
+function renderNewsList(items = fallbackNewsItems) {
+  if (!newsList) return;
+
+  const today = todayKey();
+  const keyword = newsFilters.keyword;
+  const category = newsFilters.category;
+  const dateFrom = newsFilters.dateFrom;
+  const dateTo = newsFilters.dateTo;
+  const visibleItems = [...items]
+    .sort((a, b) => normalizeDate(b.date).localeCompare(normalizeDate(a.date)))
+    .filter((item) => !keyword || newsSearchText(item).includes(keyword))
+    .filter((item) => !category || newsCategory(item) === category)
+    .filter((item) => !dateFrom || !item.date || normalizeDate(item.date) >= dateFrom)
+    .filter((item) => !dateTo || !item.date || normalizeDate(item.date) <= dateTo);
+
+  if (!visibleItems.length) {
+    newsList.innerHTML = `<p class="empty-count">0件</p>`;
+    return;
+  }
+
+  newsList.innerHTML = visibleItems.map((item) => {
+    const text = item.text || item.note || "";
+    const rowClass = normalizeDate(item.date) === today ? "schedule-row today" : "schedule-row";
+    const body = `
+      <div class="schedule-date">${formatScheduleDate(item)}</div>
+      <div class="schedule-main">
+        <span class="news-tag">${escapeHtml(newsCategory(item))}</span>
+        <h3>${escapeHtml(item.title)}</h3>
+        <p>${escapeHtml(text)}</p>
+      </div>
+      <span class="schedule-arrow" aria-hidden="true">→</span>
+    `;
+
+    if (!item.url) {
+      return `<article class="${rowClass}">${body}</article>`;
+    }
+
+    const videoId = newsCategory(item).startsWith("YouTube") ? youtubeVideoId(item.url) : "";
+    if (videoId) {
+      return `
+        <button class="${rowClass} schedule-row-button" type="button" data-video-id="${escapeHtml(videoId)}" data-video-title="${escapeHtml(item.title)}">
+          ${body}
+        </button>
+      `;
+    }
+
+    return `
+      <a class="${rowClass}" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">
         ${body}
       </a>
     `;
@@ -560,18 +663,60 @@ async function loadInfo() {
     const response = await fetch(DATA_PATH, { cache: "no-store" });
     if (!response.ok) throw new Error(`Failed to load ${DATA_PATH}`);
     const data = await response.json();
-    renderNews(Array.isArray(data.news) ? data.news : fallbackNewsItems);
+    newsItems = Array.isArray(data.news) ? data.news : fallbackNewsItems;
+    renderNews(newsItems);
+    renderNewsList(newsItems);
     renderRegular(Array.isArray(data.regular) ? data.regular : fallbackRegularItems);
     scheduleItems = Array.isArray(data.schedule) ? data.schedule : [];
     renderSchedule(scheduleItems);
   } catch (error) {
     console.warn(error);
+    newsItems = fallbackNewsItems;
     renderNews(fallbackNewsItems);
+    renderNewsList(fallbackNewsItems);
     renderRegular(fallbackRegularItems);
     scheduleItems = [];
     renderSchedule([]);
   }
 }
+
+function updateNewsFilters() {
+  newsFilters = {
+    keyword: (newsKeywordSearch?.value || "").trim().toLowerCase(),
+    category: newsCategorySearch?.value || "",
+    dateFrom: newsDateFrom?.value || "",
+    dateTo: newsDateTo?.value || ""
+  };
+  renderNewsList(newsItems);
+}
+
+function normalizeNewsDateRange() {
+  if (!newsDateFrom || !newsDateTo) return;
+  const from = newsDateFrom.value;
+  const to = newsDateTo.value;
+  if (!from || !to || from <= to) return;
+  newsDateFrom.value = to;
+  newsDateTo.value = from;
+}
+
+if (newsSearchForm) {
+  newsSearchForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    updateNewsFilters();
+  });
+}
+
+[newsKeywordSearch, newsCategorySearch, newsDateFrom, newsDateTo].forEach((control) => {
+  if (!control) return;
+  control.addEventListener("input", () => {
+    normalizeNewsDateRange();
+    updateNewsFilters();
+  });
+  control.addEventListener("change", () => {
+    normalizeNewsDateRange();
+    updateNewsFilters();
+  });
+});
 
 async function loadClips() {
   try {
@@ -708,6 +853,20 @@ if (scheduleDateFrom && scheduleDateTo) {
         scheduleDateTo.focus();
         if (typeof scheduleDateTo.showPicker === "function") {
           scheduleDateTo.showPicker();
+        }
+      }, 120);
+    }
+  });
+}
+
+if (newsDateFrom && newsDateTo) {
+  newsDateFrom.addEventListener("change", () => {
+    if (!newsDateFrom.value) return;
+    if (!newsDateTo.value) {
+      window.setTimeout(() => {
+        newsDateTo.focus();
+        if (typeof newsDateTo.showPicker === "function") {
+          newsDateTo.showPicker();
         }
       }, 120);
     }

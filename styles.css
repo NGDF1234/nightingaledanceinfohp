@@ -736,6 +736,13 @@ main > section:nth-of-type(3n+1):not(.hero) {
   text-decoration: none;
 }
 
+.schedule-row-button {
+  width: 100%;
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+}
+
 .schedule-row.today {
   background: #e8f4ff;
   border-color: #9ccfff;
