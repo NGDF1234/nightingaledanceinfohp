@@ -180,13 +180,19 @@ function clipSearchText(item) {
   ].filter(Boolean).join(" ").toLowerCase();
 }
 
+function clipChannelFilterType(type = "") {
+  const knownTypes = ["combo_official", "nakano_personal", "yasu_personal"];
+  return knownTypes.includes(type) ? type : "other";
+}
+
 function clipChannelLabel(type = "") {
   const labels = {
     combo_official: "ナイチンゲールダンスチャンネル",
     nakano_personal: "個人（中野）",
-    yasu_personal: "個人（ヤス）"
+    yasu_personal: "個人（ヤス）",
+    other: "その他"
   };
-  return labels[type] || type || "YouTube";
+  return labels[clipChannelFilterType(type)];
 }
 
 function hasUploadDate(item) {
@@ -428,7 +434,7 @@ function renderClips(items = fallbackClipItems) {
   const durationMin = clipFilters.durationMin ? Number(clipFilters.durationMin) * 60 : 0;
   const durationMax = clipFilters.durationMax ? Number(clipFilters.durationMax) * 60 : 0;
   const sortedItems = sourceItems
-    .filter((item) => !selectedChannels.length || selectedChannels.includes(item.channelType || ""))
+    .filter((item) => !selectedChannels.length || selectedChannels.includes(clipChannelFilterType(item.channelType || "")))
     .filter((item) => !keyword || clipSearchText(item).includes(keyword))
     .filter((item) => !dateFrom || clipSortDate(item) >= dateFrom)
     .filter((item) => !dateTo || clipSortDate(item) <= dateTo)
