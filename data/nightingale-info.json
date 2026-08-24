@@ -1588,6 +1588,18 @@
       "url": "https://bsy.co.jp/timetable"
     }
   ],
-  "regular": [],
+  "regular": [
+    {
+      "title": "Vタイムズ",
+      "category": "テレビ",
+      "media": "長崎国際テレビ",
+      "comment": "",
+      "time": "毎週土曜 9:25〜10:15",
+      "period": {
+        "startDate": "2026-08-25"
+      },
+      "url": "https://www.nib.jp/tv/vtimes/"
+    }
+  ],
   "clips": []
 }

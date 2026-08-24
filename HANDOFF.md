@@ -87,6 +87,8 @@ NEWS、REGULAR、SCHEDULE を入れるJSONです。
   "regular": [
     {
       "title": "番組名",
+      "category": "テレビ",
+      "media": "放送局・媒体名",
       "comment": "補足コメント",
       "time": "毎週土曜 9:25〜10:15",
       "period": {
@@ -121,6 +123,7 @@ NEWS、REGULAR、SCHEDULE を入れるJSONです。
 - NEWSは `category` があれば優先し、古い `tag` だけのデータも表示できます。
 - YouTubeのNEWSは `url` から動画IDを判定できる場合、ポップアップ再生になります。
 - REGULARは `period.startDate` 以降に表示し、`period.endDate` がある場合はその日まで表示します。終了日未定の場合は `endDate` を入れません。
+- REGULARのカテゴリは `category`、放送局や配信元などの媒体は `media` に入れます。
 
 ## `data/nightingale-youtube-clips.json`
 
