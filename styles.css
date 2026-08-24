@@ -405,8 +405,8 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .regular-card {
   flex-basis: 340px;
-  min-height: 220px;
-  padding: 14px;
+  min-height: 178px;
+  padding: 12px 14px;
   display: flex;
   flex-direction: column;
 }
@@ -475,8 +475,8 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .regular-time {
   display: -webkit-box;
-  min-height: 2.5em;
-  margin-bottom: 4px !important;
+  min-height: 0;
+  margin-bottom: 2px !important;
   overflow: hidden;
   font-size: clamp(.78rem, 1.7vw, .86rem) !important;
   line-height: 1.5;
