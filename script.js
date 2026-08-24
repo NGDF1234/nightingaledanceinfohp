@@ -472,8 +472,7 @@ function renderRegular(items = fallbackRegularItems) {
       <span class="news-tag">${escapeHtml(item.tag || item.category || "REGULAR")}</span>
       <h3>${escapeHtml(item.title)}</h3>
       ${item.comment ? `<p class="regular-note">${escapeHtml(item.comment)}</p>` : ""}
-      ${item.media ? `<p class="regular-label">媒体</p><p class="regular-time">${escapeHtml(item.media)}</p>` : ""}
-      <p class="regular-label">日時</p>
+      ${item.media ? `<p class="regular-time">${escapeHtml(item.media)}</p>` : ""}
       <p class="regular-time">${escapeHtml(item.time)}</p>
       ${item.url ? `<a class="regular-link" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">公式サイト →</a>` : ""}
     </article>
