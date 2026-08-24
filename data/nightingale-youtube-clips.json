@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T21:10:30+09:00",
+  "updatedAt": "2026-08-24T18:01:45+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,23 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|6PJrKAFuKFg",
+      "videoId": "6PJrKAFuKFg",
+      "kind": "shorts",
+      "channelName": "中野なかるてぃん状態",
+      "channelType": "nakano_personal",
+      "channelUrl": "https://www.youtube.com/channel/UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "channelId": "UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "title": "順番に紹介される流れで自分だけ飛ばされた後ちょっとサウダージ歌う人 #中野なかるてぃん #ギャグ #お笑い",
+      "url": "https://www.youtube.com/shorts/6PJrKAFuKFg",
+      "viewCount": 0,
+      "durationSeconds": 13,
+      "duration": "0:13",
+      "uploadDate": "2026-08-24",
+      "firstSeenAt": "2026-08-24T18:01:45+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|fb2S6M57et4",
       "videoId": "fb2S6M57et4",
