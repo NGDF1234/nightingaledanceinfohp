@@ -299,9 +299,11 @@ function topClipsByViews(items = [], kind = "video", limit = 10) {
 }
 
 function homeRecommendedClips(items = []) {
-  const datedItems = items.filter(hasUploadDate);
-  const videos = shuffleItems(topClipsByViews(datedItems, "video", 10)).slice(0, 3);
-  const shorts = shuffleItems(topClipsByViews(datedItems, "shorts", 10)).slice(0, 3);
+  const datedItems = items.filter((item) => (
+    hasUploadDate(item) && normalizeClipChannelType(item.channelType || "") === "combi_official"
+  ));
+  const videos = shuffleItems(topClipsByViews(datedItems, "video", 30)).slice(0, 3);
+  const shorts = shuffleItems(topClipsByViews(datedItems, "shorts", 30)).slice(0, 2);
   return shuffleItems([...videos, ...shorts]);
 }
 
