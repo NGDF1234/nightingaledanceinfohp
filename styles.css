@@ -419,6 +419,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
   border-radius: 4px;
   background: var(--yellow);
   font-size: .82rem;
+  font-weight: 950;
 }
 
 .news-card h3 {
