@@ -236,14 +236,18 @@ function clipChannelFilterType(type = "") {
   return knownTypes.includes(normalizedType) ? normalizedType : "other";
 }
 
-function clipChannelLabel(type = "") {
+function clipChannelLabel(item = {}) {
+  const type = item.channelType || "";
+  const filterType = clipChannelFilterType(type);
+  if (filterType === "other" && item.channelName) return item.channelName;
+
   const labels = {
     combi_official: "ナイチンゲールダンスチャンネル",
     nakano_personal: "個人（中野）",
     yasu_personal: "個人（ヤス）",
     other: "その他"
   };
-  return labels[clipChannelFilterType(type)];
+  return labels[filterType];
 }
 
 function hasUploadDate(item) {
@@ -628,7 +632,7 @@ function renderClips(items = fallbackClipItems) {
     clipsList.innerHTML = visibleItems.map((item) => {
       const meta = [
         formatClipDate(item.uploadDate),
-        clipChannelLabel(item.channelType)
+        clipChannelLabel(item)
       ].filter(Boolean).join(" / ");
       return `
         <button class="clip-list-card" type="button" data-video-id="${escapeHtml(item.videoId)}" data-video-title="${escapeHtml(item.title)}">
