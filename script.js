@@ -239,7 +239,7 @@ function clipChannelFilterType(type = "") {
 function clipChannelLabel(item = {}) {
   const type = item.channelType || "";
   const filterType = clipChannelFilterType(type);
-  if (filterType === "other" && item.channelName) return item.channelName;
+  if (item.channelName) return item.channelName;
 
   const labels = {
     combi_official: "ナイチンゲールダンスチャンネル",
