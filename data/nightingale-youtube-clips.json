@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T18:01:45+09:00",
+  "updatedAt": "2026-08-24T20:31:31+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -37,6 +37,23 @@
       "uploadDate": "2026-08-24",
       "firstSeenAt": "2026-08-24T18:01:45+09:00",
       "lastStatsUpdatedAt": ""
+    },
+    {
+      "id": "youtube|uYm5h_H2NjQ",
+      "videoId": "uYm5h_H2NjQ",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【切り抜き】ネギ油作るのにタンクトップは危険すぎる【タンクトップやっちん】",
+      "url": "https://www.youtube.com/shorts/uYm5h_H2NjQ",
+      "viewCount": 826,
+      "durationSeconds": 171,
+      "duration": "2:51",
+      "uploadDate": "2026-08-24",
+      "firstSeenAt": "2026-08-24T20:07:20+09:00",
+      "lastStatsUpdatedAt": "2026-08-24T20:12:55+09:00"
     },
     {
       "id": "youtube|fb2S6M57et4",
