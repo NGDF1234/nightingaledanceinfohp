@@ -1,6 +1,12 @@
 const DATA_PATH = "./data/nightingale-info.json";
 const CLIPS_DATA_PATH = "./data/nightingale-youtube-clips.json";
 
+if ("scrollRestoration" in history) {
+  history.scrollRestoration = "manual";
+}
+
+window.scrollTo(0, 0);
+
 const fallbackNewsItems = [
   {
     date: "2026-07-05",
@@ -963,8 +969,10 @@ document.addEventListener("keydown", (event) => {
 });
 
 async function initPage() {
+  window.scrollTo(0, 0);
   await Promise.allSettled([loadInfo(), loadClips()]);
   await waitForPageImages();
+  window.scrollTo(0, 0);
   hidePageLoader();
 }
 
