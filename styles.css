@@ -1236,7 +1236,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
     gap: 14px;
     flex: 1 1 auto;
     padding: 0 4px 4px;
-    font-size: .78rem;
+    font-size: .75rem;
   }
 
   .hero {
