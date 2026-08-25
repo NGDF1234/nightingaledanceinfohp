@@ -270,6 +270,33 @@ body.is-loading .hero-logo img {
   text-shadow: 2px 2px 0 rgba(0,0,0,.65);
 }
 
+.home-page.home-reveal-pending .home-reveal-block,
+.home-page.home-reveal-start .home-reveal-block {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.home-page.home-reveal-start .home-reveal-block {
+  animation: home-block-float-in .58s cubic-bezier(.2, .8, .2, 1) forwards;
+}
+
+.home-page.home-reveal-start .home-reveal-block:nth-of-type(2) { animation-delay: 1.18s; }
+.home-page.home-reveal-start .home-reveal-block:nth-of-type(3) { animation-delay: 1.52s; }
+.home-page.home-reveal-start .home-reveal-block:nth-of-type(4) { animation-delay: 1.86s; }
+.home-page.home-reveal-start .home-reveal-block:nth-of-type(5) { animation-delay: 2.2s; }
+.home-page.home-reveal-start .home-reveal-block:nth-of-type(6) { animation-delay: 2.54s; }
+
+@keyframes home-block-float-in {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .news-section,
 .regular-section,
 .schedule-section,

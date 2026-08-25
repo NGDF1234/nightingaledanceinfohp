@@ -690,9 +690,16 @@ function waitForPageImages(timeout = 4500) {
 }
 
 function hidePageLoader() {
-  if (!pageLoader) return;
-  pageLoader.classList.add("is-hidden");
+  const isHomePage = document.body.classList.contains("home-page");
+  if (isHomePage) document.body.classList.add("home-reveal-pending");
+  if (pageLoader) pageLoader.classList.add("is-hidden");
   document.body.classList.remove("is-loading");
+  if (isHomePage) {
+    window.setTimeout(() => {
+      document.body.classList.remove("home-reveal-pending");
+      document.body.classList.add("home-reveal-start");
+    }, 320);
+  }
 }
 
 async function loadInfo() {
