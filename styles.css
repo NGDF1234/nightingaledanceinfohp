@@ -248,6 +248,15 @@ body.is-loading .hero-logo img {
   animation-play-state: paused;
 }
 
+.hero-logo.is-finished img {
+  animation: none;
+  opacity: 0;
+}
+
+.hero-logo.is-finished img:last-child {
+  opacity: 1;
+}
+
 @keyframes hero-logo-pop-frame {
   0%, 99% { opacity: 1; }
   100% { opacity: 0; }
