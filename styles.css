@@ -831,6 +831,26 @@ main > section:nth-of-type(3n+1):not(.hero) {
   object-fit: cover;
 }
 
+.clip-thumb.is-missing-thumb,
+.clip-list-thumb.is-missing-thumb {
+  display: grid;
+  place-items: center;
+  background: var(--yellow);
+}
+
+.clip-thumb.is-missing-thumb::after,
+.clip-list-thumb.is-missing-thumb::after {
+  content: "YouTube";
+  color: #111;
+  font-size: 1rem;
+  font-weight: 950;
+}
+
+.clip-thumb.is-missing-thumb img,
+.clip-list-thumb.is-missing-thumb img {
+  display: none;
+}
+
 .clip-list-main {
   min-width: 0;
 }

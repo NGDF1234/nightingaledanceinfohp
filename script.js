@@ -200,6 +200,27 @@ function youtubeVideoId(url = "") {
   return "";
 }
 
+function youtubeThumbnailUrl(videoId = "", size = "hqdefault") {
+  return `https://i.ytimg.com/vi/${encodeURIComponent(videoId)}/${size}.jpg`;
+}
+
+function fallbackThumbnail(img) {
+  if (!img) return;
+  const steps = ["hqdefault", "mqdefault", "default"];
+  const currentStep = img.dataset.thumbStep || steps[0];
+  const nextStep = steps[steps.indexOf(currentStep) + 1];
+
+  if (nextStep) {
+    img.dataset.thumbStep = nextStep;
+    img.src = youtubeThumbnailUrl(img.dataset.videoId || "", nextStep);
+    return;
+  }
+
+  const frame = img.closest(".clip-thumb, .clip-list-thumb");
+  if (frame) frame.classList.add("is-missing-thumb");
+  img.removeAttribute("src");
+}
+
 function formatScheduleDate(item) {
   const date = normalizeDate(item.date);
   const [, month = "", day = ""] = date.split("-");
@@ -618,7 +639,7 @@ function renderClips(items = fallbackClipItems) {
     return `
       <button class="clip-card" type="button" data-video-id="${escapeHtml(item.videoId)}" data-video-title="${escapeHtml(item.title)}">
         <span class="clip-thumb">
-          <img src="https://img.youtube.com/vi/${escapeHtml(item.videoId)}/hqdefault.jpg" alt="${escapeHtml(item.title)}" loading="lazy">
+          <img src="${escapeHtml(youtubeThumbnailUrl(item.videoId))}" data-video-id="${escapeHtml(item.videoId)}" data-thumb-step="hqdefault" alt="${escapeHtml(item.title)}" loading="lazy">
         </span>
         <span>
           <strong>${escapeHtml(item.title)}</strong>
@@ -639,7 +660,7 @@ function renderClips(items = fallbackClipItems) {
       return `
         <button class="clip-list-card" type="button" data-video-id="${escapeHtml(item.videoId)}" data-video-title="${escapeHtml(item.title)}">
           <span class="clip-list-thumb">
-            <img src="https://img.youtube.com/vi/${escapeHtml(item.videoId)}/hqdefault.jpg" alt="${escapeHtml(item.title)}" loading="lazy">
+            <img src="${escapeHtml(youtubeThumbnailUrl(item.videoId))}" data-video-id="${escapeHtml(item.videoId)}" data-thumb-step="hqdefault" alt="${escapeHtml(item.title)}" loading="lazy">
           </span>
           <span class="clip-list-main">
             <span class="news-tag">${escapeHtml(item.kind === "shorts" ? "Shorts" : "YouTube")}</span>
@@ -909,6 +930,18 @@ document.addEventListener("click", (event) => {
   `;
   videoModal.hidden = false;
 });
+
+document.addEventListener("error", (event) => {
+  const img = event.target.closest?.(".clip-thumb img, .clip-list-thumb img");
+  if (!img) return;
+  fallbackThumbnail(img);
+}, true);
+
+document.addEventListener("load", (event) => {
+  const img = event.target.closest?.(".clip-thumb img, .clip-list-thumb img");
+  if (!img) return;
+  if (img.naturalWidth <= 130 && img.naturalHeight <= 100) fallbackThumbnail(img);
+}, true);
 
 document.querySelectorAll("[data-video-close]").forEach((button) => {
   button.addEventListener("click", closeVideoModal);
