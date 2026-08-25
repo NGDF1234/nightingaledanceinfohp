@@ -61,7 +61,6 @@ const scheduleDateTo = document.querySelector("#schedule-date-to");
 const videoModal = document.querySelector("#video-modal");
 const videoModalFrame = document.querySelector("#video-modal-frame");
 const pageLoader = document.querySelector("#page-loader");
-const heroLogo = document.querySelector(".hero-logo");
 let scheduleItems = [];
 let newsItems = [];
 let newsFilters = {
@@ -702,9 +701,6 @@ function hidePageLoader() {
   if (pageLoader) pageLoader.classList.add("is-hidden");
   document.body.classList.remove("is-loading");
   if (isHomePage) {
-    window.setTimeout(() => {
-      heroLogo?.classList.add("is-finished");
-    }, 320);
     window.setTimeout(() => {
       document.body.classList.remove("home-reveal-pending");
       document.body.classList.add("home-reveal-start");
