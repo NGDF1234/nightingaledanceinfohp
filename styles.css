@@ -211,6 +211,8 @@ main {
 
 .hero-logo {
   width: min(520px, 48vw);
+  color: transparent;
+  font-size: 0;
   filter: drop-shadow(8px 8px 0 rgba(0,0,0,.4));
   transform: rotate(-3deg);
 }
