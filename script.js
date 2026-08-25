@@ -704,7 +704,7 @@ function hidePageLoader() {
   if (isHomePage) {
     window.setTimeout(() => {
       heroLogo?.classList.add("is-finished");
-    }, 820);
+    }, 320);
     window.setTimeout(() => {
       document.body.classList.remove("home-reveal-pending");
       document.body.classList.add("home-reveal-start");
