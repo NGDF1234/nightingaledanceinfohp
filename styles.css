@@ -141,7 +141,7 @@ main {
   justify-content: flex-start;
   gap: 16px 34px;
   overflow-x: auto;
-  font-size: 1rem;
+  font-size: 1.08rem;
   white-space: nowrap;
 }
 
@@ -1236,7 +1236,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
     gap: 14px;
     flex: 1 1 auto;
     padding: 0 4px 4px;
-    font-size: .72rem;
+    font-size: .78rem;
   }
 
   .hero {
