@@ -230,18 +230,18 @@ main {
   animation: hero-logo-pop-frame .1s steps(1, end) forwards;
 }
 
-.hero-logo img:nth-child(2) { animation-delay: .1s; }
-.hero-logo img:nth-child(3) { animation-delay: .2s; }
-.hero-logo img:nth-child(4) { animation-delay: .3s; }
-.hero-logo img:nth-child(5) { animation-delay: .4s; }
-.hero-logo img:nth-child(6) { animation-delay: .5s; }
-.hero-logo img:nth-child(7) { animation-delay: .6s; }
-.hero-logo img:nth-child(8) { animation-delay: .7s; }
-.hero-logo img:nth-child(9) { animation-delay: .8s; }
-.hero-logo img:nth-child(10) { animation-delay: .9s; }
+.hero-logo img:nth-child(2) { animation-delay: .07s; }
+.hero-logo img:nth-child(3) { animation-delay: .14s; }
+.hero-logo img:nth-child(4) { animation-delay: .21s; }
+.hero-logo img:nth-child(5) { animation-delay: .28s; }
+.hero-logo img:nth-child(6) { animation-delay: .35s; }
+.hero-logo img:nth-child(7) { animation-delay: .42s; }
+.hero-logo img:nth-child(8) { animation-delay: .49s; }
+.hero-logo img:nth-child(9) { animation-delay: .56s; }
+.hero-logo img:nth-child(10) { animation-delay: .63s; }
 
 .hero-logo img:nth-child(11) {
-  animation: hero-logo-pop-final .1s steps(1, end) 1s forwards;
+  animation: hero-logo-pop-final .1s steps(1, end) .7s forwards;
 }
 
 body.is-loading .hero-logo img {
