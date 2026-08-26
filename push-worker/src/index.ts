@@ -38,7 +38,7 @@ async function runNotifications(env: Env, now = new Date()) {
   const jst = new Date(now.getTime() + 9 * 3600000); const date = jst.toISOString().slice(0, 10); const hour = jst.getUTCHours(); const minute = jst.getUTCMinutes();
   const today = data.schedule.filter((item) => item.date === date);
   if (hour === 8 && minute < 2 && today.length && !(await env.PUSH_STORE.get(`sent:daily:${date}`))) { await broadcast(env, { title: "今日の出演予定", body: today.map((item) => `${item.startTime} ${item.title}`).join("\n"), url: `${env.SITE_URL}/schedule.html`, tag: `daily-${date}` }); await env.PUSH_STORE.put(`sent:daily:${date}`, "1", { expirationTtl: 604800 }); }
-  for (const item of today) { const start = new Date(`${item.date}T${item.startTime}:00+09:00`); const diff = start.getTime() - now.getTime(); const key = `sent:hour:${fingerprint(item)}`; if (diff > 3540000 && diff <= 3660000 && !(await env.PUSH_STORE.get(key))) { await broadcast(env, { title: "開始1時間前", body: `${item.startTime} ${item.title}${item.place ? `｜${item.place}` : ""}`, url: item.url || `${env.SITE_URL}/schedule.html`, tag: key }); await env.PUSH_STORE.put(key, "1", { expirationTtl: 604800 }); } }
+  for (const item of today) { const start = new Date(`${item.date}T${item.startTime}:00+09:00`); const diff = start.getTime() - now.getTime(); const key = `sent:30min:${fingerprint(item)}`; if (diff > 1740000 && diff <= 1860000 && !(await env.PUSH_STORE.get(key))) { await broadcast(env, { title: "開始30分前", body: `${item.startTime} ${item.title}${item.place ? `｜${item.place}` : ""}`, url: item.url || `${env.SITE_URL}/schedule.html`, tag: key }); await env.PUSH_STORE.put(key, "1", { expirationTtl: 604800 }); } }
 }
 
 export default {
