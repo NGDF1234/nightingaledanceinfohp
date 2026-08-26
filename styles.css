@@ -588,6 +588,8 @@ main > section:nth-of-type(3n+1):not(.hero) {
   max-width: 12ch;
   inline-size: 12ch;
   max-inline-size: 12ch;
+  height: 58px;
+  min-height: 58px;
   overflow: hidden;
   text-overflow: clip;
 }
@@ -609,7 +611,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
   display: flex;
   flex: 0 0 auto;
   align-items: center;
-  height: 42px;
+  height: 58px;
   padding-bottom: 0;
 }
 
@@ -656,6 +658,8 @@ main > section:nth-of-type(3n+1):not(.hero) {
   max-width: 12ch;
   inline-size: 12ch;
   max-inline-size: 12ch;
+  height: 58px;
+  min-height: 58px;
   overflow: hidden;
   text-overflow: clip;
 }
