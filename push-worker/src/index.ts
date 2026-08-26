@@ -1,6 +1,6 @@
 import { buildPushPayload, type PushSubscription } from "@block65/webcrypto-web-push";
 
-interface Env { PUSH_STORE: KVNamespace; SITE_URL: string; DATA_URL: string; VAPID_SUBJECT: string; VAPID_PUBLIC_KEY: string; VAPID_PRIVATE_KEY: string }
+interface Env { PUSH_STORE: KVNamespace; SITE_URL: string; DATA_URL: string; VAPID_SUBJECT: string; VAPID_PUBLIC_KEY: string; VAPID_PRIVATE_KEY: string; TEST_KEY: string }
 interface News { date: string; tag: string; title: string; note?: string; url?: string }
 interface Schedule { date: string; startTime: string; title: string; tag: string; place?: string; url?: string }
 
@@ -15,11 +15,19 @@ async function subscriptions(env: Env) {
 }
 
 async function broadcast(env: Env, payload: object) {
+  let delivered = 0;
   await Promise.all((await subscriptions(env)).map(async (subscription) => {
-    const request = await buildPushPayload({ data: JSON.stringify(payload), options: { ttl: 3600 } }, subscription, { subject: env.VAPID_SUBJECT, publicKey: env.VAPID_PUBLIC_KEY, privateKey: env.VAPID_PRIVATE_KEY });
-    const response = await fetch(subscription.endpoint, { ...request, body: request.body as BodyInit });
-    if (response.status === 404 || response.status === 410) await env.PUSH_STORE.delete(`sub:${fingerprint({ endpoint: subscription.endpoint })}`);
+    try {
+      const request = await buildPushPayload({ data: JSON.stringify(payload), options: { ttl: 3600 } }, subscription, { subject: env.VAPID_SUBJECT, publicKey: env.VAPID_PUBLIC_KEY, privateKey: env.VAPID_PRIVATE_KEY });
+      const response = await fetch(subscription.endpoint, { ...request, body: request.body as BodyInit });
+      if (response.ok) delivered += 1;
+      if (response.status === 404 || response.status === 410) await env.PUSH_STORE.delete(`sub:${fingerprint({ endpoint: subscription.endpoint })}`);
+      await env.PUSH_STORE.put("debug:last-push", JSON.stringify({ at: new Date().toISOString(), status: response.status, ok: response.ok, endpointHost: new URL(subscription.endpoint).host }));
+    } catch (error) {
+      await env.PUSH_STORE.put("debug:last-push", JSON.stringify({ at: new Date().toISOString(), status: 0, ok: false, error: String(error) }));
+    }
   }));
+  return delivered;
 }
 
 async function runNotifications(env: Env, now = new Date()) {
@@ -38,6 +46,11 @@ export default {
     const url = new URL(request.url); const origin = request.headers.get("Origin") || env.SITE_URL; const headers = cors(origin, env);
     if (request.method === "OPTIONS") return new Response(null, { status: 204, headers });
     if (url.pathname === "/vapid-public-key") return json({ publicKey: env.VAPID_PUBLIC_KEY }, 200, headers);
+    if (url.pathname === "/test" && request.method === "POST") {
+      if (request.headers.get("X-Test-Key") !== env.TEST_KEY) return json({ error: "unauthorized" }, 401, headers);
+      const delivered = await broadcast(env, { title: "通知テスト", body: "プッシュ通知の直接送信テストです。", url: `${env.SITE_URL}/`, tag: `direct-test-${Date.now()}` });
+      return json({ ok: true, delivered }, 200, headers);
+    }
     if (url.pathname === "/subscribe" && request.method === "POST") { const subscription = await request.json() as PushSubscription; if (!subscription.endpoint || !subscription.keys) return json({ error: "invalid subscription" }, 400, headers); await env.PUSH_STORE.put(`sub:${fingerprint({ endpoint: subscription.endpoint })}`, JSON.stringify(subscription)); return json({ ok: true }, 201, headers); }
     return json({ ok: true }, 200, headers);
   },
