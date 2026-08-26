@@ -33,12 +33,12 @@ async function broadcast(env: Env, payload: object) {
 async function runNotifications(env: Env, now = new Date()) {
   const data = await fetch(env.DATA_URL, { headers: { "Cache-Control": "no-cache" } }).then((r) => r.json()) as { news: News[]; schedule: Schedule[] };
   const previous = await env.PUSH_STORE.get("state:latest-news"); const latest = data.news[0] ? fingerprint(data.news[0]) : "";
-  if (previous && latest !== previous) { const index = data.news.findIndex((item) => fingerprint(item) === previous); for (const item of data.news.slice(0, index < 0 ? 1 : index).reverse()) await broadcast(env, { title: `新着NEWS｜${item.tag}`, body: item.title, url: item.url || `${env.SITE_URL}/news.html`, tag: `news-${fingerprint(item)}` }); }
+  if (previous && latest !== previous) { const index = data.news.findIndex((item) => fingerprint(item) === previous); for (const item of data.news.slice(0, index < 0 ? 1 : index).reverse()) await broadcast(env, { title: `新着NEWS｜${item.tag}`, body: item.title, url: `${env.SITE_URL}/news.html`, tag: `news-${fingerprint(item)}` }); }
   if (latest) await env.PUSH_STORE.put("state:latest-news", latest);
   const jst = new Date(now.getTime() + 9 * 3600000); const date = jst.toISOString().slice(0, 10); const hour = jst.getUTCHours(); const minute = jst.getUTCMinutes();
   const today = data.schedule.filter((item) => item.date === date);
-  if (hour === 8 && minute < 2 && today.length && !(await env.PUSH_STORE.get(`sent:daily:${date}`))) { await broadcast(env, { title: "今日の出演予定", body: today.map((item) => `${item.startTime} ${item.title}`).join("\n"), url: `${env.SITE_URL}/schedule.html`, tag: `daily-${date}` }); await env.PUSH_STORE.put(`sent:daily:${date}`, "1", { expirationTtl: 604800 }); }
-  for (const item of today) { const start = new Date(`${item.date}T${item.startTime}:00+09:00`); const diff = start.getTime() - now.getTime(); const key = `sent:30min:${fingerprint(item)}`; if (diff > 1740000 && diff <= 1860000 && !(await env.PUSH_STORE.get(key))) { await broadcast(env, { title: "開始30分前", body: `${item.startTime} ${item.title}${item.place ? `｜${item.place}` : ""}`, url: item.url || `${env.SITE_URL}/schedule.html`, tag: key }); await env.PUSH_STORE.put(key, "1", { expirationTtl: 604800 }); } }
+  if (hour === 8 && minute < 2 && today.length && !(await env.PUSH_STORE.get(`sent:daily:${date}`))) { await broadcast(env, { title: "今日の出演予定", body: today.map((item) => `${item.startTime} ${item.title}`).join("\n"), url: `${env.SITE_URL}/news.html`, tag: `daily-${date}` }); await env.PUSH_STORE.put(`sent:daily:${date}`, "1", { expirationTtl: 604800 }); }
+  for (const item of today) { const start = new Date(`${item.date}T${item.startTime}:00+09:00`); const diff = start.getTime() - now.getTime(); const key = `sent:30min:${fingerprint(item)}`; if (diff > 1740000 && diff <= 1860000 && !(await env.PUSH_STORE.get(key))) { await broadcast(env, { title: "開始30分前", body: `${item.startTime} ${item.title}${item.place ? `｜${item.place}` : ""}`, url: `${env.SITE_URL}/news.html`, tag: key }); await env.PUSH_STORE.put(key, "1", { expirationTtl: 604800 }); } }
 }
 
 export default {
@@ -48,7 +48,7 @@ export default {
     if (url.pathname === "/vapid-public-key") return json({ publicKey: env.VAPID_PUBLIC_KEY }, 200, headers);
     if (url.pathname === "/test" && request.method === "POST") {
       if (request.headers.get("X-Test-Key") !== env.TEST_KEY) return json({ error: "unauthorized" }, 401, headers);
-      const delivered = await broadcast(env, { title: "通知テスト", body: "プッシュ通知の直接送信テストです。", url: `${env.SITE_URL}/`, tag: `direct-test-${Date.now()}` });
+      const delivered = await broadcast(env, { title: "通知テスト", body: "プッシュ通知の直接送信テストです。", url: `${env.SITE_URL}/news.html`, tag: `direct-test-${Date.now()}` });
       return json({ ok: true, delivered }, 200, headers);
     }
     if (url.pathname === "/subscribe" && request.method === "POST") { const subscription = await request.json() as PushSubscription; if (!subscription.endpoint || !subscription.keys) return json({ error: "invalid subscription" }, 400, headers); await env.PUSH_STORE.put(`sub:${fingerprint({ endpoint: subscription.endpoint })}`, JSON.stringify(subscription)); return json({ ok: true }, 201, headers); }
