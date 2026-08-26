@@ -2,6 +2,13 @@
   "updatedAt": "2026-08-26T00:01:39+09:00",
   "news": [
     {
+      "date": "2026-08-26",
+      "tag": "テスト",
+      "title": "【通知テスト】新着NEWSの通知確認",
+      "note": "プッシュ通知の動作確認用ダミーデータです。",
+      "url": "https://ngdf1234.github.io/nightingaledanceinfohp/"
+    },
+    {
       "date": "2026-08-25",
       "tag": "YouTube",
       "title": "#19「大実家時代」【ナイチンゲールダンスのもうきてるラジオ】",
@@ -80,6 +87,17 @@
     }
   ],
   "schedule": [
+    {
+      "date": "2026-08-26",
+      "day": "水",
+      "startTime": "21:58",
+      "endTime": "22:08",
+      "tag": "テスト",
+      "title": "【通知テスト】開始1時間前の通知確認",
+      "note": "プッシュ通知の動作確認用ダミーデータです。",
+      "place": "テスト",
+      "url": "https://ngdf1234.github.io/nightingaledanceinfohp/schedule.html"
+    },
     {
       "date": "2026-08-28",
       "day": "金",
