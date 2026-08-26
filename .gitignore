@@ -1,1 +1,3 @@
 assets/hero-stage.png
+push-worker/node_modules/
+.wrangler/

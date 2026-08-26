@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "nightingaledanceinfo-push",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-26",
+  "compatibility_flags": ["nodejs_compat"],
+  "triggers": { "crons": ["* * * * *"] },
+  "vars": {
+    "SITE_URL": "https://ngdf1234.github.io/nightingaledanceinfohp",
+    "DATA_URL": "https://ngdf1234.github.io/nightingaledanceinfohp/data/nightingale-info.json",
+    "VAPID_SUBJECT": "https://ngdf1234.github.io/nightingaledanceinfohp"
+  },
+  "kv_namespaces": [{ "binding": "PUSH_STORE", "id": "38e6ab4fa82b495796f435e49fb83baf" }]
+}

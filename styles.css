@@ -1449,3 +1449,20 @@ main > section:nth-of-type(3n+1):not(.hero) {
     height: auto;
   }
 }
+.push-notification-button {
+  position: fixed;
+  right: 16px;
+  bottom: max(16px, env(safe-area-inset-bottom));
+  z-index: 1000;
+  border: 2px solid #fff;
+  border-radius: 999px;
+  padding: 10px 16px;
+  color: #fff;
+  background: #32226e;
+  box-shadow: 0 4px 18px rgb(0 0 0 / 25%);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.push-notification-button:disabled { opacity: .72; cursor: default; }

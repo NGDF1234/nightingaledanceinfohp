@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "ナイチンゲールダンス非公式まとめ",
+  "short_name": "NGD Info",
+  "description": "ナイチンゲールダンスの情報をまとめる非公式サイトです。",
+  "lang": "ja",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f6f1ff",
+  "theme_color": "#32226e",
+  "icons": [
+    {
+      "src": "assets/app-icon-v2.jpg",
+      "sizes": "1254x1254",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
