@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-08-27T00:01:33+09:00",
+  "updatedAt": "2026-08-27T12:47:27+09:00",
   "news": [
+    {
+      "date": "2026-08-26",
+      "tag": "ラジオ",
+      "title": "X投稿: @Artistspoken2",
+      "note": "",
+      "url": "https://x.com/Artistspoken2/status/2092620581627945387"
+    },
     {
       "date": "2026-08-26",
       "tag": "YouTube",
@@ -9,11 +16,46 @@
       "url": "https://youtu.be/kBQBdz73uyg?si=-wv0nXfJsWoRBpqc"
     },
     {
+      "date": "2026-08-26",
+      "tag": "イベント",
+      "title": "X投稿: @KobeKokusaiHall",
+      "note": "",
+      "url": "https://x.com/KobeKokusaiHall/status/2092416744354955493"
+    },
+    {
+      "date": "2026-08-26",
+      "tag": "イベント",
+      "title": "X: ヤスマロティン",
+      "note": "",
+      "url": "https://x.com/as_yasumarotin/status/2092272432690397368"
+    },
+    {
+      "date": "2026-08-25",
+      "tag": "ラジオ",
+      "title": "X: 文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
+      "note": "",
+      "url": "https://x.com/moukiteru/status/2092200060335661154"
+    },
+    {
       "date": "2026-08-25",
       "tag": "YouTube",
       "title": "#19「大実家時代」【ナイチンゲールダンスのもうきてるラジオ】",
       "note": "",
       "url": "https://www.youtube.com/watch?v=W42k9-wJBD4"
+    },
+    {
+      "date": "2026-08-24",
+      "tag": "SNS",
+      "title": "Instagram: 中野なかるてぃん",
+      "note": "",
+      "url": "https://www.instagram.com/reel/DcasSaRhp_g/"
+    },
+    {
+      "date": "2026-08-24",
+      "tag": "テレビ",
+      "title": "X: 中野なかるてぃん",
+      "note": "",
+      "url": "https://x.com/nakalthyn/status/2091850728541426071"
     },
     {
       "date": "2026-08-24",
@@ -73,10 +115,24 @@
     },
     {
       "date": "2026-08-21",
+      "tag": "雑誌・書籍",
+      "title": "X投稿: @owarai_natalie",
+      "note": "",
+      "url": "https://x.com/owarai_natalie/status/2090740845695914248"
+    },
+    {
+      "date": "2026-08-21",
       "tag": "YouTube",
       "title": "溜め、センスない人　 #中野なかるてぃん #ギャグ #お笑い",
       "note": "",
       "url": "https://www.youtube.com/shorts/tKkiyILRrVk"
+    },
+    {
+      "date": "2026-08-21",
+      "tag": "イベント",
+      "title": "X投稿: @yoshimot6ppongi",
+      "note": "",
+      "url": "https://x.com/yoshimot6ppongi/status/2090655461431529976"
     }
   ],
   "schedule": [
