@@ -454,10 +454,15 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .news-card h3 {
   align-self: stretch;
+  display: -webkit-box;
   margin: 3px 0;
+  overflow: hidden;
   font-size: 1rem;
   line-height: 1.28;
   text-align: left;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .regular-card h3 {
@@ -779,11 +784,19 @@ body[data-schedule-mode="all"] .schedule-row {
   min-height: 150px;
 }
 
-.news-list-section .schedule-main h3,
+.news-list-section .schedule-main h3 {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
 body[data-schedule-mode="all"] .schedule-main h3 {
   display: block;
-  white-space: normal;
   text-overflow: clip;
+  white-space: normal;
 }
 
 .news-list-section .schedule-main p,
