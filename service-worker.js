@@ -1,4 +1,4 @@
-const CACHE_VERSION = "ngd-info-pwa-v3";
+const CACHE_VERSION = "ngd-info-pwa-v4";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -6,7 +6,7 @@ const APP_SHELL = [
   "./schedule.html",
   "./clips.html",
   "./styles.css?v=139",
-  "./script.js?v=139",
+  "./script.js?v=140",
   "./pwa.js",
   "./manifest.webmanifest",
   "./data/nightingale-info.json",
@@ -108,7 +108,18 @@ self.addEventListener("notificationclick", (event) => {
   event.notification.close();
   const target = new URL(event.notification.data?.url || "./index.html", self.location.origin).href;
   event.waitUntil(clients.matchAll({ type: "window", includeUncontrolled: true }).then((windows) => {
-    const existing = windows.find((client) => client.url === target);
-    return existing ? existing.focus() : clients.openWindow(target);
+    const existing = windows.find((client) => {
+      try {
+        return new URL(client.url).origin === self.location.origin;
+      } catch (error) {
+        return false;
+      }
+    });
+    if (!existing) return clients.openWindow(target);
+    if ("navigate" in existing) {
+      return existing.navigate(target).then((client) => (client || existing).focus());
+    }
+    existing.postMessage({ type: "NGDINFO_NOTIFICATION_NAVIGATE", url: target });
+    return existing.focus();
   }));
 });

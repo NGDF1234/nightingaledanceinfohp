@@ -48,6 +48,16 @@ function addNotificationButton() {
 }
 
 if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.addEventListener("message", (event) => {
+    if (event.data?.type !== "NGDINFO_NOTIFICATION_NAVIGATE") return;
+    const target = new URL(event.data?.url || "./index.html", window.location.href).href;
+    if (target === window.location.href) {
+      window.location.reload();
+      return;
+    }
+    window.location.href = target;
+  });
+
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("./service-worker.js")
       .then(addNotificationButton)
