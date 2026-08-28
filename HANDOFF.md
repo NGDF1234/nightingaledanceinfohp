@@ -29,7 +29,7 @@ cd nightingaledanceinfohp
 GitHub Pages 反映は以下です。
 
 ```powershell
-git add .
+git add <変更したファイル>
 git commit -m "Update site"
 git push
 ```
@@ -176,6 +176,7 @@ NEWS、REGULAR、SCHEDULE を入れるJSONです。
 ## 作業時の注意
 
 - `data/*.json` は情報取得プログラムが更新することがあります。デザインだけ直すときは不用意にコミットしない。
+- `data/*.before-*.json` のようなバックアップJSONは公開用コミットに含めない。
 - 画像を差し替えるときは、古い画像を消すより新しいファイル名で追加して参照先を変える方がキャッシュ事故が少ない。
 - HTMLやCSSを変えたら、公開後にスマホ縦、スマホ横、PC幅で確認する。
 - 非公式サイトなので、公式情報の確認リンクは残す。
