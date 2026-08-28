@@ -345,16 +345,26 @@ function homeRecommendedClips(items = []) {
   return shuffleItems([...videos, ...shorts]);
 }
 
+function scheduleCategory(item = {}) {
+  const tag = String(item.tag || "").trim();
+  const upperTag = tag.toUpperCase();
+  if (upperTag === "TV" || tag === "テレビ") return "テレビ";
+  if (upperTag === "RADIO" || tag === "ラジオ") return "ラジオ";
+  if (upperTag === "LIVE" || tag === "ライブ" || tag === "公演情報") return "公演情報";
+  if (upperTag === "YOUTUBE" || tag === "YouTube" || tag === "配信") return "配信";
+  return tag;
+}
+
 function scheduleSearchText(item) {
   const categoryWords = {
-    TV: "テレビ tv",
-    RADIO: "ラジオ radio",
-    LIVE: "ライブ live",
-    YouTube: "youtube ユーチューブ 動画",
+    "テレビ": "テレビ tv",
+    "ラジオ": "ラジオ radio",
+    "公演情報": "公演情報 ライブ live",
+    "配信": "配信 youtube ユーチューブ 動画",
     WEB: "web ウェブ",
     EVENT: "イベント event"
   };
-  const tag = item.tag || "";
+  const tag = scheduleCategory(item);
   return [
     item.title,
     item.place,
@@ -545,7 +555,7 @@ function renderSchedule(items = []) {
   const visibleItems = upcomingItems
     .filter((item) => showAllSchedules || !item.date || normalizeDate(item.date) <= weekEnd)
     .filter((item) => !titleQuery || scheduleSearchText(item).includes(titleQuery))
-    .filter((item) => !category || String(item.tag || "").toLowerCase() === category)
+    .filter((item) => !category || scheduleCategory(item).toLowerCase() === category)
     .filter((item) => !dateFrom || !item.date || normalizeDate(item.date) >= dateFrom)
     .filter((item) => !dateTo || !item.date || normalizeDate(item.date) <= dateTo);
 
@@ -578,7 +588,7 @@ function renderSchedule(items = []) {
     const body = `
       <div class="schedule-date">${formatScheduleDate(item)}</div>
       <div class="schedule-main">
-        <span class="news-tag">${escapeHtml(item.tag || "INFO")}</span>
+        <span class="news-tag">${escapeHtml(scheduleCategory(item) || "INFO")}</span>
         <h3>${escapeHtml(item.title)}</h3>
         <p>${escapeHtml(detail)}</p>
       </div>
