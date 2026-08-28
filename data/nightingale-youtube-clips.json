@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T23:08:04+09:00",
+  "updatedAt": "2026-08-28T23:15:54+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -1550,23 +1550,6 @@
       "uploadDate": "2026-07-07",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
-    },
-    {
-      "id": "youtube|4JuGOfeXTuY",
-      "videoId": "4JuGOfeXTuY",
-      "kind": "video",
-      "channelName": "GAG福井の【ひくねとチャンネル】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UC0eyx8RAZ-dU9BVv2NP3lUg",
-      "channelId": "UC0eyx8RAZ-dU9BVv2NP3lUg",
-      "title": "【古着】ひくねとすぎるでぇ…洒落ゴッコさん【西新井】",
-      "url": "https://www.youtube.com/watch?v=4JuGOfeXTuY",
-      "viewCount": 10874,
-      "durationSeconds": 6165,
-      "duration": "1:42:45",
-      "uploadDate": "2026-07-07",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
     },
     {
       "id": "youtube|DphgwAF_FTI",
@@ -7619,23 +7602,6 @@
       "uploadDate": "2026-02-14",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
-    },
-    {
-      "id": "youtube|ca6nq_9nYP0",
-      "videoId": "ca6nq_9nYP0",
-      "kind": "video",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "【タイマン】霜降り明星 粗品 VS トンツカタン森本",
-      "url": "https://www.youtube.com/watch?v=ca6nq_9nYP0",
-      "viewCount": 2192506,
-      "durationSeconds": 1523,
-      "duration": "25:23",
-      "uploadDate": "2026-02-14",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
     },
     {
       "id": "youtube|3OKkSHHITcY",
@@ -15118,23 +15084,6 @@
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
     },
     {
-      "id": "youtube|9AhBWOxtSyY",
-      "videoId": "9AhBWOxtSyY",
-      "kind": "video",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "【タイマン】ひつじねいり細田 VS トンツカタン森本",
-      "url": "https://www.youtube.com/watch?v=9AhBWOxtSyY",
-      "viewCount": 195324,
-      "durationSeconds": 1126,
-      "duration": "18:46",
-      "uploadDate": "2025-09-20",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
-    },
-    {
       "id": "youtube|6Yhyt0mZ-90",
       "videoId": "6Yhyt0mZ-90",
       "kind": "video",
@@ -17413,23 +17362,6 @@
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
     },
     {
-      "id": "youtube|pwSk6l6ADjM",
-      "videoId": "pwSk6l6ADjM",
-      "kind": "video",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "【タイマン】9番街レトロなかむら VS トンツカタン森本",
-      "url": "https://www.youtube.com/watch?v=pwSk6l6ADjM",
-      "viewCount": 410052,
-      "durationSeconds": 1352,
-      "duration": "22:32",
-      "uploadDate": "2025-07-26",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
-    },
-    {
       "id": "youtube|ZoOKCrFjJiU",
       "videoId": "ZoOKCrFjJiU",
       "kind": "shorts",
@@ -19417,23 +19349,6 @@
       "uploadDate": "2025-06-07",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
-    },
-    {
-      "id": "youtube|XcmZ30rIK3w",
-      "videoId": "XcmZ30rIK3w",
-      "kind": "video",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "【タイマン】ウエストランド河本 VS トンツカタン森本",
-      "url": "https://www.youtube.com/watch?v=XcmZ30rIK3w",
-      "viewCount": 157608,
-      "durationSeconds": 1160,
-      "duration": "19:20",
-      "uploadDate": "2025-06-07",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
     },
     {
       "id": "youtube|8t0uTkU4Vyk",
@@ -22069,23 +21984,6 @@
       "uploadDate": "2025-04-05",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
-    },
-    {
-      "id": "youtube|OwNvKPP4FHY",
-      "videoId": "OwNvKPP4FHY",
-      "kind": "video",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "【タイマン】ゆってぃ VS トンツカタン森本",
-      "url": "https://www.youtube.com/watch?v=OwNvKPP4FHY",
-      "viewCount": 140746,
-      "durationSeconds": 1373,
-      "duration": "22:53",
-      "uploadDate": "2025-04-05",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
     },
     {
       "id": "youtube|N8iLumqFp4s",
@@ -33427,23 +33325,6 @@
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
     },
     {
-      "id": "youtube|gqFHzHhoY7M",
-      "videoId": "gqFHzHhoY7M",
-      "kind": "video",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "【タイマン】ヨネダ2000誠 VS トンツカタン森本",
-      "url": "https://www.youtube.com/watch?v=gqFHzHhoY7M",
-      "viewCount": 348665,
-      "durationSeconds": 1023,
-      "duration": "17:03",
-      "uploadDate": "2024-03-23",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
-    },
-    {
       "id": "youtube|uf5jWuuO9Zs",
       "videoId": "uf5jWuuO9Zs",
       "kind": "video",
@@ -36657,23 +36538,6 @@
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
     },
     {
-      "id": "youtube|8yaOmmVfmM0",
-      "videoId": "8yaOmmVfmM0",
-      "kind": "video",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "【タイマン】カラタチ前田 VS トンツカタン森本",
-      "url": "https://www.youtube.com/watch?v=8yaOmmVfmM0",
-      "viewCount": 139347,
-      "durationSeconds": 840,
-      "duration": "14:00",
-      "uploadDate": "2023-12-23",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
-    },
-    {
       "id": "youtube|amPccAqDdhc",
       "videoId": "amPccAqDdhc",
       "kind": "video",
@@ -37524,23 +37388,6 @@
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
     },
     {
-      "id": "youtube|ooYvsljuCMg",
-      "videoId": "ooYvsljuCMg",
-      "kind": "video",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "【タイマン】永野 VS トンツカタン森本",
-      "url": "https://www.youtube.com/watch?v=ooYvsljuCMg",
-      "viewCount": 1558943,
-      "durationSeconds": 1237,
-      "duration": "20:37",
-      "uploadDate": "2023-12-02",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
-    },
-    {
       "id": "youtube|3xaKY-H3oqQ",
       "videoId": "3xaKY-H3oqQ",
       "kind": "shorts",
@@ -37643,23 +37490,6 @@
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
     },
     {
-      "id": "youtube|5tuGK2jC-II",
-      "videoId": "5tuGK2jC-II",
-      "kind": "shorts",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "#ぱーてぃーちゃん信子 VS #トンツカタン森本 ほぼIKKOになるギャル #タイマン森本 #shorts",
-      "url": "https://www.youtube.com/shorts/5tuGK2jC-II",
-      "viewCount": 15797,
-      "durationSeconds": 28,
-      "duration": "0:28",
-      "uploadDate": "2023-11-26",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
-    },
-    {
       "id": "youtube|mVRgDBwYD9c",
       "videoId": "mVRgDBwYD9c",
       "kind": "video",
@@ -37711,23 +37541,6 @@
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
     },
     {
-      "id": "youtube|0arub_gswq4",
-      "videoId": "0arub_gswq4",
-      "kind": "shorts",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "#ぱーてぃーちゃん信子 VS #トンツカタン森本 ギャルが本気のネタ相談 #タイマン森本 #shorts",
-      "url": "https://www.youtube.com/shorts/0arub_gswq4",
-      "viewCount": 12913,
-      "durationSeconds": 27,
-      "duration": "0:27",
-      "uploadDate": "2023-11-25",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
-    },
-    {
       "id": "youtube|-mJPHBh47y8",
       "videoId": "-mJPHBh47y8",
       "kind": "shorts",
@@ -37743,23 +37556,6 @@
       "uploadDate": "2023-11-24",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
-    },
-    {
-      "id": "youtube|icY6N5DAWKk",
-      "videoId": "icY6N5DAWKk",
-      "kind": "shorts",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "#ぱーてぃーちゃん信子 VS #トンツカタン森本 あまりにチョロいギャル #タイマン森本 #shorts",
-      "url": "https://www.youtube.com/shorts/icY6N5DAWKk",
-      "viewCount": 7893,
-      "durationSeconds": 38,
-      "duration": "0:38",
-      "uploadDate": "2023-11-24",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
     },
     {
       "id": "youtube|zuFmsL5eqI0",
@@ -37796,23 +37592,6 @@
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
     },
     {
-      "id": "youtube|s__X28qXFQA",
-      "videoId": "s__X28qXFQA",
-      "kind": "shorts",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "#ぱーてぃーちゃん信子 VS #トンツカタン森本 ギャルの目から●● #タイマン森本 #shorts",
-      "url": "https://www.youtube.com/shorts/s__X28qXFQA",
-      "viewCount": 33051,
-      "durationSeconds": 32,
-      "duration": "0:32",
-      "uploadDate": "2023-11-23",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
-    },
-    {
       "id": "youtube|oAVolpPGQXE",
       "videoId": "oAVolpPGQXE",
       "kind": "shorts",
@@ -37828,23 +37607,6 @@
       "uploadDate": "2023-11-22",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
-    },
-    {
-      "id": "youtube|G1TJvtGxUaE",
-      "videoId": "G1TJvtGxUaE",
-      "kind": "shorts",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "#ぱーてぃーちゃん信子 VS #トンツカタン森本 ギャルすぎた初対面 #タイマン森本 #shorts",
-      "url": "https://www.youtube.com/shorts/G1TJvtGxUaE",
-      "viewCount": 17269,
-      "durationSeconds": 26,
-      "duration": "0:26",
-      "uploadDate": "2023-11-22",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
     },
     {
       "id": "youtube|N1IrS4kphVI",
@@ -38051,23 +37813,6 @@
       "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
     },
     {
-      "id": "youtube|WwRjCgZdEJ8",
-      "videoId": "WwRjCgZdEJ8",
-      "kind": "shorts",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "#ぱーてぃーちゃん信子 VS #トンツカタン森本 あの名曲でリンク #タイマン森本 #shorts",
-      "url": "https://www.youtube.com/shorts/WwRjCgZdEJ8",
-      "viewCount": 32113,
-      "durationSeconds": 21,
-      "duration": "0:21",
-      "uploadDate": "2023-11-12",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
-    },
-    {
       "id": "youtube|dpFl6X4dXfU",
       "videoId": "dpFl6X4dXfU",
       "kind": "video",
@@ -38100,40 +37845,6 @@
       "uploadDate": "2023-11-11",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
-    },
-    {
-      "id": "youtube|PYH-4_V0xlI",
-      "videoId": "PYH-4_V0xlI",
-      "kind": "video",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "【タイマン】インディアンス田渕 VS トンツカタン森本",
-      "url": "https://www.youtube.com/watch?v=PYH-4_V0xlI",
-      "viewCount": 421103,
-      "durationSeconds": 930,
-      "duration": "15:30",
-      "uploadDate": "2023-11-11",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
-    },
-    {
-      "id": "youtube|O4WMbZw8Uwg",
-      "videoId": "O4WMbZw8Uwg",
-      "kind": "shorts",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "#ぱーてぃーちゃん信子 VS #トンツカタン森本 ギャル芸人は●●NG #タイマン森本 #shorts",
-      "url": "https://www.youtube.com/shorts/O4WMbZw8Uwg",
-      "viewCount": 61706,
-      "durationSeconds": 36,
-      "duration": "0:36",
-      "uploadDate": "2023-11-11",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
     },
     {
       "id": "youtube|zBUA1gJ8-Qo",
@@ -39137,23 +38848,6 @@
       "uploadDate": "2023-10-08",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
-    },
-    {
-      "id": "youtube|YaGa10i5gIc",
-      "videoId": "YaGa10i5gIc",
-      "kind": "shorts",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "#こたけ正義感 VS #トンツカタン森本 あるなしクイズ #タイマン森本 #shorts",
-      "url": "https://www.youtube.com/shorts/YaGa10i5gIc",
-      "viewCount": 4523644,
-      "durationSeconds": 35,
-      "duration": "0:35",
-      "uploadDate": "2023-10-08",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
     },
     {
       "id": "youtube|rLdQnHDGLhU",
@@ -52552,23 +52246,6 @@
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
     },
     {
-      "id": "youtube|VtPW-wtOQUQ",
-      "videoId": "VtPW-wtOQUQ",
-      "kind": "video",
-      "channelName": "GAG福井の【ひくねとチャンネル】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UC0eyx8RAZ-dU9BVv2NP3lUg",
-      "channelId": "UC0eyx8RAZ-dU9BVv2NP3lUg",
-      "title": "【マクド部＃14】対外試合でミスドへ！やらかし中坊と部長に絆が生まれる”スポ根”回！",
-      "url": "https://www.youtube.com/watch?v=VtPW-wtOQUQ",
-      "viewCount": 41227,
-      "durationSeconds": 1034,
-      "duration": "17:14",
-      "uploadDate": "2022-05-28",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
-    },
-    {
       "id": "youtube|7402Cdx7Tc0",
       "videoId": "7402Cdx7Tc0",
       "kind": "video",
@@ -52652,23 +52329,6 @@
       "uploadDate": "2022-05-21",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
-    },
-    {
-      "id": "youtube|ZH5Wc6wZZQ8",
-      "videoId": "ZH5Wc6wZZQ8",
-      "kind": "video",
-      "channelName": "GAG福井の【ひくねとチャンネル】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UC0eyx8RAZ-dU9BVv2NP3lUg",
-      "channelId": "UC0eyx8RAZ-dU9BVv2NP3lUg",
-      "title": "マクド部の相関図を語ろう",
-      "url": "https://www.youtube.com/watch?v=ZH5Wc6wZZQ8",
-      "viewCount": 39906,
-      "durationSeconds": 1613,
-      "duration": "26:53",
-      "uploadDate": "2022-05-21",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
     },
     {
       "id": "youtube|UAA5TVvkzLo",
@@ -52892,23 +52552,6 @@
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
     },
     {
-      "id": "youtube|GoLAPWaM8Kw",
-      "videoId": "GoLAPWaM8Kw",
-      "kind": "video",
-      "channelName": "GAG福井の【ひくねとチャンネル】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UC0eyx8RAZ-dU9BVv2NP3lUg",
-      "channelId": "UC0eyx8RAZ-dU9BVv2NP3lUg",
-      "title": "【マクド部＃10】休養明け一発目！ダイエットに成功したひろゆきが入部！？みんなでチキンタツタしよ？",
-      "url": "https://www.youtube.com/watch?v=GoLAPWaM8Kw",
-      "viewCount": 35322,
-      "durationSeconds": 1029,
-      "duration": "17:09",
-      "uploadDate": "2022-04-27",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
-    },
-    {
       "id": "youtube|mFYoxFwMI7s",
       "videoId": "mFYoxFwMI7s",
       "kind": "video",
@@ -52941,23 +52584,6 @@
       "uploadDate": "2022-04-24",
       "firstSeenAt": "2026-08-23T21:10:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
-    },
-    {
-      "id": "youtube|1u2NVoITBjM",
-      "videoId": "1u2NVoITBjM",
-      "kind": "video",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "【タイマン】令和ロマンくるま×トンツカタン森本",
-      "url": "https://www.youtube.com/watch?v=1u2NVoITBjM",
-      "viewCount": 325926,
-      "durationSeconds": 751,
-      "duration": "12:31",
-      "uploadDate": "2022-04-23",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
     },
     {
       "id": "youtube|8325wmX1wHQ",
@@ -53298,23 +52924,6 @@
       "uploadDate": "2022-04-01",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
-    },
-    {
-      "id": "youtube|cLC4u0npkbw",
-      "videoId": "cLC4u0npkbw",
-      "kind": "video",
-      "channelName": "GAG福井の【ひくねとチャンネル】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UC0eyx8RAZ-dU9BVv2NP3lUg",
-      "channelId": "UC0eyx8RAZ-dU9BVv2NP3lUg",
-      "title": "【マクド部＃８】中等部の部員が登場！副部長、威厳を見せることができるか！？今後３年は安泰か、、！？",
-      "url": "https://www.youtube.com/watch?v=cLC4u0npkbw",
-      "viewCount": 38608,
-      "durationSeconds": 1264,
-      "duration": "21:04",
-      "uploadDate": "2022-03-31",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
     },
     {
       "id": "youtube|DJPogu1AUfg",
