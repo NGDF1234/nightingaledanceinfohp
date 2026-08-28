@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T23:25:08+09:00",
+  "updatedAt": "2026-08-28T23:28:47+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -51974,6 +51974,23 @@
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
     },
     {
+      "id": "youtube|VtPW-wtOQUQ",
+      "videoId": "VtPW-wtOQUQ",
+      "kind": "video",
+      "channelName": "GAG福井の【ひくねとチャンネル】",
+      "channelType": "related_reviewed",
+      "channelUrl": "https://www.youtube.com/channel/UC0eyx8RAZ-dU9BVv2NP3lUg",
+      "channelId": "UC0eyx8RAZ-dU9BVv2NP3lUg",
+      "title": "【マクド部＃14】対外試合でミスドへ！やらかし中坊と部長に絆が生まれる”スポ根”回！",
+      "url": "https://www.youtube.com/watch?v=VtPW-wtOQUQ",
+      "viewCount": 41227,
+      "durationSeconds": 1034,
+      "duration": "17:14",
+      "uploadDate": "2022-05-28",
+      "firstSeenAt": "2026-08-28T23:28:47+09:00",
+      "lastStatsUpdatedAt": "2026-08-28T23:28:47+09:00"
+    },
+    {
       "id": "youtube|7402Cdx7Tc0",
       "videoId": "7402Cdx7Tc0",
       "kind": "video",
@@ -52652,6 +52669,23 @@
       "uploadDate": "2022-04-01",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
+    },
+    {
+      "id": "youtube|cLC4u0npkbw",
+      "videoId": "cLC4u0npkbw",
+      "kind": "video",
+      "channelName": "GAG福井の【ひくねとチャンネル】",
+      "channelType": "related_reviewed",
+      "channelUrl": "https://www.youtube.com/channel/UC0eyx8RAZ-dU9BVv2NP3lUg",
+      "channelId": "UC0eyx8RAZ-dU9BVv2NP3lUg",
+      "title": "【マクド部＃８】中等部の部員が登場！副部長、威厳を見せることができるか！？今後３年は安泰か、、！？",
+      "url": "https://www.youtube.com/watch?v=cLC4u0npkbw",
+      "viewCount": 38608,
+      "durationSeconds": 1264,
+      "duration": "21:04",
+      "uploadDate": "2022-03-31",
+      "firstSeenAt": "2026-08-28T23:28:47+09:00",
+      "lastStatsUpdatedAt": "2026-08-28T23:28:47+09:00"
     },
     {
       "id": "youtube|DJPogu1AUfg",
