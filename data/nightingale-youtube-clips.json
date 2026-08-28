@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T23:15:54+09:00",
+  "updatedAt": "2026-08-28T23:21:49+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -37794,23 +37794,6 @@
       "uploadDate": "2023-11-12",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
-    },
-    {
-      "id": "youtube|6gf8WsVUc1U",
-      "videoId": "6gf8WsVUc1U",
-      "kind": "video",
-      "channelName": "タイマン森本【トンツカタン森本】",
-      "channelType": "related_reviewed",
-      "channelUrl": "https://www.youtube.com/channel/UCcvYy1glVNbgf7xti6dPEHQ",
-      "channelId": "UCcvYy1glVNbgf7xti6dPEHQ",
-      "title": "【対談】田渕流ボケの生み出し方／地獄の国崎エピソード／なかるてぃんから「8分」の重圧／田渕＝ミッキー説",
-      "url": "https://www.youtube.com/watch?v=6gf8WsVUc1U",
-      "viewCount": 99916,
-      "durationSeconds": 1332,
-      "duration": "22:12",
-      "uploadDate": "2023-11-12",
-      "firstSeenAt": "2026-08-28T23:08:04+09:00",
-      "lastStatsUpdatedAt": "2026-08-28T23:08:04+09:00"
     },
     {
       "id": "youtube|dpFl6X4dXfU",
