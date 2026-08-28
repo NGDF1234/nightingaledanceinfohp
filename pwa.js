@@ -32,18 +32,17 @@ async function enableNotifications(button) {
     body: JSON.stringify(subscription)
   });
   if (!response.ok) throw new Error("通知の登録に失敗しました");
-  button.textContent = "通知ON";
-  button.disabled = true;
+  button.remove();
 }
 
 function addNotificationButton() {
   if (isSafariBrowserTab()) return;
   if (!("Notification" in window) || !("PushManager" in window)) return;
+  if (Notification.permission === "granted") return;
   const button = document.createElement("button");
   button.className = "push-notification-button";
   button.type = "button";
-  button.textContent = Notification.permission === "granted" ? "通知ON" : "通知を受け取る";
-  button.disabled = Notification.permission === "granted";
+  button.textContent = "通知ON";
   button.addEventListener("click", async () => {
     button.disabled = true;
     button.textContent = "設定中…";
@@ -51,7 +50,7 @@ function addNotificationButton() {
       await enableNotifications(button);
     } catch (error) {
       button.disabled = false;
-      button.textContent = "通知を受け取る";
+      button.textContent = "通知ON";
       alert(error.message);
     }
   });
