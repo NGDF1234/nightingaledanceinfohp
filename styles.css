@@ -774,11 +774,16 @@ body[data-schedule-mode="all"] .schedule-row {
 
 .news-list-section .schedule-main h3,
 body[data-schedule-mode="all"] .schedule-main h3 {
-  display: -webkit-box;
+  display: block;
   white-space: normal;
   text-overflow: clip;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
+}
+
+.news-list-section .schedule-main p,
+body[data-schedule-mode="all"] .schedule-main p {
+  display: block;
+  white-space: normal;
+  text-overflow: clip;
 }
 
 .news-list-section .schedule-date,
