@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T23:38:30+09:00",
+  "updatedAt": "2026-08-28T23:45:37+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -20405,6 +20405,23 @@
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
     },
     {
+      "id": "youtube|2rO4eus8fk8",
+      "videoId": "2rO4eus8fk8",
+      "kind": "video",
+      "channelName": "もりちゃんずユナイテッド",
+      "channelType": "related_reviewed",
+      "channelUrl": "https://www.youtube.com/@morichansunited",
+      "channelId": "UCofTJr_sQouD9ZY5kxfm07Q",
+      "title": "ナイチンゲールダンス・ヤス 外したら取りに行くルールの変則サッカーに苦戦？！",
+      "url": "https://www.youtube.com/watch?v=2rO4eus8fk8",
+      "viewCount": 9702,
+      "durationSeconds": 26,
+      "duration": "0:26",
+      "uploadDate": "2025-05-30",
+      "firstSeenAt": "2026-08-28T23:45:37+09:00",
+      "lastStatsUpdatedAt": "2026-08-28T23:45:37+09:00"
+    },
+    {
       "id": "youtube|xDVaCKVFUnc",
       "videoId": "xDVaCKVFUnc",
       "kind": "shorts",
@@ -27256,6 +27273,23 @@
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
     },
     {
+      "id": "youtube|t8QcDvOXuNQ",
+      "videoId": "t8QcDvOXuNQ",
+      "kind": "video",
+      "channelName": "もりちゃんずユナイテッド",
+      "channelType": "related_reviewed",
+      "channelUrl": "https://www.youtube.com/@morichansunited",
+      "channelId": "UCofTJr_sQouD9ZY5kxfm07Q",
+      "title": "ナイチンゲールダンス・ヤス サッカーのシュート対決でも スター性を発揮",
+      "url": "https://www.youtube.com/watch?v=t8QcDvOXuNQ",
+      "viewCount": 5330,
+      "durationSeconds": 31,
+      "duration": "0:31",
+      "uploadDate": "2024-12-01",
+      "firstSeenAt": "2026-08-28T23:45:37+09:00",
+      "lastStatsUpdatedAt": "2026-08-28T23:45:37+09:00"
+    },
+    {
       "id": "youtube|FFk8ORc5j2E",
       "videoId": "FFk8ORc5j2E",
       "kind": "video",
@@ -27645,6 +27679,23 @@
       "uploadDate": "2024-11-20",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
+    },
+    {
+      "id": "youtube|1A5YPV_2oug",
+      "videoId": "1A5YPV_2oug",
+      "kind": "video",
+      "channelName": "もりちゃんずユナイテッド",
+      "channelType": "related_reviewed",
+      "channelUrl": "https://www.youtube.com/@morichansunited",
+      "channelId": "UCofTJr_sQouD9ZY5kxfm07Q",
+      "title": "ナイチンゲールダンスのヤスが初参戦！若手組が躍動！ #もりちゃんずユナイテッド #029",
+      "url": "https://www.youtube.com/watch?v=1A5YPV_2oug",
+      "viewCount": 18378,
+      "durationSeconds": 781,
+      "duration": "13:01",
+      "uploadDate": "2024-11-20",
+      "firstSeenAt": "2026-08-28T23:45:14+09:00",
+      "lastStatsUpdatedAt": "2026-08-28T23:45:14+09:00"
     },
     {
       "id": "youtube|4Ranres_1Ig",
