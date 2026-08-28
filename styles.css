@@ -761,7 +761,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
   grid-template-columns: 88px 1fr auto;
   align-items: center;
   gap: 16px;
-  min-height: 92px;
+  min-height: 76px;
   padding: 12px 16px;
   border: 2px solid var(--line);
   border-radius: 8px;
@@ -769,6 +769,11 @@ main > section:nth-of-type(3n+1):not(.hero) {
   box-shadow: 4px 5px 0 rgba(0,0,0,.12);
   color: #111;
   text-decoration: none;
+}
+
+.news-list-section .schedule-row,
+body[data-schedule-mode="all"] .schedule-row {
+  min-height: 92px;
 }
 
 .schedule-row-button {
