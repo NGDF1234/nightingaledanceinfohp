@@ -10,9 +10,12 @@ async function enableNotifications(button) {
   if (PUSH_API_URL.startsWith("__")) throw new Error("通知サーバーは準備中です");
   const registration = await navigator.serviceWorker.ready;
   const permission = await Notification.requestPermission();
+  if (permission === "denied") {
+    throw new Error("通知がブロックされています。ブラウザのサイト設定から通知を許可してください");
+  }
   if (permission !== "granted") throw new Error("通知が許可されませんでした");
   const { publicKey } = await fetch(`${PUSH_API_URL}/vapid-public-key`).then((response) => response.json());
-  const subscription = await registration.pushManager.subscribe({
+  const subscription = (await registration.pushManager.getSubscription()) || await registration.pushManager.subscribe({
     userVisibleOnly: true,
     applicationServerKey: base64UrlToUint8Array(publicKey)
   });
@@ -32,15 +35,16 @@ function addNotificationButton() {
   button.className = "push-notification-button";
   button.type = "button";
   button.textContent = Notification.permission === "granted" ? "通知ON" : "通知を受け取る";
-  button.disabled = Notification.permission === "granted";
   button.addEventListener("click", async () => {
     button.disabled = true;
     button.textContent = "設定中…";
     try {
       await enableNotifications(button);
+      button.disabled = false;
+      button.textContent = "通知ON";
     } catch (error) {
       button.disabled = false;
-      button.textContent = "通知を受け取る";
+      button.textContent = Notification.permission === "granted" ? "通知ON" : "通知を受け取る";
       alert(error.message);
     }
   });
