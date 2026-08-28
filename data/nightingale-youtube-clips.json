@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T23:45:37+09:00",
+  "updatedAt": "2026-08-28T23:58:08+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -3420,6 +3420,23 @@
       "uploadDate": "2026-05-26",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
+    },
+    {
+      "id": "youtube|ZtV7PByt5MM",
+      "videoId": "ZtV7PByt5MM",
+      "kind": "video",
+      "channelName": "もりちゃんずユナイテッド",
+      "channelType": "related_reviewed",
+      "channelUrl": "https://www.youtube.com/channel/UCofTJr_sQouD9ZY5kxfm07Q",
+      "channelId": "UCofTJr_sQouD9ZY5kxfm07Q",
+      "title": "ナイチンゲール・ヤス、ラニーノーズ・山田健人がゴールに迫る",
+      "url": "https://www.youtube.com/watch?v=ZtV7PByt5MM",
+      "viewCount": 25396,
+      "durationSeconds": 13,
+      "duration": "0:13",
+      "uploadDate": "2026-05-26",
+      "firstSeenAt": "2026-08-28T23:58:08+09:00",
+      "lastStatsUpdatedAt": "2026-08-28T23:58:08+09:00"
     },
     {
       "id": "youtube|LVPU8jR5zEc",
@@ -20456,6 +20473,23 @@
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
     },
     {
+      "id": "youtube|-DLdTD7-D9s",
+      "videoId": "-DLdTD7-D9s",
+      "kind": "video",
+      "channelName": "もりちゃんずユナイテッド",
+      "channelType": "related_reviewed",
+      "channelUrl": "https://www.youtube.com/channel/UCofTJr_sQouD9ZY5kxfm07Q",
+      "channelId": "UCofTJr_sQouD9ZY5kxfm07Q",
+      "title": "マジできつい、罰ゲーム付き変則サッカーをしました #もりちゃんずユナイテッド  44",
+      "url": "https://www.youtube.com/watch?v=-DLdTD7-D9s",
+      "viewCount": 1525,
+      "durationSeconds": 719,
+      "duration": "11:59",
+      "uploadDate": "2025-05-28",
+      "firstSeenAt": "2026-08-28T23:58:08+09:00",
+      "lastStatsUpdatedAt": "2026-08-28T23:58:08+09:00"
+    },
+    {
       "id": "youtube|t-MidMcFtOc",
       "videoId": "t-MidMcFtOc",
       "kind": "shorts",
@@ -21493,6 +21527,23 @@
       "lastStatsUpdatedAt": "2026-08-28T23:32:20+09:00"
     },
     {
+      "id": "youtube|FiiNQFn0Vps",
+      "videoId": "FiiNQFn0Vps",
+      "kind": "video",
+      "channelName": "もりちゃんずユナイテッド",
+      "channelType": "related_reviewed",
+      "channelUrl": "https://www.youtube.com/channel/UCofTJr_sQouD9ZY5kxfm07Q",
+      "channelId": "UCofTJr_sQouD9ZY5kxfm07Q",
+      "title": "1試合で10点以上決まる大量スコア試合が面白すぎた #もりちゃんずユナイテッド 40",
+      "url": "https://www.youtube.com/watch?v=FiiNQFn0Vps",
+      "viewCount": 3064,
+      "durationSeconds": 828,
+      "duration": "13:48",
+      "uploadDate": "2025-05-04",
+      "firstSeenAt": "2026-08-28T23:58:08+09:00",
+      "lastStatsUpdatedAt": "2026-08-28T23:58:08+09:00"
+    },
+    {
       "id": "youtube|nPw0Ccktoy0",
       "videoId": "nPw0Ccktoy0",
       "kind": "shorts",
@@ -21967,6 +22018,23 @@
       "uploadDate": "2025-04-26",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
+    },
+    {
+      "id": "youtube|A95ZUBzehUQ",
+      "videoId": "A95ZUBzehUQ",
+      "kind": "video",
+      "channelName": "もりちゃんずユナイテッド",
+      "channelType": "related_reviewed",
+      "channelUrl": "https://www.youtube.com/channel/UCofTJr_sQouD9ZY5kxfm07Q",
+      "channelId": "UCofTJr_sQouD9ZY5kxfm07Q",
+      "title": "お待たせしました、お待たせしすぎたかもしれません。今回は人気企画の？カカロニ栗谷が大活躍の？シュート練習です #もりちゃんずユナイテッド 39",
+      "url": "https://www.youtube.com/watch?v=A95ZUBzehUQ",
+      "viewCount": 7346,
+      "durationSeconds": 489,
+      "duration": "8:09",
+      "uploadDate": "2025-04-26",
+      "firstSeenAt": "2026-08-28T23:58:08+09:00",
+      "lastStatsUpdatedAt": "2026-08-28T23:58:08+09:00"
     },
     {
       "id": "youtube|44-RdUY9GKY",
@@ -22938,6 +23006,23 @@
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
     },
     {
+      "id": "youtube|keVf9YLhBbk",
+      "videoId": "keVf9YLhBbk",
+      "kind": "video",
+      "channelName": "もりちゃんずユナイテッド",
+      "channelType": "related_reviewed",
+      "channelUrl": "https://www.youtube.com/channel/UCofTJr_sQouD9ZY5kxfm07Q",
+      "channelId": "UCofTJr_sQouD9ZY5kxfm07Q",
+      "title": "普通にサッカーしてたはずが、なんでこうなった？ #もりちゃんずユナイテッド 37",
+      "url": "https://www.youtube.com/watch?v=keVf9YLhBbk",
+      "viewCount": 1985,
+      "durationSeconds": 568,
+      "duration": "9:28",
+      "uploadDate": "2025-04-04",
+      "firstSeenAt": "2026-08-28T23:58:08+09:00",
+      "lastStatsUpdatedAt": "2026-08-28T23:58:08+09:00"
+    },
+    {
       "id": "youtube|PttuU9nMGHE",
       "videoId": "PttuU9nMGHE",
       "kind": "video",
@@ -23106,6 +23191,23 @@
       "uploadDate": "2025-03-30",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
+    },
+    {
+      "id": "youtube|n6MxoiV9Y3Q",
+      "videoId": "n6MxoiV9Y3Q",
+      "kind": "video",
+      "channelName": "もりちゃんずユナイテッド",
+      "channelType": "related_reviewed",
+      "channelUrl": "https://www.youtube.com/channel/UCofTJr_sQouD9ZY5kxfm07Q",
+      "channelId": "UCofTJr_sQouD9ZY5kxfm07Q",
+      "title": "新年2回目のサッカーは強度が高過ぎて、喧嘩勃発5秒前 #もりちゃんずユナイテッド 37",
+      "url": "https://www.youtube.com/watch?v=n6MxoiV9Y3Q",
+      "viewCount": 1674,
+      "durationSeconds": 621,
+      "duration": "10:21",
+      "uploadDate": "2025-03-30",
+      "firstSeenAt": "2026-08-28T23:58:08+09:00",
+      "lastStatsUpdatedAt": "2026-08-28T23:58:08+09:00"
     },
     {
       "id": "youtube|Z9MHfRXX0eg",
@@ -23293,6 +23395,23 @@
       "uploadDate": "2025-03-24",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
+    },
+    {
+      "id": "youtube|it_t2HtrYLI",
+      "videoId": "it_t2HtrYLI",
+      "kind": "video",
+      "channelName": "もりちゃんずユナイテッド",
+      "channelType": "related_reviewed",
+      "channelUrl": "https://www.youtube.com/channel/UCofTJr_sQouD9ZY5kxfm07Q",
+      "channelId": "UCofTJr_sQouD9ZY5kxfm07Q",
+      "title": "迷惑系芸人に関する暴露もありつつ、サッカーでは盛山への放り込み戦術が完成へ向かう  #もりちゃんずユナイテッド 36",
+      "url": "https://www.youtube.com/watch?v=it_t2HtrYLI",
+      "viewCount": 2370,
+      "durationSeconds": 568,
+      "duration": "9:28",
+      "uploadDate": "2025-03-24",
+      "firstSeenAt": "2026-08-28T23:58:08+09:00",
+      "lastStatsUpdatedAt": "2026-08-28T23:58:08+09:00"
     },
     {
       "id": "youtube|oYCErgrtsUU",
@@ -23531,6 +23650,23 @@
       "uploadDate": "2025-03-18",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-28T05:31:28+09:00"
+    },
+    {
+      "id": "youtube|uDoDOaTus4s",
+      "videoId": "uDoDOaTus4s",
+      "kind": "video",
+      "channelName": "もりちゃんずユナイテッド",
+      "channelType": "related_reviewed",
+      "channelUrl": "https://www.youtube.com/channel/UCofTJr_sQouD9ZY5kxfm07Q",
+      "channelId": "UCofTJr_sQouD9ZY5kxfm07Q",
+      "title": "新婚ほやほやの盛山、初蹴りで見事活躍できるのか!?（おまけ：辻井CAM） #もりちゃんずユナイテッド 35",
+      "url": "https://www.youtube.com/watch?v=uDoDOaTus4s",
+      "viewCount": 2736,
+      "durationSeconds": 1025,
+      "duration": "17:05",
+      "uploadDate": "2025-03-18",
+      "firstSeenAt": "2026-08-28T23:58:08+09:00",
+      "lastStatsUpdatedAt": "2026-08-28T23:58:08+09:00"
     },
     {
       "id": "youtube|sDXxXw2vlBA",

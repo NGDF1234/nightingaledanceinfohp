@@ -34,7 +34,7 @@ async function runNotifications(env: Env, now = new Date()) {
   const data = await fetch(env.DATA_URL, { headers: { "Cache-Control": "no-cache" } }).then((r) => r.json()) as { news: News[]; schedule: Schedule[] };
   const previous = await env.PUSH_STORE.get("state:latest-news"); const latest = data.news[0] ? fingerprint(data.news[0]) : "";
   if (previous && latest !== previous) { const index = data.news.findIndex((item) => fingerprint(item) === previous); for (const item of data.news.slice(0, index < 0 ? 1 : index).reverse()) await broadcast(env, { title: `新着NEWS｜${item.tag}`, body: item.title, url: `${env.SITE_URL}/news.html`, tag: `news-${fingerprint(item)}` }); }
-  if (latest) await env.PUSH_STORE.put("state:latest-news", latest);
+  if (latest && latest !== previous) await env.PUSH_STORE.put("state:latest-news", latest);
   const jst = new Date(now.getTime() + 9 * 3600000); const date = jst.toISOString().slice(0, 10); const hour = jst.getUTCHours(); const minute = jst.getUTCMinutes();
   const today = data.schedule.filter((item) => item.date === date);
   if (hour === 8 && minute < 2 && today.length && !(await env.PUSH_STORE.get(`sent:daily:${date}`))) { await broadcast(env, { title: "今日の出演予定", body: today.map((item) => `${item.startTime} ${item.title}`).join("\n"), url: `${env.SITE_URL}/news.html`, tag: `daily-${date}` }); await env.PUSH_STORE.put(`sent:daily:${date}`, "1", { expirationTtl: 604800 }); }
