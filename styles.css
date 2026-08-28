@@ -769,7 +769,16 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .news-list-section .schedule-row,
 body[data-schedule-mode="all"] .schedule-row {
-  min-height: 108px;
+  min-height: 124px;
+}
+
+.news-list-section .schedule-main h3,
+body[data-schedule-mode="all"] .schedule-main h3 {
+  display: -webkit-box;
+  white-space: normal;
+  text-overflow: clip;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .schedule-row-button {
@@ -1379,7 +1388,7 @@ body[data-schedule-mode="all"] .schedule-row {
 
   .news-list-section .schedule-row,
   body[data-schedule-mode="all"] .schedule-row {
-    min-height: 108px;
+    min-height: 124px;
   }
 
   .clip-list-card {
