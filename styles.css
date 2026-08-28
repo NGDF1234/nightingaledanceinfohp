@@ -420,6 +420,11 @@ main > section:nth-of-type(3n+1):not(.hero) {
   scroll-snap-align: start;
 }
 
+.news-card.today {
+  background: #e8f4ff;
+  border-color: #9ccfff;
+}
+
 .news-card-link {
   color: var(--ink);
   text-decoration: none;

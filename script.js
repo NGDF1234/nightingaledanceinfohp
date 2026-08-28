@@ -398,6 +398,7 @@ function addDaysKey(dateKey, days) {
 function renderNews(items = fallbackNewsItems) {
   if (!newsGrid) return;
 
+  const today = todayKey();
   const visibleItems = items.slice(0, 12);
 
   newsGrid.innerHTML = visibleItems.map((item) => {
@@ -405,6 +406,7 @@ function renderNews(items = fallbackNewsItems) {
     const isYoutube = category.startsWith("YouTube");
     const text = newsSecondaryText(item);
     const channelName = isYoutube ? newsYoutubeChannelName(item) : "";
+    const cardClass = normalizeDate(item.date) === today ? "news-card today" : "news-card";
     const body = `
       <span class="news-tag">${escapeHtml(category)}</span>
       <p>${escapeHtml(formatNewsDate(item.date))}</p>
@@ -414,20 +416,20 @@ function renderNews(items = fallbackNewsItems) {
     `;
 
     if (!item.url) {
-      return `<article class="news-card">${body}</article>`;
+      return `<article class="${cardClass}">${body}</article>`;
     }
 
     const videoId = category.startsWith("YouTube") ? youtubeVideoId(item.url) : "";
     if (videoId) {
       return `
-        <button class="news-card news-card-link video-news-card" type="button" data-video-id="${escapeHtml(videoId)}" data-video-title="${escapeHtml(item.title)}">
+        <button class="${cardClass} news-card-link video-news-card" type="button" data-video-id="${escapeHtml(videoId)}" data-video-title="${escapeHtml(item.title)}">
           ${body}
         </button>
       `;
     }
 
     return `
-      <a class="news-card news-card-link" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">
+      <a class="${cardClass} news-card-link" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">
         ${body}
       </a>
     `;
