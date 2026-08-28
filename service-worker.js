@@ -1,4 +1,4 @@
-const CACHE_VERSION = "ngd-info-pwa-v9";
+const CACHE_VERSION = "ngd-info-pwa-v10";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -11,7 +11,7 @@ const APP_SHELL = [
   "./manifest.webmanifest",
   "./data/nightingale-info.json",
   "./data/nightingale-youtube-clips.json",
-  "./assets/app-icon-v2.jpg",
+  "./assets/app-icon-v3.jpg",
   "./assets/header-logo-v3.jpg",
   "./assets/page-bg-v26.jpg",
   "./assets/bg-footer.jpg",
@@ -97,8 +97,8 @@ self.addEventListener("push", (event) => {
   const title = payload.title || "NightingaleDanceInfo";
   event.waitUntil(self.registration.showNotification(title, {
     body: payload.body || "新しい情報があります",
-    icon: "./assets/app-icon-v2.jpg",
-    badge: "./assets/app-icon-v2.jpg",
+    icon: "./assets/app-icon-v3.jpg",
+    badge: "./assets/app-icon-v3.jpg",
     data: { url: payload.url || "./index.html" },
     tag: payload.tag
   }));
