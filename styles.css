@@ -1308,24 +1308,8 @@ body[data-schedule-mode="all"] .schedule-date {
     padding-bottom: calc(78px + env(safe-area-inset-bottom));
   }
 
-  .home-page main {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .home-page .hero { order: 1; }
-  .home-page .schedule-section { order: 2; }
-  .home-page .news-section { order: 3; }
-  .home-page .info-band { order: 4; }
-  .home-page .regular-section { order: 5; }
-  .home-page .profile-section { order: 6; }
-
   .topbar {
-    min-height: 72px;
-    align-items: center;
-    flex-direction: row;
-    gap: 12px;
-    padding: 8px 10px;
+    display: none;
   }
 
   .site-logo {
