@@ -769,7 +769,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .news-list-section .schedule-row,
 body[data-schedule-mode="all"] .schedule-row {
-  min-height: 92px;
+  min-height: 108px;
 }
 
 .schedule-row-button {
@@ -1375,6 +1375,11 @@ body[data-schedule-mode="all"] .schedule-row {
     grid-template-columns: 64px 1fr auto;
     gap: 10px;
     padding: 10px;
+  }
+
+  .news-list-section .schedule-row,
+  body[data-schedule-mode="all"] .schedule-row {
+    min-height: 108px;
   }
 
   .clip-list-card {
