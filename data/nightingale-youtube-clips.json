@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T23:37:01+09:00",
+  "updatedAt": "2026-08-28T23:38:30+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -61951,6 +61951,91 @@
       "uploadDate": "2016-07-13",
       "firstSeenAt": "2026-08-28T21:13:55+09:00",
       "lastStatsUpdatedAt": "2026-08-28T21:13:55+09:00"
+    },
+    {
+      "id": "youtube|7JAvZk78q40",
+      "videoId": "7JAvZk78q40",
+      "kind": "video",
+      "channelName": "古賀康成",
+      "channelType": "related_reviewed",
+      "channelUrl": "https://www.youtube.com/channel/UCrd9xmAKwEfM1y-EQVTL2HA",
+      "channelId": "UCrd9xmAKwEfM1y-EQVTL2HA",
+      "title": "ナイチンゲールダンス　「爆走探偵Ｑ＆Ａ」",
+      "url": "https://www.youtube.com/watch?v=7JAvZk78q40",
+      "viewCount": 16107,
+      "durationSeconds": 294,
+      "duration": "4:54",
+      "uploadDate": "2015-09-22",
+      "firstSeenAt": "2026-08-28T23:38:30+09:00",
+      "lastStatsUpdatedAt": "2026-08-28T23:38:30+09:00"
+    },
+    {
+      "id": "youtube|e2jonB6BgeE",
+      "videoId": "e2jonB6BgeE",
+      "kind": "video",
+      "channelName": "古賀康成",
+      "channelType": "related_reviewed",
+      "channelUrl": "https://www.youtube.com/channel/UCrd9xmAKwEfM1y-EQVTL2HA",
+      "channelId": "UCrd9xmAKwEfM1y-EQVTL2HA",
+      "title": "ナイチンゲールダンス　変な人コント「バラ」",
+      "url": "https://www.youtube.com/watch?v=e2jonB6BgeE",
+      "viewCount": 6693,
+      "durationSeconds": 236,
+      "duration": "3:56",
+      "uploadDate": "2015-09-20",
+      "firstSeenAt": "2026-08-28T23:38:30+09:00",
+      "lastStatsUpdatedAt": "2026-08-28T23:38:30+09:00"
+    },
+    {
+      "id": "youtube|tXYbTm2LckM",
+      "videoId": "tXYbTm2LckM",
+      "kind": "video",
+      "channelName": "古賀康成",
+      "channelType": "related_reviewed",
+      "channelUrl": "https://www.youtube.com/channel/UCrd9xmAKwEfM1y-EQVTL2HA",
+      "channelId": "UCrd9xmAKwEfM1y-EQVTL2HA",
+      "title": "ナイチンゲールダンス 「美容室」",
+      "url": "https://www.youtube.com/watch?v=tXYbTm2LckM",
+      "viewCount": 8738,
+      "durationSeconds": 290,
+      "duration": "4:50",
+      "uploadDate": "2015-09-19",
+      "firstSeenAt": "2026-08-28T23:38:30+09:00",
+      "lastStatsUpdatedAt": "2026-08-28T23:38:30+09:00"
+    },
+    {
+      "id": "youtube|6yXArmV1BLg",
+      "videoId": "6yXArmV1BLg",
+      "kind": "video",
+      "channelName": "古賀康成",
+      "channelType": "related_reviewed",
+      "channelUrl": "https://www.youtube.com/channel/UCrd9xmAKwEfM1y-EQVTL2HA",
+      "channelId": "UCrd9xmAKwEfM1y-EQVTL2HA",
+      "title": "３ガラ映像「全力上田」",
+      "url": "https://www.youtube.com/watch?v=6yXArmV1BLg",
+      "viewCount": 3017,
+      "durationSeconds": 280,
+      "duration": "4:40",
+      "uploadDate": "2014-07-13",
+      "firstSeenAt": "2026-08-28T23:38:30+09:00",
+      "lastStatsUpdatedAt": "2026-08-28T23:38:30+09:00"
+    },
+    {
+      "id": "youtube|XGFtVMUYyO4",
+      "videoId": "XGFtVMUYyO4",
+      "kind": "video",
+      "channelName": "古賀康成",
+      "channelType": "related_reviewed",
+      "channelUrl": "https://www.youtube.com/channel/UCrd9xmAKwEfM1y-EQVTL2HA",
+      "channelId": "UCrd9xmAKwEfM1y-EQVTL2HA",
+      "title": "ラリアットカンガルーペロンペロン　お笑いサークル日大経商法落研",
+      "url": "https://www.youtube.com/watch?v=XGFtVMUYyO4",
+      "viewCount": 12908,
+      "durationSeconds": 272,
+      "duration": "4:32",
+      "uploadDate": "2014-01-09",
+      "firstSeenAt": "2026-08-28T23:38:30+09:00",
+      "lastStatsUpdatedAt": "2026-08-28T23:38:30+09:00"
     }
   ]
 }
