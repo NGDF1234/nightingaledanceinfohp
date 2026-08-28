@@ -781,6 +781,12 @@ body[data-schedule-mode="all"] .schedule-main h3 {
   -webkit-line-clamp: 3;
 }
 
+.news-list-section .schedule-date,
+body[data-schedule-mode="all"] .schedule-date {
+  align-self: stretch;
+  min-height: 100%;
+}
+
 .schedule-row-button {
   width: 100%;
   cursor: pointer;
