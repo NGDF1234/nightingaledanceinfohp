@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-08-28T11:40:20+09:00",
+  "updatedAt": "2026-08-28T19:01:33+09:00",
   "news": [
+    {
+      "date": "2026-08-28",
+      "tag": "公演情報",
+      "title": "第五回 全日本クイズ1億2300万位決定戦",
+      "note": "※中野さんのみ出演",
+      "url": "https://ticket.fany.lol/reception/65676/52645"
+    },
     {
       "date": "2026-08-28",
       "tag": "SNS",
@@ -460,6 +467,17 @@
       "note": "",
       "place": "長崎国際テレビ（NIB）",
       "url": "https://www.nib.jp/tv/vtimes/"
+    },
+    {
+      "date": "2026-10-03",
+      "day": "土",
+      "startTime": "19:00",
+      "endTime": "",
+      "tag": "公演情報",
+      "title": "第五回 全日本クイズ1億2300万位決定戦",
+      "note": "※中野さんのみ出演",
+      "place": "新宿シアターモリエール（東京都）",
+      "url": "https://ticket.fany.lol/reception/65676/52645"
     },
     {
       "date": "2026-10-03",
