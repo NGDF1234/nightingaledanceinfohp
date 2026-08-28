@@ -6,6 +6,13 @@ function base64UrlToUint8Array(value) {
   return Uint8Array.from(atob(base64), (character) => character.charCodeAt(0));
 }
 
+function isSafariBrowserTab() {
+  const ua = navigator.userAgent;
+  const isSafari = /^((?!chrome|android|crios|fxios|edgios).)*safari/i.test(ua);
+  const isStandalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+  return isSafari && !isStandalone;
+}
+
 async function enableNotifications(button) {
   if (PUSH_API_URL.startsWith("__")) throw new Error("通知サーバーは準備中です");
   const registration = await navigator.serviceWorker.ready;
@@ -29,6 +36,7 @@ async function enableNotifications(button) {
 }
 
 function addNotificationButton() {
+  if (isSafariBrowserTab()) return;
   if (!("Notification" in window) || !("PushManager" in window)) return;
   if (Notification.permission === "granted") return;
   const button = document.createElement("button");
