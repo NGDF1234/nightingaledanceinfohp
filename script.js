@@ -77,6 +77,7 @@ let scheduleFilters = {
   dateTo: ""
 };
 let clipItems = [];
+let clipsByVideoId = new Map();
 let showAllClips = document.body.dataset.clipsMode === "all";
 let clipFilters = {
   keyword: "",
@@ -277,6 +278,16 @@ function clipChannelLabel(item = {}) {
   return labels[filterType];
 }
 
+function newsYoutubeChannelName(item = {}) {
+  const videoId = youtubeVideoId(item.url || "");
+  const clip = videoId ? clipsByVideoId.get(videoId) : null;
+  return item.channelName || clip?.channelName || "";
+}
+
+function newsSecondaryText(item = {}) {
+  return item.text || item.note || "";
+}
+
 function hasUploadDate(item) {
   return Boolean(normalizeDate(item.uploadDate));
 }
@@ -357,8 +368,8 @@ function newsSearchText(item) {
   const category = newsCategory(item);
   return [
     item.title,
-    item.text,
-    item.note,
+    newsSecondaryText(item),
+    newsYoutubeChannelName(item),
     item.tag,
     category
   ].filter(Boolean).join(" ").toLowerCase();
@@ -380,13 +391,16 @@ function renderNews(items = fallbackNewsItems) {
   const visibleItems = items.slice(0, 12);
 
   newsGrid.innerHTML = visibleItems.map((item) => {
-    const text = item.text || item.note || "";
     const category = newsCategory(item);
+    const isYoutube = category.startsWith("YouTube");
+    const text = newsSecondaryText(item);
+    const channelName = isYoutube ? newsYoutubeChannelName(item) : "";
     const body = `
       <span class="news-tag">${escapeHtml(category)}</span>
       <p>${escapeHtml(formatNewsDate(item.date))}</p>
       <h3>${escapeHtml(item.title)}</h3>
-      <p>${escapeHtml(text)}</p>
+      ${isYoutube && channelName ? `<p class="news-meta-line">${escapeHtml(channelName)}</p>` : ""}
+      ${text ? `<p class="${isYoutube ? "news-meta-line" : ""}">${escapeHtml(text)}</p>` : ""}
     `;
 
     if (!item.url) {
@@ -431,14 +445,18 @@ function renderNewsList(items = fallbackNewsItems) {
   }
 
   newsList.innerHTML = visibleItems.map((item) => {
-    const text = item.text || item.note || "";
+    const category = newsCategory(item);
+    const isYoutube = category.startsWith("YouTube");
+    const text = newsSecondaryText(item);
+    const channelName = isYoutube ? newsYoutubeChannelName(item) : "";
     const rowClass = normalizeDate(item.date) === today ? "schedule-row today" : "schedule-row";
     const body = `
       <div class="schedule-date">${formatScheduleDate(item)}</div>
       <div class="schedule-main">
-        <span class="news-tag">${escapeHtml(newsCategory(item))}</span>
+        <span class="news-tag">${escapeHtml(category)}</span>
         <h3>${escapeHtml(item.title)}</h3>
-        <p>${escapeHtml(text)}</p>
+        ${isYoutube && channelName ? `<p class="news-meta-line">${escapeHtml(channelName)}</p>` : ""}
+        ${text ? `<p class="${isYoutube ? "news-meta-line" : ""}">${escapeHtml(text)}</p>` : ""}
       </div>
       <span class="schedule-arrow" aria-hidden="true">→</span>
     `;
@@ -447,7 +465,7 @@ function renderNewsList(items = fallbackNewsItems) {
       return `<article class="${rowClass}">${body}</article>`;
     }
 
-    const videoId = newsCategory(item).startsWith("YouTube") ? youtubeVideoId(item.url) : "";
+    const videoId = category.startsWith("YouTube") ? youtubeVideoId(item.url) : "";
     if (videoId) {
       return `
         <button class="${rowClass} schedule-row-button" type="button" data-video-id="${escapeHtml(videoId)}" data-video-title="${escapeHtml(item.title)}">
@@ -774,11 +792,17 @@ async function loadClips() {
     if (!response.ok) throw new Error(`Failed to load ${CLIPS_DATA_PATH}`);
     const data = await response.json();
     clipItems = Array.isArray(data.clips) ? data.clips : fallbackClipItems;
+    clipsByVideoId = new Map(clipItems.map((item) => [item.videoId || youtubeVideoId(item.url), item]));
     renderClips(clipItems);
+    renderNews(newsItems);
+    renderNewsList(newsItems);
   } catch (error) {
     console.warn(error);
     clipItems = fallbackClipItems;
+    clipsByVideoId = new Map(clipItems.map((item) => [item.videoId || youtubeVideoId(item.url), item]));
     renderClips(clipItems);
+    renderNews(newsItems);
+    renderNewsList(newsItems);
   }
 }
 

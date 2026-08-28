@@ -482,6 +482,13 @@ main > section:nth-of-type(3n+1):not(.hero) {
   text-align: left;
 }
 
+.news-card .news-meta-line,
+.schedule-main .news-meta-line {
+  color: var(--muted);
+  font-size: .8rem;
+  line-height: 1.28;
+}
+
 .regular-card .regular-label {
   margin-top: 2px;
   margin-bottom: 0;
