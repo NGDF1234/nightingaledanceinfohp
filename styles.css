@@ -1584,7 +1584,7 @@ body[data-schedule-mode="all"] .schedule-date {
   .app-tabbar {
     position: fixed;
     right: 0;
-    bottom: max(96px, env(safe-area-inset-bottom));
+    bottom: max(36px, env(safe-area-inset-bottom));
     left: 0;
     z-index: 80;
     display: grid;
@@ -1596,15 +1596,33 @@ body[data-schedule-mode="all"] .schedule-date {
     box-shadow: 0 -8px 24px rgba(0,0,0,.16);
   }
 
+  .app-tabbar::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: calc(-1 * max(36px, env(safe-area-inset-bottom)));
+    left: 0;
+    height: max(36px, env(safe-area-inset-bottom));
+    background: #fff;
+  }
+
   @media (display-mode: standalone) {
     .app-tabbar {
       bottom: 0;
+    }
+
+    .app-tabbar::after {
+      display: none;
     }
   }
 
   @media (display-mode: fullscreen) {
     .app-tabbar {
       bottom: 0;
+    }
+
+    .app-tabbar::after {
+      display: none;
     }
   }
 
