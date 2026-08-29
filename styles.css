@@ -1598,7 +1598,7 @@ body[data-schedule-mode="all"] .schedule-date {
     left: 0;
     z-index: 80;
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     min-height: calc(72px + env(safe-area-inset-bottom));
     padding: 4px 8px calc(4px + env(safe-area-inset-bottom));
     border-top: 4px solid #111;
@@ -1626,7 +1626,7 @@ body[data-schedule-mode="all"] .schedule-date {
   .tab-icon {
     position: relative;
     display: block;
-    width: min(64px, 18vw);
+    width: min(68px, 22vw);
     height: 58px;
     background: center / contain no-repeat;
   }
@@ -1638,7 +1638,6 @@ body[data-schedule-mode="all"] .schedule-date {
   .tab-home { background-image: url("assets/tab-home-v2.png?v=159"); }
   .tab-news { background-image: url("assets/tab-news-v2.png?v=159"); }
   .tab-schedule { background-image: url("assets/tab-schedule-v2.png?v=159"); }
-  .tab-profile { background-image: url("assets/tab-profile-v2.png?v=159"); }
   .tab-clips { background-image: url("assets/tab-clips-v2.png?v=159"); }
 
 }
