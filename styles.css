@@ -1584,7 +1584,7 @@ body[data-schedule-mode="all"] .schedule-date {
   .app-tabbar {
     position: fixed;
     right: 0;
-    bottom: max(68px, env(safe-area-inset-bottom));
+    bottom: max(96px, env(safe-area-inset-bottom));
     left: 0;
     z-index: 80;
     display: grid;
