@@ -163,6 +163,7 @@ main {
   max-height: none;
   min-height: 0;
   overflow: hidden;
+  border-top: 5px solid #111;
   border-bottom: 5px solid #111;
   background: linear-gradient(100deg, #026bff 0%, #0752d8 45%, #7b25df 100%);
 }
