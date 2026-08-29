@@ -1613,7 +1613,9 @@ body[data-schedule-mode="all"] .schedule-date {
     }
 
     .tab-icon {
-      height: 58px;
+      width: min(92px, 25vw);
+      height: 64px;
+      transform: translateY(-1px);
     }
   }
 
@@ -1629,7 +1631,9 @@ body[data-schedule-mode="all"] .schedule-date {
     }
 
     .tab-icon {
-      height: 58px;
+      width: min(92px, 25vw);
+      height: 64px;
+      transform: translateY(-1px);
     }
   }
 
