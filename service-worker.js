@@ -1,11 +1,11 @@
-const CACHE_VERSION = "ngd-info-pwa-v15";
+const CACHE_VERSION = "ngd-info-pwa-v17";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./news.html",
   "./schedule.html",
   "./clips.html",
-  "./styles.css?v=153",
+  "./styles.css?v=164",
   "./script.js?v=143",
   "./pwa.js?v=5",
   "./manifest.webmanifest",
@@ -24,6 +24,10 @@ const APP_SHELL = [
   "./assets/heading-regular-v39.png",
   "./assets/heading-schedule-v86.png",
   "./assets/heading-clips-v20.png",
+  "./assets/tab-home-v2.png",
+  "./assets/tab-news-v2.png",
+  "./assets/tab-schedule-v2.png",
+  "./assets/tab-clips-v2.png",
   "./assets/section-bg-news-v30.jpg",
   "./assets/section-bg-profile-v30.jpg",
   "./assets/section-cycle-1-v49.jpg",
