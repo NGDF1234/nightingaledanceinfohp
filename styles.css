@@ -1604,7 +1604,7 @@ body[data-schedule-mode="all"] .schedule-date {
     bottom: calc(-1 * max(5px, env(safe-area-inset-bottom)));
     left: 0;
     height: max(5px, env(safe-area-inset-bottom));
-    background: #fff;
+    background: rgba(255,255,255,.96);
   }
 
   @media (display-mode: standalone) {
