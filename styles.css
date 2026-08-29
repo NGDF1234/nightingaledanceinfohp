@@ -1584,19 +1584,17 @@ body[data-schedule-mode="all"] .schedule-date {
 
   .app-tabbar {
     position: fixed;
-    right: auto;
+    right: 0;
     bottom: max(5px, env(safe-area-inset-bottom));
-    left: 50%;
+    left: 0;
     z-index: 80;
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    width: min(66.666vw, 520px);
-    min-height: calc(72px + env(safe-area-inset-bottom));
-    padding: 4px 8px calc(4px + env(safe-area-inset-bottom));
+    min-height: calc(48px + env(safe-area-inset-bottom));
+    padding: 3px 8px calc(3px + env(safe-area-inset-bottom));
     border-top: 4px solid #111;
     background: rgba(255,255,255,.96);
     box-shadow: 0 -8px 24px rgba(0,0,0,.16);
-    transform: translateX(-50%);
   }
 
   .app-tabbar::after {
@@ -1612,20 +1610,32 @@ body[data-schedule-mode="all"] .schedule-date {
   @media (display-mode: standalone) {
     .app-tabbar {
       bottom: 0;
+      min-height: calc(72px + env(safe-area-inset-bottom));
+      padding: 4px 8px calc(4px + env(safe-area-inset-bottom));
     }
 
     .app-tabbar::after {
       display: none;
+    }
+
+    .tab-icon {
+      height: 58px;
     }
   }
 
   @media (display-mode: fullscreen) {
     .app-tabbar {
       bottom: 0;
+      min-height: calc(72px + env(safe-area-inset-bottom));
+      padding: 4px 8px calc(4px + env(safe-area-inset-bottom));
     }
 
     .app-tabbar::after {
       display: none;
+    }
+
+    .tab-icon {
+      height: 58px;
     }
   }
 
@@ -1650,7 +1660,7 @@ body[data-schedule-mode="all"] .schedule-date {
     position: relative;
     display: block;
     width: min(68px, 22vw);
-    height: 58px;
+    height: 38px;
     background: center / contain no-repeat;
   }
 
