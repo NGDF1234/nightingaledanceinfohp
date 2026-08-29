@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T11:39:12+09:00",
+  "updatedAt": "2026-08-29T19:01:30+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,23 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|QZhUl6kom-k",
+      "videoId": "QZhUl6kom-k",
+      "kind": "video",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【なぞなぞ】この中で習字の先生をやってるのは？【9番街レトロ】",
+      "url": "https://www.youtube.com/watch?v=QZhUl6kom-k",
+      "viewCount": 0,
+      "durationSeconds": 140,
+      "duration": "2:20",
+      "uploadDate": "2026-08-29",
+      "firstSeenAt": "2026-08-29T19:01:30+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|rKd-uGA2jnk",
       "videoId": "rKd-uGA2jnk",
