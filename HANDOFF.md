@@ -70,7 +70,7 @@ data/nightingale-youtube-clips.json
 
 ## `data/nightingale-info.json`
 
-NEWS、REGULAR、SCHEDULE を入れるJSONです。
+NEWS、REGULAR、SCHEDULE、アプリPush用のチケット通知予定を入れるJSONです。
 
 ```json
 {
@@ -96,6 +96,21 @@ NEWS、REGULAR、SCHEDULE を入れるJSONです。
         "endDate": "2026-12-31"
       },
       "url": "https://example.com/"
+    }
+  ],
+  "ticketReminders": [
+    {
+      "id": "ticket_push_reminder|start|title|一般発売|202609051000",
+      "title": "公演名",
+      "ticketKind": "一般",
+      "ticketLabel": "一般発売",
+      "reminderType": "start",
+      "reminderLabel": "発売開始1時間前",
+      "notifyAt": "2026-09-05T09:00:00+09:00",
+      "targetAt": "2026-09-05T10:00:00+09:00",
+      "startAt": "2026-09-05T10:00:00+09:00",
+      "endAt": "",
+      "url": "https://ticket.fany.lol/reception/example"
     }
   ],
   "schedule": [
@@ -124,6 +139,7 @@ NEWS、REGULAR、SCHEDULE を入れるJSONです。
 - YouTubeのNEWSは `url` から動画IDを判定できる場合、ポップアップ再生になります。
 - REGULARは `period.startDate` 以降に表示し、`period.endDate` がある場合はその日まで表示します。終了日未定の場合は `endDate` を入れません。
 - REGULARのカテゴリは `tag` に入れます。値は `テレビ`、`ラジオ`、`公演情報`、`イベント`、`連載・コラム` です。放送局や配信元などの媒体は `media` に入れます。
+- `ticketReminders` はアプリPush通知用です。抽選は発売開始1時間前と受付終了1時間前、一般・先着は発売開始1時間前だけ通知します。表示画面では使いません。
 
 ## `data/nightingale-youtube-clips.json`
 

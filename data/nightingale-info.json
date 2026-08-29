@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T15:01:31+09:00",
+  "updatedAt": "2026-08-29T15:31:37+09:00",
   "news": [
     {
       "date": "2026-08-28",
@@ -1610,5 +1610,59 @@
     }
   ],
   "regular": [],
+  "ticketReminders": [
+    {
+      "id": "ticket_push_reminder|end|第五回全日本クイズ1億2300万位決定戦|fanyidプレミアムメンバ抽選先行|202608311100",
+      "title": "第五回 全日本クイズ1億2300万位決定戦",
+      "ticketKind": "抽選",
+      "ticketLabel": "FANY IDプレミアムメンバー抽選先行",
+      "reminderType": "end",
+      "reminderLabel": "受付終了1時間前",
+      "notifyAt": "2026-08-31T10:00:00+09:00",
+      "targetAt": "2026-08-31T11:00:00+09:00",
+      "startAt": "2026-08-29T11:00:00+09:00",
+      "endAt": "2026-08-31T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/reception/65676/52645"
+    },
+    {
+      "id": "ticket_push_reminder|end|第五回全日本クイズ1億2300万位決定戦|fanyidメンバ抽選先行|202608311100",
+      "title": "第五回 全日本クイズ1億2300万位決定戦",
+      "ticketKind": "抽選",
+      "ticketLabel": "FANY IDメンバー抽選先行",
+      "reminderType": "end",
+      "reminderLabel": "受付終了1時間前",
+      "notifyAt": "2026-08-31T10:00:00+09:00",
+      "targetAt": "2026-08-31T11:00:00+09:00",
+      "startAt": "2026-08-29T11:00:00+09:00",
+      "endAt": "2026-08-31T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/reception/65676/52645"
+    },
+    {
+      "id": "ticket_push_reminder|start|中野なかるてぃんのイントロクイズネオ|一般発売|202609051000",
+      "title": "中野なかるてぃんのイントロクイズネオ",
+      "ticketKind": "一般",
+      "ticketLabel": "一般発売",
+      "reminderType": "start",
+      "reminderLabel": "発売開始1時間前",
+      "notifyAt": "2026-09-05T09:00:00+09:00",
+      "targetAt": "2026-09-05T10:00:00+09:00",
+      "startAt": "2026-09-05T10:00:00+09:00",
+      "endAt": "",
+      "url": "https://ticket.fany.lol/event/detail/20174/52339"
+    },
+    {
+      "id": "ticket_push_reminder|start|第五回全日本クイズ1億2300万位決定戦|一般発売|202609051000",
+      "title": "第五回 全日本クイズ1億2300万位決定戦",
+      "ticketKind": "一般",
+      "ticketLabel": "一般発売",
+      "reminderType": "start",
+      "reminderLabel": "発売開始1時間前",
+      "notifyAt": "2026-09-05T09:00:00+09:00",
+      "targetAt": "2026-09-05T10:00:00+09:00",
+      "startAt": "2026-09-05T10:00:00+09:00",
+      "endAt": "2026-10-02T23:59:00+09:00",
+      "url": "https://ticket.fany.lol/reception/65676/52645"
+    }
+  ],
   "clips": []
 }

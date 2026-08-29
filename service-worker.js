@@ -121,7 +121,9 @@ self.addEventListener("notificationclick", (event) => {
     });
     if (!existing) return clients.openWindow(target);
     if ("navigate" in existing) {
-      return existing.navigate(target).then((client) => (client || existing).focus());
+      return existing.navigate(target)
+        .then((client) => (client || existing).focus())
+        .catch(() => clients.openWindow(target));
     }
     existing.postMessage({ type: "NGDINFO_NOTIFICATION_NAVIGATE", url: target });
     return existing.focus();
