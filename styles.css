@@ -1446,29 +1446,21 @@ body[data-schedule-mode="all"] .schedule-date {
   }
 
   .home-page .schedule-list {
-    display: flex;
+    display: grid;
     gap: 12px;
+    width: 100%;
     max-width: calc(100vw - 24px);
-    overflow-x: auto;
-    padding: 2px 4px 12px;
-    scroll-snap-type: x proximity;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
-
-  .home-page .schedule-list::-webkit-scrollbar {
-    display: none;
+    overflow: visible;
+    padding: 2px 4px 8px;
   }
 
   .home-page .schedule-row {
-    flex: 0 0 min(330px, 86vw);
-    width: min(330px, 86vw);
+    width: 100%;
     min-height: 114px;
     grid-template-columns: 58px 1fr auto;
     border: 3px solid rgba(17,17,17,.16);
     border-radius: 12px;
     box-shadow: 5px 5px 0 rgba(0,0,0,.13);
-    scroll-snap-align: start;
   }
 
   .schedule-row {
