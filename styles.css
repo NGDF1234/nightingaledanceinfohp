@@ -637,7 +637,8 @@ main > section:nth-of-type(3n+1):not(.hero) {
   margin-bottom: 18px;
 }
 
-.list-search-toggle > summary {
+.list-search-toggle > summary,
+.clips-detail-search > summary {
   display: inline-flex;
   align-items: center;
   min-height: 42px;
@@ -654,21 +655,25 @@ main > section:nth-of-type(3n+1):not(.hero) {
   line-height: 1;
 }
 
-.list-search-toggle > summary::-webkit-details-marker {
+.list-search-toggle > summary::-webkit-details-marker,
+.clips-detail-search > summary::-webkit-details-marker {
   display: none;
 }
 
-.list-search-toggle > summary::after {
+.list-search-toggle > summary::after,
+.clips-detail-search > summary::after {
   content: "＋";
   margin-left: 10px;
   font-weight: 950;
 }
 
-.list-search-toggle[open] > summary {
+.list-search-toggle[open] > summary,
+.clips-detail-search[open] > summary {
   margin-bottom: 14px;
 }
 
-.list-search-toggle[open] > summary::after {
+.list-search-toggle[open] > summary::after,
+.clips-detail-search[open] > summary::after {
   content: "−";
 }
 
@@ -728,24 +733,9 @@ main > section:nth-of-type(3n+1):not(.hero) {
   min-width: 0;
 }
 
-.clips-detail-search summary {
-  display: inline-flex;
-  align-items: center;
-  min-height: 42px;
-  padding: 8px 14px;
-  border: 3px solid #111;
-  border-radius: 8px;
-  background: var(--yellow);
-  box-shadow: 4px 4px 0 #111;
-  cursor: pointer;
-  font-family: "Yu Gothic", Meiryo, sans-serif;
-  font-weight: 950;
-}
-
 .clips-detail-search-body {
   display: grid;
   gap: 12px 16px;
-  margin-top: 14px;
 }
 
 .clips-duration-range {
