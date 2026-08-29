@@ -1584,7 +1584,7 @@ body[data-schedule-mode="all"] .schedule-date {
   .app-tabbar {
     position: fixed;
     right: 0;
-    bottom: max(36px, env(safe-area-inset-bottom));
+    bottom: max(10px, env(safe-area-inset-bottom));
     left: 0;
     z-index: 80;
     display: grid;
@@ -1600,9 +1600,9 @@ body[data-schedule-mode="all"] .schedule-date {
     content: "";
     position: absolute;
     right: 0;
-    bottom: calc(-1 * max(36px, env(safe-area-inset-bottom)));
+    bottom: calc(-1 * max(10px, env(safe-area-inset-bottom)));
     left: 0;
-    height: max(36px, env(safe-area-inset-bottom));
+    height: max(10px, env(safe-area-inset-bottom));
     background: #fff;
   }
 
