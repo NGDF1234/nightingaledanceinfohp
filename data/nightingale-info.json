@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T19:01:30+09:00",
+  "updatedAt": "2026-08-30T00:37:18+09:00",
   "news": [
     {
       "date": "2026-08-29",
@@ -56,91 +56,9 @@
       "title": "順番に紹介される流れで自分だけ飛ばされた後ちょっとサウダージ歌う人 #中野なかるてぃん #ギャグ #お笑い",
       "note": "",
       "url": "https://www.youtube.com/shorts/6PJrKAFuKFg"
-    },
-    {
-      "date": "2026-08-23",
-      "tag": "公演情報",
-      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
-      "note": "※中野さんのみ出演",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20874"
-    },
-    {
-      "date": "2026-08-23",
-      "tag": "公演情報",
-      "title": "中野なかるてぃんのイントロクイズネオ",
-      "note": "※中野さんのみ出演",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20871"
-    },
-    {
-      "date": "2026-08-23",
-      "tag": "テレビ",
-      "title": "＜サンデープレミアム＞『輝き続けるZARD』",
-      "note": "※中野さんのみ出演",
-      "url": "https://www.bsfuji.tv/zard/pub/index.html"
-    },
-    {
-      "date": "2026-08-23",
-      "tag": "YouTube",
-      "title": "他のファンに風力で差をつける人　 #中野なかるてぃん #お笑い #ギャグ",
-      "note": "",
-      "url": "https://www.youtube.com/shorts/fb2S6M57et4"
-    },
-    {
-      "date": "2026-08-23",
-      "tag": "YouTube",
-      "title": "「超超超、超超超、超超超超超難問王決定戦 超東阪福ツアー ダイジェスト」",
-      "note": "※中野さんのみ出演",
-      "url": "https://www.youtube.com/watch?v=KpQ6ZzJB588"
-    },
-    {
-      "date": "2026-08-23",
-      "tag": "YouTube",
-      "title": "【おすすめSNSアカウント】2026年7月最新の神バズアカウント10選【YouTube運用代行会社/ビーヘルシー】",
-      "note": "",
-      "url": "https://youtu.be/3iN3WYn7fqU?si=CVJf5NBlq1BoUW6H"
-    },
-    {
-      "date": "2026-08-23",
-      "tag": "YouTube",
-      "title": "【29】ドゥリオラジオ『洗濯』 サツマカワRPG ストレッチーズ高木 ひつじねいり松村 29",
-      "note": "※6:01〜中野さんのお名前出てます",
-      "url": "https://youtu.be/UdXeEDKA360?si=VCIhS-6WydOwwV9g"
     }
   ],
   "schedule": [
-    {
-      "date": "2026-08-29",
-      "day": "土",
-      "startTime": "00:00",
-      "endTime": "00:30",
-      "tag": "ラジオ",
-      "title": "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
-      "note": "",
-      "place": "CBCラジオ",
-      "url": "https://hicbc.com/radio/nightin/"
-    },
-    {
-      "date": "2026-08-29",
-      "day": "土",
-      "startTime": "09:25",
-      "endTime": "10:15",
-      "tag": "テレビ",
-      "title": "Vタイムズ",
-      "note": "",
-      "place": "長崎国際テレビ（NIB）",
-      "url": "https://www.nib.jp/tv/vtimes/"
-    },
-    {
-      "date": "2026-08-29",
-      "day": "土",
-      "startTime": "22:00",
-      "endTime": "23:00",
-      "tag": "テレビ",
-      "title": "東西南北よしもと麻雀リーグ season7",
-      "note": "※ヤスさんのみ出演",
-      "place": "BSよしもと 265ch",
-      "url": "https://bsy.co.jp/timetable"
-    },
     {
       "date": "2026-08-30",
       "day": "日",
@@ -1609,6 +1527,17 @@
       "day": "日",
       "startTime": "18:00",
       "endTime": "19:00",
+      "tag": "テレビ",
+      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
+      "note": "※ヤスさんのみ出演",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-02-26",
+      "day": "金",
+      "startTime": "14:30",
+      "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
       "note": "※ヤスさんのみ出演",
