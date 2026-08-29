@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T20:28:11+09:00",
+  "updatedAt": "2026-08-29T23:09:45+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -130,6 +130,24 @@
       "lastStatsUpdatedAt": "2026-08-29T05:31:28+09:00"
     },
     {
+      "id": "youtube|W42k9-wJBD4",
+      "videoId": "W42k9-wJBD4",
+      "kind": "video",
+      "channelName": "文化シヤッターpresentsナイチンゲールダンスのもうきてるラジオ【CBCラジオ】",
+      "channelType": "appearance",
+      "channelUrl": "https://www.youtube.com/channel/UCx-M0mLiKfilc96JqQ6JOdw",
+      "channelId": "UCx-M0mLiKfilc96JqQ6JOdw",
+      "title": "#19「大実家時代」【ナイチンゲールダンスのもうきてるラジオ】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=W42k9-wJBD4",
+      "viewCount": 18,
+      "durationSeconds": 2024,
+      "duration": "33:44",
+      "uploadDate": "2026-08-25",
+      "firstSeenAt": "2026-08-29T23:09:45+09:00",
+      "lastStatsUpdatedAt": "2026-08-29T23:09:45+09:00"
+    },
+    {
       "id": "youtube|6PJrKAFuKFg",
       "videoId": "6PJrKAFuKFg",
       "kind": "shorts",
@@ -138,7 +156,7 @@
       "channelUrl": "https://www.youtube.com/channel/UCOAIDhwB1GIbAVl35Vj_aIQ",
       "channelId": "UCOAIDhwB1GIbAVl35Vj_aIQ",
       "title": "順番に紹介される流れで自分だけ飛ばされた後ちょっとサウダージ歌う人 #中野なかるてぃん #ギャグ #お笑い",
-      "comment": "💫🆕YouTube Shorts💫 順番に紹介される流れで自分だけ飛ばされた後ちょっとサウダージ歌う人 #中野なかるてぃん #ギャグ #お笑い 🎥チャンネル：中野なかるてぃん状態",
+      "comment": "",
       "url": "https://www.youtube.com/shorts/6PJrKAFuKFg",
       "viewCount": 22483,
       "durationSeconds": 13,
@@ -174,7 +192,7 @@
       "channelUrl": "https://www.youtube.com/channel/UCOAIDhwB1GIbAVl35Vj_aIQ",
       "channelId": "UCOAIDhwB1GIbAVl35Vj_aIQ",
       "title": "他のファンに風力で差をつける人 #中野なかるてぃん #お笑い #ギャグ",
-      "comment": "💫🆕YouTube Shorts💫 他のファンに風力で差をつける人 #中野なかるてぃん #お笑い #ギャグ 🎥チャンネル：中野なかるてぃん状態",
+      "comment": "",
       "url": "https://www.youtube.com/shorts/fb2S6M57et4",
       "viewCount": 1171,
       "durationSeconds": 8,
@@ -228,7 +246,7 @@
       "channelUrl": "https://www.youtube.com/channel/UCOAIDhwB1GIbAVl35Vj_aIQ",
       "channelId": "UCOAIDhwB1GIbAVl35Vj_aIQ",
       "title": "溜め、センスない人 #中野なかるてぃん #ギャグ #お笑い",
-      "comment": "💫🆕YouTube Shorts💫 溜め、センスない人 #中野なかるてぃん #ギャグ #お笑い 🎥チャンネル：中野なかるてぃん状態",
+      "comment": "",
       "url": "https://www.youtube.com/shorts/tKkiyILRrVk",
       "viewCount": 28402,
       "durationSeconds": 11,
@@ -264,7 +282,7 @@
       "channelUrl": "https://www.youtube.com/channel/UCOAIDhwB1GIbAVl35Vj_aIQ",
       "channelId": "UCOAIDhwB1GIbAVl35Vj_aIQ",
       "title": "手のきつねを丁寧にセットして最後仕上げる人 #中野なかるてぃん #ギャグ #お笑い",
-      "comment": "💫🆕YouTube Shorts💫 手のきつねを丁寧にセットして最後仕上げる人 #中野なかるてぃん #ギャグ #お笑い 🎥チャンネル：中野なかるてぃん状態",
+      "comment": "",
       "url": "https://www.youtube.com/shorts/zaEgjz-Bbmc",
       "viewCount": 22107,
       "durationSeconds": 11,
@@ -704,6 +722,24 @@
       "uploadDate": "2026-08-07",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-29T05:31:28+09:00"
+    },
+    {
+      "id": "youtube|dGdNzJGv7KA",
+      "videoId": "dGdNzJGv7KA",
+      "kind": "video",
+      "channelName": "サンタモニカch",
+      "channelType": "appearance",
+      "channelUrl": "https://www.youtube.com/channel/UCWiOfcRwRk8jtVIC-leiJ6w",
+      "channelId": "UCWiOfcRwRk8jtVIC-leiJ6w",
+      "title": "文章だけで正体を見抜け！LINE芸人当てゲーム！",
+      "comment": "お二人とも出題されています。",
+      "url": "https://www.youtube.com/watch?v=dGdNzJGv7KA",
+      "viewCount": 0,
+      "durationSeconds": 0,
+      "duration": "",
+      "uploadDate": "2026-08-07",
+      "firstSeenAt": "2026-08-29T23:09:45+09:00",
+      "lastStatsUpdatedAt": ""
     },
     {
       "id": "youtube|LL5IydjQ_qA",
@@ -1388,6 +1424,24 @@
       "uploadDate": "2026-07-19",
       "firstSeenAt": "2026-08-23T00:15:30+09:00",
       "lastStatsUpdatedAt": "2026-08-29T05:31:28+09:00"
+    },
+    {
+      "id": "youtube|3iN3WYn7fqU",
+      "videoId": "3iN3WYn7fqU",
+      "kind": "video",
+      "channelName": "YouTube運用・マーケティング最前線 / ビーヘルシーTV",
+      "channelType": "appearance",
+      "channelUrl": "https://www.youtube.com/channel/UC7-BZHX5_rjGE9ZolGCDNJA",
+      "channelId": "UC7-BZHX5_rjGE9ZolGCDNJA",
+      "title": "【おすすめSNSアカウント】2026年7月最新の神バズアカウント10選【YouTube運用代行会社/ビーヘルシー】",
+      "comment": "オススメSNSトレンドで、『なかるてぃん状態』が紹介されています。",
+      "url": "https://www.youtube.com/watch?v=3iN3WYn7fqU",
+      "viewCount": 0,
+      "durationSeconds": 0,
+      "duration": "",
+      "uploadDate": "2026-07-19",
+      "firstSeenAt": "2026-08-29T23:09:45+09:00",
+      "lastStatsUpdatedAt": ""
     },
     {
       "id": "youtube|q5u-zn8ebZg",
