@@ -443,10 +443,10 @@ main > section:nth-of-type(3n+1):not(.hero) {
 }
 
 .regular-card {
-  flex-basis: 340px;
-  width: 340px;
-  min-width: 340px;
-  max-width: 340px;
+  flex-basis: 300px;
+  width: 300px;
+  min-width: 300px;
+  max-width: 300px;
   min-height: 178px;
   padding: 12px 14px;
   display: flex;
@@ -528,22 +528,26 @@ main > section:nth-of-type(3n+1):not(.hero) {
 }
 
 .regular-note {
+  display: block;
   min-height: 1.35em;
   margin: 0 0 2px;
+  overflow: hidden;
   font-family: "Yu Gothic", Meiryo, sans-serif;
   font-size: .86rem;
   line-height: 1.5;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .regular-time {
-  display: -webkit-box;
+  display: block;
   min-height: 0;
   margin-bottom: 2px !important;
   overflow: hidden;
   font-size: clamp(.78rem, 1.7vw, .86rem) !important;
   line-height: 1.5;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .regular-link {
@@ -1491,10 +1495,10 @@ body[data-schedule-mode="all"] .schedule-date {
   }
 
   .regular-card {
-    flex-basis: min(300px, 82vw);
-    width: min(300px, 82vw);
-    min-width: min(300px, 82vw);
-    max-width: min(300px, 82vw);
+    flex-basis: min(282px, 78vw);
+    width: min(282px, 78vw);
+    min-width: min(282px, 78vw);
+    max-width: min(282px, 78vw);
   }
 
   .home-page .schedule-list {
