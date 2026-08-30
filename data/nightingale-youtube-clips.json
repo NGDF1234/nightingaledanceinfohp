@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T14:31:37+09:00",
+  "updatedAt": "2026-08-30T18:01:27+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|fl3ziP9q2Xw",
+      "videoId": "fl3ziP9q2Xw",
+      "kind": "video",
+      "channelName": "文化シヤッターpresentsナイチンゲールダンスのもうきてるラジオ【CBCラジオ】",
+      "channelType": "appearance",
+      "channelUrl": "https://www.youtube.com/channel/UCx-M0mLiKfilc96JqQ6JOdw",
+      "channelId": "UCx-M0mLiKfilc96JqQ6JOdw",
+      "title": "#20「寝坊の理由」【ナイチンゲールダンスのもうきてるラジオ】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=fl3ziP9q2Xw",
+      "viewCount": 1,
+      "durationSeconds": 1773,
+      "duration": "29:33",
+      "uploadDate": "2026-08-30",
+      "firstSeenAt": "2026-08-30T18:01:27+09:00",
+      "lastStatsUpdatedAt": "2026-08-30T18:01:27+09:00"
+    },
     {
       "id": "youtube|QZhUl6kom-k",
       "videoId": "QZhUl6kom-k",
