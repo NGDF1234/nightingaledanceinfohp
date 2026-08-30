@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T22:01:31+09:00",
+  "updatedAt": "2026-08-31T00:01:33+09:00",
   "news": [
     {
       "date": "2026-08-30",
@@ -70,38 +70,9 @@
       "title": "#19「大実家時代」【ナイチンゲールダンスのもうきてるラジオ】",
       "note": "",
       "url": "https://www.youtube.com/watch?v=W42k9-wJBD4"
-    },
-    {
-      "date": "2026-08-24",
-      "tag": "YouTube",
-      "title": "順番に紹介される流れで自分だけ飛ばされた後ちょっとサウダージ歌う人 #中野なかるてぃん #ギャグ #お笑い",
-      "note": "",
-      "url": "https://www.youtube.com/shorts/6PJrKAFuKFg"
     }
   ],
   "schedule": [
-    {
-      "date": "2026-08-30",
-      "day": "日",
-      "startTime": "18:00",
-      "endTime": "19:00",
-      "tag": "テレビ",
-      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "note": "※ヤスさんのみ出演",
-      "place": "BSよしもと 265ch",
-      "url": "https://bsy.co.jp/timetable"
-    },
-    {
-      "date": "2026-08-30",
-      "day": "日",
-      "startTime": "19:00",
-      "endTime": "20:55",
-      "tag": "テレビ",
-      "title": "＜サンデープレミアム＞『輝き続けるZARD』",
-      "note": "※中野さんのみ出演",
-      "place": "BSフジ",
-      "url": "https://www.bsfuji.tv/zard/pub/index.html"
-    },
     {
       "date": "2026-09-04",
       "day": "金",
@@ -1572,6 +1543,39 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
+      "note": "※ヤスさんのみ出演",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-02-27",
+      "day": "土",
+      "startTime": "00:00",
+      "endTime": "00:30",
+      "tag": "ラジオ",
+      "title": "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
+      "note": "",
+      "place": "CBCラジオ",
+      "url": "https://hicbc.com/radio/nightin/"
+    },
+    {
+      "date": "2027-02-27",
+      "day": "土",
+      "startTime": "09:25",
+      "endTime": "10:15",
+      "tag": "テレビ",
+      "title": "Vタイムズ",
+      "note": "",
+      "place": "長崎国際テレビ（NIB）",
+      "url": "https://www.nib.jp/tv/vtimes/"
+    },
+    {
+      "date": "2027-02-27",
+      "day": "土",
+      "startTime": "22:00",
+      "endTime": "23:00",
+      "tag": "テレビ",
+      "title": "東西南北よしもと麻雀リーグ season7",
       "note": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
