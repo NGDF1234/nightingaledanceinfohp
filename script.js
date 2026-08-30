@@ -288,6 +288,24 @@ function newsSecondaryText(item = {}) {
   return item.text || item.note || "";
 }
 
+function isInstagramNews(item = {}) {
+  const title = String(item.title || "").toLowerCase();
+  const url = String(item.url || "").toLowerCase();
+  return newsCategory(item) === "SNS" && (title.includes("instagram") || url.includes("instagram.com"));
+}
+
+function newsSnsDetails(item = {}) {
+  if (!isInstagramNews(item)) {
+    return { comment: newsSecondaryText(item), accountName: "" };
+  }
+
+  const note = newsSecondaryText(item);
+  const accountMatch = note.match(/(?:アカウント名|アカウント)\s*[:：]\s*(.+)$/);
+  const accountName = accountMatch ? accountMatch[1].trim() : "";
+  const comment = accountMatch ? note.slice(0, accountMatch.index).trim() : note.trim();
+  return { comment, accountName };
+}
+
 function hasUploadDate(item) {
   return Boolean(normalizeDate(item.uploadDate));
 }
@@ -376,8 +394,11 @@ function scheduleSearchText(item) {
 
 function newsSearchText(item) {
   const category = newsCategory(item);
+  const snsDetails = newsSnsDetails(item);
   return [
     item.title,
+    snsDetails.comment,
+    snsDetails.accountName,
     newsSecondaryText(item),
     newsYoutubeChannelName(item),
     item.tag,
@@ -404,7 +425,9 @@ function renderNews(items = fallbackNewsItems) {
   newsGrid.innerHTML = visibleItems.map((item) => {
     const category = newsCategory(item);
     const isYoutube = category.startsWith("YouTube");
-    const text = newsSecondaryText(item);
+    const snsDetails = newsSnsDetails(item);
+    const text = snsDetails.comment || newsSecondaryText(item);
+    const snsAccountName = snsDetails.accountName;
     const channelName = isYoutube ? newsYoutubeChannelName(item) : "";
     const cardClass = normalizeDate(item.date) === today ? "news-card today" : "news-card";
     const body = `
@@ -413,6 +436,7 @@ function renderNews(items = fallbackNewsItems) {
       <h3>${escapeHtml(item.title)}</h3>
       ${isYoutube && channelName ? `<p class="news-meta-line">${escapeHtml(channelName)}</p>` : ""}
       ${text ? `<p class="${isYoutube ? "news-meta-line" : ""}">${escapeHtml(text)}</p>` : ""}
+      ${snsAccountName ? `<p class="news-meta-line">${escapeHtml(snsAccountName)}</p>` : ""}
     `;
 
     if (!item.url) {
@@ -459,7 +483,9 @@ function renderNewsList(items = fallbackNewsItems) {
   newsList.innerHTML = visibleItems.map((item) => {
     const category = newsCategory(item);
     const isYoutube = category.startsWith("YouTube");
-    const text = newsSecondaryText(item);
+    const snsDetails = newsSnsDetails(item);
+    const text = snsDetails.comment || newsSecondaryText(item);
+    const snsAccountName = snsDetails.accountName;
     const channelName = isYoutube ? newsYoutubeChannelName(item) : "";
     const rowClass = normalizeDate(item.date) === today ? "schedule-row today" : "schedule-row";
     const body = `
@@ -469,6 +495,7 @@ function renderNewsList(items = fallbackNewsItems) {
         <h3>${escapeHtml(item.title)}</h3>
         ${isYoutube && channelName ? `<p class="news-meta-line">${escapeHtml(channelName)}</p>` : ""}
         ${text ? `<p class="${isYoutube ? "news-meta-line" : ""}">${escapeHtml(text)}</p>` : ""}
+        ${snsAccountName ? `<p class="news-meta-line">${escapeHtml(snsAccountName)}</p>` : ""}
       </div>
       <span class="schedule-arrow" aria-hidden="true">→</span>
     `;
