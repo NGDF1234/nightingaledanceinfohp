@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T18:01:27+09:00",
+  "updatedAt": "2026-08-30T19:01:33+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|KS05e-E8cZc",
+      "videoId": "KS05e-E8cZc",
+      "kind": "video",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【なぞなぞ】1週間のうち1日しか歌えない歌って？【9番街レトロ】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=KS05e-E8cZc",
+      "viewCount": 0,
+      "durationSeconds": 180,
+      "duration": "3:00",
+      "uploadDate": "2026-08-30",
+      "firstSeenAt": "2026-08-30T19:01:33+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|fl3ziP9q2Xw",
       "videoId": "fl3ziP9q2Xw",
