@@ -1,12 +1,26 @@
 {
-  "updatedAt": "2026-08-31T00:01:33+09:00",
+  "updatedAt": "2026-08-31T18:31:32+09:00",
   "news": [
+    {
+      "date": "2026-08-31",
+      "tag": "SNS",
+      "title": "Instagram",
+      "note": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
+      "url": "https://www.instagram.com/stories/nakalthyn/3975582173469104057?utm_source=ig_story_item_share&igsi=dXRscG42bGhncm82"
+    },
     {
       "date": "2026-08-30",
       "tag": "公演情報",
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
       "note": "※中野さんのみ出演",
       "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=21228"
+    },
+    {
+      "date": "2026-08-30",
+      "tag": "YouTube",
+      "title": "【なぞなぞ】1週間のうち1日しか歌えない歌って？【9番街レトロ】",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=KS05e-E8cZc"
     },
     {
       "date": "2026-08-30",
@@ -24,6 +38,13 @@
     },
     {
       "date": "2026-08-29",
+      "tag": "YouTube",
+      "title": "【なぞなぞ】この中で習字の先生をやってるのは？【9番街レトロ】",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=QZhUl6kom-k"
+    },
+    {
+      "date": "2026-08-29",
       "tag": "SNS",
       "title": "Instagram",
       "note": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
@@ -35,6 +56,13 @@
       "title": "Instagram",
       "note": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
       "url": "https://www.instagram.com/stories/nakalthyn/3973533770589562346?utm_source=ig_story_item_share&igsi=MTlmZjNua2pzc242OQ=="
+    },
+    {
+      "date": "2026-08-28",
+      "tag": "YouTube",
+      "title": "【なぞなぞ】なかるてぃんなぞなぞ【9番街レトロ】",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=rKd-uGA2jnk"
     },
     {
       "date": "2026-08-28",
@@ -56,6 +84,13 @@
       "title": "Instagram",
       "note": "ストーリーズが更新されています。 アカウント:中野なかるてぃん",
       "url": "https://www.instagram.com/stories/nakalthyn/3972803261085374102?utm_source=ig_story_item_share&igsi=MXJ6eWdqZGg1aGFidw=="
+    },
+    {
+      "date": "2026-08-27",
+      "tag": "YouTube",
+      "title": "【なぞなぞ】なかるてぃんクイズやってもらった【９番街レトロ】",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=mOBuOc9vUQk"
     },
     {
       "date": "2026-08-26",
@@ -1583,32 +1618,6 @@
   ],
   "regular": [],
   "ticketReminders": [
-    {
-      "id": "ticket_push_reminder|end|第五回全日本クイズ1億2300万位決定戦|fanyidプレミアムメンバ抽選先行|202608311100",
-      "title": "第五回 全日本クイズ1億2300万位決定戦",
-      "ticketKind": "抽選",
-      "ticketLabel": "FANY IDプレミアムメンバー抽選先行",
-      "reminderType": "end",
-      "reminderLabel": "受付終了1時間前",
-      "notifyAt": "2026-08-31T10:00:00+09:00",
-      "targetAt": "2026-08-31T11:00:00+09:00",
-      "startAt": "2026-08-29T11:00:00+09:00",
-      "endAt": "2026-08-31T11:00:00+09:00",
-      "url": "https://ticket.fany.lol/reception/65676/52645"
-    },
-    {
-      "id": "ticket_push_reminder|end|第五回全日本クイズ1億2300万位決定戦|fanyidメンバ抽選先行|202608311100",
-      "title": "第五回 全日本クイズ1億2300万位決定戦",
-      "ticketKind": "抽選",
-      "ticketLabel": "FANY IDメンバー抽選先行",
-      "reminderType": "end",
-      "reminderLabel": "受付終了1時間前",
-      "notifyAt": "2026-08-31T10:00:00+09:00",
-      "targetAt": "2026-08-31T11:00:00+09:00",
-      "startAt": "2026-08-29T11:00:00+09:00",
-      "endAt": "2026-08-31T11:00:00+09:00",
-      "url": "https://ticket.fany.lol/reception/65676/52645"
-    },
     {
       "id": "ticket_push_reminder|start|中野なかるてぃん単独ライブてぃん独ライブ|fanyidプレミアムメンバ抽選先行|202609011100",
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
