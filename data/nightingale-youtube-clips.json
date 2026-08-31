@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T19:01:33+09:00",
+  "updatedAt": "2026-08-31T19:01:37+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|vBsH9hK_U_4",
+      "videoId": "vBsH9hK_U_4",
+      "kind": "video",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【なぞなぞ】マリオ、ピカチュウ、カービィ自信がないのは？【9番街レトロ】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=vBsH9hK_U_4",
+      "viewCount": 0,
+      "durationSeconds": 138,
+      "duration": "2:18",
+      "uploadDate": "2026-08-31",
+      "firstSeenAt": "2026-08-31T19:01:37+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|KS05e-E8cZc",
       "videoId": "KS05e-E8cZc",
