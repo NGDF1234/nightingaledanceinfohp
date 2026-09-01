@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-09-01T23:27:27+09:00",
+  "updatedAt": "2026-09-02T08:12:11+09:00",
   "news": [
+    {
+      "date": "2026-09-02",
+      "tag": "公演情報",
+      "title": "大声魔法使いかんちゃん 第2回ライブ",
+      "note": "※中野さんのみ出演",
+      "url": "https://x.com/WLUCK_PARK/status/2094727212754784379"
+    },
     {
       "date": "2026-09-01",
       "tag": "YouTube",
@@ -119,13 +126,6 @@
       "title": "【なぞなぞ】なかるてぃんクイズやってもらった【９番街レトロ】",
       "note": "",
       "url": "https://www.youtube.com/watch?v=mOBuOc9vUQk"
-    },
-    {
-      "date": "2026-08-26",
-      "tag": "YouTube",
-      "title": "【異常記憶】番組のサブタイトル、意外と覚えてない。【9番街レトロ】",
-      "note": "",
-      "url": "https://youtu.be/kBQBdz73uyg?si=-wv0nXfJsWoRBpqc"
     }
   ],
   "schedule": [
