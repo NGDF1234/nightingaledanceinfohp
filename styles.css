@@ -1379,7 +1379,7 @@ body[data-schedule-mode="all"] .schedule-date {
     bottom: 0;
     left: 0;
     z-index: 79;
-    height: calc(54px + env(safe-area-inset-bottom));
+    height: env(safe-area-inset-bottom);
     background: #111;
     pointer-events: none;
   }
@@ -1648,7 +1648,7 @@ body[data-schedule-mode="all"] .schedule-date {
     min-height: calc(48px + env(safe-area-inset-bottom));
     padding: 1px 6px calc(1px + env(safe-area-inset-bottom));
     border-top: 4px solid #111;
-    background: rgba(255,255,255,.96);
+    background: #fff;
     box-shadow: none;
   }
 
