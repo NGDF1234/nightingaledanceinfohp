@@ -1645,11 +1645,14 @@ body[data-schedule-mode="all"] .schedule-date {
     z-index: 80;
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: stretch;
     min-height: calc(48px + env(safe-area-inset-bottom));
     padding: 1px 6px calc(1px + env(safe-area-inset-bottom));
     border-top: 4px solid #111;
     background: #fff;
+    background-color: #fff;
     box-shadow: none;
+    isolation: isolate;
   }
 
   .app-tabbar::after {
@@ -1668,8 +1671,8 @@ body[data-schedule-mode="all"] .schedule-date {
     }
 
     .tab-icon {
-      width: min(92px, 25vw);
-      height: 64px;
+      width: min(104px, 26vw);
+      height: 70px;
       transform: translateY(-1px);
     }
   }
@@ -1686,8 +1689,8 @@ body[data-schedule-mode="all"] .schedule-date {
     }
 
     .tab-icon {
-      width: min(92px, 25vw);
-      height: 64px;
+      width: min(104px, 26vw);
+      height: 70px;
       transform: translateY(-1px);
     }
   }
@@ -1703,6 +1706,7 @@ body[data-schedule-mode="all"] .schedule-date {
     font-weight: 950;
     line-height: 1;
     text-decoration: none;
+    background: #fff;
   }
 
   .app-tabbar a.is-active {
@@ -1712,8 +1716,8 @@ body[data-schedule-mode="all"] .schedule-date {
   .tab-icon {
     position: relative;
     display: block;
-    width: min(86px, 25vw);
-    height: 46px;
+    width: min(96px, 25vw);
+    height: 52px;
     background: center / contain no-repeat;
   }
 
