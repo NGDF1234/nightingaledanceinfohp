@@ -956,6 +956,54 @@ function normalizeClipDurationRange() {
   clipsDurationMax.value = min;
 }
 
+function updateDateRangeVisual(fromControl, toControl) {
+  if (!fromControl || !toControl) return;
+  const isRangeSelected = Boolean(fromControl.value && toControl.value);
+  fromControl.closest(".schedule-date-range")?.classList.toggle("is-range-selected", isRangeSelected);
+}
+
+function setupDateRangePicker(fromControl, toControl, onUpdate) {
+  if (!fromControl || !toControl) return;
+  const controls = [fromControl, toControl];
+  let nextTarget = "from";
+
+  controls.forEach((control) => {
+    control.addEventListener("focus", () => {
+      if (!fromControl.value && !toControl.value) nextTarget = "from";
+    });
+
+    control.addEventListener("change", () => {
+      const selectedDate = control.value;
+      if (!selectedDate) {
+        updateDateRangeVisual(fromControl, toControl);
+        onUpdate();
+        return;
+      }
+
+      if (nextTarget === "from" || !fromControl.value || (fromControl.value && toControl.value)) {
+        fromControl.value = selectedDate;
+        toControl.value = "";
+        nextTarget = "to";
+        updateDateRangeVisual(fromControl, toControl);
+        onUpdate();
+        return;
+      }
+
+      if (selectedDate < fromControl.value) {
+        toControl.value = fromControl.value;
+        fromControl.value = selectedDate;
+      } else {
+        toControl.value = selectedDate;
+      }
+      nextTarget = "from";
+      updateDateRangeVisual(fromControl, toControl);
+      onUpdate();
+    });
+  });
+
+  updateDateRangeVisual(fromControl, toControl);
+}
+
 if (clipsSearchForm) {
   clipsSearchForm.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -977,47 +1025,9 @@ if (clipsSearchForm) {
   });
 });
 
-if (clipsDateFrom && clipsDateTo) {
-  clipsDateFrom.addEventListener("change", () => {
-    if (!clipsDateFrom.value) return;
-    if (!clipsDateTo.value) {
-      window.setTimeout(() => {
-        clipsDateTo.focus();
-        if (typeof clipsDateTo.showPicker === "function") {
-          clipsDateTo.showPicker();
-        }
-      }, 0);
-    }
-  });
-}
-
-if (scheduleDateFrom && scheduleDateTo) {
-  scheduleDateFrom.addEventListener("change", () => {
-    if (!scheduleDateFrom.value) return;
-    if (!scheduleDateTo.value) {
-      window.setTimeout(() => {
-        scheduleDateTo.focus();
-        if (typeof scheduleDateTo.showPicker === "function") {
-          scheduleDateTo.showPicker();
-        }
-      }, 120);
-    }
-  });
-}
-
-if (newsDateFrom && newsDateTo) {
-  newsDateFrom.addEventListener("change", () => {
-    if (!newsDateFrom.value) return;
-    if (!newsDateTo.value) {
-      window.setTimeout(() => {
-        newsDateTo.focus();
-        if (typeof newsDateTo.showPicker === "function") {
-          newsDateTo.showPicker();
-        }
-      }, 120);
-    }
-  });
-}
+setupDateRangePicker(clipsDateFrom, clipsDateTo, updateClipFilters);
+setupDateRangePicker(scheduleDateFrom, scheduleDateTo, updateScheduleFilters);
+setupDateRangePicker(newsDateFrom, newsDateTo, updateNewsFilters);
 
 function closeVideoModal() {
   if (!videoModal || !videoModalFrame) return;
