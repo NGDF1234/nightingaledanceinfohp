@@ -537,9 +537,34 @@ function regularTime(item = {}) {
   return item.time || item.datetime || item.schedule || "";
 }
 
+function regularKey(value = "") {
+  return String(value).replace(/\s+/g, "").toLowerCase();
+}
+
+function hydrateRegularItem(item = {}) {
+  const fallback = fallbackRegularItems.find((fallbackItem) => {
+    const itemTitle = regularKey(item.title);
+    const fallbackTitle = regularKey(fallbackItem.title);
+    return itemTitle === fallbackTitle || itemTitle.includes(fallbackTitle) || fallbackTitle.includes(itemTitle);
+  });
+
+  if (!fallback) return item;
+
+  return {
+    ...fallback,
+    ...item,
+    tag: item.tag || item.category || fallback.tag,
+    media: regularMedia(item) || fallback.media,
+    time: regularTime(item) || fallback.time,
+    comment: item.comment || fallback.comment,
+    period: item.period || fallback.period,
+    url: item.url || fallback.url
+  };
+}
+
 function activeRegularItems(items = []) {
   const today = todayKey();
-  return items.filter((item) => {
+  return items.map(hydrateRegularItem).filter((item) => {
     const startDate = regularPeriodStart(item);
     const endDate = regularPeriodEnd(item);
     if (startDate && startDate > today) return false;
