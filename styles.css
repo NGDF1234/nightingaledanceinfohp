@@ -1516,6 +1516,11 @@ body[data-schedule-mode="all"] .schedule-date {
     max-width: min(282px, 78vw);
   }
 
+  .home-page .regular-card {
+    height: 230px;
+    min-height: 230px;
+  }
+
   .home-page .schedule-list {
     display: grid;
     gap: 12px;

@@ -58,6 +58,13 @@ function addNotificationButton() {
 }
 
 if ("serviceWorker" in navigator) {
+  let refreshing = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (refreshing) return;
+    refreshing = true;
+    window.location.reload();
+  });
+
   navigator.serviceWorker.addEventListener("message", (event) => {
     if (event.data?.type !== "NGDINFO_NOTIFICATION_NAVIGATE") return;
     const target = new URL(event.data?.url || "./index.html", window.location.href).href;
@@ -70,7 +77,10 @@ if ("serviceWorker" in navigator) {
 
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("./service-worker.js")
-      .then(addNotificationButton)
+      .then((registration) => {
+        registration.update();
+        addNotificationButton();
+      })
       .catch((error) => console.warn("Service Worker registration failed:", error));
   });
 }
