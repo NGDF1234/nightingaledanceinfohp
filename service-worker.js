@@ -1,11 +1,11 @@
-const CACHE_VERSION = "ngd-info-pwa-v39";
+const CACHE_VERSION = "ngd-info-pwa-v40";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./news.html",
   "./schedule.html",
   "./clips.html",
-  "./styles.css?v=182",
+  "./styles.css?v=183",
   "./script.js?v=147",
   "./pwa.js?v=7",
   "./manifest.webmanifest",

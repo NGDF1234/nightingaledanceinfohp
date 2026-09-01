@@ -1620,7 +1620,8 @@ body[data-schedule-mode="all"] .schedule-date {
 
   .footer {
     align-items: center;
-    padding: 28px 14px;
+    margin-bottom: calc(-78px - env(safe-area-inset-bottom));
+    padding: 28px 14px calc(28px + 78px + env(safe-area-inset-bottom));
     text-align: center;
   }
 
