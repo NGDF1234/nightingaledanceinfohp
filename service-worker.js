@@ -1,4 +1,4 @@
-const CACHE_VERSION = "ngd-info-pwa-v34";
+const CACHE_VERSION = "ngd-info-pwa-v35";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -7,7 +7,7 @@ const APP_SHELL = [
   "./clips.html",
   "./styles.css?v=179",
   "./script.js?v=147",
-  "./pwa.js?v=5",
+  "./pwa.js?v=6",
   "./manifest.webmanifest",
   "./data/nightingale-info.json",
   "./data/nightingale-youtube-clips.json",
@@ -88,7 +88,7 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  if (url.pathname.endsWith(".json")) {
+  if (url.pathname.endsWith(".json") || url.pathname.endsWith(".js") || url.pathname.endsWith(".css")) {
     event.respondWith(networkFirst(request));
     return;
   }
