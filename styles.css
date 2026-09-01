@@ -1372,6 +1372,18 @@ body[data-schedule-mode="all"] .schedule-date {
     padding-bottom: calc(78px + env(safe-area-inset-bottom));
   }
 
+  body::after {
+    content: "";
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 79;
+    height: calc(54px + env(safe-area-inset-bottom));
+    background: #111;
+    pointer-events: none;
+  }
+
   .topbar {
     display: none;
   }
@@ -1637,7 +1649,7 @@ body[data-schedule-mode="all"] .schedule-date {
     padding: 1px 6px calc(1px + env(safe-area-inset-bottom));
     border-top: 4px solid #111;
     background: rgba(255,255,255,.96);
-    box-shadow: 0 -8px 24px rgba(0,0,0,.16);
+    box-shadow: none;
   }
 
   .app-tabbar::after {
