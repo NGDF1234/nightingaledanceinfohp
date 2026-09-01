@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-09-01T18:38:56+09:00",
+  "updatedAt": "2026-09-01T23:13:00+09:00",
   "news": [
+    {
+      "date": "2026-09-01",
+      "tag": "公式情報",
+      "title": "通知テスト",
+      "note": "新着NEWS通知の確認用です。",
+      "url": "https://ngdf1234.github.io/nightingaledanceinfohp/news.html"
+    },
     {
       "date": "2026-09-01",
       "tag": "YouTube",
