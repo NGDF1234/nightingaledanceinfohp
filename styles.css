@@ -522,12 +522,12 @@ main > section:nth-of-type(3n+1):not(.hero) {
   font-weight: 950;
 }
 
-.regular-note {
+.regular-card .regular-note {
   color: #111;
   font-weight: 950;
 }
 
-.regular-note {
+.regular-card .regular-note {
   display: block;
   min-height: 1.35em;
   margin: 0 0 2px;
@@ -539,7 +539,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
   white-space: nowrap;
 }
 
-.regular-time {
+.regular-card .regular-time {
   display: block;
   min-height: 0;
   margin-bottom: 2px !important;
