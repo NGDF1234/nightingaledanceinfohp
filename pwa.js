@@ -81,6 +81,6 @@ if ("serviceWorker" in navigator) {
         registration.update();
         addNotificationButton();
       })
-      .catch((error) => console.warn("Service Worker registration failed:", error));
+      .catch(() => {});
   });
 }

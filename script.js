@@ -809,8 +809,7 @@ async function loadInfo() {
     renderRegular(Array.isArray(data.regular) ? data.regular : fallbackRegularItems);
     scheduleItems = Array.isArray(data.schedule) ? data.schedule : [];
     renderSchedule(scheduleItems);
-  } catch (error) {
-    console.warn(error);
+  } catch {
     newsItems = fallbackNewsItems;
     renderNews(fallbackNewsItems);
     renderNewsList(fallbackNewsItems);
@@ -853,8 +852,7 @@ async function loadClips() {
     renderClips(clipItems);
     renderNews(newsItems);
     renderNewsList(newsItems);
-  } catch (error) {
-    console.warn(error);
+  } catch {
     clipItems = fallbackClipItems;
     clipsByVideoId = new Map(clipItems.map((item) => [item.videoId || youtubeVideoId(item.url), item]));
     renderClips(clipItems);
