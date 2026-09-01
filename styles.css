@@ -59,14 +59,8 @@ img {
 
 .loader-motion {
   position: relative;
-  width: min(44vw, 180px);
+  width: min(58vw, 240px);
   aspect-ratio: 3 / 2;
-}
-
-@media (display-mode: standalone), (display-mode: fullscreen) {
-  .loader-motion {
-    width: min(58vw, 240px);
-  }
 }
 
 .loader-motion img {
