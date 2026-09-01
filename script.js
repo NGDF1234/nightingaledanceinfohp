@@ -830,15 +830,6 @@ function updateNewsFilters() {
   renderNewsList(newsItems);
 }
 
-function normalizeNewsDateRange() {
-  if (!newsDateFrom || !newsDateTo) return;
-  const from = newsDateFrom.value;
-  const to = newsDateTo.value;
-  if (!from || !to || from <= to) return;
-  newsDateFrom.value = to;
-  newsDateTo.value = from;
-}
-
 if (newsSearchForm) {
   newsSearchForm.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -846,16 +837,10 @@ if (newsSearchForm) {
   });
 }
 
-[newsKeywordSearch, newsCategorySearch, newsDateFrom, newsDateTo].forEach((control) => {
+[newsKeywordSearch, newsCategorySearch].forEach((control) => {
   if (!control) return;
-  control.addEventListener("input", () => {
-    normalizeNewsDateRange();
-    updateNewsFilters();
-  });
-  control.addEventListener("change", () => {
-    normalizeNewsDateRange();
-    updateNewsFilters();
-  });
+  control.addEventListener("input", updateNewsFilters);
+  control.addEventListener("change", updateNewsFilters);
 });
 
 async function loadClips() {
@@ -896,15 +881,6 @@ function updateScheduleFilters() {
   renderSchedule(scheduleItems);
 }
 
-function normalizeScheduleDateRange() {
-  if (!scheduleDateFrom || !scheduleDateTo) return;
-  const from = scheduleDateFrom.value;
-  const to = scheduleDateTo.value;
-  if (!from || !to || from <= to) return;
-  scheduleDateFrom.value = to;
-  scheduleDateTo.value = from;
-}
-
 if (scheduleSearchForm) {
   scheduleSearchForm.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -912,16 +888,10 @@ if (scheduleSearchForm) {
   });
 }
 
-[scheduleTitleSearch, scheduleCategorySearch, scheduleDateFrom, scheduleDateTo].forEach((control) => {
+[scheduleTitleSearch, scheduleCategorySearch].forEach((control) => {
   if (!control) return;
-  control.addEventListener("input", () => {
-    normalizeScheduleDateRange();
-    updateScheduleFilters();
-  });
-  control.addEventListener("change", () => {
-    normalizeScheduleDateRange();
-    updateScheduleFilters();
-  });
+  control.addEventListener("input", updateScheduleFilters);
+  control.addEventListener("change", updateScheduleFilters);
 });
 
 function updateClipFilters() {
@@ -936,15 +906,6 @@ function updateClipFilters() {
     sort: clipsSortSearch?.value || "updated-desc"
   };
   renderClips(clipItems);
-}
-
-function normalizeClipDateRange() {
-  if (!clipsDateFrom || !clipsDateTo) return;
-  const from = clipsDateFrom.value;
-  const to = clipsDateTo.value;
-  if (!from || !to || from <= to) return;
-  clipsDateFrom.value = to;
-  clipsDateTo.value = from;
 }
 
 function normalizeClipDurationRange() {
@@ -962,40 +923,14 @@ function updateDateRangeVisual(fromControl, toControl) {
   fromControl.closest(".schedule-date-range")?.classList.toggle("is-range-selected", isRangeSelected);
 }
 
-function setupDateRangePicker(fromControl, toControl, onUpdate) {
+function setupDateRangeInputs(fromControl, toControl, onUpdate) {
   if (!fromControl || !toControl) return;
-  const controls = [fromControl, toControl];
-  let nextTarget = "from";
-
-  controls.forEach((control) => {
-    control.addEventListener("focus", () => {
-      if (!fromControl.value && !toControl.value) nextTarget = "from";
+  [fromControl, toControl].forEach((control) => {
+    control.addEventListener("input", () => {
+      updateDateRangeVisual(fromControl, toControl);
+      onUpdate();
     });
-
     control.addEventListener("change", () => {
-      const selectedDate = control.value;
-      if (!selectedDate) {
-        updateDateRangeVisual(fromControl, toControl);
-        onUpdate();
-        return;
-      }
-
-      if (nextTarget === "from" || !fromControl.value || (fromControl.value && toControl.value)) {
-        fromControl.value = selectedDate;
-        toControl.value = "";
-        nextTarget = "to";
-        updateDateRangeVisual(fromControl, toControl);
-        onUpdate();
-        return;
-      }
-
-      if (selectedDate < fromControl.value) {
-        toControl.value = fromControl.value;
-        fromControl.value = selectedDate;
-      } else {
-        toControl.value = selectedDate;
-      }
-      nextTarget = "from";
       updateDateRangeVisual(fromControl, toControl);
       onUpdate();
     });
@@ -1011,23 +946,21 @@ if (clipsSearchForm) {
   });
 }
 
-[clipsKeywordSearch, clipsDateFrom, clipsDateTo, clipsKindSearch, clipsDurationMin, clipsDurationMax, clipsSortSearch, ...clipChannelCheckboxes].forEach((control) => {
+[clipsKeywordSearch, clipsKindSearch, clipsDurationMin, clipsDurationMax, clipsSortSearch, ...clipChannelCheckboxes].forEach((control) => {
   if (!control) return;
   control.addEventListener("input", () => {
-    normalizeClipDateRange();
     normalizeClipDurationRange();
     updateClipFilters();
   });
   control.addEventListener("change", () => {
-    normalizeClipDateRange();
     normalizeClipDurationRange();
     updateClipFilters();
   });
 });
 
-setupDateRangePicker(clipsDateFrom, clipsDateTo, updateClipFilters);
-setupDateRangePicker(scheduleDateFrom, scheduleDateTo, updateScheduleFilters);
-setupDateRangePicker(newsDateFrom, newsDateTo, updateNewsFilters);
+setupDateRangeInputs(clipsDateFrom, clipsDateTo, updateClipFilters);
+setupDateRangeInputs(scheduleDateFrom, scheduleDateTo, updateScheduleFilters);
+setupDateRangeInputs(newsDateFrom, newsDateTo, updateNewsFilters);
 
 function closeVideoModal() {
   if (!videoModal || !videoModalFrame) return;
