@@ -63,6 +63,12 @@ img {
   aspect-ratio: 3 / 2;
 }
 
+@media (display-mode: standalone), (display-mode: fullscreen) {
+  .loader-motion {
+    width: min(58vw, 240px);
+  }
+}
+
 .loader-motion img {
   position: absolute;
   inset: 0;
