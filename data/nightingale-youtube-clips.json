@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T19:02:21+09:00",
+  "updatedAt": "2026-09-02T18:02:30+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|XVMeZkOUzeY",
+      "videoId": "XVMeZkOUzeY",
+      "kind": "shorts",
+      "channelName": "中野なかるてぃん状態",
+      "channelType": "nakano_personal",
+      "channelUrl": "https://www.youtube.com/channel/UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "channelId": "UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "title": "飯腐ってた人 #中野なかるてぃん #お笑い #Tシャツ",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/XVMeZkOUzeY",
+      "viewCount": 0,
+      "durationSeconds": 7,
+      "duration": "0:07",
+      "uploadDate": "2026-09-02",
+      "firstSeenAt": "2026-09-02T18:02:30+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|JtRLAPo7iUc",
       "videoId": "JtRLAPo7iUc",
