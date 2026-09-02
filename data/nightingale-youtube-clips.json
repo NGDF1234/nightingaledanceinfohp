@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T18:02:30+09:00",
+  "updatedAt": "2026-09-02T19:02:21+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -38,6 +38,24 @@
       "uploadDate": "2026-09-02",
       "firstSeenAt": "2026-09-02T18:02:30+09:00",
       "lastStatsUpdatedAt": ""
+    },
+    {
+      "id": "youtube|4fGPmJF75l0",
+      "videoId": "4fGPmJF75l0",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【事故】痛くて熱くて大慌て【ナイチンゲールダンス】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/4fGPmJF75l0",
+      "viewCount": 5,
+      "durationSeconds": 62,
+      "duration": "1:02",
+      "uploadDate": "2026-09-02",
+      "firstSeenAt": "2026-09-02T19:02:21+09:00",
+      "lastStatsUpdatedAt": "2026-09-02T19:02:21+09:00"
     },
     {
       "id": "youtube|JtRLAPo7iUc",
