@@ -377,7 +377,7 @@ function itemLinks(item = {}) {
       title: String(link.title || link.label || link.siteTitle || link.name || link.media || link.station || link.broadcaster || "").trim()
     }))
     .filter((link) => link.url && !seen.has(link.url) && seen.add(link.url))
-    .slice(0, 2)
+    .slice(0, 3)
     .map((link) => ({ ...link, title: link.title || siteTitleFromUrl(link.url) }));
 }
 
@@ -1137,7 +1137,7 @@ function openCardDetailModal(rawDetail = "") {
   const body = modal.querySelector("#card-detail-body");
   if (!body) return;
 
-  const links = Array.isArray(detail.links) ? detail.links.slice(0, 2) : [];
+  const links = Array.isArray(detail.links) ? detail.links.slice(0, 3) : [];
   body.innerHTML = `
     ${detail.tag ? `<span class="news-tag">${escapeHtml(detail.tag)}</span>` : ""}
     ${detail.date ? `<p class="card-detail-date">${escapeHtml(detail.date)}</p>` : ""}
