@@ -314,6 +314,42 @@ function siteTitleFromUrl(url = "") {
   }
 }
 
+function japaneseDateLabel(date = "", day = "") {
+  const normalizedDate = normalizeDate(date);
+  const [year = "", month = "", dayOfMonth = ""] = normalizedDate.split("-");
+  if (!year || !month || !dayOfMonth) return "";
+
+  const weekdays = ["日", "月", "火", "水", "木", "金", "土"];
+  const weekday = String(day || "").trim() || weekdays[new Date(`${normalizedDate}T00:00:00+09:00`).getDay()];
+  return `${year}/${month}/${dayOfMonth}(${weekday})`;
+}
+
+function encodeFanyParam(value = "") {
+  return encodeURIComponent(value).replaceAll("(", "%28").replaceAll(")", "%29");
+}
+
+function normalizedLinkUrl(url = "", item = {}) {
+  try {
+    const parsedUrl = new URL(url);
+    const host = parsedUrl.hostname.replace(/^www\./, "");
+    if (host !== "ticket.fany.lol") return url;
+
+    const keyword = item.ticketKeyword || item.title || "ナイチンゲールダンス";
+    const dateLabel = japaneseDateLabel(item.date, item.day);
+    const params = [
+      ["keywords", keyword],
+      ["from", dateLabel],
+      ["to", dateLabel],
+      ["prefectures", "0"],
+      ["genre", "0"],
+      ["search_type", "form"]
+    ];
+    return `https://ticket.fany.lol/search/event?${params.map(([key, value]) => `${key}=${encodeFanyParam(value)}`).join("&")}`;
+  } catch (error) {
+    return url;
+  }
+}
+
 function itemLinks(item = {}) {
   const rawLinks = Array.isArray(item.links)
     ? item.links
@@ -332,7 +368,7 @@ function itemLinks(item = {}) {
   const seen = new Set();
   return links
     .map((link) => ({
-      url: String(link.url || "").trim(),
+      url: normalizedLinkUrl(String(link.url || "").trim(), item),
       title: String(link.title || link.label || link.siteTitle || link.name || "").trim()
     }))
     .filter((link) => link.url && !seen.has(link.url) && seen.add(link.url))
