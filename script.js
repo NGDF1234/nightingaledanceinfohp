@@ -394,6 +394,57 @@ function renderCardLinks(item = {}) {
   `;
 }
 
+function detailAttributes(detail = {}) {
+  return `role="button" tabindex="0" data-detail-card="${escapeHtml(JSON.stringify(detail))}"`;
+}
+
+function newsDetail(item = {}) {
+  const category = newsCategory(item);
+  const isYoutube = category.startsWith("YouTube");
+  const snsDetails = newsSnsDetails(item);
+  const text = snsDetails.comment || newsSecondaryText(item);
+  const details = [
+    isYoutube ? newsYoutubeChannelName(item) : "",
+    text,
+    snsDetails.accountName
+  ].filter(Boolean);
+
+  return {
+    tag: category,
+    date: formatNewsDate(item.date),
+    title: item.title || "",
+    details,
+    links: itemLinks(item)
+  };
+}
+
+function scheduleDetail(item = {}) {
+  return {
+    tag: scheduleCategory(item) || "INFO",
+    date: formatNewsDate(item.date),
+    title: item.title || "",
+    details: [
+      formatTime(item),
+      item.place,
+      item.note
+    ].filter(Boolean),
+    links: itemLinks(item)
+  };
+}
+
+function regularDetail(item = {}) {
+  return {
+    tag: item.tag || item.category || "REGULAR",
+    title: item.title || "",
+    details: [
+      item.comment,
+      regularMedia(item),
+      regularTime(item)
+    ].filter(Boolean),
+    links: itemLinks(item)
+  };
+}
+
 function isInstagramNews(item = {}) {
   const title = String(item.title || "").toLowerCase();
   const url = String(item.url || "").toLowerCase();
@@ -555,7 +606,7 @@ function renderNews(items = fallbackNewsItems) {
       `;
     }
 
-    return `<article class="${cardClass}">${body}</article>`;
+    return `<article class="${cardClass}" ${detailAttributes(newsDetail(item))}>${body}</article>`;
   }).join("");
 }
 
@@ -608,7 +659,7 @@ function renderNewsList(items = fallbackNewsItems) {
       `;
     }
 
-    return `<article class="${rowClass}">${body}</article>`;
+    return `<article class="${rowClass}" ${detailAttributes(newsDetail(item))}>${body}</article>`;
   }).join("");
 }
 
@@ -682,7 +733,7 @@ function renderRegular(items = fallbackRegularItems) {
   }
 
   regularGrid.innerHTML = sourceItems.map((item) => `
-    <article class="news-card regular-card">
+    <article class="news-card regular-card" ${detailAttributes(regularDetail(item))}>
       <span class="news-tag">${escapeHtml(item.tag || item.category || "REGULAR")}</span>
       <h3>${escapeHtml(item.title)}</h3>
       ${item.comment ? `<p class="regular-note">${escapeHtml(item.comment)}</p>` : ""}
@@ -748,7 +799,7 @@ function renderSchedule(items = []) {
       </div>
     `;
 
-    return `<article class="${rowClass}">${body}</article>`;
+    return `<article class="${rowClass}" ${detailAttributes(scheduleDetail(item))}>${body}</article>`;
   }).join("");
 }
 
@@ -1049,11 +1100,74 @@ function closeVideoModal() {
   videoModalFrame.innerHTML = "";
 }
 
+function detailModalElement() {
+  let modal = document.querySelector("#card-detail-modal");
+  if (modal) return modal;
+
+  modal = document.createElement("div");
+  modal.className = "video-modal card-detail-modal";
+  modal.id = "card-detail-modal";
+  modal.hidden = true;
+  modal.innerHTML = `
+    <div class="video-modal-backdrop" data-detail-close></div>
+    <div class="video-modal-panel card-detail-panel" role="dialog" aria-modal="true" aria-label="詳細">
+      <button class="video-modal-close" type="button" data-detail-close aria-label="閉じる">×</button>
+      <div class="card-detail-body" id="card-detail-body"></div>
+    </div>
+  `;
+  document.body.appendChild(modal);
+  return modal;
+}
+
+function closeCardDetailModal() {
+  const modal = document.querySelector("#card-detail-modal");
+  if (!modal) return;
+  modal.hidden = true;
+}
+
+function openCardDetailModal(rawDetail = "") {
+  let detail;
+  try {
+    detail = JSON.parse(rawDetail);
+  } catch (error) {
+    return;
+  }
+
+  const modal = detailModalElement();
+  const body = modal.querySelector("#card-detail-body");
+  if (!body) return;
+
+  const links = Array.isArray(detail.links) ? detail.links.slice(0, 2) : [];
+  body.innerHTML = `
+    ${detail.tag ? `<span class="news-tag">${escapeHtml(detail.tag)}</span>` : ""}
+    ${detail.date ? `<p class="card-detail-date">${escapeHtml(detail.date)}</p>` : ""}
+    <h2>${escapeHtml(detail.title || "")}</h2>
+    ${Array.isArray(detail.details) ? detail.details.map((line) => `<p>${escapeHtml(line)}</p>`).join("") : ""}
+    ${links.length ? `
+      <div class="card-resource-links card-detail-links">
+        ${links.map((link) => `<a class="card-resource-link" href="${escapeHtml(link.url)}" target="_blank" rel="noreferrer">${escapeHtml(link.title || siteTitleFromUrl(link.url))} →</a>`).join("")}
+      </div>
+    ` : ""}
+  `;
+  modal.hidden = false;
+}
+
 document.addEventListener("click", (event) => {
   if (event.target.closest("a")) return;
   const button = event.target.closest("[data-video-id]");
   if (!button || !videoModal || !videoModalFrame) return;
   openVideoModal(button.dataset.videoId, button.dataset.videoTitle || "YouTube動画");
+});
+
+document.addEventListener("click", (event) => {
+  if (event.target.closest("a")) return;
+  if (event.target.closest("[data-detail-close]")) {
+    closeCardDetailModal();
+    return;
+  }
+  const card = event.target.closest("[data-detail-card]");
+  if (!card) return;
+  openCardDetailModal(card.dataset.detailCard || "");
 });
 
 function openVideoModal(videoId, title = "YouTube動画") {
@@ -1085,12 +1199,21 @@ document.querySelectorAll("[data-video-close]").forEach((button) => {
 });
 
 document.addEventListener("keydown", (event) => {
-  if (event.key === "Escape") closeVideoModal();
+  if (event.key === "Escape") {
+    closeVideoModal();
+    closeCardDetailModal();
+  }
   if (event.key !== "Enter" && event.key !== " ") return;
   const button = event.target.closest("[data-video-id]");
-  if (!button) return;
+  if (button) {
+    event.preventDefault();
+    openVideoModal(button.dataset.videoId, button.dataset.videoTitle || "YouTube動画");
+    return;
+  }
+  const card = event.target.closest("[data-detail-card]");
+  if (!card) return;
   event.preventDefault();
-  openVideoModal(button.dataset.videoId, button.dataset.videoTitle || "YouTube動画");
+  openCardDetailModal(card.dataset.detailCard || "");
 });
 
 async function initPage() {
