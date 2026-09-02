@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-09-02T18:32:16+09:00",
+  "updatedAt": "2026-09-03T01:32:22+09:00",
   "news": [
+    {
+      "date": "2026-09-02",
+      "tag": "公演情報",
+      "title": "ド桜かつやまpresents村田大樹に即興漫才トーナメントプレゼントライブ2",
+      "note": "※中野さんのみ出演",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20855"
+    },
     {
       "date": "2026-09-02",
       "tag": "SNS",
@@ -126,20 +133,6 @@
       "title": "Instagram",
       "note": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
       "url": "https://www.instagram.com/stories/nakalthyn/3973064583177933102?utm_source=ig_story_item_share&igsi=MXNtb2M0dGlycGU2dQ=="
-    },
-    {
-      "date": "2026-08-27",
-      "tag": "SNS",
-      "title": "Instagram",
-      "note": "ストーリーズが更新されています。 アカウント:中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3972803261085374102?utm_source=ig_story_item_share&igsi=MXJ6eWdqZGg1aGFidw=="
-    },
-    {
-      "date": "2026-08-27",
-      "tag": "YouTube",
-      "title": "【なぞなぞ】なかるてぃんクイズやってもらった【９番街レトロ】",
-      "note": "",
-      "url": "https://www.youtube.com/watch?v=mOBuOc9vUQk"
     }
   ],
   "schedule": [
@@ -494,6 +487,17 @@
       "note": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2026-10-06",
+      "day": "火",
+      "startTime": "19:15",
+      "endTime": "20:15",
+      "tag": "公演情報",
+      "title": "ド桜かつやまpresents村田大樹に即興漫才トーナメントプレゼントライブ2",
+      "note": "※中野さんのみ出演",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20855"
     },
     {
       "date": "2026-10-09",
@@ -1700,6 +1704,19 @@
       "startAt": "2026-09-01T11:00:00+09:00",
       "endAt": "2026-09-04T11:00:00+09:00",
       "url": "https://ticket.fany.lol/event/detail/20500/52814"
+    },
+    {
+      "id": "ticket_push_reminder|start|ド桜かつやまpresents村田大樹に即興漫才トナメントプレゼントライブ2|一般発売|202609051000",
+      "title": "ド桜かつやまpresents村田大樹に即興漫才トーナメントプレゼントライブ2",
+      "ticketKind": "一般",
+      "ticketLabel": "一般発売",
+      "reminderType": "start",
+      "reminderLabel": "発売開始1時間前",
+      "notifyAt": "2026-09-05T09:00:00+09:00",
+      "targetAt": "2026-09-05T10:00:00+09:00",
+      "startAt": "2026-09-05T10:00:00+09:00",
+      "endAt": "",
+      "url": "https://ticket.fany.lol/event/detail/20162/52340"
     },
     {
       "id": "ticket_push_reminder|start|中野なかるてぃんのイントロクイズネオ|一般発売|202609051000",
