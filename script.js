@@ -308,7 +308,12 @@ function siteTitleFromUrl(url = "") {
       "hicbc.com": "CBCラジオ",
       "nib.jp": "NIB"
     };
-    return titles[host] || host;
+    if (titles[host]) return titles[host];
+    if (host.includes("yoshimoto.co.jp")) return "吉本興業";
+    if (host.includes("fany.lol")) return "FANY";
+    if (host.includes("tv") || host.includes("tver")) return "テレビ公式サイト";
+    if (host.includes("radio") || host.includes("fm")) return "ラジオ公式サイト";
+    return "外部サイト";
   } catch (error) {
     return "リンク";
   }
@@ -361,7 +366,7 @@ function itemLinks(item = {}) {
   if (item.url) {
     links.unshift({
       url: item.url,
-      title: item.linkTitle || item.siteTitle || item.sourceTitle || item.source
+      title: item.linkTitle || item.siteTitle || item.sourceTitle || item.source || item.media || item.station || item.broadcaster
     });
   }
 
@@ -369,7 +374,7 @@ function itemLinks(item = {}) {
   return links
     .map((link) => ({
       url: normalizedLinkUrl(String(link.url || "").trim(), item),
-      title: String(link.title || link.label || link.siteTitle || link.name || "").trim()
+      title: String(link.title || link.label || link.siteTitle || link.name || link.media || link.station || link.broadcaster || "").trim()
     }))
     .filter((link) => link.url && !seen.has(link.url) && seen.add(link.url))
     .slice(0, 2)
