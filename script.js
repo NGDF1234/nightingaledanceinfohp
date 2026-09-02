@@ -688,7 +688,7 @@ function renderRegular(items = fallbackRegularItems) {
       ${item.comment ? `<p class="regular-note">${escapeHtml(item.comment)}</p>` : ""}
       ${regularMedia(item) ? `<div class="regular-detail">${escapeHtml(regularMedia(item))}</div>` : ""}
       ${regularTime(item) ? `<div class="regular-detail">${escapeHtml(regularTime(item))}</div>` : ""}
-      ${item.url ? `<a class="regular-link" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">公式サイト →</a>` : ""}
+      ${renderCardLinks(item)}
     </article>
   `).join("");
 }
