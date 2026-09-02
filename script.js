@@ -302,6 +302,8 @@ function siteTitleFromUrl(url = "") {
       "online-ticket.yoshimoto.co.jp": "配信チケット",
       "live.yoshimoto.co.jp": "公演一覧",
       "profile.yoshimoto.co.jp": "公式プロフィール",
+      "shibuya-manzaigekijyo.yoshimoto.co.jp": "渋谷よしもと漫才劇場",
+      "tv-asahi.co.jp": "テレビ朝日",
       "bsy.co.jp": "BSよしもと",
       "hicbc.com": "CBCラジオ",
       "nib.jp": "NIB"
