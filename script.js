@@ -288,6 +288,69 @@ function newsSecondaryText(item = {}) {
   return item.text || item.note || "";
 }
 
+function siteTitleFromUrl(url = "") {
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, "");
+    const titles = {
+      "youtube.com": "YouTube",
+      "m.youtube.com": "YouTube",
+      "youtu.be": "YouTube",
+      "instagram.com": "Instagram",
+      "x.com": "X",
+      "twitter.com": "X",
+      "ticket.fany.lol": "FANYチケット",
+      "online-ticket.yoshimoto.co.jp": "配信チケット",
+      "live.yoshimoto.co.jp": "公演一覧",
+      "profile.yoshimoto.co.jp": "公式プロフィール",
+      "bsy.co.jp": "BSよしもと",
+      "hicbc.com": "CBCラジオ",
+      "nib.jp": "NIB"
+    };
+    return titles[host] || host;
+  } catch (error) {
+    return "リンク";
+  }
+}
+
+function itemLinks(item = {}) {
+  const rawLinks = Array.isArray(item.links)
+    ? item.links
+    : Array.isArray(item.urls)
+      ? item.urls
+      : [];
+  const links = rawLinks.map((link) => (typeof link === "string" ? { url: link } : link || {}));
+
+  if (item.url) {
+    links.unshift({
+      url: item.url,
+      title: item.linkTitle || item.siteTitle || item.sourceTitle || item.source
+    });
+  }
+
+  const seen = new Set();
+  return links
+    .map((link) => ({
+      url: String(link.url || "").trim(),
+      title: String(link.title || link.label || link.siteTitle || link.name || "").trim()
+    }))
+    .filter((link) => link.url && !seen.has(link.url) && seen.add(link.url))
+    .slice(0, 2)
+    .map((link) => ({ ...link, title: link.title || siteTitleFromUrl(link.url) }));
+}
+
+function renderCardLinks(item = {}) {
+  const links = itemLinks(item);
+  if (!links.length) return "";
+
+  return `
+    <div class="card-resource-links">
+      ${links.map((link) => `
+        <a class="card-resource-link" href="${escapeHtml(link.url)}" target="_blank" rel="noreferrer">${escapeHtml(link.title)} →</a>
+      `).join("")}
+    </div>
+  `;
+}
+
 function isInstagramNews(item = {}) {
   const title = String(item.title || "").toLowerCase();
   const url = String(item.url || "").toLowerCase();
@@ -437,26 +500,19 @@ function renderNews(items = fallbackNewsItems) {
       ${isYoutube && channelName ? `<p class="news-meta-line">${escapeHtml(channelName)}</p>` : ""}
       ${text ? `<p class="${isYoutube ? "news-meta-line" : ""}">${escapeHtml(text)}</p>` : ""}
       ${snsAccountName ? `<p class="news-meta-line">${escapeHtml(snsAccountName)}</p>` : ""}
+      ${renderCardLinks(item)}
     `;
-
-    if (!item.url) {
-      return `<article class="${cardClass}">${body}</article>`;
-    }
 
     const videoId = category.startsWith("YouTube") ? youtubeVideoId(item.url) : "";
     if (videoId) {
       return `
-        <button class="${cardClass} news-card-link video-news-card" type="button" data-video-id="${escapeHtml(videoId)}" data-video-title="${escapeHtml(item.title)}">
+        <article class="${cardClass} news-card-link video-news-card" role="button" tabindex="0" data-video-id="${escapeHtml(videoId)}" data-video-title="${escapeHtml(item.title)}">
           ${body}
-        </button>
+        </article>
       `;
     }
 
-    return `
-      <a class="${cardClass} news-card-link" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">
-        ${body}
-      </a>
-    `;
+    return `<article class="${cardClass}">${body}</article>`;
   }).join("");
 }
 
@@ -496,28 +552,20 @@ function renderNewsList(items = fallbackNewsItems) {
         ${isYoutube && channelName ? `<p class="news-meta-line">${escapeHtml(channelName)}</p>` : ""}
         ${text ? `<p class="${isYoutube ? "news-meta-line" : ""}">${escapeHtml(text)}</p>` : ""}
         ${snsAccountName ? `<p class="news-meta-line">${escapeHtml(snsAccountName)}</p>` : ""}
+        ${renderCardLinks(item)}
       </div>
-      <span class="schedule-arrow" aria-hidden="true">→</span>
     `;
-
-    if (!item.url) {
-      return `<article class="${rowClass}">${body}</article>`;
-    }
 
     const videoId = category.startsWith("YouTube") ? youtubeVideoId(item.url) : "";
     if (videoId) {
       return `
-        <button class="${rowClass} schedule-row-button" type="button" data-video-id="${escapeHtml(videoId)}" data-video-title="${escapeHtml(item.title)}">
+        <article class="${rowClass} schedule-row-button" role="button" tabindex="0" data-video-id="${escapeHtml(videoId)}" data-video-title="${escapeHtml(item.title)}">
           ${body}
-        </button>
+        </article>
       `;
     }
 
-    return `
-      <a class="${rowClass}" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">
-        ${body}
-      </a>
-    `;
+    return `<article class="${rowClass}">${body}</article>`;
   }).join("");
 }
 
@@ -653,19 +701,11 @@ function renderSchedule(items = []) {
         <span class="news-tag">${escapeHtml(scheduleCategory(item) || "INFO")}</span>
         <h3>${escapeHtml(item.title)}</h3>
         <p>${escapeHtml(detail)}</p>
+        ${renderCardLinks(item)}
       </div>
-      <span class="schedule-arrow" aria-hidden="true">→</span>
     `;
 
-    if (!item.url) {
-      return `<article class="${rowClass}">${body}</article>`;
-    }
-
-    return `
-      <a class="${rowClass}" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">
-        ${body}
-      </a>
-    `;
+    return `<article class="${rowClass}">${body}</article>`;
   }).join("");
 }
 
@@ -967,10 +1007,14 @@ function closeVideoModal() {
 }
 
 document.addEventListener("click", (event) => {
+  if (event.target.closest("a")) return;
   const button = event.target.closest("[data-video-id]");
   if (!button || !videoModal || !videoModalFrame) return;
-  const videoId = button.dataset.videoId;
-  const title = button.dataset.videoTitle || "YouTube動画";
+  openVideoModal(button.dataset.videoId, button.dataset.videoTitle || "YouTube動画");
+});
+
+function openVideoModal(videoId, title = "YouTube動画") {
+  if (!videoModal || !videoModalFrame || !videoId) return;
   videoModalFrame.innerHTML = `
     <iframe
       src="https://www.youtube.com/embed/${escapeHtml(videoId)}?autoplay=1"
@@ -979,7 +1023,7 @@ document.addEventListener("click", (event) => {
       allowfullscreen></iframe>
   `;
   videoModal.hidden = false;
-});
+}
 
 document.addEventListener("error", (event) => {
   const img = event.target.closest?.(".clip-thumb img, .clip-list-thumb img");
@@ -999,6 +1043,11 @@ document.querySelectorAll("[data-video-close]").forEach((button) => {
 
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") closeVideoModal();
+  if (event.key !== "Enter" && event.key !== " ") return;
+  const button = event.target.closest("[data-video-id]");
+  if (!button) return;
+  event.preventDefault();
+  openVideoModal(button.dataset.videoId, button.dataset.videoTitle || "YouTube動画");
 });
 
 async function initPage() {
