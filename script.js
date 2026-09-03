@@ -344,7 +344,7 @@ function ticketRemindersForItem(item = {}) {
 function ticketReminderLinks(item = {}) {
   return ticketRemindersForItem(item).map((ticket) => ({
     url: ticket.url || "",
-    title: ticket.ticketLabel ? `FANYチケット（${ticket.ticketLabel}）` : "FANYチケット"
+    title: "FANYチケット"
   }));
 }
 
