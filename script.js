@@ -320,76 +320,11 @@ function siteTitleFromUrl(url = "") {
   }
 }
 
-function japaneseDateLabel(date = "", day = "") {
-  const normalizedDate = normalizeDate(date);
-  const [year = "", month = "", dayOfMonth = ""] = normalizedDate.split("-");
-  if (!year || !month || !dayOfMonth) return "";
-
-  const weekdays = ["日", "月", "火", "水", "木", "金", "土"];
-  const weekday = String(day || "").trim() || weekdays[new Date(`${normalizedDate}T00:00:00+09:00`).getDay()];
-  return `${year}/${month}/${dayOfMonth}(${weekday})`;
-}
-
-function encodeFanyParam(value = "") {
-  return encodeURIComponent(value).replaceAll("(", "%28").replaceAll(")", "%29");
-}
-
-function normalizedLinkUrl(url = "", item = {}) {
-  try {
-    const parsedUrl = new URL(url);
-    const host = parsedUrl.hostname.replace(/^www\./, "");
-    if (host !== "ticket.fany.lol") return url;
-    if (parsedUrl.pathname === "/search/event") return url;
-
-    const keyword = item.ticketKeyword || item.title || "ナイチンゲールダンス";
-    const dateSource = fanyTicketDateSource(item, url);
-    const dateLabel = japaneseDateLabel(dateSource.date, dateSource.day);
-    const params = [
-      ["keywords", keyword],
-      ["from", dateLabel],
-      ["to", dateLabel],
-      ["prefectures", "0"],
-      ["genre", "0"],
-      ["search_type", "form"]
-    ];
-    return `https://ticket.fany.lol/search/event?${params.map(([key, value]) => `${key}=${encodeFanyParam(value)}`).join("&")}`;
-  } catch (error) {
-    return url;
-  }
-}
-
 function normalizedTitleKey(value = "") {
   return String(value)
     .normalize("NFKC")
     .replace(/[「」『』"'“”‘’\s　・:：]/g, "")
     .toLowerCase();
-}
-
-function scheduleForItem(item = {}, url = "") {
-  const itemKey = normalizedTitleKey(item.title);
-  if (!itemKey) return null;
-
-  const matches = scheduleItems
-    .filter((schedule) => normalizedTitleKey(schedule.title) === itemKey)
-    .sort((a, b) => normalizeDate(a.date).localeCompare(normalizeDate(b.date)));
-
-  if (!matches.length) return null;
-
-  const targetUrl = String(url || "").trim();
-  const itemUrl = String(item.url || "").trim();
-  return matches.find((schedule) => targetUrl && schedule.url === targetUrl)
-    || matches.find((schedule) => itemUrl && schedule.url === itemUrl)
-    || matches.find((schedule) => normalizeDate(schedule.date) === normalizeDate(item.date))
-    || matches[0];
-}
-
-function fanyTicketDateSource(item = {}, url = "") {
-  const schedule = scheduleForItem(item, item.url) || scheduleForItem(item, url) || scheduleForItem(item);
-  if (schedule) return { date: schedule.date, day: schedule.day };
-  return {
-    date: item.eventDate || item.performanceDate || item.showDate || item.date || "",
-    day: item.eventDay || item.day || ""
-  };
 }
 
 function ticketRemindersForItem(item = {}) {
@@ -400,11 +335,7 @@ function ticketRemindersForItem(item = {}) {
 
 function ticketReminderLinks(item = {}) {
   return ticketRemindersForItem(item).map((ticket) => ({
-    url: normalizedLinkUrl(ticket.url || "", {
-      ...item,
-      title: ticket.title || item.title,
-      ticketKeyword: ticket.title || item.title
-    }),
+    url: ticket.url || "",
     title: ticket.ticketLabel ? `FANYチケット（${ticket.ticketLabel}）` : "FANYチケット"
   }));
 }
@@ -429,7 +360,7 @@ function itemLinks(item = {}, limit = 3) {
   const seen = new Set();
   const result = links
     .map((link) => ({
-      url: normalizedLinkUrl(String(link.url || "").trim(), item),
+      url: String(link.url || "").trim(),
       title: String(link.title || link.label || link.siteTitle || link.name || link.media || link.station || link.broadcaster || "").trim()
     }))
     .filter((link) => link.url && !seen.has(link.url) && seen.add(link.url))
