@@ -232,8 +232,23 @@ function fallbackThumbnail(img) {
 function formatScheduleDate(item) {
   const date = normalizeDate(item.date);
   const [, month = "", day = ""] = date.split("-");
-  const label = month && day ? `${month}/${day}` : date;
-  return `${label}<small>${escapeHtml(item.day || "")}</small>`;
+  const weekdayLabels = {
+    日: "SUN",
+    月: "MON",
+    火: "TUE",
+    水: "WED",
+    木: "THU",
+    金: "FRI",
+    土: "SAT"
+  };
+  const weekday = weekdayLabels[item.day] || String(item.day || "").toUpperCase();
+  if (!month || !day) return `<span class="schedule-date-fallback">${escapeHtml(date)}</span>`;
+  return `
+    <span class="schedule-month">${escapeHtml(month)}</span>
+    <span class="schedule-day">${escapeHtml(day)}</span>
+    <span class="schedule-star">★</span>
+    <span class="schedule-weekday">${escapeHtml(weekday)}</span>
+  `;
 }
 
 function formatTime(item) {
@@ -803,7 +818,7 @@ function renderSchedule(items = []) {
 
     scheduleList.innerHTML = `
       <article class="schedule-row">
-        <div class="schedule-date">--<small></small></div>
+        <div class="schedule-date"><span class="schedule-date-fallback">--</span></div>
         <div class="schedule-main">
           <h3>スケジュール準備中</h3>
           <p>データ更新後に表示されます。</p>
@@ -879,7 +894,7 @@ function renderClips(items = fallbackClipItems) {
   if (!visibleItems.length) {
     const empty = `
       <article class="schedule-row">
-        <div class="schedule-date">--<small></small></div>
+        <div class="schedule-date"><span class="schedule-date-fallback">--</span></div>
         <div class="schedule-main">
           <h3>動画が見つかりません</h3>
           <p>検索条件を変えて確認してください。</p>

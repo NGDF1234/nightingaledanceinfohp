@@ -881,7 +881,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .schedule-row {
   display: grid;
-  grid-template-columns: 96px 1fr auto;
+  grid-template-columns: 118px 1fr auto;
   align-items: stretch;
   gap: 16px;
   min-height: 106px;
@@ -940,22 +940,46 @@ body[data-schedule-mode="all"] .schedule-date {
 }
 
 .schedule-date {
-  display: grid;
-  place-items: center;
-  min-height: 64px;
-  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 116px;
+  padding: 8px 18px 8px 0;
   border-right: 4px solid #111;
-  font-size: 1.22rem;
   font-weight: 950;
-  line-height: 1.15;
+  line-height: 1;
   text-align: center;
 }
 
-.schedule-date small {
-  font-family: "Yu Gothic", Meiryo, sans-serif;
-  margin-top: 4px;
-  font-size: .86rem;
+.schedule-month {
+  font-size: 1.35rem;
+  letter-spacing: 0;
+}
+
+.schedule-day {
+  margin-top: 8px;
+  font-size: 2.95rem;
+  letter-spacing: 0;
+}
+
+.schedule-star {
+  margin-top: 14px;
+  color: var(--blue);
+  font-size: 1.7rem;
+  line-height: 1;
+}
+
+.schedule-weekday {
+  margin-top: 12px;
+  font-size: 1.25rem;
   font-weight: 950;
+  letter-spacing: 0;
+}
+
+.schedule-date-fallback {
+  font-size: 1rem;
+  line-height: 1.2;
 }
 
 .schedule-main {
@@ -1643,14 +1667,14 @@ body[data-schedule-mode="all"] .schedule-date {
   .home-page .schedule-row {
     width: 100%;
     min-height: 196px;
-    grid-template-columns: 70px 1fr auto;
+    grid-template-columns: 92px 1fr auto;
     border: 3px solid rgba(17,17,17,.16);
     border-radius: 12px;
     box-shadow: 5px 5px 0 rgba(0,0,0,.13);
   }
 
   .schedule-row {
-    grid-template-columns: 72px 1fr auto;
+    grid-template-columns: 92px 1fr auto;
     gap: 10px;
     padding: 10px;
   }
@@ -1678,15 +1702,28 @@ body[data-schedule-mode="all"] .schedule-row {
   }
 
   .schedule-date {
-    min-height: 62px;
-    padding-right: 8px;
+    min-height: 128px;
+    padding: 8px 12px 8px 0;
     border-right-width: 4px;
-    font-size: 1.08rem;
   }
 
-  .schedule-date small {
-    margin-top: 3px;
-    font-size: .82rem;
+  .schedule-month {
+    font-size: 1.1rem;
+  }
+
+  .schedule-day {
+    margin-top: 7px;
+    font-size: 2.45rem;
+  }
+
+  .schedule-star {
+    margin-top: 12px;
+    font-size: 1.45rem;
+  }
+
+  .schedule-weekday {
+    margin-top: 10px;
+    font-size: 1.05rem;
   }
 
   .clip-card {
