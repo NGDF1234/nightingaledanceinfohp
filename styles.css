@@ -415,7 +415,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
   width: 260px;
   min-width: 260px;
   max-width: 260px;
-  min-height: 188px;
+  min-height: 214px;
   padding: 14px 18px;
   border: 2px solid var(--line);
   border-radius: 8px;
@@ -451,7 +451,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
   width: 300px;
   min-width: 300px;
   max-width: 300px;
-  min-height: 206px;
+  min-height: 226px;
   padding: 12px 14px;
   display: flex;
   flex-direction: column;
@@ -501,7 +501,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
   font-family: "Yu Gothic", Meiryo, sans-serif;
   font-size: .86rem;
   font-weight: 800;
-  line-height: 1.38;
+  line-height: 1.5;
   text-align: left;
   text-overflow: ellipsis;
   -webkit-box-orient: vertical;
@@ -895,7 +895,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .news-list-section .schedule-row,
 body[data-schedule-mode="all"] .schedule-row {
-  min-height: 174px;
+  min-height: 196px;
 }
 
 .news-list-section .schedule-main h3 {
@@ -1594,8 +1594,8 @@ body[data-schedule-mode="all"] .schedule-date {
     width: min(288px, 84vw);
     min-width: min(288px, 84vw);
     max-width: min(288px, 84vw);
-    height: 214px;
-    min-height: 214px;
+    height: 258px;
+    min-height: 258px;
     padding: 14px 16px;
     border: 3px solid rgba(17,17,17,.16);
     box-shadow: 5px 5px 0 rgba(0,0,0,.13);
@@ -1609,8 +1609,8 @@ body[data-schedule-mode="all"] .schedule-date {
   }
 
   .home-page .regular-card {
-    height: 258px;
-    min-height: 258px;
+    height: 276px;
+    min-height: 276px;
   }
 
   .home-page .schedule-list {
@@ -1624,7 +1624,7 @@ body[data-schedule-mode="all"] .schedule-date {
 
   .home-page .schedule-row {
     width: 100%;
-    min-height: 158px;
+    min-height: 196px;
     grid-template-columns: 58px 1fr auto;
     border: 3px solid rgba(17,17,17,.16);
     border-radius: 12px;
@@ -1637,9 +1637,9 @@ body[data-schedule-mode="all"] .schedule-date {
     padding: 10px;
   }
 
-  .news-list-section .schedule-row,
-  body[data-schedule-mode="all"] .schedule-row {
-    min-height: 174px;
+.news-list-section .schedule-row,
+body[data-schedule-mode="all"] .schedule-row {
+    min-height: 196px;
   }
 
   .clip-list-card {

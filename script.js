@@ -63,6 +63,7 @@ const videoModalFrame = document.querySelector("#video-modal-frame");
 const pageLoader = document.querySelector("#page-loader");
 let scheduleItems = [];
 let newsItems = [];
+let ticketReminderItems = [];
 let newsFilters = {
   keyword: "",
   category: "",
@@ -338,6 +339,7 @@ function normalizedLinkUrl(url = "", item = {}) {
     const parsedUrl = new URL(url);
     const host = parsedUrl.hostname.replace(/^www\./, "");
     if (host !== "ticket.fany.lol") return url;
+    if (parsedUrl.pathname === "/search/event") return url;
 
     const keyword = item.ticketKeyword || item.title || "ナイチンゲールダンス";
     const dateLabel = japaneseDateLabel(item.date, item.day);
@@ -355,7 +357,31 @@ function normalizedLinkUrl(url = "", item = {}) {
   }
 }
 
-function itemLinks(item = {}) {
+function normalizedTitleKey(value = "") {
+  return String(value)
+    .normalize("NFKC")
+    .replace(/[「」『』"'“”‘’\s　・:：]/g, "")
+    .toLowerCase();
+}
+
+function ticketRemindersForItem(item = {}) {
+  const itemKey = normalizedTitleKey(item.title);
+  if (!itemKey) return [];
+  return ticketReminderItems.filter((ticket) => normalizedTitleKey(ticket.title) === itemKey);
+}
+
+function ticketReminderLinks(item = {}) {
+  return ticketRemindersForItem(item).map((ticket) => ({
+    url: normalizedLinkUrl(ticket.url || "", {
+      ...item,
+      title: ticket.title || item.title,
+      ticketKeyword: ticket.title || item.title
+    }),
+    title: ticket.ticketLabel ? `FANYチケット（${ticket.ticketLabel}）` : "FANYチケット"
+  }));
+}
+
+function itemLinks(item = {}, limit = 3) {
   const rawLinks = Array.isArray(item.links)
     ? item.links
     : Array.isArray(item.urls)
@@ -370,15 +396,18 @@ function itemLinks(item = {}) {
     });
   }
 
+  links.push(...ticketReminderLinks(item));
+
   const seen = new Set();
-  return links
+  const result = links
     .map((link) => ({
       url: normalizedLinkUrl(String(link.url || "").trim(), item),
       title: String(link.title || link.label || link.siteTitle || link.name || link.media || link.station || link.broadcaster || "").trim()
     }))
     .filter((link) => link.url && !seen.has(link.url) && seen.add(link.url))
-    .slice(0, 3)
     .map((link) => ({ ...link, title: link.title || siteTitleFromUrl(link.url) }));
+
+  return Number.isFinite(limit) ? result.slice(0, limit) : result;
 }
 
 function renderCardLinks(item = {}) {
@@ -413,8 +442,8 @@ function newsDetail(item = {}) {
     tag: category,
     date: formatNewsDate(item.date),
     title: item.title || "",
-    details,
-    links: itemLinks(item)
+    details: [...details, ...ticketReminderDetails(item)],
+    links: itemLinks(item, Infinity)
   };
 }
 
@@ -426,9 +455,10 @@ function scheduleDetail(item = {}) {
     details: [
       formatTime(item),
       item.place,
-      item.note
+      item.note,
+      ...ticketReminderDetails(item)
     ].filter(Boolean),
-    links: itemLinks(item)
+    links: itemLinks(item, Infinity)
   };
 }
 
@@ -441,8 +471,29 @@ function regularDetail(item = {}) {
       regularMedia(item),
       regularTime(item)
     ].filter(Boolean),
-    links: itemLinks(item)
+    links: itemLinks(item, Infinity)
   };
+}
+
+function formatTicketDateTime(value = "") {
+  if (!value) return "";
+  const match = String(value).match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);
+  if (!match) return value;
+  return `${match[1]}.${match[2]}.${match[3]} ${match[4]}:${match[5]}`;
+}
+
+function ticketReminderDetails(item = {}) {
+  return ticketRemindersForItem(item).map((ticket) => {
+    const dates = [
+      ticket.startAt ? `開始 ${formatTicketDateTime(ticket.startAt)}` : "",
+      ticket.endAt ? `終了 ${formatTicketDateTime(ticket.endAt)}` : ""
+    ].filter(Boolean).join(" / ");
+    return [
+      ticket.ticketLabel || ticket.ticketKind || "チケット",
+      ticket.reminderLabel,
+      dates
+    ].filter(Boolean).join("：");
+  });
 }
 
 function isInstagramNews(item = {}) {
@@ -937,6 +988,7 @@ async function loadInfo() {
     const response = await fetch(DATA_PATH, { cache: "no-store" });
     if (!response.ok) throw new Error(`Failed to load ${DATA_PATH}`);
     const data = await response.json();
+    ticketReminderItems = Array.isArray(data.ticketReminders) ? data.ticketReminders : [];
     newsItems = Array.isArray(data.news) ? data.news : fallbackNewsItems;
     renderNews(newsItems);
     renderNewsList(newsItems);
@@ -944,6 +996,7 @@ async function loadInfo() {
     scheduleItems = Array.isArray(data.schedule) ? data.schedule : [];
     renderSchedule(scheduleItems);
   } catch {
+    ticketReminderItems = [];
     newsItems = fallbackNewsItems;
     renderNews(fallbackNewsItems);
     renderNewsList(fallbackNewsItems);
@@ -1137,7 +1190,7 @@ function openCardDetailModal(rawDetail = "") {
   const body = modal.querySelector("#card-detail-body");
   if (!body) return;
 
-  const links = Array.isArray(detail.links) ? detail.links.slice(0, 3) : [];
+  const links = Array.isArray(detail.links) ? detail.links : [];
   body.innerHTML = `
     ${detail.tag ? `<span class="news-tag">${escapeHtml(detail.tag)}</span>` : ""}
     ${detail.date ? `<p class="card-detail-date">${escapeHtml(detail.date)}</p>` : ""}
