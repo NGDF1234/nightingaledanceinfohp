@@ -880,7 +880,7 @@ main > section:nth-of-type(3n+1):not(.hero) {
 
 .schedule-row {
   display: grid;
-  grid-template-columns: 88px 1fr auto;
+  grid-template-columns: 96px 1fr auto;
   align-items: stretch;
   gap: 16px;
   min-height: 106px;
@@ -941,16 +941,20 @@ body[data-schedule-mode="all"] .schedule-date {
 .schedule-date {
   display: grid;
   place-items: center;
-  min-height: 52px;
-  border-right: 3px solid #111;
-  font-size: 1.1rem;
+  min-height: 64px;
+  padding-right: 10px;
+  border-right: 4px solid #111;
+  font-size: 1.22rem;
   font-weight: 950;
-  line-height: 1.1;
+  line-height: 1.15;
+  text-align: center;
 }
 
 .schedule-date small {
   font-family: "Yu Gothic", Meiryo, sans-serif;
-  font-size: .76rem;
+  margin-top: 4px;
+  font-size: .86rem;
+  font-weight: 950;
 }
 
 .schedule-main {
@@ -1632,14 +1636,14 @@ body[data-schedule-mode="all"] .schedule-date {
   .home-page .schedule-row {
     width: 100%;
     min-height: 196px;
-    grid-template-columns: 58px 1fr auto;
+    grid-template-columns: 70px 1fr auto;
     border: 3px solid rgba(17,17,17,.16);
     border-radius: 12px;
     box-shadow: 5px 5px 0 rgba(0,0,0,.13);
   }
 
   .schedule-row {
-    grid-template-columns: 64px 1fr auto;
+    grid-template-columns: 72px 1fr auto;
     gap: 10px;
     padding: 10px;
   }
@@ -1667,8 +1671,15 @@ body[data-schedule-mode="all"] .schedule-row {
   }
 
   .schedule-date {
-    min-height: 48px;
-    font-size: .95rem;
+    min-height: 62px;
+    padding-right: 8px;
+    border-right-width: 4px;
+    font-size: 1.08rem;
+  }
+
+  .schedule-date small {
+    margin-top: 3px;
+    font-size: .82rem;
   }
 
   .clip-card {
