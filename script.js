@@ -291,18 +291,32 @@ function newsSecondaryText(item = {}) {
 
 function siteTitleFromUrl(url = "") {
   try {
-    const host = new URL(url).hostname.replace(/^www\./, "");
+    const parsedUrl = new URL(url);
+    const host = parsedUrl.hostname.replace(/^www\./, "");
+    const path = parsedUrl.pathname;
+    const hash = parsedUrl.hash;
+
+    if (host === "ticket.fany.lol") {
+      if (path.startsWith("/search/event")) return "販売中のチケット";
+      if (path.startsWith("/reception/")) return "チケット受付";
+      if (path.startsWith("/event/detail/")) return "公演詳細";
+      return "FANYチケット";
+    }
+    if (host === "profile.yoshimoto.co.jp") {
+      return hash === "#feed_ticket_info2" ? "公演一覧" : "公式プロフィール";
+    }
+    if (host === "live.yoshimoto.co.jp") return "公演一覧";
+    if (host === "online-ticket.yoshimoto.co.jp") return "配信チケット";
+    if (host === "instagram.com" && path.startsWith("/stories/")) return "Instagramストーリーズ";
+    if (host === "x.com" || host === "twitter.com") {
+      return path.includes("/status/") ? "Xの投稿" : "X";
+    }
+
     const titles = {
       "youtube.com": "YouTube",
       "m.youtube.com": "YouTube",
       "youtu.be": "YouTube",
       "instagram.com": "Instagram",
-      "x.com": "X",
-      "twitter.com": "X",
-      "ticket.fany.lol": "FANYチケット",
-      "online-ticket.yoshimoto.co.jp": "配信チケット",
-      "live.yoshimoto.co.jp": "公演一覧",
-      "profile.yoshimoto.co.jp": "公式プロフィール",
       "shibuya-manzaigekijyo.yoshimoto.co.jp": "渋谷よしもと漫才劇場",
       "tv-asahi.co.jp": "テレビ朝日",
       "bsy.co.jp": "BSよしもと",
@@ -318,6 +332,14 @@ function siteTitleFromUrl(url = "") {
   } catch (error) {
     return "リンク";
   }
+}
+
+function linkTitlePriority(title = "") {
+  const normalizedTitle = String(title || "").trim();
+  if (!normalizedTitle) return 0;
+  if (["外部サイト", "リンク", "FANY", "FANYチケット"].includes(normalizedTitle)) return 1;
+  if (["公演詳細", "チケット受付", "販売中のチケット"].includes(normalizedTitle)) return 2;
+  return 3;
 }
 
 function normalizedTitleKey(value = "") {
@@ -357,14 +379,25 @@ function itemLinks(item = {}, limit = 3) {
 
   links.push(...ticketReminderLinks(item));
 
-  const seen = new Set();
+  const seen = new Map();
   const result = links
     .map((link) => ({
       url: String(link.url || "").trim(),
       title: String(link.title || link.label || link.siteTitle || link.name || link.media || link.station || link.broadcaster || "").trim()
     }))
-    .filter((link) => link.url && !seen.has(link.url) && seen.add(link.url))
-    .map((link) => ({ ...link, title: link.title || siteTitleFromUrl(link.url) }));
+    .filter((link) => link.url)
+    .map((link) => ({ ...link, title: link.title || siteTitleFromUrl(link.url) }))
+    .filter((link) => {
+      const current = seen.get(link.url);
+      if (!current) {
+        seen.set(link.url, link);
+        return true;
+      }
+      if (linkTitlePriority(link.title) > linkTitlePriority(current.title)) {
+        current.title = link.title;
+      }
+      return false;
+    });
 
   return Number.isFinite(limit) ? result.slice(0, limit) : result;
 }
