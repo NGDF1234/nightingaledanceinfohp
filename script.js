@@ -463,12 +463,11 @@ function formatTicketDateTime(value = "") {
 function ticketReminderDetails(item = {}) {
   return ticketRemindersForItem(item).map((ticket) => {
     const dates = [
-      ticket.startAt ? `開始 ${formatTicketDateTime(ticket.startAt)}` : "",
-      ticket.endAt ? `終了 ${formatTicketDateTime(ticket.endAt)}` : ""
+      ticket.startAt ? `受付開始 ${formatTicketDateTime(ticket.startAt)}` : "",
+      ticket.endAt ? `受付終了 ${formatTicketDateTime(ticket.endAt)}` : ""
     ].filter(Boolean).join(" / ");
     return [
       ticket.ticketLabel || ticket.ticketKind || "チケット",
-      ticket.reminderLabel,
       dates
     ].filter(Boolean).join("：");
   });

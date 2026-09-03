@@ -1,4 +1,4 @@
-const CACHE_VERSION = "ngd-info-pwa-v64";
+const CACHE_VERSION = "ngd-info-pwa-v65";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -6,7 +6,7 @@ const APP_SHELL = [
   "./schedule.html",
   "./clips.html",
   "./styles.css?v=196",
-  "./script.js?v=163",
+  "./script.js?v=164",
   "./pwa.js?v=8",
   "./manifest.webmanifest",
   "./data/nightingale-info.json",
