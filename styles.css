@@ -1253,12 +1253,18 @@ body[data-schedule-mode="all"] .schedule-date {
 .card-detail-panel {
   flex-basis: min(680px, calc(100vw - 44px));
   width: min(680px, calc(100vw - 44px));
-  max-height: min(78vh, 760px);
-  overflow: auto;
+  overflow: visible;
   background: #fff;
 }
 
+.card-detail-panel .video-modal-close {
+  top: -54px;
+  right: -6px;
+}
+
 .card-detail-body {
+  max-height: min(78vh, 760px);
+  overflow: auto;
   padding: 24px;
   color: #111;
 }
