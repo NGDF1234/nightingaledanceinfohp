@@ -342,7 +342,8 @@ function normalizedLinkUrl(url = "", item = {}) {
     if (parsedUrl.pathname === "/search/event") return url;
 
     const keyword = item.ticketKeyword || item.title || "ナイチンゲールダンス";
-    const dateLabel = japaneseDateLabel(item.date, item.day);
+    const dateSource = fanyTicketDateSource(item, url);
+    const dateLabel = japaneseDateLabel(dateSource.date, dateSource.day);
     const params = [
       ["keywords", keyword],
       ["from", dateLabel],
@@ -362,6 +363,33 @@ function normalizedTitleKey(value = "") {
     .normalize("NFKC")
     .replace(/[「」『』"'“”‘’\s　・:：]/g, "")
     .toLowerCase();
+}
+
+function scheduleForItem(item = {}, url = "") {
+  const itemKey = normalizedTitleKey(item.title);
+  if (!itemKey) return null;
+
+  const matches = scheduleItems
+    .filter((schedule) => normalizedTitleKey(schedule.title) === itemKey)
+    .sort((a, b) => normalizeDate(a.date).localeCompare(normalizeDate(b.date)));
+
+  if (!matches.length) return null;
+
+  const targetUrl = String(url || "").trim();
+  const itemUrl = String(item.url || "").trim();
+  return matches.find((schedule) => targetUrl && schedule.url === targetUrl)
+    || matches.find((schedule) => itemUrl && schedule.url === itemUrl)
+    || matches.find((schedule) => normalizeDate(schedule.date) === normalizeDate(item.date))
+    || matches[0];
+}
+
+function fanyTicketDateSource(item = {}, url = "") {
+  const schedule = scheduleForItem(item, item.url) || scheduleForItem(item, url) || scheduleForItem(item);
+  if (schedule) return { date: schedule.date, day: schedule.day };
+  return {
+    date: item.eventDate || item.performanceDate || item.showDate || item.date || "",
+    day: item.eventDay || item.day || ""
+  };
 }
 
 function ticketRemindersForItem(item = {}) {
