@@ -830,7 +830,7 @@ function renderSchedule(items = []) {
   }
 
   scheduleList.innerHTML = visibleItems.map((item) => {
-    const detail = [formatTime(item), item.place, item.note].filter(Boolean).join(" / ");
+    const detail = [formatTime(item), item.place, item.note].filter(Boolean).join("\n");
     const rowClass = normalizeDate(item.date) === today ? "schedule-row today" : "schedule-row";
     const body = `
       <div class="schedule-date">${formatScheduleDate(item)}</div>
