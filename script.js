@@ -343,6 +343,18 @@ function linkTitlePriority(title = "") {
   return 3;
 }
 
+function linkDedupKey(link = {}) {
+  const url = String(link.url || "").trim();
+  const title = String(link.title || "").trim();
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, "");
+    if (host === "ticket.fany.lol" && title === "FANYチケット") return "source:fany-ticket";
+  } catch (error) {
+    return url;
+  }
+  return url;
+}
+
 function normalizedTitleKey(value = "") {
   return String(value)
     .normalize("NFKC")
@@ -389,9 +401,10 @@ function itemLinks(item = {}, limit = 3) {
     .filter((link) => link.url)
     .map((link) => ({ ...link, title: link.title || siteTitleFromUrl(link.url) }))
     .filter((link) => {
-      const current = seen.get(link.url);
+      const key = linkDedupKey(link);
+      const current = seen.get(key);
       if (!current) {
-        seen.set(link.url, link);
+        seen.set(key, link);
         return true;
       }
       if (linkTitlePriority(link.title) > linkTitlePriority(current.title)) {
