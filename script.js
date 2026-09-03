@@ -796,10 +796,9 @@ function renderSchedule(items = []) {
   const category = scheduleFilters.category;
   const dateFrom = scheduleFilters.dateFrom;
   const dateTo = scheduleFilters.dateTo;
-  const upcomingItems = items
-    .filter((item) => !item.date || normalizeDate(item.date) >= today)
+  const sourceItems = (showAllSchedules ? [...items] : items.filter((item) => !item.date || normalizeDate(item.date) >= today))
     .sort((a, b) => `${normalizeDate(a.date)} ${a.startTime || ""}`.localeCompare(`${normalizeDate(b.date)} ${b.startTime || ""}`));
-  const visibleItems = upcomingItems
+  const visibleItems = sourceItems
     .filter((item) => showAllSchedules || !item.date || normalizeDate(item.date) <= weekEnd)
     .filter((item) => !titleQuery || scheduleSearchText(item).includes(titleQuery))
     .filter((item) => !category || scheduleCategory(item).toLowerCase() === category)
@@ -807,7 +806,7 @@ function renderSchedule(items = []) {
     .filter((item) => !dateTo || !item.date || normalizeDate(item.date) <= dateTo);
 
   if (scheduleToggle) {
-    scheduleToggle.hidden = showAllSchedules || visibleItems.length === upcomingItems.length;
+    scheduleToggle.hidden = showAllSchedules || visibleItems.length === sourceItems.length;
   }
 
   if (!visibleItems.length) {
@@ -1138,6 +1137,12 @@ if (clipsSearchForm) {
 setupDateRangeInputs(clipsDateFrom, clipsDateTo, updateClipFilters);
 setupDateRangeInputs(scheduleDateFrom, scheduleDateTo, updateScheduleFilters);
 setupDateRangeInputs(newsDateFrom, newsDateTo, updateNewsFilters);
+
+if (showAllSchedules && scheduleDateFrom && !scheduleDateFrom.value) {
+  scheduleDateFrom.value = todayKey();
+  scheduleFilters.dateFrom = scheduleDateFrom.value;
+  updateDateRangeVisual(scheduleDateFrom, scheduleDateTo);
+}
 
 function closeVideoModal() {
   if (!videoModal || !videoModalFrame) return;
