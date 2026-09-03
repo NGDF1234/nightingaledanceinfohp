@@ -291,32 +291,18 @@ function newsSecondaryText(item = {}) {
 
 function siteTitleFromUrl(url = "") {
   try {
-    const parsedUrl = new URL(url);
-    const host = parsedUrl.hostname.replace(/^www\./, "");
-    const path = parsedUrl.pathname;
-    const hash = parsedUrl.hash;
-
-    if (host === "ticket.fany.lol") {
-      if (path.startsWith("/search/event")) return "販売中のチケット";
-      if (path.startsWith("/reception/")) return "チケット受付";
-      if (path.startsWith("/event/detail/")) return "公演詳細";
-      return "FANYチケット";
-    }
-    if (host === "profile.yoshimoto.co.jp") {
-      return hash === "#feed_ticket_info2" ? "公演一覧" : "公式プロフィール";
-    }
-    if (host === "live.yoshimoto.co.jp") return "公演一覧";
-    if (host === "online-ticket.yoshimoto.co.jp") return "配信チケット";
-    if (host === "instagram.com" && path.startsWith("/stories/")) return "Instagramストーリーズ";
-    if (host === "x.com" || host === "twitter.com") {
-      return path.includes("/status/") ? "Xの投稿" : "X";
-    }
-
+    const host = new URL(url).hostname.replace(/^www\./, "");
     const titles = {
       "youtube.com": "YouTube",
       "m.youtube.com": "YouTube",
       "youtu.be": "YouTube",
       "instagram.com": "Instagram",
+      "x.com": "X",
+      "twitter.com": "X",
+      "ticket.fany.lol": "FANYチケット",
+      "online-ticket.yoshimoto.co.jp": "配信チケット",
+      "live.yoshimoto.co.jp": "公演一覧",
+      "profile.yoshimoto.co.jp": "公式プロフィール",
       "shibuya-manzaigekijyo.yoshimoto.co.jp": "渋谷よしもと漫才劇場",
       "tv-asahi.co.jp": "テレビ朝日",
       "bsy.co.jp": "BSよしもと",
