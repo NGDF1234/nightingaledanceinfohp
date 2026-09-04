@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T22:33:00+09:00",
+  "updatedAt": "2026-09-04T19:02:19+09:00",
   "news": [
     {
       "date": "2026-09-03",
@@ -119,48 +119,9 @@
       "title": "Instagram",
       "note": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
       "url": "https://www.instagram.com/stories/nakalthyn/3974300474789669216?utm_source=ig_story_item_share&igsi=MXMzZW04ZWRoZHA0OQ=="
-    },
-    {
-      "date": "2026-08-28",
-      "tag": "SNS",
-      "title": "Instagram",
-      "note": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3973533770589562346?utm_source=ig_story_item_share&igsi=MTlmZjNua2pzc242OQ=="
-    },
-    {
-      "date": "2026-08-28",
-      "tag": "YouTube",
-      "title": "【なぞなぞ】なかるてぃんなぞなぞ【9番街レトロ】",
-      "note": "",
-      "url": "https://www.youtube.com/watch?v=rKd-uGA2jnk"
-    },
-    {
-      "date": "2026-08-28",
-      "tag": "公演情報",
-      "title": "第五回 全日本クイズ1億2300万位決定戦",
-      "note": "※中野さんのみ出演",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E7%AC%AC%E4%BA%94%E5%9B%9E%20%E5%85%A8%E6%97%A5%E6%9C%AC%E3%82%AF%E3%82%A4%E3%82%BA1%E5%84%842300%E4%B8%87%E4%BD%8D%E6%B1%BA%E5%AE%9A%E6%88%A6&from=2026-10-03&to=2026-10-03&prefectures=0&genre=0&search_type=form"
-    },
-    {
-      "date": "2026-08-28",
-      "tag": "SNS",
-      "title": "Instagram",
-      "note": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3973064583177933102?utm_source=ig_story_item_share&igsi=MXNtb2M0dGlycGU2dQ=="
     }
   ],
   "schedule": [
-    {
-      "date": "2026-09-03",
-      "day": "木",
-      "startTime": "23:15",
-      "endTime": "00:15",
-      "tag": "テレビ",
-      "title": "アメトーーク！ テレビに出たい若手芸人",
-      "note": "※中野さんのみ出演",
-      "place": "テレビ朝日",
-      "url": "https://www.tv-asahi.co.jp/ametalk/lineup/3283/"
-    },
     {
       "date": "2026-09-04",
       "day": "金",
@@ -1694,32 +1655,6 @@
   "regular": [],
   "ticketReminders": [
     {
-      "id": "ticket_push_reminder|end|中野なかるてぃん単独ライブてぃん独ライブ|fanyidプレミアムメンバ抽選先行|202609041100",
-      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
-      "ticketKind": "抽選",
-      "ticketLabel": "FANY IDプレミアムメンバー抽選先行",
-      "reminderType": "end",
-      "reminderLabel": "受付終了1時間前",
-      "notifyAt": "2026-09-04T10:00:00+09:00",
-      "targetAt": "2026-09-04T11:00:00+09:00",
-      "startAt": "2026-09-01T11:00:00+09:00",
-      "endAt": "2026-09-04T11:00:00+09:00",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-10-24&to=2026-10-24&prefectures=0&genre=0&search_type=form"
-    },
-    {
-      "id": "ticket_push_reminder|end|中野なかるてぃん単独ライブてぃん独ライブ|fanyidメンバ抽選先行|202609041100",
-      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
-      "ticketKind": "抽選",
-      "ticketLabel": "FANY IDメンバー抽選先行",
-      "reminderType": "end",
-      "reminderLabel": "受付終了1時間前",
-      "notifyAt": "2026-09-04T10:00:00+09:00",
-      "targetAt": "2026-09-04T11:00:00+09:00",
-      "startAt": "2026-09-01T11:00:00+09:00",
-      "endAt": "2026-09-04T11:00:00+09:00",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-10-24&to=2026-10-24&prefectures=0&genre=0&search_type=form"
-    },
-    {
       "id": "ticket_push_reminder|start|ド桜かつやまpresents村田大樹に即興漫才トナメントプレゼントライブ2|一般発売|202609051000",
       "title": "ド桜かつやまpresents村田大樹に即興漫才トーナメントプレゼントライブ2",
       "ticketKind": "一般",
@@ -1759,6 +1694,19 @@
       "url": "https://ticket.fany.lol/search/event?keywords=%E7%AC%AC%E4%BA%94%E5%9B%9E%20%E5%85%A8%E6%97%A5%E6%9C%AC%E3%82%AF%E3%82%A4%E3%82%BA1%E5%84%842300%E4%B8%87%E4%BD%8D%E6%B1%BA%E5%AE%9A%E6%88%A6&from=2026-10-03&to=2026-10-03&prefectures=0&genre=0&search_type=form"
     },
     {
+      "id": "ticket_push_reminder|start|劇場版、ヤストキのゲムパクラヴへの大予選会in東京|fanyidメンバ抽選先行|202609051100",
+      "title": "劇場版、ヤストキのゲームパーク〜ラヴへの大予選会〜in東京",
+      "ticketKind": "抽選",
+      "ticketLabel": "FANY IDメンバー抽選先行",
+      "reminderType": "start",
+      "reminderLabel": "発売開始1時間前",
+      "notifyAt": "2026-09-05T10:00:00+09:00",
+      "targetAt": "2026-09-05T11:00:00+09:00",
+      "startAt": "2026-09-05T11:00:00+09:00",
+      "endAt": "2026-09-07T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E5%8A%87%E5%A0%B4%E7%89%88%E3%80%81%E3%83%A4%E3%82%B9%E3%83%88%E3%82%AD%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%BC%E3%82%AF%E3%80%9C%E3%83%A9%E3%83%B4%E3%81%B8%E3%81%AE%E5%A4%A7%E4%BA%88%E9%81%B8%E4%BC%9A%E3%80%9Cin%E6%9D%B1%E4%BA%AC&from=2026-11-10&to=2026-11-10&prefectures=0&genre=0&search_type=form"
+    },
+    {
       "id": "ticket_push_reminder|start|中野なかるてぃん単独ライブてぃん独ライブ|一般発売|202609061000",
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
       "ticketKind": "一般",
@@ -1770,6 +1718,32 @@
       "startAt": "2026-09-06T10:00:00+09:00",
       "endAt": "",
       "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-10-24&to=2026-10-24&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|end|劇場版、ヤストキのゲムパクラヴへの大予選会in東京|fanyidメンバ抽選先行|202609071100",
+      "title": "劇場版、ヤストキのゲームパーク〜ラヴへの大予選会〜in東京",
+      "ticketKind": "抽選",
+      "ticketLabel": "FANY IDメンバー抽選先行",
+      "reminderType": "end",
+      "reminderLabel": "受付終了1時間前",
+      "notifyAt": "2026-09-07T10:00:00+09:00",
+      "targetAt": "2026-09-07T11:00:00+09:00",
+      "startAt": "2026-09-05T11:00:00+09:00",
+      "endAt": "2026-09-07T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E5%8A%87%E5%A0%B4%E7%89%88%E3%80%81%E3%83%A4%E3%82%B9%E3%83%88%E3%82%AD%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%BC%E3%82%AF%E3%80%9C%E3%83%A9%E3%83%B4%E3%81%B8%E3%81%AE%E5%A4%A7%E4%BA%88%E9%81%B8%E4%BC%9A%E3%80%9Cin%E6%9D%B1%E4%BA%AC&from=2026-11-10&to=2026-11-10&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|start|劇場版、ヤストキのゲムパクラヴへの大予選会in東京|一般発売|202609131000",
+      "title": "劇場版、ヤストキのゲームパーク〜ラヴへの大予選会〜in東京",
+      "ticketKind": "一般",
+      "ticketLabel": "一般発売",
+      "reminderType": "start",
+      "reminderLabel": "発売開始1時間前",
+      "notifyAt": "2026-09-13T09:00:00+09:00",
+      "targetAt": "2026-09-13T10:00:00+09:00",
+      "startAt": "2026-09-13T10:00:00+09:00",
+      "endAt": "",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E5%8A%87%E5%A0%B4%E7%89%88%E3%80%81%E3%83%A4%E3%82%B9%E3%83%88%E3%82%AD%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%BC%E3%82%AF%E3%80%9C%E3%83%A9%E3%83%B4%E3%81%B8%E3%81%AE%E5%A4%A7%E4%BA%88%E9%81%B8%E4%BC%9A%E3%80%9Cin%E6%9D%B1%E4%BA%AC&from=2026-11-10&to=2026-11-10&prefectures=0&genre=0&search_type=form"
     }
   ],
   "clips": []
