@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T19:02:19+09:00",
+  "updatedAt": "2026-09-05T19:02:15+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|GDs4ZHcCdao",
+      "videoId": "GDs4ZHcCdao",
+      "kind": "video",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【癒し】３人で仲良く実食タイム【切り抜き】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=GDs4ZHcCdao",
+      "viewCount": 1,
+      "durationSeconds": 110,
+      "duration": "1:50",
+      "uploadDate": "2026-09-05",
+      "firstSeenAt": "2026-09-05T19:02:15+09:00",
+      "lastStatsUpdatedAt": "2026-09-05T19:02:15+09:00"
+    },
     {
       "id": "youtube|_qRl3luRqCw",
       "videoId": "_qRl3luRqCw",
