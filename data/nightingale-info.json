@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T14:22:08+09:00",
+  "updatedAt": "2026-09-06T18:02:13+09:00",
   "news": [
     {
       "date": "2026-09-06",
@@ -474,6 +474,17 @@
       "note": "※配信チケットに中野さんのお名前がありますが、チケットにはお名前がありません。",
       "place": "渋谷よしもと漫才劇場 詳細はリプライをご覧ください。 ID: 4F01798EB1",
       "url": "https://ticket.fany.lol/search/event?keywords=%F0%9F%8E%AD%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96&from=2026-10-10&to=2026-10-10&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "date": "2026-10-10",
+      "day": "土",
+      "startTime": "21:00",
+      "endTime": "22:00",
+      "tag": "テレビ",
+      "title": "鈴木バイダン漫才修行ライブ",
+      "note": "※中野さんのみ出演",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20823"
     },
     {
       "date": "2026-10-10",
