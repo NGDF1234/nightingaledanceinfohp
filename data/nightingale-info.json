@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T19:37:15+09:00",
+  "updatedAt": "2026-09-06T22:05:47+09:00",
   "news": [
     {
       "date": "2026-09-06",
@@ -166,17 +166,6 @@
     {
       "date": "2026-09-13",
       "day": "日",
-      "startTime": "17:45",
-      "endTime": "",
-      "tag": "公演情報",
-      "title": "ギャグを科学する60分スーパーギャグサイエンス",
-      "note": "",
-      "place": "歌舞伎町Sparkle（東京都）",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%AE%E3%83%A3%E3%82%B0%E3%82%92%E7%A7%91%E5%AD%A6%E3%81%99%E3%82%8B60%E5%88%86%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%AE%E3%83%A3%E3%82%B0%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9&from=2026-09-13&to=2026-09-13&prefectures=0&genre=0&search_type=form"
-    },
-    {
-      "date": "2026-09-13",
-      "day": "日",
       "startTime": "18:00",
       "endTime": "",
       "tag": "公演情報",
@@ -239,17 +228,6 @@
       "note": "",
       "place": "長崎国際テレビ（NIB）",
       "url": "https://www.nib.jp/tv/vtimes/"
-    },
-    {
-      "date": "2026-09-19",
-      "day": "土",
-      "startTime": "14:30",
-      "endTime": "",
-      "tag": "公演情報",
-      "title": "トーキョーマンゲキフェス2026ー渋神三世代決戦ー",
-      "note": "※中野なかるてぃんのみ出演",
-      "place": "LINE CUBE SHIBUYA（東京都）",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%88%E3%83%BC%E3%82%AD%E3%83%A7%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B2%E3%82%AD%E3%83%95%E3%82%A7%E3%82%B92026%E3%83%BC%E6%B8%8B%E7%A5%9E%E4%B8%89%E4%B8%96%E4%BB%A3%E6%B1%BA%E6%88%A6%E3%83%BC&from=2026-09-19&to=2026-09-19&prefectures=0&genre=0&search_type=form"
     },
     {
       "date": "2026-09-19",
