@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-09-06T00:02:10+09:00",
+  "updatedAt": "2026-09-06T11:07:06+09:00",
   "news": [
+    {
+      "date": "2026-09-06",
+      "tag": "SNS",
+      "title": "Instagram",
+      "note": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
+      "url": "https://www.instagram.com/stories/nakalthyn/3979601157080335758?utm_source=ig_story_item_share&stkn=bTRzNzVmazlpcGhl"
+    },
     {
       "date": "2026-09-05",
       "tag": "YouTube",
@@ -1607,20 +1614,6 @@
     }
   ],
   "regular": [],
-  "ticketReminders": [
-    {
-      "id": "ticket_push_reminder|start|中野なかるてぃん単独ライブてぃん独ライブ|一般発売|202609061000",
-      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
-      "ticketKind": "一般",
-      "ticketLabel": "一般発売",
-      "reminderType": "start",
-      "reminderLabel": "発売開始1時間前",
-      "notifyAt": "2026-09-06T09:00:00+09:00",
-      "targetAt": "2026-09-06T10:00:00+09:00",
-      "startAt": "2026-09-06T10:00:00+09:00",
-      "endAt": "",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-10-24&to=2026-10-24&prefectures=0&genre=0&search_type=form"
-    }
-  ],
+  "ticketReminders": [],
   "clips": []
 }
