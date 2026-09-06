@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T22:05:47+09:00",
+  "updatedAt": "2026-09-07T00:02:50+09:00",
   "news": [
     {
       "date": "2026-09-06",
@@ -84,41 +84,9 @@
       "title": "Instagram",
       "note": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
       "url": "https://www.instagram.com/stories/nakalthyn/3976412871046440230?utm_source=ig_story_item_share&igsi=M2dpanc1dTR3eGh0"
-    },
-    {
-      "date": "2026-08-31",
-      "tag": "SNS",
-      "title": "Instagram",
-      "note": "ストーリーズが更新されました。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3975805818942767233?utm_source=ig_story_item_share&igsi=OGlpMDNxb2Q5Njhn"
-    },
-    {
-      "date": "2026-08-31",
-      "tag": "YouTube",
-      "title": "【なぞなぞ】マリオ、ピカチュウ、カービィ自信がないのは？【9番街レトロ】",
-      "note": "",
-      "url": "https://www.youtube.com/watch?v=vBsH9hK_U_4"
-    },
-    {
-      "date": "2026-08-31",
-      "tag": "SNS",
-      "title": "Instagram",
-      "note": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3975582173469104057?utm_source=ig_story_item_share&igsi=dXRscG42bGhncm82"
     }
   ],
   "schedule": [
-    {
-      "date": "2026-09-06",
-      "day": "日",
-      "startTime": "18:00",
-      "endTime": "19:00",
-      "tag": "テレビ",
-      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "note": "※ヤスさんのみ出演",
-      "place": "BSよしもと 265ch",
-      "url": "https://bsy.co.jp/timetable"
-    },
     {
       "date": "2026-09-11",
       "day": "金",
@@ -1633,6 +1601,39 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
+      "note": "※ヤスさんのみ出演",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-03-06",
+      "day": "土",
+      "startTime": "00:00",
+      "endTime": "00:30",
+      "tag": "ラジオ",
+      "title": "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
+      "note": "",
+      "place": "CBCラジオ",
+      "url": "https://hicbc.com/radio/nightin/"
+    },
+    {
+      "date": "2027-03-06",
+      "day": "土",
+      "startTime": "09:25",
+      "endTime": "10:15",
+      "tag": "テレビ",
+      "title": "Vタイムズ",
+      "note": "",
+      "place": "長崎国際テレビ（NIB）",
+      "url": "https://www.nib.jp/tv/vtimes/"
+    },
+    {
+      "date": "2027-03-06",
+      "day": "土",
+      "startTime": "22:00",
+      "endTime": "23:00",
+      "tag": "テレビ",
+      "title": "東西南北よしもと麻雀リーグ season7",
       "note": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
