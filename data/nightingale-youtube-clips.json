@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T19:02:15+09:00",
+  "updatedAt": "2026-09-06T19:07:06+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|cPvagj_dF58",
+      "videoId": "cPvagj_dF58",
+      "kind": "video",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【香川】なかるてぃんのVlog見てみた【Vlog】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=cPvagj_dF58",
+      "viewCount": 16,
+      "durationSeconds": 81,
+      "duration": "1:21",
+      "uploadDate": "2026-09-06",
+      "firstSeenAt": "2026-09-06T19:07:06+09:00",
+      "lastStatsUpdatedAt": "2026-09-06T19:07:06+09:00"
+    },
     {
       "id": "youtube|GDs4ZHcCdao",
       "videoId": "GDs4ZHcCdao",
