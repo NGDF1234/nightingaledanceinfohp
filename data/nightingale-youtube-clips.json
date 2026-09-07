@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T01:02:12+09:00",
+  "updatedAt": "2026-09-07T19:02:17+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|tBX9bfZ8mro",
+      "videoId": "tBX9bfZ8mro",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【香川】うどん食べたらトイレに行きたくなった【Vlog】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/tBX9bfZ8mro",
+      "viewCount": 0,
+      "durationSeconds": 76,
+      "duration": "1:16",
+      "uploadDate": "2026-09-07",
+      "firstSeenAt": "2026-09-07T19:02:17+09:00",
+      "lastStatsUpdatedAt": "2026-09-07T19:02:17+09:00"
+    },
     {
       "id": "youtube|cPvagj_dF58",
       "videoId": "cPvagj_dF58",
