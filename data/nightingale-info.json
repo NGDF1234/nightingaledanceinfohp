@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T21:47:07+09:00",
+  "updatedAt": "2026-09-08T00:02:11+09:00",
   "news": [
     {
       "date": "2026-09-07",
@@ -120,20 +120,6 @@
       "title": "大声魔法使いかんちゃん 第2回ライブ",
       "note": "※中野さんのみ出演",
       "url": "https://x.com/WLUCK_PARK/status/2094727212754784379"
-    },
-    {
-      "date": "2026-09-01",
-      "tag": "YouTube",
-      "title": "ティッシュある？って聞かれて必死で考えた人",
-      "note": "",
-      "url": "https://www.youtube.com/shorts/JtRLAPo7iUc"
-    },
-    {
-      "date": "2026-09-01",
-      "tag": "SNS",
-      "title": "Instagram",
-      "note": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3976412871046440230?utm_source=ig_story_item_share&igsi=M2dpanc1dTR3eGh0"
     }
   ],
   "schedule": [
@@ -1697,6 +1683,17 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
+      "note": "※ヤスさんのみ出演",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-03-07",
+      "day": "日",
+      "startTime": "18:00",
+      "endTime": "19:00",
+      "tag": "テレビ",
+      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
       "note": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
