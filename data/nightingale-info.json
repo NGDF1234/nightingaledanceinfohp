@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-09-07T13:08:37+09:00",
+  "updatedAt": "2026-09-07T17:47:04+09:00",
   "news": [
+    {
+      "date": "2026-09-07",
+      "tag": "公演情報",
+      "title": "【芸辞苑】",
+      "note": "※中野さんのみ出演",
+      "url": "https://jimbocho-manzaigekijyo.yoshimoto.co.jp/schedule/?id=19822",
+      "links": [
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/%E8%8A%B8%E8%BE%9E%E8%8B%91-9-18-21-00"
+        },
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-09-18&to=2026-09-18&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
     {
       "date": "2026-09-06",
       "tag": "YouTube",
@@ -175,6 +192,27 @@
       "note": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2026-09-18",
+      "day": "金",
+      "startTime": "21:00",
+      "endTime": "22:00",
+      "tag": "公演情報",
+      "title": "【芸辞苑】",
+      "note": "※中野さんのみ出演",
+      "place": "神保町よしもと漫才劇場（東京都）",
+      "url": "https://jimbocho-manzaigekijyo.yoshimoto.co.jp/schedule/?id=19822",
+      "links": [
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/%E8%8A%B8%E8%BE%9E%E8%8B%91-9-18-21-00"
+        },
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-09-18&to=2026-09-18&prefectures=0&genre=0&search_type=form"
+        }
+      ]
     },
     {
       "date": "2026-09-19",
