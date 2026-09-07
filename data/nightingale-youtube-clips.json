@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T19:02:17+09:00",
+  "updatedAt": "2026-09-07T21:42:16+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -38,6 +38,24 @@
       "uploadDate": "2026-09-07",
       "firstSeenAt": "2026-09-07T19:02:17+09:00",
       "lastStatsUpdatedAt": "2026-09-07T19:02:17+09:00"
+    },
+    {
+      "id": "youtube|FypRbPpr1WI",
+      "videoId": "FypRbPpr1WI",
+      "kind": "video",
+      "channelName": "文化シヤッターpresentsナイチンゲールダンスのもうきてるラジオ【CBCラジオ】",
+      "channelType": "appearance",
+      "channelUrl": "https://www.youtube.com/channel/UCx-M0mLiKfilc96JqQ6JOdw",
+      "channelId": "UCx-M0mLiKfilc96JqQ6JOdw",
+      "title": "#21「最高の合コン幹事」【ナイチンゲールダンスのもうきてるラジオ】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=FypRbPpr1WI",
+      "viewCount": 76,
+      "durationSeconds": 1979,
+      "duration": "32:59",
+      "uploadDate": "2026-09-07",
+      "firstSeenAt": "2026-09-07T21:42:16+09:00",
+      "lastStatsUpdatedAt": "2026-09-07T21:42:16+09:00"
     },
     {
       "id": "youtube|cPvagj_dF58",
