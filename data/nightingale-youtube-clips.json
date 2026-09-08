@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T21:42:16+09:00",
+  "updatedAt": "2026-09-08T19:02:16+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|I5JIfXmdVzo",
+      "videoId": "I5JIfXmdVzo",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【香川】コメントゾンビになってしまうなかるてぃん【Vlog】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/I5JIfXmdVzo",
+      "viewCount": 0,
+      "durationSeconds": 92,
+      "duration": "1:32",
+      "uploadDate": "2026-09-08",
+      "firstSeenAt": "2026-09-08T19:02:16+09:00",
+      "lastStatsUpdatedAt": "2026-09-08T19:02:16+09:00"
+    },
     {
       "id": "youtube|tBX9bfZ8mro",
       "videoId": "tBX9bfZ8mro",
