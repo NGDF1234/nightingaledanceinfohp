@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-09-09T19:07:11+09:00",
+  "updatedAt": "2026-09-10T01:27:13+09:00",
   "news": [
+    {
+      "date": "2026-09-10",
+      "tag": "SNS",
+      "title": "Instagram",
+      "note": "ストーリーズに中野さんとの写真が投稿されています。 アカウント名: 金魚番長 古市",
+      "url": "https://www.instagram.com/stories/full_bantyo_/3982386354868447387?utm_source=ig_story_item_share&stkn=Z2VpY3BoNTZpOXR0"
+    },
     {
       "date": "2026-09-09",
       "tag": "YouTube",
@@ -93,20 +100,6 @@
       "title": "【夜勤明け？】顔面を覆った金魚番長古市の素顔。お笑いモンスターの知られざる日常",
       "note": "※6:39〜 中野さんのお名前出てます。",
       "url": "https://youtu.be/bzYJzYZdNOc?si=5cUuvD3CPbvKKO29"
-    },
-    {
-      "date": "2026-09-03",
-      "tag": "SNS",
-      "title": "Instagram",
-      "note": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3977989728292240556?utm_source=ig_story_item_share&igsi=cmI0YnIyODczcGRr"
-    },
-    {
-      "date": "2026-09-03",
-      "tag": "SNS",
-      "title": "Instagram",
-      "note": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3977971459137117463?utm_source=ig_story_item_share&igsi=MTJkYjNzOTJzc29mNA=="
     }
   ],
   "schedule": [
