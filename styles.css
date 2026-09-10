@@ -917,7 +917,7 @@ body[data-schedule-mode="all"] .schedule-main h3 {
 .news-list-section .schedule-main p,
 body[data-schedule-mode="all"] .schedule-main p {
   display: block;
-  white-space: normal;
+  white-space: pre-line;
   text-overflow: clip;
 }
 
