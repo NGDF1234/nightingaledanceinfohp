@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T19:17:15+09:00",
+  "updatedAt": "2026-09-13T00:02:17+09:00",
   "news": [
     {
       "date": "2026-09-12",
@@ -94,69 +94,9 @@
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-09-18&to=2026-09-18&prefectures=0&genre=0&search_type=form"
         }
       ]
-    },
-    {
-      "date": "2026-09-06",
-      "tag": "YouTube",
-      "title": "【香川】なかるてぃんのVlog見てみた【Vlog】",
-      "note": "",
-      "url": "https://www.youtube.com/shorts/cPvagj_dF58"
-    },
-    {
-      "date": "2026-09-06",
-      "tag": "公演情報",
-      "title": "鈴木バイダン漫才修行ライブ",
-      "note": "",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96&from=2026-10-10&to=2026-10-10&prefectures=0&genre=0&search_type=form",
-      "links": [
-        {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/products/鈴木バイダン漫才修行ライブ-10-10-21-00"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "tag": "SNS",
-      "title": "Instagram",
-      "note": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3979601157080335758?utm_source=ig_story_item_share&stkn=bTRzNzVmazlpcGhl"
     }
   ],
   "schedule": [
-    {
-      "date": "2026-09-12",
-      "day": "土",
-      "startTime": "00:00",
-      "endTime": "00:30",
-      "tag": "ラジオ",
-      "title": "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
-      "note": "",
-      "place": "CBCラジオ",
-      "url": "https://hicbc.com/radio/nightin/"
-    },
-    {
-      "date": "2026-09-12",
-      "day": "土",
-      "startTime": "09:25",
-      "endTime": "10:15",
-      "tag": "テレビ",
-      "title": "Vタイムズ",
-      "note": "",
-      "place": "長崎国際テレビ（NIB）",
-      "url": "https://www.nib.jp/tv/vtimes/"
-    },
-    {
-      "date": "2026-09-12",
-      "day": "土",
-      "startTime": "22:00",
-      "endTime": "23:00",
-      "tag": "テレビ",
-      "title": "東西南北よしもと麻雀リーグ season7",
-      "note": "※ヤスさんのみ出演",
-      "place": "BSよしもと 265ch",
-      "url": "https://bsy.co.jp/timetable"
-    },
     {
       "date": "2026-09-13",
       "day": "日",
@@ -1704,6 +1644,17 @@
       "day": "日",
       "startTime": "18:00",
       "endTime": "19:00",
+      "tag": "テレビ",
+      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
+      "note": "※ヤスさんのみ出演",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-03-12",
+      "day": "金",
+      "startTime": "14:30",
+      "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
       "note": "※ヤスさんのみ出演",
