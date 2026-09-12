@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T19:02:20+09:00",
+  "updatedAt": "2026-09-12T19:02:16+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|56mXDqj5xlA",
+      "videoId": "56mXDqj5xlA",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【ギャグ】JKなかる子の宝塚ギャグ【コスプレ】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/56mXDqj5xlA",
+      "viewCount": 0,
+      "durationSeconds": 40,
+      "duration": "0:40",
+      "uploadDate": "2026-09-12",
+      "firstSeenAt": "2026-09-12T19:02:16+09:00",
+      "lastStatsUpdatedAt": "2026-09-12T19:02:16+09:00"
+    },
     {
       "id": "youtube|i_ZnItlmy7w",
       "videoId": "i_ZnItlmy7w",
