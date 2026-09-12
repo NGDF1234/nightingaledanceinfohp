@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-09-11T19:07:23+09:00",
+  "updatedAt": "2026-09-12T13:52:20+09:00",
   "news": [
+    {
+      "date": "2026-09-12",
+      "tag": "公演情報",
+      "title": "ナイチンゲールダンス中野なかるてぃんpresents日本一大きい寄席",
+      "note": "※中野さんのみ出演",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB%E3%83%80%E3%83%B3%E3%82%B9%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93presents%E6%97%A5%E6%9C%AC%E4%B8%80&from=2026-10-04&to=2026-10-04&prefectures=0&genre=0&search_type=form"
+    },
     {
       "date": "2026-09-11",
       "tag": "YouTube",
@@ -107,27 +114,9 @@
       "title": "Instagram",
       "note": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
       "url": "https://www.instagram.com/stories/nakalthyn/3979601157080335758?utm_source=ig_story_item_share&stkn=bTRzNzVmazlpcGhl"
-    },
-    {
-      "date": "2026-09-05",
-      "tag": "YouTube",
-      "title": "【夜勤明け？】顔面を覆った金魚番長古市の素顔。お笑いモンスターの知られざる日常",
-      "note": "※6:39〜 中野さんのお名前出てます。",
-      "url": "https://youtu.be/bzYJzYZdNOc?si=5cUuvD3CPbvKKO29"
     }
   ],
   "schedule": [
-    {
-      "date": "2026-09-11",
-      "day": "金",
-      "startTime": "14:30",
-      "endTime": "15:30",
-      "tag": "テレビ",
-      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "note": "※ヤスさんのみ出演",
-      "place": "BSよしもと 265ch",
-      "url": "https://bsy.co.jp/timetable"
-    },
     {
       "date": "2026-09-12",
       "day": "土",
@@ -413,6 +402,17 @@
       "note": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2026-10-04",
+      "day": "日",
+      "startTime": "19:00",
+      "endTime": "",
+      "tag": "公演情報",
+      "title": "ナイチンゲールダンス中野なかるてぃんpresents日本一大きい寄席",
+      "note": "※中野さんのみ出演",
+      "place": "リッチダイヤモンド総合市民会館 芸術ホール（山梨県）",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB%E3%83%80%E3%83%B3%E3%82%B9%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93presents%E6%97%A5%E6%9C%AC%E4%B8%80&from=2026-10-04&to=2026-10-04&prefectures=0&genre=0&search_type=form"
     },
     {
       "date": "2026-10-06",
@@ -1705,6 +1705,20 @@
     }
   ],
   "regular": [],
-  "ticketReminders": [],
+  "ticketReminders": [
+    {
+      "id": "ticket_push_reminder|start|ナイチンゲルダンス中野なかるてぃんpresents日本一大きい寄席|一般発売|202609131000",
+      "title": "ナイチンゲールダンス中野なかるてぃんpresents日本一大きい寄席",
+      "ticketKind": "一般",
+      "ticketLabel": "一般発売",
+      "reminderType": "start",
+      "reminderLabel": "発売開始1時間前",
+      "notifyAt": "2026-09-13T09:00:00+09:00",
+      "targetAt": "2026-09-13T10:00:00+09:00",
+      "startAt": "2026-09-13T10:00:00+09:00",
+      "endAt": "2026-10-03T23:59:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB%E3%83%80%E3%83%B3%E3%82%B9%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93presents%E6%97%A5%E6%9C%AC%E4%B8%80&from=2026-10-04&to=2026-10-04&prefectures=0&genre=0&search_type=form"
+    }
+  ],
   "clips": []
 }
