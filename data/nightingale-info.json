@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-09-13T02:22:06+09:00",
+  "updatedAt": "2026-09-13T19:02:29+09:00",
   "news": [
+    {
+      "date": "2026-09-13",
+      "tag": "YouTube",
+      "title": "【JK】メイクやらスカートやらで女の子の気持ちを味わう芸人【コスプレ】",
+      "note": "",
+      "url": "https://www.youtube.com/shorts/RfEuWz6Cr5U"
+    },
     {
       "date": "2026-09-13",
       "tag": "SNS",
@@ -1670,20 +1677,6 @@
     }
   ],
   "regular": [],
-  "ticketReminders": [
-    {
-      "id": "ticket_push_reminder|start|ナイチンゲルダンス中野なかるてぃんpresents日本一大きい寄席|一般発売|202609131000",
-      "title": "ナイチンゲールダンス中野なかるてぃんpresents日本一大きい寄席",
-      "ticketKind": "一般",
-      "ticketLabel": "一般発売",
-      "reminderType": "start",
-      "reminderLabel": "発売開始1時間前",
-      "notifyAt": "2026-09-13T09:00:00+09:00",
-      "targetAt": "2026-09-13T10:00:00+09:00",
-      "startAt": "2026-09-13T10:00:00+09:00",
-      "endAt": "2026-10-03T23:59:00+09:00",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB%E3%83%80%E3%83%B3%E3%82%B9%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93presents%E6%97%A5%E6%9C%AC%E4%B8%80&from=2026-10-04&to=2026-10-04&prefectures=0&genre=0&search_type=form"
-    }
-  ],
+  "ticketReminders": [],
   "clips": []
 }
