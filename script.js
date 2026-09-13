@@ -438,10 +438,12 @@ function newsDetail(item = {}) {
   const isYoutube = category.startsWith("YouTube");
   const snsDetails = newsSnsDetails(item);
   const text = snsDetails.comment || newsSecondaryText(item);
+  const performanceDetails = category === "公演情報" ? relatedScheduleDetails(item) : [];
   const details = [
     isYoutube ? newsYoutubeChannelName(item) : "",
     text,
-    snsDetails.accountName
+    snsDetails.accountName,
+    ...performanceDetails
   ].filter(Boolean);
 
   return {
@@ -451,6 +453,36 @@ function newsDetail(item = {}) {
     details: [...details, ...ticketReminderDetails(item)],
     links: itemLinks(item, Infinity)
   };
+}
+
+function relatedSchedules(item = {}) {
+  const itemTitleKey = normalizedTitleKey(item.title);
+  const itemUrl = String(item.url || "").trim();
+  if (!itemTitleKey && !itemUrl) return [];
+
+  return scheduleItems.filter((schedule) => {
+    const titleMatches = itemTitleKey && normalizedTitleKey(schedule.title) === itemTitleKey;
+    const urlMatches = itemUrl && String(schedule.url || "").trim() === itemUrl;
+    return titleMatches || urlMatches;
+  });
+}
+
+function formatScheduleDateTime(item = {}) {
+  const date = formatNewsDate(item.date);
+  const day = item.day ? `（${item.day}）` : "";
+  const time = formatTime(item);
+  return [date ? `${date}${day}` : "", time].filter(Boolean).join(" ");
+}
+
+function relatedScheduleDetails(item = {}) {
+  const details = [];
+  relatedSchedules(item).forEach((schedule) => {
+    const dateTime = formatScheduleDateTime(schedule);
+    if (dateTime) details.push(`日時：${dateTime}`);
+    if (schedule.place) details.push(`会場：${schedule.place}`);
+    if (schedule.note) details.push(`コメント：${schedule.note}`);
+  });
+  return [...new Set(details)];
 }
 
 function scheduleDetail(item = {}) {
@@ -994,10 +1026,10 @@ async function loadInfo() {
     const data = await response.json();
     ticketReminderItems = Array.isArray(data.ticketReminders) ? data.ticketReminders : [];
     newsItems = Array.isArray(data.news) ? data.news : fallbackNewsItems;
+    scheduleItems = Array.isArray(data.schedule) ? data.schedule : [];
     renderNews(newsItems);
     renderNewsList(newsItems);
     renderRegular(Array.isArray(data.regular) ? data.regular : fallbackRegularItems);
-    scheduleItems = Array.isArray(data.schedule) ? data.schedule : [];
     renderSchedule(scheduleItems);
   } catch {
     ticketReminderItems = [];
