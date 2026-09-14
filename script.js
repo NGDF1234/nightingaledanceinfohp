@@ -435,54 +435,44 @@ function detailAttributes(detail = {}) {
 
 function newsDetail(item = {}) {
   const category = newsCategory(item);
-  const isYoutube = category.startsWith("YouTube");
-  const snsDetails = newsSnsDetails(item);
-  const text = snsDetails.comment || newsSecondaryText(item);
-  const performanceDetails = category === "公演情報" ? relatedScheduleDetails(item) : [];
-  const details = [
-    isYoutube ? newsYoutubeChannelName(item) : "",
-    text,
-    snsDetails.accountName,
-    ...performanceDetails
-  ].filter(Boolean);
 
   return {
     tag: category,
     date: formatNewsDate(item.date),
     title: item.title || "",
-    details: [...details, ...ticketReminderDetails(item)],
+    details: newsStructuredDetails(item, category),
     links: itemLinks(item, Infinity)
   };
 }
 
-function relatedSchedules(item = {}) {
-  const itemTitleKey = normalizedTitleKey(item.title);
-  const itemUrl = String(item.url || "").trim();
-  if (!itemTitleKey && !itemUrl) return [];
-
-  return scheduleItems.filter((schedule) => {
-    const titleMatches = itemTitleKey && normalizedTitleKey(schedule.title) === itemTitleKey;
-    const urlMatches = itemUrl && String(schedule.url || "").trim() === itemUrl;
-    return titleMatches || urlMatches;
-  });
-}
-
-function formatScheduleDateTime(item = {}) {
-  const date = formatNewsDate(item.date);
+function formatNewsScheduleDateTime(item = {}) {
+  const date = formatNewsDate(item.scheduleDate);
   const day = item.day ? `（${item.day}）` : "";
-  const time = formatTime(item);
-  return [date ? `${date}${day}` : "", time].filter(Boolean).join(" ");
+  const timeParts = [];
+  if (item.openTime) timeParts.push(`開場 ${item.openTime}`);
+  if (item.startTime) timeParts.push(`開演 ${item.startTime}`);
+  if (item.endTime) timeParts.push(`終演 ${item.endTime}`);
+  return [date ? `${date}${day}` : "", timeParts.join(" / ")].filter(Boolean).join(" ");
 }
 
-function relatedScheduleDetails(item = {}) {
+function newsStructuredDetails(item = {}, category = "") {
   const details = [];
-  relatedSchedules(item).forEach((schedule) => {
-    const dateTime = formatScheduleDateTime(schedule);
-    if (dateTime) details.push(`日時：${dateTime}`);
-    if (schedule.place) details.push(`会場：${schedule.place}`);
-    if (schedule.note) details.push(`コメント：${schedule.note}`);
-  });
-  return [...new Set(details)];
+  const note = String(item.note || "").trim();
+  const dateTime = formatNewsScheduleDateTime(item);
+  const place = String(item.place || "").trim();
+  const media = String(item.media || "").trim();
+
+  if (note) details.push(note);
+  if (dateTime) details.push(`日時：${dateTime}`);
+  if (category === "公演情報" || category === "イベント") {
+    if (place) details.push(`会場：${place}`);
+  } else if (media) {
+    details.push(`媒体：${media}`);
+  } else if (place) {
+    details.push(`場所：${place}`);
+  }
+
+  return details;
 }
 
 function scheduleDetail(item = {}) {
