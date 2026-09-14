@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T19:02:36+09:00",
+  "updatedAt": "2026-09-14T19:07:10+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -38,6 +38,24 @@
       "uploadDate": "2026-09-14",
       "firstSeenAt": "2026-09-14T19:02:36+09:00",
       "lastStatsUpdatedAt": ""
+    },
+    {
+      "id": "youtube|V7beM0cpqV4",
+      "videoId": "V7beM0cpqV4",
+      "kind": "video",
+      "channelName": "文化シヤッターpresentsナイチンゲールダンスのもうきてるラジオ【CBCラジオ】",
+      "channelType": "appearance",
+      "channelUrl": "https://www.youtube.com/channel/UCx-M0mLiKfilc96JqQ6JOdw",
+      "channelId": "UCx-M0mLiKfilc96JqQ6JOdw",
+      "title": "CBCラジオ夏まつり2026公開シャタおろ(※一部のみ)【ナイチンゲールダンスのもうきてるラジオ】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=V7beM0cpqV4",
+      "viewCount": 17,
+      "durationSeconds": 286,
+      "duration": "4:46",
+      "uploadDate": "2026-09-14",
+      "firstSeenAt": "2026-09-14T19:07:10+09:00",
+      "lastStatsUpdatedAt": "2026-09-14T19:07:10+09:00"
     },
     {
       "id": "youtube|RfEuWz6Cr5U",
