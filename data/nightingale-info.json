@@ -13,7 +13,8 @@
       "tag": "YouTube",
       "title": "CBCラジオ夏まつり2026公開シャタおろ(※一部のみ)【ナイチンゲールダンスのもうきてるラジオ】",
       "note": "",
-      "url": "https://www.youtube.com/watch?v=V7beM0cpqV4"
+      "url": "https://www.youtube.com/watch?v=V7beM0cpqV4",
+      "media": "CBCラジオ"
     },
     {
       "date": "2026-09-13",
@@ -21,6 +22,11 @@
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
       "note": "※中野さんのみ出演",
       "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20874",
+      "scheduleDate": "2026-09-26",
+      "day": "土",
+      "openTime": "18:45",
+      "startTime": "19:00",
+      "place": "渋谷よしもと漫才劇場（東京都）",
       "links": [
         {
           "title": "FANYチケット",
@@ -54,7 +60,12 @@
       "tag": "公演情報",
       "title": "ナイチンゲールダンス中野なかるてぃんpresents日本一大きい寄席",
       "note": "※中野さんのみ出演",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB%E3%83%80%E3%83%B3%E3%82%B9%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93presents%E6%97%A5%E6%9C%AC%E4%B8%80&from=2026-10-04&to=2026-10-04&prefectures=0&genre=0&search_type=form"
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB%E3%83%80%E3%83%B3%E3%82%B9%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93presents%E6%97%A5%E6%9C%AC%E4%B8%80&from=2026-10-04&to=2026-10-04&prefectures=0&genre=0&search_type=form",
+      "scheduleDate": "2026-10-04",
+      "day": "日",
+      "openTime": "18:30",
+      "startTime": "19:00",
+      "place": "リッチダイヤモンド総合市民会館 芸術ホール（山梨県）"
     },
     {
       "date": "2026-09-11",
@@ -96,7 +107,12 @@
       "tag": "公演情報",
       "title": "替え歌キングダム",
       "note": "※中野さんのみ出演",
-      "url": "https://tiget.net/events/521125"
+      "url": "https://tiget.net/events/521125",
+      "scheduleDate": "2026-10-11",
+      "day": "日",
+      "openTime": "13:00",
+      "startTime": "13:15",
+      "place": "新宿バティオス"
     },
     {
       "date": "2026-09-07",
@@ -110,7 +126,8 @@
       "tag": "YouTube",
       "title": "#21「最高の合コン幹事」【ナイチンゲールダンスのもうきてるラジオ】",
       "note": "",
-      "url": "https://www.youtube.com/watch?v=FypRbPpr1WI"
+      "url": "https://www.youtube.com/watch?v=FypRbPpr1WI",
+      "media": "CBCラジオ"
     },
     {
       "date": "2026-09-07",
@@ -125,6 +142,12 @@
       "title": "【芸辞苑】",
       "note": "※中野さんのみ出演",
       "url": "https://jimbocho-manzaigekijyo.yoshimoto.co.jp/schedule/?id=19822",
+      "scheduleDate": "2026-09-18",
+      "day": "金",
+      "openTime": "20:45",
+      "startTime": "21:00",
+      "endTime": "22:00",
+      "place": "神保町よしもと漫才劇場（東京都）",
       "links": [
         {
           "title": "FANY Online Ticket",
@@ -149,6 +172,11 @@
       "title": "鈴木バイダン漫才修行ライブ",
       "note": "",
       "url": "https://ticket.fany.lol/search/event?keywords=%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96&from=2026-10-10&to=2026-10-10&prefectures=0&genre=0&search_type=form",
+      "scheduleDate": "2026-10-10",
+      "day": "土",
+      "openTime": "20:45",
+      "startTime": "21:00",
+      "place": "渋谷よしもと漫才劇場（東京都）",
       "links": [
         {
           "title": "FANY Online Ticket",
@@ -190,6 +218,12 @@
       "title": "ド桜かつやまpresents村田大樹に即興漫才トーナメントプレゼントライブ2",
       "note": "※中野さんのみ出演",
       "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20855",
+      "scheduleDate": "2026-10-06",
+      "day": "火",
+      "openTime": "19:00",
+      "startTime": "19:15",
+      "endTime": "20:15",
+      "place": "渋谷よしもと漫才劇場（東京都）",
       "links": [
         {
           "title": "FANYチケット",
@@ -252,6 +286,12 @@
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
       "note": "※中野さんのみ出演",
       "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=21228",
+      "scheduleDate": "2026-10-24",
+      "day": "土",
+      "openTime": "18:45",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "place": "渋谷よしもと漫才劇場（東京都）",
       "links": [
         {
           "title": "FANYチケット",
@@ -271,7 +311,8 @@
       "tag": "YouTube",
       "title": "#20「寝坊の理由」【ナイチンゲールダンスのもうきてるラジオ】",
       "note": "",
-      "url": "https://www.youtube.com/watch?v=fl3ziP9q2Xw"
+      "url": "https://www.youtube.com/watch?v=fl3ziP9q2Xw",
+      "media": "CBCラジオ"
     },
     {
       "date": "2026-08-30",
@@ -314,6 +355,11 @@
       "title": "第五回 全日本クイズ1億2300万位決定戦",
       "note": "※中野さんのみ出演",
       "url": "https://ticket.fany.lol/search/event?keywords=%E7%AC%AC%E4%BA%94%E5%9B%9E%20%E5%85%A8%E6%97%A5%E6%9C%AC%E3%82%AF%E3%82%A4%E3%82%BA1%E5%84%842300%E4%B8%87%E4%BD%8D%E6%B1%BA%E5%AE%9A%E6%88%A6&from=2026-10-03&to=2026-10-03&prefectures=0&genre=0&search_type=form",
+      "scheduleDate": "2026-10-03",
+      "day": "土",
+      "openTime": "18:45",
+      "startTime": "19:00",
+      "place": "新宿シアターモリエール（東京都）",
       "links": [
         {
           "title": "FANYチケット",
@@ -347,14 +393,16 @@
       "tag": "YouTube",
       "title": "【異常記憶】番組のサブタイトル、意外と覚えてない。【9番街レトロ】",
       "note": "※04:15〜中野さんが電話で出演されています。",
-      "url": "https://youtu.be/kBQBdz73uyg?si=-wv0nXfJsWoRBpqc"
+      "url": "https://youtu.be/kBQBdz73uyg?si=-wv0nXfJsWoRBpqc",
+      "media": "テレビ長崎"
     },
     {
       "date": "2026-08-25",
       "tag": "YouTube",
       "title": "#19「大実家時代」【ナイチンゲールダンスのもうきてるラジオ】",
       "note": "",
-      "url": "https://www.youtube.com/watch?v=W42k9-wJBD4"
+      "url": "https://www.youtube.com/watch?v=W42k9-wJBD4",
+      "media": "CBCラジオ"
     },
     {
       "date": "2026-08-24",
@@ -369,6 +417,12 @@
       "title": "中野なかるてぃんのイントロクイズネオ",
       "note": "※中野さんのみ出演",
       "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20871",
+      "scheduleDate": "2026-10-31",
+      "day": "土",
+      "openTime": "18:45",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "place": "渋谷よしもと漫才劇場（東京都）",
       "links": [
         {
           "title": "FANYチケット",
@@ -381,7 +435,12 @@
       "tag": "テレビ",
       "title": "＜サンデープレミアム＞『輝き続けるZARD』",
       "note": "※中野さんのみ出演",
-      "url": "https://www.bsfuji.tv/zard/pub/index.html"
+      "url": "https://www.bsfuji.tv/zard/pub/index.html",
+      "scheduleDate": "2026-08-30",
+      "day": "日",
+      "startTime": "19:00",
+      "endTime": "20:55",
+      "media": "BSフジ"
     },
     {
       "date": "2026-08-23",
@@ -423,14 +482,20 @@
       "tag": "公演情報",
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
       "note": "※中野さんのみ出演",
-      "url": "https://x.com/shibuya_mngk/status/2090366254473199796"
+      "url": "https://x.com/shibuya_mngk/status/2090366254473199796",
+      "scheduleDate": "2026-09-26",
+      "day": "土",
+      "startTime": "19:00"
     },
     {
       "date": "2026-08-20",
       "tag": "イベント",
       "title": "ヤスマロティン公開収録（ゲスト：オダウエダ）",
       "note": "",
-      "url": "https://x.com/as_yasumarotin/status/2081587141776486789"
+      "url": "https://x.com/as_yasumarotin/status/2081587141776486789",
+      "scheduleDate": "2026-08-18",
+      "day": "火",
+      "media": "Artistspoken"
     },
     {
       "date": "2026-08-20",
@@ -472,7 +537,12 @@
       "tag": "公演情報",
       "title": "トーキョーマンゲキフェス2026ー渋神三世代決戦ー",
       "note": "※中野さんのみ出演",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%88%E3%83%BC%E3%82%AD%E3%83%A7%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B2%E3%82%AD%E3%83%95%E3%82%A7%E3%82%B92026%E3%83%BC%E6%B8%8B%E7%A5%9E%E4%B8%89%E4%B8%96%E4%BB%A3%E6%B1%BA%E6%88%A6%E3%83%BC&from=2026-09-19&to=2026-09-19&prefectures=0&genre=0&search_type=form"
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%88%E3%83%BC%E3%82%AD%E3%83%A7%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B2%E3%82%AD%E3%83%95%E3%82%A7%E3%82%B92026%E3%83%BC%E6%B8%8B%E7%A5%9E%E4%B8%89%E4%B8%96%E4%BB%A3%E6%B1%BA%E6%88%A6%E3%83%BC&from=2026-09-19&to=2026-09-19&prefectures=0&genre=0&search_type=form",
+      "scheduleDate": "2026-09-19",
+      "day": "土",
+      "openTime": "14:30",
+      "startTime": "15:30",
+      "place": "LINE CUBE SHIBUYA（東京都）"
     },
     {
       "date": "2026-08-12",
@@ -508,6 +578,11 @@
       "title": "やさしいズタイpresents「超超超、超超超、超超超超超難問王決定戦 超東阪福ツアー」",
       "note": "※中野さんのみ出演",
       "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents%E3%80%8C%E8%B6%85%E8%B6%85%E8%B6%85%E3%80%81%E8%B6%85%E8%B6%85%E8%B6%85%E3%80%81%E8%B6%85%E8%B6%85%E8%B6%85%E8%B6%85%E8%B6%85&from=2026-08-11&to=2026-08-11&prefectures=0&genre=0&search_type=form",
+      "scheduleDate": "2026-08-11",
+      "day": "火",
+      "openTime": "15:00",
+      "startTime": "15:30",
+      "place": "COOL JAPAN PARK OSAKA TTホール（大阪府）",
       "links": [
         {
           "title": "FANY Online Ticket",
@@ -618,14 +693,25 @@
       "tag": "公演情報",
       "title": "ギャグを科学する60分スーパーギャグサイエンス",
       "note": "",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%AE%E3%83%A3%E3%82%B0%E3%82%92%E7%A7%91%E5%AD%A6%E3%81%99%E3%82%8B60%E5%88%86%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%AE%E3%83%A3%E3%82%B0%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9&from=2026-09-13&to=2026-09-13&prefectures=0&genre=0&search_type=form"
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%AE%E3%83%A3%E3%82%B0%E3%82%92%E7%A7%91%E5%AD%A6%E3%81%99%E3%82%8B60%E5%88%86%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%AE%E3%83%A3%E3%82%B0%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9&from=2026-09-13&to=2026-09-13&prefectures=0&genre=0&search_type=form",
+      "scheduleDate": "2026-09-13",
+      "day": "日",
+      "openTime": "17:45",
+      "startTime": "18:00",
+      "place": "歌舞伎町Sparkle（東京都）"
     },
     {
       "date": "2026-08-01",
       "tag": "ラジオ",
       "title": "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
       "note": "",
-      "url": "https://radiko.jp/share/?sid=CBC&t=20260808000000&utm_source=yahoo&person_id=65076&pid=yahoo"
+      "url": "https://radiko.jp/share/?sid=CBC&t=20260808000000&utm_source=yahoo&person_id=65076&pid=yahoo",
+      "scheduleDate": "2026-08-08",
+      "day": "土",
+      "startTime": "00:00",
+      "endTime": "00:30",
+      "place": "CBCラジオ",
+      "media": "CBCラジオ"
     },
     {
       "date": "2026-07-31",
@@ -866,74 +952,125 @@
       "url": "https://www.youtube.com/watch?v=KDlq9hO7aF8"
     },
     {
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "tag": "テレビ",
       "title": "アメトーーク！ テレビに出たい若手芸人",
       "note": "※中野さんのみ出演",
-      "url": "https://www.tv-asahi.co.jp/ametalk/lineup/3283/"
+      "url": "https://www.tv-asahi.co.jp/ametalk/lineup/3283/",
+      "scheduleDate": "2026-09-03",
+      "day": "木",
+      "startTime": "23:15",
+      "endTime": "00:15",
+      "place": "テレビ朝日",
+      "media": "テレビ朝日"
     },
     {
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "tag": "ラジオ",
       "title": "ヤスマロティン公開収録（ゲスト：オダウエダ）",
       "note": "※ヤスさんのみ出演",
-      "url": "https://t.co/hB8zdMETim"
+      "url": "https://t.co/hB8zdMETim",
+      "scheduleDate": "2026-08-18",
+      "day": "火",
+      "place": "Artistspoken",
+      "media": "Artistspoken"
     },
     {
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "tag": "公演情報",
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
-      "note": "※中野なかるてぃんのみ出演\n※中野さんのみ出演",
-      "url": "https://t.co/WiP4uWUyXF"
+      "note": "※中野さんのみ出演",
+      "url": "https://t.co/WiP4uWUyXF",
+      "scheduleDate": "2026-09-26",
+      "day": "土",
+      "startTime": "19:00"
     },
     {
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "tag": "公演情報",
       "title": "やさしいズタイpresents",
-      "note": "※中野なかるてぃんのみ出演",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents&from=2026-08-11&to=2026-08-11&prefectures=0&genre=0&search_type=form"
+      "note": "※中野さんのみ出演",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents&from=2026-08-11&to=2026-08-11&prefectures=0&genre=0&search_type=form",
+      "scheduleDate": "2026-08-11",
+      "day": "火",
+      "startTime": "15:00",
+      "place": "COOL JAPAN PARK OSAKA TTホール（大阪府）"
     },
     {
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "tag": "テレビ",
       "title": "＜サンデープレミアム＞『輝き続けるZARD』",
       "note": "※中野さんのみ出演",
-      "url": "https://www.bsfuji.tv/zard/pub/index.html"
+      "url": "https://www.bsfuji.tv/zard/pub/index.html",
+      "scheduleDate": "2026-08-30",
+      "day": "日",
+      "startTime": "19:00",
+      "endTime": "20:55",
+      "place": "BSフジ",
+      "media": "BSフジ"
     },
     {
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "tag": "公演情報",
       "title": "大声魔法使いかんちゃん 第2回ライブ",
       "note": "※中野さんのみ出演",
-      "url": "https://tiget.net/events/518916"
+      "url": "https://tiget.net/events/518916",
+      "scheduleDate": "2026-09-15",
+      "day": "火",
+      "startTime": "19:30",
+      "place": "大塚ドリームシアター"
     },
     {
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
       "note": "※ヤスさんのみ出演",
-      "url": "https://bsy.co.jp/timetable"
+      "url": "https://bsy.co.jp/timetable",
+      "scheduleDate": "2026-09-18",
+      "day": "金",
+      "startTime": "14:30",
+      "endTime": "15:30",
+      "place": "BSよしもと 265ch",
+      "media": "BSよしもと 265ch"
     },
     {
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "tag": "ラジオ",
       "title": "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
       "note": "",
-      "url": "https://hicbc.com/radio/nightin/"
+      "url": "https://hicbc.com/radio/nightin/",
+      "scheduleDate": "2026-09-19",
+      "day": "土",
+      "startTime": "00:00",
+      "endTime": "00:30",
+      "place": "CBCラジオ",
+      "media": "CBCラジオ"
     },
     {
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "tag": "テレビ",
       "title": "Vタイムズ",
       "note": "",
-      "url": "https://www.nib.jp/tv/vtimes/"
+      "url": "https://www.nib.jp/tv/vtimes/",
+      "scheduleDate": "2026-09-19",
+      "day": "土",
+      "startTime": "09:25",
+      "endTime": "10:15",
+      "place": "長崎国際テレビ（NIB）",
+      "media": "長崎国際テレビ（NIB）"
     },
     {
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
       "note": "※ヤスさんのみ出演",
-      "url": "https://bsy.co.jp/timetable"
+      "url": "https://bsy.co.jp/timetable",
+      "scheduleDate": "2026-09-19",
+      "day": "土",
+      "startTime": "22:00",
+      "endTime": "23:00",
+      "place": "BSよしもと 265ch",
+      "media": "BSよしもと 265ch"
     }
   ],
   "schedule": [
@@ -1247,13 +1384,17 @@
       "endTime": "",
       "tag": "公演情報",
       "title": "鈴木バイダン漫才修行ライブ",
-      "note": "",
+      "note": "※配信チケットに中野さんのお名前がありますが、チケットにはお名前がありません。",
       "place": "渋谷よしもと漫才劇場（東京都）",
       "url": "https://ticket.fany.lol/search/event?keywords=%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96&from=2026-10-10&to=2026-10-10&prefectures=0&genre=0&search_type=form",
       "links": [
         {
           "title": "FANY Online Ticket",
           "url": "https://online-ticket.yoshimoto.co.jp/products/鈴木バイダン漫才修行ライブ-10-10-21-00"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96-10-10-21-00"
         }
       ]
     },
@@ -2519,6 +2660,17 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
+      "note": "※ヤスさんのみ出演",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-03-14",
+      "day": "日",
+      "startTime": "18:00",
+      "endTime": "19:00",
+      "tag": "テレビ",
+      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
       "note": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
