@@ -1354,6 +1354,24 @@
       "lastStatsUpdatedAt": "2026-09-14T05:37:18+09:00"
     },
     {
+      "id": "youtube|ZH2jR4KpNfg",
+      "videoId": "ZH2jR4KpNfg",
+      "kind": "video",
+      "channelName": "オダウエダ総合案内所",
+      "channelType": "appearance",
+      "channelUrl": "https://www.youtube.com/@odaueda_ch",
+      "channelId": "",
+      "title": "【怪談】本当にあったオダウエダ植田の怖い話",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=ZH2jR4KpNfg",
+      "viewCount": 0,
+      "durationSeconds": 64,
+      "duration": "1:04",
+      "uploadDate": "2026-07-31",
+      "firstSeenAt": "2026-09-14T19:07:10+09:00",
+      "lastStatsUpdatedAt": ""
+    },
+    {
       "id": "youtube|1ptchehqDmA",
       "videoId": "1ptchehqDmA",
       "kind": "shorts",
