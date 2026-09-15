@@ -22,6 +22,24 @@
   ],
   "clips": [
     {
+      "id": "youtube|vEoUaAbVVBA",
+      "videoId": "vEoUaAbVVBA",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【JK】みんな逃げて【コスプレ】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/vEoUaAbVVBA",
+      "viewCount": 0,
+      "durationSeconds": 108,
+      "duration": "1:48",
+      "uploadDate": "2026-09-15",
+      "firstSeenAt": "2026-09-15T19:02:12+09:00",
+      "lastStatsUpdatedAt": "2026-09-15T19:02:12+09:00"
+    },
+    {
       "id": "youtube|ZMpkxH4gbt4",
       "videoId": "ZMpkxH4gbt4",
       "kind": "shorts",
