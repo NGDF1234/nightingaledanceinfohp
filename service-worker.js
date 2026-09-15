@@ -1,11 +1,11 @@
-const CACHE_VERSION = "ngd-info-pwa-v71";
+const CACHE_VERSION = "ngd-info-pwa-v72";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./news.html",
   "./schedule.html",
   "./clips.html",
-  "./styles.css?v=198",
+  "./styles.css?v=199",
   "./script.js?v=169",
   "./pwa.js?v=8",
   "./manifest.webmanifest",
@@ -13,7 +13,7 @@ const APP_SHELL = [
   "./data/nightingale-youtube-clips.json",
   "./assets/app-icon-v3.jpg",
   "./assets/header-logo-v3.jpg",
-  "./assets/page-bg-v26.jpg",
+  "./assets/ngd-seamless-background.jpg",
   "./assets/bg-footer.jpg",
   "./assets/hero-bg-v5.jpg",
   "./assets/hero-left-v9.png",
