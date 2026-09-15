@@ -16,6 +16,7 @@ interface News {
   title: string;
   note?: string;
   url?: string;
+  ticketSales?: TicketSale[];
 }
 
 interface Schedule {
@@ -25,6 +26,15 @@ interface Schedule {
   tag: string;
   place?: string;
   station?: string;
+  url?: string;
+  ticketSales?: TicketSale[];
+}
+
+interface TicketSale {
+  type: "抽選" | "先着" | "一般販売" | "一般" | string;
+  label?: string;
+  startAt?: string;
+  endAt?: string;
   url?: string;
 }
 
@@ -131,7 +141,7 @@ async function runNotifications(env: Env, now = new Date()) {
 
   const news = Array.isArray(data.news) ? data.news : [];
   const schedule = Array.isArray(data.schedule) ? data.schedule : [];
-  const ticketReminders = Array.isArray(data.ticketReminders) ? data.ticketReminders : [];
+  const ticketReminders = ticketRemindersFromData(data);
 
   await runNewsNotifications(env, news);
   await runDailyScheduleNotification(env, schedule, now);
@@ -216,9 +226,91 @@ async function runTicketReminderNotifications(env: Env, reminders: TicketReminde
 
 function shouldUseTicketReminder(item: TicketReminder) {
   if (!item.id || !item.title || !item.ticketLabel || !item.notifyAt || !item.targetAt) return false;
-  if (item.reminderType === "start") return ["抽選", "一般", "先着"].includes(item.ticketKind);
+  if (item.reminderType === "start") return ["抽選", "一般", "一般販売", "先着"].includes(item.ticketKind);
   if (item.reminderType === "end") return item.ticketKind === "抽選";
   return false;
+}
+
+function ticketRemindersFromData(data: HomepageData) {
+  const reminders = Array.isArray(data.ticketReminders) ? [...data.ticketReminders] : [];
+  const items = [...(Array.isArray(data.news) ? data.news : []), ...(Array.isArray(data.schedule) ? data.schedule : [])];
+
+  for (const item of items) {
+    if (!Array.isArray(item.ticketSales)) continue;
+    for (const sale of item.ticketSales) {
+      reminders.push(...ticketRemindersFromSale(item, sale));
+    }
+  }
+
+  return reminders;
+}
+
+function ticketRemindersFromSale(item: News | Schedule, sale: TicketSale) {
+  const ticketKind = normalizeTicketKind(sale.type);
+  const ticketLabel = String(sale.label || sale.type || ticketKind).trim();
+  const url = sale.url || item.url || "";
+  const startAt = sale.startAt || "";
+  const endAt = sale.endAt || "";
+  const base = {
+    title: item.title,
+    ticketKind,
+    ticketLabel,
+    startAt,
+    endAt,
+    url,
+  };
+  const reminders: TicketReminder[] = [];
+
+  if (ticketKind === "抽選") {
+    if (startAt) {
+      reminders.push({
+        ...base,
+        id: `ticket:${fingerprint({ title: item.title, ticketKind, startAt, type: "start" })}`,
+        reminderType: "start",
+        reminderLabel: "受付開始",
+        notifyAt: startAt,
+        targetAt: startAt,
+      });
+    }
+    if (endAt) {
+      reminders.push({
+        ...base,
+        id: `ticket:${fingerprint({ title: item.title, ticketKind, endAt, type: "end-30" })}`,
+        reminderType: "end",
+        reminderLabel: "受付終了30分前",
+        notifyAt: offsetIsoMinutes(endAt, -30),
+        targetAt: endAt,
+      });
+    }
+    return reminders;
+  }
+
+  if ((ticketKind === "先着" || ticketKind === "一般販売") && startAt) {
+    reminders.push({
+      ...base,
+      id: `ticket:${fingerprint({ title: item.title, ticketKind, startAt, type: "start-30" })}`,
+      reminderType: "start",
+      reminderLabel: "販売開始30分前",
+      notifyAt: offsetIsoMinutes(startAt, -30),
+      targetAt: startAt,
+    });
+  }
+
+  return reminders;
+}
+
+function normalizeTicketKind(value = "") {
+  const text = String(value).trim();
+  if (text.includes("抽選")) return "抽選";
+  if (text.includes("先着")) return "先着";
+  if (text.includes("一般")) return "一般販売";
+  return text;
+}
+
+function offsetIsoMinutes(value: string, minutes: number) {
+  const date = new Date(value);
+  if (!isValidDate(date)) return "";
+  return new Date(date.getTime() + minutes * MINUTE_MS).toISOString();
 }
 
 function isInMinuteWindow(target: Date, now: Date) {
@@ -231,8 +323,11 @@ function isValidDate(value: Date) {
 }
 
 function ticketNotificationTitle(item: TicketReminder) {
-  if (item.reminderType === "end") return "抽選受付終了1時間前";
-  return "チケット発売1時間前";
+  if (item.reminderType === "end") return "抽選受付終了30分前";
+  if (item.ticketKind === "抽選") return "抽選受付開始";
+  if (item.ticketKind === "先着") return "先着販売開始30分前";
+  if (item.ticketKind === "一般販売" || item.ticketKind === "一般") return "一般販売開始30分前";
+  return "チケット販売開始30分前";
 }
 
 function ticketNotificationBody(item: TicketReminder, targetAt: Date) {

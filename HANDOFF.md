@@ -81,7 +81,16 @@ NEWS、REGULAR、SCHEDULE、アプリPush用のチケット通知予定を入れ
       "category": "公演情報",
       "title": "タイトル",
       "text": "補足文",
-      "url": "https://example.com/"
+      "url": "https://example.com/",
+      "ticketSales": [
+        {
+          "type": "抽選",
+          "label": "FANY先行",
+          "startAt": "2026-09-05T10:00:00+09:00",
+          "endAt": "2026-09-07T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/example"
+        }
+      ]
     }
   ],
   "regular": [
@@ -122,7 +131,15 @@ NEWS、REGULAR、SCHEDULE、アプリPush用のチケット通知予定を入れ
       "title": "公演名",
       "station": "会場・放送局・配信元",
       "text": "補足文",
-      "url": "https://example.com/"
+      "url": "https://example.com/",
+      "ticketSales": [
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-09-05T10:00:00+09:00",
+          "url": "https://ticket.fany.lol/example"
+        }
+      ]
     }
   ]
 }
@@ -140,7 +157,12 @@ NEWS、REGULAR、SCHEDULE、アプリPush用のチケット通知予定を入れ
 - YouTubeのNEWSは `url` から動画IDを判定できる場合、ポップアップ再生になります。
 - REGULARは `period.startDate` 以降に表示し、`period.endDate` がある場合はその日まで表示します。終了日未定の場合は `endDate` を入れません。
 - REGULARのカテゴリは `tag` に入れます。値は `テレビ`、`ラジオ`、`公演情報`、`イベント`、`連載・コラム` です。放送局や配信元などの媒体は `media` に入れます。
-- `ticketReminders` はアプリPush通知用です。抽選は発売開始1時間前と受付終了1時間前、一般・先着は発売開始1時間前だけ通知します。表示画面では使いません。
+- チケット通知は、NEWSまたはSCHEDULEの各項目に `ticketSales` を入れてください。`ticketReminders` は古い形式として読み込みますが、新規出力は不要です。
+- `ticketSales.type` は `抽選`、`先着`、`一般販売` のいずれかにしてください。
+- `抽選` は `startAt` の時刻と、`endAt` の30分前に通知します。`endAt` がない場合、終了前通知は送りません。
+- `先着`、`一般販売` は `startAt` の30分前に通知します。
+- `startAt`、`endAt` は `YYYY-MM-DDTHH:mm:ss+09:00` 形式で出してください。
+- `ticketSales.url` は通知をタップした時のリンク先です。なければ項目の `url` を使います。
 
 ## `data/nightingale-youtube-clips.json`
 
