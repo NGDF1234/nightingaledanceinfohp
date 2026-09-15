@@ -31,7 +31,7 @@ interface Schedule {
 }
 
 interface TicketSale {
-  type: "抽選" | "先着" | "一般販売" | "一般" | string;
+  type: "抽選販売" | "先着販売" | "一般販売" | "抽選" | "先着" | "一般" | string;
   label?: string;
   startAt?: string;
   endAt?: string;
@@ -41,7 +41,7 @@ interface TicketSale {
 interface TicketReminder {
   id: string;
   title: string;
-  ticketKind: "抽選" | "一般" | "先着" | string;
+  ticketKind: "抽選販売" | "先着販売" | "一般販売" | "抽選" | "先着" | "一般" | string;
   ticketLabel: string;
   reminderType: "start" | "end" | string;
   reminderLabel: string;
@@ -226,8 +226,10 @@ async function runTicketReminderNotifications(env: Env, reminders: TicketReminde
 
 function shouldUseTicketReminder(item: TicketReminder) {
   if (!item.id || !item.title || !item.ticketLabel || !item.notifyAt || !item.targetAt) return false;
-  if (item.reminderType === "start") return ["抽選", "一般", "一般販売", "先着"].includes(item.ticketKind);
-  if (item.reminderType === "end") return item.ticketKind === "抽選";
+  if (item.reminderType === "start") {
+    return ["抽選販売", "先着販売", "一般販売", "抽選", "先着", "一般"].includes(item.ticketKind);
+  }
+  if (item.reminderType === "end") return item.ticketKind === "抽選販売" || item.ticketKind === "抽選";
   return false;
 }
 
@@ -261,7 +263,7 @@ function ticketRemindersFromSale(item: News | Schedule, sale: TicketSale) {
   };
   const reminders: TicketReminder[] = [];
 
-  if (ticketKind === "抽選") {
+  if (ticketKind === "抽選販売") {
     if (startAt) {
       reminders.push({
         ...base,
@@ -285,7 +287,7 @@ function ticketRemindersFromSale(item: News | Schedule, sale: TicketSale) {
     return reminders;
   }
 
-  if ((ticketKind === "先着" || ticketKind === "一般販売") && startAt) {
+  if ((ticketKind === "先着販売" || ticketKind === "一般販売") && startAt) {
     reminders.push({
       ...base,
       id: `ticket:${fingerprint({ title: item.title, ticketKind, startAt, type: "start-30" })}`,
@@ -301,8 +303,8 @@ function ticketRemindersFromSale(item: News | Schedule, sale: TicketSale) {
 
 function normalizeTicketKind(value = "") {
   const text = String(value).trim();
-  if (text.includes("抽選")) return "抽選";
-  if (text.includes("先着")) return "先着";
+  if (text.includes("抽選")) return "抽選販売";
+  if (text.includes("先着")) return "先着販売";
   if (text.includes("一般")) return "一般販売";
   return text;
 }
@@ -323,9 +325,9 @@ function isValidDate(value: Date) {
 }
 
 function ticketNotificationTitle(item: TicketReminder) {
-  if (item.reminderType === "end") return "抽選受付終了30分前";
-  if (item.ticketKind === "抽選") return "抽選受付開始";
-  if (item.ticketKind === "先着") return "先着販売開始30分前";
+  if (item.reminderType === "end") return "抽選販売終了30分前";
+  if (item.ticketKind === "抽選販売" || item.ticketKind === "抽選") return "抽選販売開始";
+  if (item.ticketKind === "先着販売" || item.ticketKind === "先着") return "先着販売開始30分前";
   if (item.ticketKind === "一般販売" || item.ticketKind === "一般") return "一般販売開始30分前";
   return "チケット販売開始30分前";
 }

@@ -84,7 +84,7 @@ NEWS、REGULAR、SCHEDULE、アプリPush用のチケット通知予定を入れ
       "url": "https://example.com/",
       "ticketSales": [
         {
-          "type": "抽選",
+          "type": "抽選販売",
           "label": "FANY先行",
           "startAt": "2026-09-05T10:00:00+09:00",
           "endAt": "2026-09-07T11:00:00+09:00",
@@ -158,9 +158,9 @@ NEWS、REGULAR、SCHEDULE、アプリPush用のチケット通知予定を入れ
 - REGULARは `period.startDate` 以降に表示し、`period.endDate` がある場合はその日まで表示します。終了日未定の場合は `endDate` を入れません。
 - REGULARのカテゴリは `tag` に入れます。値は `テレビ`、`ラジオ`、`公演情報`、`イベント`、`連載・コラム` です。放送局や配信元などの媒体は `media` に入れます。
 - チケット通知は、NEWSまたはSCHEDULEの各項目に `ticketSales` を入れてください。`ticketReminders` は古い形式として読み込みますが、新規出力は不要です。
-- `ticketSales.type` は `抽選`、`先着`、`一般販売` のいずれかにしてください。
-- `抽選` は `startAt` の時刻と、`endAt` の30分前に通知します。`endAt` がない場合、終了前通知は送りません。
-- `先着`、`一般販売` は `startAt` の30分前に通知します。
+- `ticketSales.type` は `抽選販売`、`先着販売`、`一般販売` のいずれかにしてください。
+- `抽選販売` は `startAt` の時刻と、`endAt` の30分前に通知します。`endAt` がない場合、終了前通知は送りません。
+- `先着販売`、`一般販売` は `startAt` の30分前に通知します。
 - `startAt`、`endAt` は `YYYY-MM-DDTHH:mm:ss+09:00` 形式で出してください。
 - `ticketSales.url` は通知をタップした時のリンク先です。なければ項目の `url` を使います。
 
