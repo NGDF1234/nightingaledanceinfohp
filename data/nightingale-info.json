@@ -2,169 +2,6 @@
   "updatedAt": "2026-09-14T19:07:10+09:00",
   "news": [
     {
-      "date": "2026-09-16",
-      "tag": "公演情報",
-      "title": "鈴木バイダン漫才修行ライブ",
-      "comment": "※中野さんのみ出演",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96&from=2026-10-10&to=2026-10-10&prefectures=0&genre=0&search_type=form",
-      "scheduleDate": "2026-10-10",
-      "day": "土",
-      "openTime": "20:45",
-      "startTime": "21:00",
-      "endTime": "22:00",
-      "place": "渋谷よしもと漫才劇場（東京都）",
-      "links": [
-        {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/collections/%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E6%BC%AB%E6%89%8D%E5%8A%87%E5%A0%B4/products/%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96-10-10-21-00"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "tag": "公演情報",
-      "title": "ナイチンゲールダンス中野なかるてぃんpresents日本一大きい寄席",
-      "comment": "※中野さんのみ出演",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB%E3%83%80%E3%83%B3%E3%82%B9%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93presents%E6%97%A5%E6%9C%AC%E4%B8%80&from=2026-10-04&to=2026-10-04&prefectures=0&genre=0&search_type=form",
-      "scheduleDate": "2026-10-04",
-      "day": "日",
-      "openTime": "18:30",
-      "startTime": "19:00",
-      "place": "リッチダイヤモンド総合市民会館 芸術ホール（山梨県）",
-      "ticketSales": [
-        {
-          "type": "一般販売",
-          "label": "一般発売",
-          "startAt": "2026-09-13T10:00:00+09:00",
-          "endAt": "2026-10-03T23:59:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB%E3%83%80%E3%83%B3%E3%82%B9%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93presents%E6%97%A5%E6%9C%AC%E4%B8%80&from=2026-10-04&to=2026-10-04&prefectures=0&genre=0&search_type=form"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "tag": "公演情報",
-      "title": "替え歌キングダム",
-      "comment": "※中野さんのみ出演",
-      "url": "https://tiget.net/events/521125",
-      "scheduleDate": "2026-10-11",
-      "day": "日",
-      "openTime": "13:00",
-      "startTime": "13:15",
-      "place": "新宿バティオス"
-    },
-    {
-      "date": "2026-09-16",
-      "tag": "公演情報",
-      "title": "【芸辞苑】",
-      "comment": "※中野さんのみ出演",
-      "url": "https://jimbocho-manzaigekijyo.yoshimoto.co.jp/schedule/?id=19822",
-      "scheduleDate": "2026-09-18",
-      "day": "金",
-      "openTime": "20:45",
-      "startTime": "21:00",
-      "endTime": "22:00",
-      "place": "神保町よしもと漫才劇場（東京都）",
-      "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-09-18&to=2026-09-18&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/products/%E8%8A%B8%E8%BE%9E%E8%8B%91-9-18-21-00"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "tag": "公演情報",
-      "title": "ド桜かつやまpresents村田大樹に即興漫才トーナメントプレゼントライブ2",
-      "comment": "※中野さんのみ出演",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20855",
-      "scheduleDate": "2026-10-06",
-      "day": "火",
-      "openTime": "19:00",
-      "startTime": "19:15",
-      "endTime": "20:15",
-      "place": "渋谷よしもと漫才劇場（東京都）",
-      "ticketSales": [
-        {
-          "type": "抽選販売",
-          "label": "FANY IDプレミアムメンバー抽選先行",
-          "startAt": "2026-08-25T11:00:00+09:00",
-          "endAt": "2026-08-28T11:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%89%E6%A1%9C%E3%81%8B%E3%81%A4%E3%82%84%E3%81%BEpresents%E6%9D%91%E7%94%B0%E5%A4%A7%E6%A8%B9%E3%81%AB%E5%8D%B3%E8%88%88%E6%BC%AB%E6%89%8D%E3%83%88%E3%83%BC%E3%83%8A%E3%83%A1%E3%83%B3%E3%83%88&from=2026-10-06&to=2026-10-06&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "抽選販売",
-          "label": "FANY IDメンバー抽選先行",
-          "startAt": "2026-08-25T11:00:00+09:00",
-          "endAt": "2026-08-28T11:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%89%E6%A1%9C%E3%81%8B%E3%81%A4%E3%82%84%E3%81%BEpresents%E6%9D%91%E7%94%B0%E5%A4%A7%E6%A8%B9%E3%81%AB%E5%8D%B3%E8%88%88%E6%BC%AB%E6%89%8D%E3%83%88%E3%83%BC%E3%83%8A%E3%83%A1%E3%83%B3%E3%83%88&from=2026-10-06&to=2026-10-06&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "一般販売",
-          "label": "一般発売",
-          "startAt": "2026-09-05T10:00:00+09:00",
-          "endAt": "",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%89%E6%A1%9C%E3%81%8B%E3%81%A4%E3%82%84%E3%81%BEpresents%E6%9D%91%E7%94%B0%E5%A4%A7%E6%A8%B9%E3%81%AB%E5%8D%B3%E8%88%88%E6%BC%AB%E6%89%8D%E3%83%88%E3%83%BC%E3%83%8A%E3%83%A1%E3%83%B3%E3%83%88&from=2026-10-06&to=2026-10-06&prefectures=0&genre=0&search_type=form"
-        }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%89%E6%A1%9C%E3%81%8B%E3%81%A4%E3%82%84%E3%81%BEpresents%E6%9D%91%E7%94%B0%E5%A4%A7%E6%A8%B9%E3%81%AB%E5%8D%B3%E8%88%88%E6%BC%AB%E6%89%8D%E3%83%88%E3%83%BC%E3%83%8A%E3%83%A1%E3%83%B3%E3%83%88&from=2026-10-06&to=2026-10-06&prefectures=0&genre=0&search_type=form"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "tag": "公演情報",
-      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
-      "comment": "※中野さんのみ出演",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=21228",
-      "scheduleDate": "2026-10-24",
-      "day": "土",
-      "openTime": "18:45",
-      "startTime": "19:00",
-      "endTime": "20:00",
-      "place": "渋谷よしもと漫才劇場（東京都）",
-      "ticketSales": [
-        {
-          "type": "抽選販売",
-          "label": "FANY IDプレミアムメンバー抽選先行",
-          "startAt": "2026-09-01T11:00:00+09:00",
-          "endAt": "2026-09-04T11:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-10-24&to=2026-10-24&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "抽選販売",
-          "label": "FANY IDメンバー抽選先行",
-          "startAt": "2026-09-01T11:00:00+09:00",
-          "endAt": "2026-09-04T11:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-10-24&to=2026-10-24&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "一般販売",
-          "label": "一般発売",
-          "startAt": "2026-09-06T10:00:00+09:00",
-          "endAt": "",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-10-24&to=2026-10-24&prefectures=0&genre=0&search_type=form"
-        }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-10-24&to=2026-10-24&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/collections/%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E6%BC%AB%E6%89%8D%E5%8A%87%E5%A0%B4/products/%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96-%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96-10-24-19-00"
-        }
-      ]
-    },
-    {
       "date": "2026-09-15",
       "tag": "YouTube",
       "title": "【JK】みんな逃げて【コスプレ】",
@@ -208,6 +45,27 @@
       "url": "https://www.youtube.com/shorts/56mXDqj5xlA"
     },
     {
+      "date": "2026-09-12",
+      "tag": "公演情報",
+      "title": "ナイチンゲールダンス中野なかるてぃんpresents日本一大きい寄席",
+      "comment": "※中野さんのみ出演",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB%E3%83%80%E3%83%B3%E3%82%B9%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93presents%E6%97%A5%E6%9C%AC%E4%B8%80&from=2026-10-04&to=2026-10-04&prefectures=0&genre=0&search_type=form",
+      "scheduleDate": "2026-10-04",
+      "day": "日",
+      "openTime": "18:30",
+      "startTime": "19:00",
+      "place": "リッチダイヤモンド総合市民会館 芸術ホール（山梨県）",
+      "ticketSales": [
+        {
+          "type": "一般販売",
+          "label": "一般発売",
+          "startAt": "2026-09-13T10:00:00+09:00",
+          "endAt": "2026-10-03T23:59:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB%E3%83%80%E3%83%B3%E3%82%B9%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93presents%E6%97%A5%E6%9C%AC%E4%B8%80&from=2026-10-04&to=2026-10-04&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
       "date": "2026-09-11",
       "tag": "YouTube",
       "title": "【JK】なかる子、将来部活やめてどうするの？【コスプレ】",
@@ -243,6 +101,18 @@
       "url": "https://www.youtube.com/shorts/I5JIfXmdVzo"
     },
     {
+      "date": "2026-09-08",
+      "tag": "公演情報",
+      "title": "替え歌キングダム",
+      "comment": "※中野さんのみ出演",
+      "url": "https://tiget.net/events/521125",
+      "scheduleDate": "2026-10-11",
+      "day": "日",
+      "openTime": "13:00",
+      "startTime": "13:15",
+      "place": "新宿バティオス"
+    },
+    {
       "date": "2026-09-07",
       "tag": "SNS",
       "title": "Instagram",
@@ -265,11 +135,53 @@
       "url": "https://www.youtube.com/shorts/tBX9bfZ8mro"
     },
     {
+      "date": "2026-09-07",
+      "tag": "公演情報",
+      "title": "【芸辞苑】",
+      "comment": "※中野さんのみ出演",
+      "url": "https://jimbocho-manzaigekijyo.yoshimoto.co.jp/schedule/?id=19822",
+      "scheduleDate": "2026-09-18",
+      "day": "金",
+      "openTime": "20:45",
+      "startTime": "21:00",
+      "endTime": "22:00",
+      "place": "神保町よしもと漫才劇場（東京都）",
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-09-18&to=2026-09-18&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/%E8%8A%B8%E8%BE%9E%E8%8B%91-9-18-21-00"
+        }
+      ]
+    },
+    {
       "date": "2026-09-06",
       "tag": "YouTube",
       "title": "【香川】なかるてぃんのVlog見てみた【Vlog】",
       "comment": "",
       "url": "https://www.youtube.com/shorts/cPvagj_dF58"
+    },
+    {
+      "date": "2026-09-06",
+      "tag": "公演情報",
+      "title": "鈴木バイダン漫才修行ライブ",
+      "comment": "※中野さんのみ出演",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96&from=2026-10-10&to=2026-10-10&prefectures=0&genre=0&search_type=form",
+      "scheduleDate": "2026-10-10",
+      "day": "土",
+      "openTime": "20:45",
+      "startTime": "21:00",
+      "endTime": "22:00",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "links": [
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/collections/%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E6%BC%AB%E6%89%8D%E5%8A%87%E5%A0%B4/products/%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96-10-10-21-00"
+        }
+      ]
     },
     {
       "date": "2026-09-06",
@@ -298,6 +210,48 @@
       "title": "Instagram",
       "comment": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
       "url": "https://www.instagram.com/stories/nakalthyn/3977971459137117463?utm_source=ig_story_item_share&igsi=MTJkYjNzOTJzc29mNA=="
+    },
+    {
+      "date": "2026-09-03",
+      "tag": "公演情報",
+      "title": "ド桜かつやまpresents村田大樹に即興漫才トーナメントプレゼントライブ2",
+      "comment": "※中野さんのみ出演",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20855",
+      "scheduleDate": "2026-10-06",
+      "day": "火",
+      "openTime": "19:00",
+      "startTime": "19:15",
+      "endTime": "20:15",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDプレミアムメンバー抽選先行",
+          "startAt": "2026-08-25T11:00:00+09:00",
+          "endAt": "2026-08-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%89%E6%A1%9C%E3%81%8B%E3%81%A4%E3%82%84%E3%81%BEpresents%E6%9D%91%E7%94%B0%E5%A4%A7%E6%A8%B9%E3%81%AB%E5%8D%B3%E8%88%88%E6%BC%AB%E6%89%8D%E3%83%88%E3%83%BC%E3%83%8A%E3%83%A1%E3%83%B3%E3%83%88&from=2026-10-06&to=2026-10-06&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-08-25T11:00:00+09:00",
+          "endAt": "2026-08-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%89%E6%A1%9C%E3%81%8B%E3%81%A4%E3%82%84%E3%81%BEpresents%E6%9D%91%E7%94%B0%E5%A4%A7%E6%A8%B9%E3%81%AB%E5%8D%B3%E8%88%88%E6%BC%AB%E6%89%8D%E3%83%88%E3%83%BC%E3%83%8A%E3%83%A1%E3%83%B3%E3%83%88&from=2026-10-06&to=2026-10-06&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般発売",
+          "startAt": "2026-09-05T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%89%E6%A1%9C%E3%81%8B%E3%81%A4%E3%82%84%E3%81%BEpresents%E6%9D%91%E7%94%B0%E5%A4%A7%E6%A8%B9%E3%81%AB%E5%8D%B3%E8%88%88%E6%BC%AB%E6%89%8D%E3%83%88%E3%83%BC%E3%83%8A%E3%83%A1%E3%83%B3%E3%83%88&from=2026-10-06&to=2026-10-06&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%89%E6%A1%9C%E3%81%8B%E3%81%A4%E3%82%84%E3%81%BEpresents%E6%9D%91%E7%94%B0%E5%A4%A7%E6%A8%B9%E3%81%AB%E5%8D%B3%E8%88%88%E6%BC%AB%E6%89%8D%E3%83%88%E3%83%BC%E3%83%8A%E3%83%A1%E3%83%B3%E3%83%88&from=2026-10-06&to=2026-10-06&prefectures=0&genre=0&search_type=form"
+        }
+      ]
     },
     {
       "date": "2026-09-02",
