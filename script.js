@@ -346,7 +346,8 @@ function siteTitleFromUrl(url = "") {
       "nib.jp": "NIB"
     };
     if (titles[host]) return titles[host];
-    if (host.includes("yoshimoto.co.jp")) return "吉本興業";
+    if (host === "yoshimoto.co.jp") return "吉本興業";
+    if (host.endsWith(".yoshimoto.co.jp")) return yoshimotoSubdomainTitle(host);
     if (host.includes("fany.lol")) return "FANY";
     if (host.includes("tv") || host.includes("tver")) return "テレビ公式サイト";
     if (host.includes("radio") || host.includes("fm")) return "ラジオ公式サイト";
@@ -354,6 +355,18 @@ function siteTitleFromUrl(url = "") {
   } catch (error) {
     return "リンク";
   }
+}
+
+function yoshimotoSubdomainTitle(host = "") {
+  const subdomain = host.replace(/\.yoshimoto\.co\.jp$/, "").split(".").pop() || "";
+  const titles = {
+    "jimbocho-manzaigekijyo": "神保町よしもと漫才劇場",
+    "shibuya-manzaigekijyo": "渋谷よしもと漫才劇場",
+    "online-ticket": "配信チケット",
+    live: "公演一覧",
+    profile: "公式プロフィール"
+  };
+  return titles[subdomain] || `${subdomain}公式サイト`;
 }
 
 function linkTitlePriority(title = "") {
