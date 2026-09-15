@@ -343,7 +343,16 @@ function siteTitleFromUrl(url = "") {
       "tv-asahi.co.jp": "テレビ朝日",
       "bsy.co.jp": "BSよしもと",
       "hicbc.com": "CBCラジオ",
-      "nib.jp": "NIB"
+      "nib.jp": "NIB",
+      "tiget.net": "TIGET",
+      "livepocket.jp": "LivePocket",
+      "t.livepocket.jp": "LivePocket",
+      "passmarket.yahoo.co.jp": "PassMarket",
+      "peatix.com": "Peatix",
+      "l-tike.com": "ローチケ",
+      "eplus.jp": "イープラス",
+      "pia.jp": "チケットぴあ",
+      "t.pia.jp": "チケットぴあ"
     };
     if (titles[host]) return titles[host];
     if (host === "yoshimoto.co.jp") return "吉本興業";
@@ -351,10 +360,19 @@ function siteTitleFromUrl(url = "") {
     if (host.includes("fany.lol")) return "FANY";
     if (host.includes("tv") || host.includes("tver")) return "テレビ公式サイト";
     if (host.includes("radio") || host.includes("fm")) return "ラジオ公式サイト";
-    return "外部サイト";
+    return hostTitle(host);
   } catch (error) {
     return "リンク";
   }
+}
+
+function hostTitle(host = "") {
+  const parts = host.split(".").filter(Boolean);
+  if (!parts.length) return "外部サイト";
+  if (parts.length >= 3 && ["co", "ne", "or", "ac", "go"].includes(parts.at(-2))) {
+    return parts.at(-3);
+  }
+  return parts.length >= 2 ? parts.at(-2) : parts[0];
 }
 
 function yoshimotoSubdomainTitle(host = "") {
