@@ -693,7 +693,7 @@ function renderNews(items = fallbackNewsItems) {
       ${isYoutube && channelName ? `<p class="news-meta-line">${escapeHtml(channelName)}</p>` : ""}
       ${text ? `<p class="${isYoutube ? "news-meta-line" : ""}">${escapeHtml(text)}</p>` : ""}
       ${snsAccountName ? `<p class="news-meta-line">${escapeHtml(snsAccountName)}</p>` : ""}
-      ${renderCardLinks(item)}
+      ${isYoutube ? "" : renderCardLinks(item)}
     `;
 
     const videoId = category.startsWith("YouTube") ? youtubeVideoId(item.url) : "";
@@ -744,7 +744,7 @@ function renderNewsList(items = fallbackNewsItems) {
         ${isYoutube && channelName ? `<p class="news-meta-line">${escapeHtml(channelName)}</p>` : ""}
         ${text ? `<p class="${isYoutube ? "news-meta-line" : ""}">${escapeHtml(text)}</p>` : ""}
         ${snsAccountName ? `<p class="news-meta-line">${escapeHtml(snsAccountName)}</p>` : ""}
-        ${renderCardLinks(item)}
+        ${isYoutube ? "" : renderCardLinks(item)}
       </div>
     `;
 
