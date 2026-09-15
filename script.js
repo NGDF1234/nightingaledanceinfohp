@@ -395,6 +395,16 @@ function linkTitlePriority(title = "") {
   return 3;
 }
 
+function shouldHideLink(url = "") {
+  try {
+    const parsedUrl = new URL(url);
+    const host = parsedUrl.hostname.replace(/^www\./, "");
+    return host === "ticket.fany.lol" && parsedUrl.pathname.startsWith("/reception/");
+  } catch (error) {
+    return false;
+  }
+}
+
 function linkDedupKey(link = {}) {
   const url = String(link.url || "").trim();
   const title = String(link.title || "").trim();
@@ -451,6 +461,7 @@ function itemLinks(item = {}, limit = 3) {
       title: String(link.title || link.label || link.siteTitle || link.name || link.media || link.station || link.broadcaster || "").trim()
     }))
     .filter((link) => link.url)
+    .filter((link) => !shouldHideLink(link.url))
     .map((link) => ({ ...link, title: link.title || siteTitleFromUrl(link.url) }))
     .filter((link) => {
       const key = linkDedupKey(link);
