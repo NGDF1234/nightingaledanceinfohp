@@ -311,12 +311,12 @@ main > section:nth-of-type(3n+1):not(.hero) {
 .heading-art {
   display: block;
   width: auto;
-  height: clamp(92px, 13vw, 156px);
+  height: clamp(104px, 14vw, 172px);
   object-fit: contain;
 }
 
 .heading-schedule-art {
-  height: clamp(112px, 15vw, 180px);
+  height: clamp(124px, 16vw, 196px);
   max-width: min(600px, 82vw);
 }
 
@@ -1594,12 +1594,12 @@ body[data-schedule-mode="all"] .schedule-date {
   }
 
   .heading-art {
-    height: 82px;
+    height: 94px;
     max-width: calc(100vw - 24px);
   }
 
   .heading-schedule-art {
-    height: 96px;
+    height: 108px;
     max-width: calc(100vw - 24px);
   }
 
