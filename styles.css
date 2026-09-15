@@ -1429,8 +1429,8 @@ body[data-schedule-mode="all"] .schedule-date {
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
-  gap: 28px;
-  padding: 34px clamp(22px, 5vw, 70px);
+  gap: 18px;
+  padding: 24px clamp(22px, 5vw, 70px);
   color: #fff;
   background:
     linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.72)),
@@ -1443,7 +1443,9 @@ body[data-schedule-mode="all"] .schedule-date {
   margin: 0;
   color: rgba(255,255,255,.78);
   font-family: "Yu Gothic", Meiryo, sans-serif;
+  font-size: .9rem;
   font-weight: 800;
+  line-height: 1.55;
 }
 
 .footer a {
@@ -1780,7 +1782,7 @@ body[data-schedule-mode="all"] .schedule-row {
   .footer {
     align-items: center;
     margin-bottom: calc(-78px - env(safe-area-inset-bottom));
-    padding: 28px 14px calc(28px + 78px + env(safe-area-inset-bottom));
+    padding: 18px 16px calc(18px + 78px + env(safe-area-inset-bottom));
     text-align: center;
   }
 
