@@ -63,7 +63,6 @@ const videoModalFrame = document.querySelector("#video-modal-frame");
 const pageLoader = document.querySelector("#page-loader");
 let scheduleItems = [];
 let newsItems = [];
-let ticketReminderItems = [];
 let newsFilters = {
   keyword: "",
   category: "",
@@ -407,26 +406,6 @@ function linkDedupKey(link = {}) {
   return url;
 }
 
-function normalizedTitleKey(value = "") {
-  return String(value)
-    .normalize("NFKC")
-    .replace(/[「」『』"'“”‘’\s　・:：]/g, "")
-    .toLowerCase();
-}
-
-function ticketRemindersForItem(item = {}) {
-  const itemKey = normalizedTitleKey(item.title);
-  if (!itemKey) return [];
-  return ticketReminderItems.filter((ticket) => normalizedTitleKey(ticket.title) === itemKey);
-}
-
-function ticketReminderLinks(item = {}) {
-  return ticketRemindersForItem(item).map((ticket) => ({
-    url: ticket.url || "",
-    title: "FANYチケット"
-  }));
-}
-
 function itemLinks(item = {}, limit = 3) {
   const rawLinks = Array.isArray(item.links)
     ? item.links
@@ -441,8 +420,6 @@ function itemLinks(item = {}, limit = 3) {
       title: item.linkTitle || item.siteTitle || item.sourceTitle || item.source || item.media || item.station || item.broadcaster
     });
   }
-
-  links.push(...ticketReminderLinks(item));
 
   const seen = new Map();
   const result = links
@@ -535,8 +512,7 @@ function scheduleDetail(item = {}) {
     details: [
       formatTime(item),
       item.place,
-      item.note,
-      ...ticketReminderDetails(item)
+      item.note
     ].filter(Boolean),
     links: itemLinks(item, Infinity)
   };
@@ -553,26 +529,6 @@ function regularDetail(item = {}) {
     ].filter(Boolean),
     links: itemLinks(item, Infinity)
   };
-}
-
-function formatTicketDateTime(value = "") {
-  if (!value) return "";
-  const match = String(value).match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);
-  if (!match) return value;
-  return `${match[1]}.${match[2]}.${match[3]} ${match[4]}:${match[5]}`;
-}
-
-function ticketReminderDetails(item = {}) {
-  return ticketRemindersForItem(item).map((ticket) => {
-    const dates = [
-      ticket.startAt ? `受付開始 ${formatTicketDateTime(ticket.startAt)}` : "",
-      ticket.endAt ? `受付終了 ${formatTicketDateTime(ticket.endAt)}` : ""
-    ].filter(Boolean).join(" / ");
-    return [
-      ticket.ticketLabel || ticket.ticketKind || "チケット",
-      dates
-    ].filter(Boolean).join("：");
-  });
 }
 
 function isInstagramNews(item = {}) {
@@ -1065,7 +1021,6 @@ async function loadInfo() {
     const response = await fetch(DATA_PATH, { cache: "no-store" });
     if (!response.ok) throw new Error(`Failed to load ${DATA_PATH}`);
     const data = await response.json();
-    ticketReminderItems = Array.isArray(data.ticketReminders) ? data.ticketReminders : [];
     newsItems = Array.isArray(data.news) ? data.news : fallbackNewsItems;
     scheduleItems = Array.isArray(data.schedule) ? data.schedule : [];
     renderNews(newsItems);
@@ -1073,7 +1028,6 @@ async function loadInfo() {
     renderRegular(Array.isArray(data.regular) ? data.regular : fallbackRegularItems);
     renderSchedule(scheduleItems);
   } catch {
-    ticketReminderItems = [];
     newsItems = fallbackNewsItems;
     renderNews(fallbackNewsItems);
     renderNewsList(fallbackNewsItems);
