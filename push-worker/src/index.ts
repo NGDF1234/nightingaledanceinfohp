@@ -14,7 +14,7 @@ interface News {
   date: string;
   tag: string;
   title: string;
-  note?: string;
+  comment?: string;
   url?: string;
   ticketSales?: TicketSale[];
 }

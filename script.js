@@ -321,7 +321,7 @@ function newsYoutubeChannelName(item = {}) {
 }
 
 function newsSecondaryText(item = {}) {
-  return item.text || item.note || item.comment || "";
+  return item.text || item.comment || "";
 }
 
 function siteTitleFromUrl(url = "") {
@@ -486,12 +486,12 @@ function formatNewsScheduleDateTime(item = {}) {
 
 function newsStructuredDetails(item = {}, category = "") {
   const details = [];
-  const note = String(item.note || item.comment || "").trim();
+  const comment = String(item.comment || "").trim();
   const dateTime = formatNewsScheduleDateTime(item);
   const place = String(item.place || "").trim();
   const media = String(item.media || "").trim();
 
-  if (note) details.push(note);
+  if (comment) details.push(comment);
   if (dateTime) details.push(`日時：${dateTime}`);
   if (category === "公演情報" || category === "イベント") {
     if (place) details.push(`会場：${place}`);
@@ -542,10 +542,10 @@ function newsSnsDetails(item = {}) {
     return { comment: newsSecondaryText(item), accountName: "" };
   }
 
-  const note = newsSecondaryText(item);
-  const accountMatch = note.match(/(?:アカウント名|アカウント)\s*[:：]\s*(.+)$/);
+  const secondaryText = newsSecondaryText(item);
+  const accountMatch = secondaryText.match(/(?:アカウント名|アカウント)\s*[:：]\s*(.+)$/);
   const accountName = accountMatch ? accountMatch[1].trim() : "";
-  const comment = accountMatch ? note.slice(0, accountMatch.index).trim() : note.trim();
+  const comment = accountMatch ? secondaryText.slice(0, accountMatch.index).trim() : secondaryText.trim();
   return { comment, accountName };
 }
 
