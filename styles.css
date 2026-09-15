@@ -316,8 +316,8 @@ main > section:nth-of-type(3n+1):not(.hero) {
 }
 
 .heading-schedule-art {
-  height: clamp(149px, 19.2vw, 235px);
-  max-width: min(720px, 90vw);
+  height: clamp(136px, 17.6vw, 216px);
+  max-width: min(660px, 78vw);
 }
 
 .section-title h2 {
@@ -1601,8 +1601,8 @@ body[data-schedule-mode="all"] .schedule-date {
   }
 
   .heading-schedule-art {
-    height: 130px;
-    max-width: calc(100vw - 24px);
+    height: 119px;
+    max-width: calc(100vw - 150px);
   }
 
   .news-section {
