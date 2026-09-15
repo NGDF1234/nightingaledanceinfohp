@@ -321,7 +321,7 @@ function newsYoutubeChannelName(item = {}) {
 }
 
 function newsSecondaryText(item = {}) {
-  return item.text || item.note || "";
+  return item.text || item.note || item.comment || "";
 }
 
 function siteTitleFromUrl(url = "") {
@@ -486,7 +486,7 @@ function formatNewsScheduleDateTime(item = {}) {
 
 function newsStructuredDetails(item = {}, category = "") {
   const details = [];
-  const note = String(item.note || "").trim();
+  const note = String(item.note || item.comment || "").trim();
   const dateTime = formatNewsScheduleDateTime(item);
   const place = String(item.place || "").trim();
   const media = String(item.media || "").trim();
