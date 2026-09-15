@@ -1,4 +1,4 @@
-const CACHE_VERSION = "ngd-info-pwa-v79";
+const CACHE_VERSION = "ngd-info-pwa-v80";
 const APP_SHELL = [
   "./",
   "./index.html",
