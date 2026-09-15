@@ -117,7 +117,7 @@ const fallbackRegularItems = [
     comment: "",
     time: "毎週金曜 18:00頃 配信",
     period: { startDate: "2026-08-25" },
-    url: "https://artistspoken.com/lp/"
+    url: "https://artistspoken.com/artist/naitingerudansu-kannagimaro"
   },
   {
     title: "東西南北よしもと麻雀リーグ season7",
