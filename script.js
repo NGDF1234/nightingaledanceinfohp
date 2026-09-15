@@ -343,7 +343,7 @@ function siteTitleFromUrl(url = "") {
       "tv-asahi.co.jp": "テレビ朝日",
       "bsy.co.jp": "BSよしもと",
       "hicbc.com": "CBCラジオ",
-      "nib.jp": "NIB",
+      "nib.jp": "長崎国際テレビ",
       "tiget.net": "TIGET",
       "livepocket.jp": "LivePocket",
       "t.livepocket.jp": "LivePocket",
