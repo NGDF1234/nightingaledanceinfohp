@@ -251,6 +251,27 @@ function formatScheduleDate(item) {
   `;
 }
 
+function weekdayLabelFromDate(date = "") {
+  const normalized = normalizeDate(date);
+  const [year, month, day] = normalized.split("-").map(Number);
+  if (!year || !month || !day) return "";
+  const labels = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+  return labels[new Date(Date.UTC(year, month - 1, day)).getUTCDay()];
+}
+
+function formatNewsListDate(item) {
+  const date = normalizeDate(item.date);
+  const [, month = "", day = ""] = date.split("-");
+  const weekday = weekdayLabelFromDate(date);
+  if (!month || !day) return `<span class="schedule-date-fallback">${escapeHtml(date)}</span>`;
+  return `
+    <span class="schedule-month">${escapeHtml(month)}</span>
+    <span class="schedule-day">${escapeHtml(day)}</span>
+    <span class="schedule-star">★</span>
+    <span class="schedule-weekday">${escapeHtml(weekday)}</span>
+  `;
+}
+
 function formatTime(item) {
   const start = item.startTime || "";
   const end = item.endTime || "";
@@ -717,7 +738,7 @@ function renderNewsList(items = fallbackNewsItems) {
     const channelName = isYoutube ? newsYoutubeChannelName(item) : "";
     const rowClass = normalizeDate(item.date) === today ? "schedule-row today" : "schedule-row";
     const body = `
-      <div class="schedule-date">${formatScheduleDate(item)}</div>
+      <div class="schedule-date">${formatNewsListDate(item)}</div>
       <div class="schedule-main">
         <span class="news-tag">${escapeHtml(category)}</span>
         <h3>${escapeHtml(item.title)}</h3>
