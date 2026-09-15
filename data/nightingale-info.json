@@ -149,11 +149,15 @@
       "links": [
         {
           "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/products/%E8%8A%B8%E8%BE%9E%E8%8B%91-9-18-21-00"
+          "url": "https://online-ticket.yoshimoto.co.jp/products/芸辞苑-9-18-21-00"
         },
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-09-18&to=2026-09-18&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/%E8%8A%B8%E8%BE%9E%E8%8B%91-9-18-21-00"
         }
       ]
     },
@@ -317,11 +321,15 @@
       "links": [
         {
           "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/products/%E8%8A%B8%E8%BE%9E%E8%8B%91-9-18-21-00"
+          "url": "https://online-ticket.yoshimoto.co.jp/products/芸辞苑-9-18-21-00"
         },
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-09-18&to=2026-09-18&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/%E8%8A%B8%E8%BE%9E%E8%8B%91-9-18-21-00"
         }
       ]
     },
@@ -447,6 +455,10 @@
         }
       ],
       "links": [
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/中野なかるてぃん単独ライブ-てぃん独ライブ-9-26-19-00"
+        },
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-09-26&to=2026-09-26&prefectures=0&genre=0&search_type=form"
@@ -839,6 +851,10 @@
         }
       ],
       "links": [
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/中野なかるてぃん単独ライブ-てぃん独ライブ-10-24-19-00"
+        },
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-10-24&to=2026-10-24&prefectures=0&genre=0&search_type=form"
