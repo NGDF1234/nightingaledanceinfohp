@@ -718,7 +718,6 @@ function renderNewsList(items = fallbackNewsItems) {
   const dateFrom = newsFilters.dateFrom;
   const dateTo = newsFilters.dateTo;
   const visibleItems = [...items]
-    .sort((a, b) => normalizeDate(b.date).localeCompare(normalizeDate(a.date)))
     .filter((item) => !keyword || newsSearchText(item).includes(keyword))
     .filter((item) => !category || newsCategory(item) === category)
     .filter((item) => !dateFrom || !item.date || normalizeDate(item.date) >= dateFrom)
