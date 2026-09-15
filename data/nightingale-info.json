@@ -2,6 +2,52 @@
   "updatedAt": "2026-09-14T19:07:10+09:00",
   "news": [
     {
+      "date": "2026-09-16",
+      "tag": "公演情報",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
+      "comment": "※中野さんのみ出演",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=21228",
+      "scheduleDate": "2026-10-24",
+      "day": "土",
+      "openTime": "18:45",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDプレミアムメンバー抽選先行",
+          "startAt": "2026-09-01T11:00:00+09:00",
+          "endAt": "2026-09-04T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-10-24&to=2026-10-24&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-09-01T11:00:00+09:00",
+          "endAt": "2026-09-04T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-10-24&to=2026-10-24&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般発売",
+          "startAt": "2026-09-06T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-10-24&to=2026-10-24&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-10-24&to=2026-10-24&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/collections/%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E6%BC%AB%E6%89%8D%E5%8A%87%E5%A0%B4/products/%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96-%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96-10-24-19-00"
+        }
+      ]
+    },
+    {
       "date": "2026-09-15",
       "tag": "YouTube",
       "title": "【JK】みんな逃げて【コスプレ】",
