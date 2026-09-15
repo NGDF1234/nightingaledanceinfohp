@@ -512,7 +512,7 @@ function scheduleDetail(item = {}) {
     details: [
       formatTime(item),
       item.place,
-      item.note
+      item.comment
     ].filter(Boolean),
     links: itemLinks(item, Infinity)
   };
@@ -629,7 +629,7 @@ function scheduleSearchText(item) {
   return [
     item.title,
     item.place,
-    item.note,
+    item.comment,
     tag,
     categoryWords[tag] || ""
   ].filter(Boolean).join(" ").toLowerCase();
@@ -871,7 +871,7 @@ function renderSchedule(items = []) {
   }
 
   scheduleList.innerHTML = visibleItems.map((item) => {
-    const detail = [formatTime(item), item.place, item.note].filter(Boolean).join("\n");
+    const detail = [formatTime(item), item.place, item.comment].filter(Boolean).join("\n");
     const rowClass = normalizeDate(item.date) === today ? "schedule-row today" : "schedule-row";
     const body = `
       <div class="schedule-date">${formatScheduleDate(item)}</div>
