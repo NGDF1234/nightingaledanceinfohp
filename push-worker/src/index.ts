@@ -189,17 +189,36 @@ async function runDailyScheduleNotification(env: Env, schedule: Schedule[], now:
 async function runScheduleStartNotifications(env: Env, schedule: Schedule[], now: Date) {
   for (const item of schedule) {
     const start = new Date(`${item.date}T${item.startTime}:00+09:00`);
+    if (!isValidDate(start)) continue;
     const diff = start.getTime() - now.getTime();
-    const key = `sent:30min:${fingerprint(item)}`;
     const place = item.place || item.station || "";
-    if (diff <= 1740000 || diff > 1860000 || (await env.PUSH_STORE.get(key))) continue;
-    await broadcast(env, {
-      title: "開始30分前",
-      body: `${item.startTime} ${item.title}${place ? `｜${place}` : ""}`,
-      url: `${env.SITE_URL}/schedule.html`,
-      tag: key,
-    });
-    await env.PUSH_STORE.put(key, "1", { expirationTtl: 604800 });
+    const body = `${item.startTime} ${item.title}${place ? `｜${place}` : ""}`;
+
+    if (diff > 1740000 && diff <= 1860000) {
+      const key = `sent:30min:${fingerprint(item)}`;
+      if (!(await env.PUSH_STORE.get(key))) {
+        await broadcast(env, {
+          title: "開始30分前",
+          body,
+          url: `${env.SITE_URL}/schedule.html`,
+          tag: key,
+        });
+        await env.PUSH_STORE.put(key, "1", { expirationTtl: 604800 });
+      }
+    }
+
+    if (diff <= 0 && diff > -120000) {
+      const key = `sent:start:${fingerprint(item)}`;
+      if (!(await env.PUSH_STORE.get(key))) {
+        await broadcast(env, {
+          title: "開始時間です",
+          body,
+          url: `${env.SITE_URL}/schedule.html`,
+          tag: key,
+        });
+        await env.PUSH_STORE.put(key, "1", { expirationTtl: 604800 });
+      }
+    }
   }
 }
 
