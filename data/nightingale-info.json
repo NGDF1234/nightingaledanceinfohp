@@ -2,6 +2,13 @@
   "updatedAt": "2026-09-14T19:07:10+09:00",
   "news": [
     {
+      "date": "2026-09-19",
+      "tag": "SNS",
+      "title": "Instagram",
+      "comment": "ストーリーズが投稿されています。 アカウント名: 中野なかるてぃん 🔗 Instagram @nakalthyn instagram.com/stories/nakalt…",
+      "url": "https://www.instagram.com/stories/nakalthyn/3988944285062999443?utm_source=ig_story_item_share&stkn=ZXc0bmhmaGpkYXgz"
+    },
+    {
       "date": "2026-09-18",
       "tag": "YouTube",
       "title": "【お抹茶煎じ隊】お抹茶のデビュー曲見てみた【アイドル】",
@@ -297,38 +304,6 @@
     }
   ],
   "schedule": [
-    {
-      "date": "2026-09-18",
-      "day": "金",
-      "startTime": "14:30",
-      "endTime": "15:30",
-      "tag": "テレビ",
-      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
-      "place": "BSよしもと 265ch",
-      "url": "https://bsy.co.jp/timetable"
-    },
-    {
-      "date": "2026-09-18",
-      "day": "金",
-      "startTime": "21:00",
-      "endTime": "22:00",
-      "tag": "公演情報",
-      "title": "【芸辞苑】",
-      "comment": "※中野さんのみ出演",
-      "place": "神保町よしもと漫才劇場（東京都）",
-      "url": "https://jimbocho-manzaigekijyo.yoshimoto.co.jp/schedule/?id=19822",
-      "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-09-18&to=2026-09-18&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/products/%E8%8A%B8%E8%BE%9E%E8%8B%91-9-18-21-00"
-        }
-      ]
-    },
     {
       "date": "2026-09-19",
       "day": "土",
