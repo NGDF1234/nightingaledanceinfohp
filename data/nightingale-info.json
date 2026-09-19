@@ -312,50 +312,6 @@
   ],
   "schedule": [
     {
-      "date": "2026-09-19",
-      "day": "土",
-      "startTime": "00:00",
-      "endTime": "00:30",
-      "tag": "ラジオ",
-      "title": "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
-      "comment": "",
-      "place": "CBCラジオ",
-      "url": "https://hicbc.com/radio/nightin/"
-    },
-    {
-      "date": "2026-09-19",
-      "day": "土",
-      "startTime": "09:25",
-      "endTime": "10:15",
-      "tag": "テレビ",
-      "title": "Vタイムズ",
-      "comment": "",
-      "place": "長崎国際テレビ（NIB）",
-      "url": "https://www.nib.jp/tv/vtimes/"
-    },
-    {
-      "date": "2026-09-19",
-      "day": "土",
-      "startTime": "15:30",
-      "endTime": "",
-      "tag": "公演情報",
-      "title": "トーキョーマンゲキフェス2026ー渋神三世代決戦ー",
-      "comment": "※中野さんのみ出演",
-      "place": "LINE CUBE SHIBUYA（東京都）",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%88%E3%83%BC%E3%82%AD%E3%83%A7%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B2%E3%82%AD%E3%83%95%E3%82%A7%E3%82%B92026%E3%83%BC%E6%B8%8B%E7%A5%9E%E4%B8%89%E4%B8%96%E4%BB%A3%E6%B1%BA%E6%88%A6%E3%83%BC&from=2026-09-19&to=2026-09-19&prefectures=0&genre=0&search_type=form"
-    },
-    {
-      "date": "2026-09-19",
-      "day": "土",
-      "startTime": "22:00",
-      "endTime": "23:00",
-      "tag": "テレビ",
-      "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
-      "place": "BSよしもと 265ch",
-      "url": "https://bsy.co.jp/timetable"
-    },
-    {
       "date": "2026-09-20",
       "day": "日",
       "startTime": "18:00",
@@ -1991,6 +1947,17 @@
       "day": "日",
       "startTime": "18:00",
       "endTime": "19:00",
+      "tag": "テレビ",
+      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
+      "comment": "",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-03-19",
+      "day": "金",
+      "startTime": "14:30",
+      "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
       "comment": "",
