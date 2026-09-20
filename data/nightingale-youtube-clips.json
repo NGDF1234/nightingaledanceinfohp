@@ -22,6 +22,24 @@
   ],
   "clips": [
     {
+      "id": "youtube|03KKKg7CL80",
+      "videoId": "03KKKg7CL80",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【お抹茶煎じ隊】ラップが遅すぎる松井ケムリ【アイドル】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/03KKKg7CL80",
+      "viewCount": 1,
+      "durationSeconds": 59,
+      "duration": "0:59",
+      "uploadDate": "2026-09-20",
+      "firstSeenAt": "2026-09-20T19:02:16+09:00",
+      "lastStatsUpdatedAt": "2026-09-20T19:02:16+09:00"
+    },
+    {
       "id": "youtube|4NTKhg_a0SY",
       "videoId": "4NTKhg_a0SY",
       "kind": "shorts",
