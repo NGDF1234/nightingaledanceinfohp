@@ -678,7 +678,7 @@ function renderNews(items = fallbackNewsItems) {
       <p>${escapeHtml(formatNewsDate(item.date))}</p>
       <h3>${escapeHtml(item.title)}</h3>
       ${isYoutube && channelName ? `<p class="news-meta-line">${escapeHtml(channelName)}</p>` : ""}
-      ${text ? `<p class="${isYoutube ? "news-meta-line" : ""}">${escapeHtml(text)}</p>` : ""}
+      ${text ? `<p class="${isYoutube ? "news-meta-line news-youtube-comment" : ""}">${escapeHtml(text)}</p>` : ""}
       ${snsAccountName ? `<p class="news-meta-line">${escapeHtml(snsAccountName)}</p>` : ""}
       ${isYoutube ? "" : renderCardLinks(item)}
     `;
@@ -729,7 +729,7 @@ function renderNewsList(items = fallbackNewsItems) {
         <span class="news-tag">${escapeHtml(category)}</span>
         <h3>${escapeHtml(item.title)}</h3>
         ${isYoutube && channelName ? `<p class="news-meta-line">${escapeHtml(channelName)}</p>` : ""}
-        ${text ? `<p class="${isYoutube ? "news-meta-line" : ""}">${escapeHtml(text)}</p>` : ""}
+        ${text ? `<p class="${isYoutube ? "news-meta-line news-youtube-comment" : ""}">${escapeHtml(text)}</p>` : ""}
         ${snsAccountName ? `<p class="news-meta-line">${escapeHtml(snsAccountName)}</p>` : ""}
         ${isYoutube ? "" : renderCardLinks(item)}
       </div>
