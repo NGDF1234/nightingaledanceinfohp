@@ -2,18 +2,62 @@
   "updatedAt": "2026-09-14T19:07:10+09:00",
   "news": [
     {
+      "date": "2026-09-22",
+      "tag": "公演情報",
+      "title": "野澤輸出のコント「カラオケ」",
+      "comment": "※中野さんのみ出演",
+      "url": "https://roppongi.yoshimoto.co.jp/schedule/?id=20958",
+      "scheduleDate": "2026-10-17",
+      "day": "土",
+      "openTime": "16:45",
+      "startTime": "17:00",
+      "endTime": "18:20",
+      "place": "YOSHIMOTO ROPPONGI THEATER（東京都）",
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E9%87%8E%E6%BE%A4%E8%BC%B8%E5%87%BA%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%88%E3%80%8C%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1%E3%80%8D&from=2026-10-17&to=2026-10-17&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "tag": "公演情報",
+      "title": "野澤輸出単独ライブ「お笑いコント」",
+      "comment": "※中野さんのみ出演",
+      "url": "https://roppongi.yoshimoto.co.jp/schedule/?id=20956",
+      "scheduleDate": "2026-10-17",
+      "day": "土",
+      "openTime": "14:45",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "place": "YOSHIMOTO ROPPONGI THEATER（東京都）",
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E9%87%8E%E6%BE%A4%E8%BC%B8%E5%87%BA%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%8A%E7%AC%91%E3%81%84%E3%82%B3%E3%83%B3%E3%83%88%E3%80%8D&from=2026-10-17&to=2026-10-17&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/collections/live/products/%E9%87%8E%E6%BE%A4%E8%BC%B8%E5%87%BA%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96-%E3%81%8A%E7%AC%91%E3%81%84%E3%82%B3%E3%83%B3%E3%83%88-10-17-15-00"
+        }
+      ]
+    },
+    {
       "date": "2026-09-21",
       "tag": "YouTube",
       "title": "吉野くん出ろぉおおおお‼️【めぞん吉野おいなり君】",
       "comment": "※34:28〜ヤスさんのお名前が出ています。 ※59:06〜中野さんのお名前が出ています。",
-      "url": "https://youtu.be/w58PG-pP2wU?si=oX5NzfniOdUfc4-H"
+      "url": "https://youtu.be/w58PG-pP2wU?si=oX5NzfniOdUfc4-H",
+      "channelName": "ナルちゃんch_2"
     },
     {
       "date": "2026-09-21",
       "tag": "YouTube",
       "title": "【お抹茶煎じ隊】なかるてぃんの歌割りが少ない【アイドル】",
       "comment": "",
-      "url": "https://www.youtube.com/shorts/Unukhi0QRSw"
+      "url": "https://www.youtube.com/shorts/Unukhi0QRSw",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-21",
@@ -62,7 +106,8 @@
       "tag": "YouTube",
       "title": "【お抹茶煎じ隊】ラップが遅すぎる松井ケムリ【アイドル】",
       "comment": "",
-      "url": "https://www.youtube.com/shorts/03KKKg7CL80"
+      "url": "https://www.youtube.com/shorts/03KKKg7CL80",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-20",
@@ -104,7 +149,8 @@
       "tag": "YouTube",
       "title": "【お抹茶煎じ隊】僕と煎じてくれますか？【アイドル】",
       "comment": "",
-      "url": "https://www.youtube.com/shorts/4NTKhg_a0SY"
+      "url": "https://www.youtube.com/shorts/4NTKhg_a0SY",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-19",
@@ -118,28 +164,32 @@
       "tag": "YouTube",
       "title": "【お抹茶煎じ隊】お抹茶のデビュー曲見てみた【アイドル】",
       "comment": "",
-      "url": "https://www.youtube.com/shorts/_ft-_SHGLL0"
+      "url": "https://www.youtube.com/shorts/_ft-_SHGLL0",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-17",
       "tag": "YouTube",
       "title": "【クイズ】スカイラークのどこのメニュー？【スカイラーク】",
       "comment": "",
-      "url": "https://www.youtube.com/shorts/-9yAfyOPR9g"
+      "url": "https://www.youtube.com/shorts/-9yAfyOPR9g",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-15",
       "tag": "YouTube",
       "title": "【JK】みんな逃げて【コスプレ】",
       "comment": "",
-      "url": "https://www.youtube.com/shorts/vEoUaAbVVBA"
+      "url": "https://www.youtube.com/shorts/vEoUaAbVVBA",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-14",
       "tag": "YouTube",
       "title": "【JK】なかるてぃんの最推しは誰？【コスプレ】",
       "comment": "",
-      "url": "https://www.youtube.com/shorts/ZMpkxH4gbt4"
+      "url": "https://www.youtube.com/shorts/ZMpkxH4gbt4",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-14",
@@ -147,6 +197,7 @@
       "title": "CBCラジオ夏まつり2026公開シャタおろ(※一部のみ)【ナイチンゲールダンスのもうきてるラジオ】",
       "comment": "",
       "url": "https://www.youtube.com/watch?v=V7beM0cpqV4",
+      "channelName": "文化シヤッターpresentsナイチンゲールダンスのもうきてるラジオ【CBCラジオ】",
       "media": "CBCラジオ"
     },
     {
@@ -154,7 +205,8 @@
       "tag": "YouTube",
       "title": "【JK】メイクやらスカートやらで女の子の気持ちを味わう芸人【コスプレ】",
       "comment": "",
-      "url": "https://www.youtube.com/shorts/RfEuWz6Cr5U"
+      "url": "https://www.youtube.com/shorts/RfEuWz6Cr5U",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-13",
@@ -168,7 +220,8 @@
       "tag": "YouTube",
       "title": "【ギャグ】JKなかる子の宝塚ギャグ【コスプレ】",
       "comment": "",
-      "url": "https://www.youtube.com/shorts/56mXDqj5xlA"
+      "url": "https://www.youtube.com/shorts/56mXDqj5xlA",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-12",
@@ -196,14 +249,16 @@
       "tag": "YouTube",
       "title": "【JK】なかる子、将来部活やめてどうするの？【コスプレ】",
       "comment": "",
-      "url": "https://www.youtube.com/shorts/i_ZnItlmy7w"
+      "url": "https://www.youtube.com/shorts/i_ZnItlmy7w",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-10",
       "tag": "YouTube",
       "title": "【香川】テンポ感が早すぎるVLog【Vlog】",
       "comment": "",
-      "url": "https://www.youtube.com/shorts/qgSCkYgpY6I"
+      "url": "https://www.youtube.com/shorts/qgSCkYgpY6I",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-10",
@@ -217,14 +272,16 @@
       "tag": "YouTube",
       "title": "【香川】熱々の美味しそうなうどんなのに【Vlog】",
       "comment": "",
-      "url": "https://www.youtube.com/shorts/yUHjpHrCaDc"
+      "url": "https://www.youtube.com/shorts/yUHjpHrCaDc",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-08",
       "tag": "YouTube",
       "title": "【香川】コメントゾンビになってしまうなかるてぃん【Vlog】",
       "comment": "",
-      "url": "https://www.youtube.com/shorts/I5JIfXmdVzo"
+      "url": "https://www.youtube.com/shorts/I5JIfXmdVzo",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-08",
@@ -250,7 +307,8 @@
       "tag": "YouTube",
       "title": "【香川】うどん食べたらトイレに行きたくなった【Vlog】",
       "comment": "",
-      "url": "https://www.youtube.com/shorts/tBX9bfZ8mro"
+      "url": "https://www.youtube.com/shorts/tBX9bfZ8mro",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-07",
@@ -258,6 +316,7 @@
       "title": "#21「最高の合コン幹事」【ナイチンゲールダンスのもうきてるラジオ】",
       "comment": "",
       "url": "https://www.youtube.com/watch?v=FypRbPpr1WI",
+      "channelName": "文化シヤッターpresentsナイチンゲールダンスのもうきてるラジオ【CBCラジオ】",
       "media": "CBCラジオ"
     },
     {
@@ -288,7 +347,8 @@
       "tag": "YouTube",
       "title": "【香川】なかるてぃんのVlog見てみた【Vlog】",
       "comment": "",
-      "url": "https://www.youtube.com/shorts/cPvagj_dF58"
+      "url": "https://www.youtube.com/shorts/cPvagj_dF58",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-06",
@@ -321,7 +381,8 @@
       "tag": "YouTube",
       "title": "【夜勤明け？】顔面を覆った金魚番長古市の素顔。お笑いモンスターの知られざる日常",
       "comment": "※6:39〜 中野さんのお名前出てます。",
-      "url": "https://youtu.be/bzYJzYZdNOc?si=5cUuvD3CPbvKKO29"
+      "url": "https://youtu.be/bzYJzYZdNOc?si=5cUuvD3CPbvKKO29",
+      "channelName": "ワラケンTube"
     },
     {
       "date": "2026-09-03",
@@ -391,7 +452,8 @@
       "tag": "YouTube",
       "title": "飯腐ってた人　 #中野なかるてぃん #お笑い  #Tシャツ",
       "comment": "",
-      "url": "https://www.youtube.com/shorts/XVMeZkOUzeY"
+      "url": "https://www.youtube.com/shorts/XVMeZkOUzeY",
+      "channelName": "中野なかるてぃん状態"
     },
     {
       "date": "2026-09-01",
@@ -405,7 +467,8 @@
       "tag": "YouTube",
       "title": "ティッシュある？って聞かれて必死で考えた人",
       "comment": "",
-      "url": "https://www.youtube.com/shorts/JtRLAPo7iUc"
+      "url": "https://www.youtube.com/shorts/JtRLAPo7iUc",
+      "channelName": "中野なかるてぃん状態"
     }
   ],
   "schedule": [
@@ -789,6 +852,44 @@
       "comment": "",
       "place": "長崎国際テレビ（NIB）",
       "url": "https://www.nib.jp/tv/vtimes/"
+    },
+    {
+      "date": "2026-10-17",
+      "day": "土",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "tag": "公演情報",
+      "title": "野澤輸出単独ライブ「お笑いコント」",
+      "comment": "※中野さんのみ出演",
+      "place": "YOSHIMOTO ROPPONGI THEATER（東京都）",
+      "url": "https://roppongi.yoshimoto.co.jp/schedule/?id=20956",
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E9%87%8E%E6%BE%A4%E8%BC%B8%E5%87%BA%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%8A%E7%AC%91%E3%81%84%E3%82%B3%E3%83%B3%E3%83%88%E3%80%8D&from=2026-10-17&to=2026-10-17&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/collections/live/products/%E9%87%8E%E6%BE%A4%E8%BC%B8%E5%87%BA%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96-%E3%81%8A%E7%AC%91%E3%81%84%E3%82%B3%E3%83%B3%E3%83%88-10-17-15-00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "day": "土",
+      "startTime": "17:00",
+      "endTime": "18:20",
+      "tag": "公演情報",
+      "title": "野澤輸出のコント「カラオケ」",
+      "comment": "※中野さんのみ出演",
+      "place": "YOSHIMOTO ROPPONGI THEATER（東京都）",
+      "url": "https://roppongi.yoshimoto.co.jp/schedule/?id=20958",
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E9%87%8E%E6%BE%A4%E8%BC%B8%E5%87%BA%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%88%E3%80%8C%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1%E3%80%8D&from=2026-10-17&to=2026-10-17&prefectures=0&genre=0&search_type=form"
+        }
+      ]
     },
     {
       "date": "2026-10-17",
@@ -2149,32 +2250,6 @@
   ],
   "regular": [],
   "ticketReminders": [
-    {
-      "id": "ticket_push_reminder|start|秋のピンまつり|fanyidプレミアムメンバ抽選先行|202609221100",
-      "title": "秋のピンまつり",
-      "ticketKind": "抽選販売",
-      "ticketLabel": "FANY IDプレミアムメンバー抽選先行",
-      "reminderType": "start",
-      "reminderLabel": "発売開始時刻",
-      "notifyAt": "2026-09-22T11:00:00+09:00",
-      "targetAt": "2026-09-22T11:00:00+09:00",
-      "startAt": "2026-09-22T11:00:00+09:00",
-      "endAt": "2026-09-24T11:00:00+09:00",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E7%A7%8B%E3%81%AE%E3%83%94%E3%83%B3%E3%81%BE%E3%81%A4%E3%82%8A&from=2026-10-30&to=2026-10-30&prefectures=0&genre=0&search_type=form"
-    },
-    {
-      "id": "ticket_push_reminder|start|秋のピンまつり|fanyidメンバ抽選先行|202609221100",
-      "title": "秋のピンまつり",
-      "ticketKind": "抽選販売",
-      "ticketLabel": "FANY IDメンバー抽選先行",
-      "reminderType": "start",
-      "reminderLabel": "発売開始時刻",
-      "notifyAt": "2026-09-22T11:00:00+09:00",
-      "targetAt": "2026-09-22T11:00:00+09:00",
-      "startAt": "2026-09-22T11:00:00+09:00",
-      "endAt": "2026-09-24T11:00:00+09:00",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E7%A7%8B%E3%81%AE%E3%83%94%E3%83%B3%E3%81%BE%E3%81%A4%E3%82%8A&from=2026-10-30&to=2026-10-30&prefectures=0&genre=0&search_type=form"
-    },
     {
       "id": "ticket_push_reminder|end|秋のピンまつり|fanyidプレミアムメンバ抽選先行|202609241100",
       "title": "秋のピンまつり",
