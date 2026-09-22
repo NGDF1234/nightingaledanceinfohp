@@ -22,6 +22,24 @@
   ],
   "clips": [
     {
+      "id": "youtube|dTUfic4qMYU",
+      "videoId": "dTUfic4qMYU",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【お抹茶煎じ隊】振り付けができなすぎて【アイドル】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/dTUfic4qMYU",
+      "viewCount": 0,
+      "durationSeconds": 69,
+      "duration": "1:09",
+      "uploadDate": "2026-09-22",
+      "firstSeenAt": "2026-09-22T19:02:16+09:00",
+      "lastStatsUpdatedAt": ""
+    },
+    {
       "id": "youtube|Unukhi0QRSw",
       "videoId": "Unukhi0QRSw",
       "kind": "shorts",
