@@ -3,6 +3,48 @@
   "news": [
     {
       "date": "2026-09-23",
+      "tag": "公演情報",
+      "title": "【芸辞苑】",
+      "comment": "※中野さんのみ出演",
+      "url": "https://jimbocho-manzaigekijyo.yoshimoto.co.jp/schedule/?id=21791",
+      "scheduleDate": "2026-11-06",
+      "day": "金",
+      "openTime": "19:00",
+      "startTime": "19:15",
+      "endTime": "20:15",
+      "place": "神保町よしもと漫才劇場（東京都）",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDプレミアムメンバー抽選先行",
+          "startAt": "2026-09-25T11:00:00+09:00",
+          "endAt": "2026-09-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-09-25T11:00:00+09:00",
+          "endAt": "2026-09-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-10-05T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
       "tag": "SNS",
       "title": "Instagram",
       "comment": "ストーリーズが投稿されています。 アカウント名: 中野なかるてぃん",
@@ -1200,6 +1242,46 @@
       "url": "https://bsy.co.jp/timetable"
     },
     {
+      "date": "2026-11-06",
+      "day": "金",
+      "startTime": "19:15",
+      "endTime": "20:15",
+      "tag": "公演情報",
+      "title": "【芸辞苑】",
+      "comment": "※中野さんのみ出演",
+      "place": "神保町よしもと漫才劇場（東京都）",
+      "url": "https://jimbocho-manzaigekijyo.yoshimoto.co.jp/schedule/?id=21791",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDプレミアムメンバー抽選先行",
+          "startAt": "2026-09-25T11:00:00+09:00",
+          "endAt": "2026-09-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-09-25T11:00:00+09:00",
+          "endAt": "2026-09-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-10-05T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
       "date": "2026-11-07",
       "day": "土",
       "startTime": "00:00",
@@ -2318,6 +2400,32 @@
       "url": "https://ticket.fany.lol/search/event?keywords=%E7%A7%8B%E3%81%AE%E3%83%94%E3%83%B3%E3%81%BE%E3%81%A4%E3%82%8A&from=2026-10-30&to=2026-10-30&prefectures=0&genre=0&search_type=form"
     },
     {
+      "id": "ticket_push_reminder|start|【芸辞苑】|fanyidプレミアムメンバ抽選先行|202609251100",
+      "title": "【芸辞苑】",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "FANY IDプレミアムメンバー抽選先行",
+      "reminderType": "start",
+      "reminderLabel": "発売開始時刻",
+      "notifyAt": "2026-09-25T11:00:00+09:00",
+      "targetAt": "2026-09-25T11:00:00+09:00",
+      "startAt": "2026-09-25T11:00:00+09:00",
+      "endAt": "2026-09-28T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|start|【芸辞苑】|fanyidメンバ抽選先行|202609251100",
+      "title": "【芸辞苑】",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "FANY IDメンバー抽選先行",
+      "reminderType": "start",
+      "reminderLabel": "発売開始時刻",
+      "notifyAt": "2026-09-25T11:00:00+09:00",
+      "targetAt": "2026-09-25T11:00:00+09:00",
+      "startAt": "2026-09-25T11:00:00+09:00",
+      "endAt": "2026-09-28T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
+    },
+    {
       "id": "ticket_push_reminder|start|秋のピンまつり|一般発売|202609261000",
       "title": "秋のピンまつり",
       "ticketKind": "一般販売",
@@ -2329,6 +2437,45 @@
       "startAt": "2026-09-26T10:00:00+09:00",
       "endAt": "2026-10-30T16:00:00+09:00",
       "url": "https://ticket.fany.lol/search/event?keywords=%E7%A7%8B%E3%81%AE%E3%83%94%E3%83%B3%E3%81%BE%E3%81%A4%E3%82%8A&from=2026-10-30&to=2026-10-30&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|end|【芸辞苑】|fanyidプレミアムメンバ抽選先行|202609281100",
+      "title": "【芸辞苑】",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "FANY IDプレミアムメンバー抽選先行",
+      "reminderType": "end",
+      "reminderLabel": "受付終了30分前",
+      "notifyAt": "2026-09-28T10:30:00+09:00",
+      "targetAt": "2026-09-28T11:00:00+09:00",
+      "startAt": "2026-09-25T11:00:00+09:00",
+      "endAt": "2026-09-28T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|end|【芸辞苑】|fanyidメンバ抽選先行|202609281100",
+      "title": "【芸辞苑】",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "FANY IDメンバー抽選先行",
+      "reminderType": "end",
+      "reminderLabel": "受付終了30分前",
+      "notifyAt": "2026-09-28T10:30:00+09:00",
+      "targetAt": "2026-09-28T11:00:00+09:00",
+      "startAt": "2026-09-25T11:00:00+09:00",
+      "endAt": "2026-09-28T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|start|【芸辞苑】|一般販売|202610051000",
+      "title": "【芸辞苑】",
+      "ticketKind": "一般販売",
+      "ticketLabel": "一般販売",
+      "reminderType": "start",
+      "reminderLabel": "発売開始30分前",
+      "notifyAt": "2026-10-05T09:30:00+09:00",
+      "targetAt": "2026-10-05T10:00:00+09:00",
+      "startAt": "2026-10-05T10:00:00+09:00",
+      "endAt": "",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
     }
   ],
   "clips": []
