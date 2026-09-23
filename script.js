@@ -317,7 +317,7 @@ function clipChannelLabel(item = {}) {
 function clipKindLabel(kind = "") {
   const labels = {
     shorts: "Shorts",
-    live: "ライブ",
+    live: "Live",
     video: "YouTube"
   };
   return labels[kind] || "YouTube";
