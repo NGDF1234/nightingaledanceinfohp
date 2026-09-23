@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-09-14T19:07:10+09:00",
+  "updatedAt": "2026-09-23T15:52:06+09:00",
   "news": [
+    {
+      "date": "2026-09-23",
+      "tag": "YouTube",
+      "title": "【パールインブルー】TGS2026 コスプレショー＆ラブコメ大喜利ステージ＜DAY 4＞",
+      "comment": "※56:33〜中野さんが出演されています。",
+      "url": "https://www.youtube.com/live/2UJ6lEQhkiw?si=Sj0jNm7QGpf475tD",
+      "channelName": "【公式】パールインブルー"
+    },
     {
       "date": "2026-09-23",
       "tag": "公演情報",
@@ -53,10 +61,11 @@
     {
       "date": "2026-09-22",
       "tag": "YouTube",
-      "title": "【お抹茶煎じ隊】振り付けができなすぎて【アイドル】",
-      "comment": "",
-      "url": "https://www.youtube.com/shorts/dTUfic4qMYU",
-      "channelName": "ナイチンゲールダンスチャンネル"
+      "title": "【ケムリと阪本が呑んで喋るだけ】松井ケムリの路地酔い気分。高円寺編【YouTube完全版】",
+      "comment": "5:09〜ヤスさんのお名前出てます。",
+      "url": "https://youtu.be/oegjkxfFSmU?si=RtSv0yeXc-kP4EpC",
+      "channelName": "BSよしもと公式チャンネル",
+      "media": "BSよしもと"
     },
     {
       "date": "2026-09-22",
@@ -69,22 +78,11 @@
     },
     {
       "date": "2026-09-22",
-      "tag": "公演情報",
-      "title": "野澤輸出のコント「カラオケ」",
-      "comment": "※中野さんのみ出演",
-      "url": "https://roppongi.yoshimoto.co.jp/schedule/?id=20958",
-      "scheduleDate": "2026-10-17",
-      "day": "土",
-      "openTime": "16:45",
-      "startTime": "17:00",
-      "endTime": "18:20",
-      "place": "YOSHIMOTO ROPPONGI THEATER（東京都）",
-      "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E9%87%8E%E6%BE%A4%E8%BC%B8%E5%87%BA%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%88%E3%80%8C%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1%E3%80%8D&from=2026-10-17&to=2026-10-17&prefectures=0&genre=0&search_type=form"
-        }
-      ]
+      "tag": "YouTube",
+      "title": "【お抹茶煎じ隊】振り付けができなすぎて【アイドル】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/dTUfic4qMYU",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-22",
@@ -110,7 +108,26 @@
       ]
     },
     {
-      "date": "2026-09-21",
+      "date": "2026-09-22",
+      "tag": "公演情報",
+      "title": "野澤輸出のコント「カラオケ」",
+      "comment": "※中野さんのみ出演",
+      "url": "https://roppongi.yoshimoto.co.jp/schedule/?id=20958",
+      "scheduleDate": "2026-10-17",
+      "day": "土",
+      "openTime": "16:45",
+      "startTime": "17:00",
+      "endTime": "18:20",
+      "place": "YOSHIMOTO ROPPONGI THEATER（東京都）",
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E9%87%8E%E6%BE%A4%E8%BC%B8%E5%87%BA%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%88%E3%80%8C%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1%E3%80%8D&from=2026-10-17&to=2026-10-17&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
       "tag": "YouTube",
       "title": "吉野くん出ろぉおおおお‼️【めぞん吉野おいなり君】",
       "comment": "※34:28〜ヤスさんのお名前が出ています。 ※59:06〜中野さんのお名前が出ています。",
@@ -166,23 +183,6 @@
           "url": "https://ticket.fany.lol/search/event?keywords=%E7%A7%8B%E3%81%AE%E3%83%94%E3%83%B3%E3%81%BE%E3%81%A4%E3%82%8A&from=2026-10-30&to=2026-10-30&prefectures=0&genre=0&search_type=form"
         }
       ]
-    },
-    {
-      "date": "2026-09-21",
-      "tag": "YouTube",
-      "title": "【パールインブルー】TGS2026 コスプレショー＆ラブコメ大喜利ステージ＜DAY 4＞",
-      "comment": "※56:33〜中野さんが出演されています。",
-      "url": "https://www.youtube.com/live/2UJ6lEQhkiw?si=LQbcBv7coQ9V4xtQ",
-      "channelName": "【公式】パールインブルー"
-    },
-    {
-      "date": "2026-09-20",
-      "tag": "YouTube",
-      "title": "【ケムリと阪本が呑んで喋るだけ】松井ケムリの路地酔い気分。高円寺編【YouTube完全版】",
-      "comment": "5:09〜ヤスさんのお名前出てます。",
-      "url": "https://youtu.be/oegjkxfFSmU?si=RtSv0yeXc-kP4EpC",
-      "channelName": "BSよしもと公式チャンネル",
-      "media": "BSよしもと"
     },
     {
       "date": "2026-09-20",
@@ -388,19 +388,19 @@
     {
       "date": "2026-09-07",
       "tag": "YouTube",
-      "title": "【香川】うどん食べたらトイレに行きたくなった【Vlog】",
-      "comment": "",
-      "url": "https://www.youtube.com/shorts/tBX9bfZ8mro",
-      "channelName": "ナイチンゲールダンスチャンネル"
-    },
-    {
-      "date": "2026-09-07",
-      "tag": "YouTube",
       "title": "#21「最高の合コン幹事」【ナイチンゲールダンスのもうきてるラジオ】",
       "comment": "",
       "url": "https://www.youtube.com/watch?v=FypRbPpr1WI",
       "channelName": "文化シヤッターpresentsナイチンゲールダンスのもうきてるラジオ【CBCラジオ】",
       "media": "CBCラジオ"
+    },
+    {
+      "date": "2026-09-07",
+      "tag": "YouTube",
+      "title": "【香川】うどん食べたらトイレに行きたくなった【Vlog】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/tBX9bfZ8mro",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-07",
@@ -460,7 +460,7 @@
       "url": "https://www.instagram.com/stories/nakalthyn/3979601157080335758?utm_source=ig_story_item_share&stkn=bTRzNzVmazlpcGhl"
     },
     {
-      "date": "2026-09-04",
+      "date": "2026-09-05",
       "tag": "YouTube",
       "title": "【夜勤明け？】顔面を覆った金魚番長古市の素顔。お笑いモンスターの知られざる日常",
       "comment": "※6:39〜 中野さんのお名前出てます。",
@@ -540,18 +540,18 @@
     },
     {
       "date": "2026-09-01",
-      "tag": "SNS",
-      "title": "Instagram",
-      "comment": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3976412871046440230?utm_source=ig_story_item_share&igsi=M2dpanc1dTR3eGh0"
-    },
-    {
-      "date": "2026-09-01",
       "tag": "YouTube",
       "title": "ティッシュある？って聞かれて必死で考えた人",
       "comment": "",
       "url": "https://www.youtube.com/shorts/JtRLAPo7iUc",
       "channelName": "中野なかるてぃん状態"
+    },
+    {
+      "date": "2026-09-01",
+      "tag": "SNS",
+      "title": "Instagram",
+      "comment": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
+      "url": "https://www.instagram.com/stories/nakalthyn/3976412871046440230?utm_source=ig_story_item_share&igsi=M2dpanc1dTR3eGh0"
     }
   ],
   "schedule": [
