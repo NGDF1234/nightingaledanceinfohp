@@ -199,7 +199,7 @@ function youtubeVideoId(url = "") {
     if (host === "youtube.com" || host === "m.youtube.com") {
       const parts = parsedUrl.pathname.split("/").filter(Boolean);
       if (parts[0] === "watch") return parsedUrl.searchParams.get("v") || "";
-      if (parts[0] === "shorts" || parts[0] === "embed") return parts[1] || "";
+      if (parts[0] === "shorts" || parts[0] === "embed" || parts[0] === "live") return parts[1] || "";
     }
   } catch (error) {
     return "";
