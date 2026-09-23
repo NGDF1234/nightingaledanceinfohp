@@ -314,6 +314,15 @@ function clipChannelLabel(item = {}) {
   return labels[filterType];
 }
 
+function clipKindLabel(kind = "") {
+  const labels = {
+    shorts: "Shorts",
+    live: "ライブ",
+    video: "YouTube"
+  };
+  return labels[kind] || "YouTube";
+}
+
 function newsYoutubeChannelName(item = {}) {
   const videoId = youtubeVideoId(item.url || "");
   const clip = videoId ? clipsByVideoId.get(videoId) : null;
@@ -977,7 +986,7 @@ function renderClips(items = fallbackClipItems) {
             <img src="${escapeHtml(youtubeThumbnailUrl(item.videoId))}" data-video-id="${escapeHtml(item.videoId)}" data-thumb-step="hqdefault" alt="${escapeHtml(item.title)}" loading="lazy">
           </span>
           <span class="clip-list-main">
-            <span class="news-tag">${escapeHtml(item.kind === "shorts" ? "Shorts" : "YouTube")}</span>
+            <span class="news-tag">${escapeHtml(clipKindLabel(item.kind))}</span>
             <strong>${escapeHtml(item.title)}</strong>
             <small>${escapeHtml(meta)}</small>
           </span>
