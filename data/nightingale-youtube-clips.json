@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T18:37:15+09:00",
+  "updatedAt": "2026-09-26T21:02:43+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|lnlyYp7iR_w",
+      "videoId": "lnlyYp7iR_w",
+      "kind": "video",
+      "channelName": "中野なかるてぃん状態",
+      "channelType": "nakano_personal",
+      "channelUrl": "https://www.youtube.com/channel/UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "channelId": "UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "title": "みんはやC -からSまで駆け上がる状態 part2",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=lnlyYp7iR_w",
+      "viewCount": 0,
+      "durationSeconds": 0,
+      "duration": "",
+      "uploadDate": "2026-09-26",
+      "firstSeenAt": "2026-09-26T21:02:43+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|-iqlPh8_Wak",
       "videoId": "-iqlPh8_Wak",
