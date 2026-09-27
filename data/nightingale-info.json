@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T17:57:29+09:00",
+  "updatedAt": "2026-09-27T21:22:17+09:00",
   "news": [
     {
       "date": "2026-09-27",
@@ -98,7 +98,13 @@
       "tag": "SNS",
       "title": "Instagram",
       "comment": "ストーリーズが投稿されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3995090368323416845?utm_source=ig_story_item_share&stkn=MjQ0Z3dtdnJkajdm"
+      "url": "https://www.instagram.com/stories/nakalthyn/3995090368323416845?utm_source=ig_story_item_share&stkn=MjQ0Z3dtdnJkajdm",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2104086103133430208"
+        }
+      ]
     },
     {
       "date": "2026-09-26",
@@ -113,7 +119,13 @@
       "tag": "SNS",
       "title": "Instagram",
       "comment": "ストーリーズが投稿されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3994611963618654966?utm_source=ig_story_item_share&stkn=ZmRwMHY0eG91Z294"
+      "url": "https://www.instagram.com/stories/nakalthyn/3994611963618654966?utm_source=ig_story_item_share&stkn=ZmRwMHY0eG91Z294",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2103779917230121269"
+        }
+      ]
     },
     {
       "date": "2026-09-23",
@@ -178,7 +190,13 @@
       "tag": "SNS",
       "title": "Instagram",
       "comment": "ストーリーズが投稿されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3992261075704879202?utm_source=ig_story_item_share&stkn=NDlwdWNtZjdyYjZz"
+      "url": "https://www.instagram.com/stories/nakalthyn/3992261075704879202?utm_source=ig_story_item_share&stkn=NDlwdWNtZjdyYjZz",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2102617909415858221"
+        }
+      ]
     },
     {
       "date": "2026-09-22",
@@ -319,35 +337,65 @@
       "tag": "SNS",
       "title": "Instagram",
       "comment": "ストーリーズに中野さんが写っています。 アカウント名: マリーマリー 🌮タコス🌮",
-      "url": "https://www.instagram.com/stories/tacosismanzai/3989543992823810967?utm_source=ig_story_item_share&stkn=MTBlaDA2ZmU0czJqZQ=="
+      "url": "https://www.instagram.com/stories/tacosismanzai/3989543992823810967?utm_source=ig_story_item_share&stkn=MTBlaDA2ZmU0czJqZQ==",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2101588779123511323"
+        }
+      ]
     },
     {
       "date": "2026-09-20",
       "tag": "SNS",
       "title": "Instagram",
       "comment": "ストーリーズが投稿されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3990127719789678125?utm_source=ig_story_item_share&stkn=MTY3YW51ZzVqeWt3MQ=="
+      "url": "https://www.instagram.com/stories/nakalthyn/3990127719789678125?utm_source=ig_story_item_share&stkn=MTY3YW51ZzVqeWt3MQ==",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2101588618351644686"
+        }
+      ]
     },
     {
       "date": "2026-09-20",
       "tag": "SNS",
       "title": "Instagram",
       "comment": "ストーリーズが投稿されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3990083450655899251?utm_source=ig_story_item_share&stkn=MTc3dG9hYWxnZGFqdw=="
+      "url": "https://www.instagram.com/stories/nakalthyn/3990083450655899251?utm_source=ig_story_item_share&stkn=MTc3dG9hYWxnZGFqdw==",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2101559238195921399"
+        }
+      ]
     },
     {
       "date": "2026-09-20",
       "tag": "SNS",
       "title": "Instagram",
       "comment": "ストーリーズの投稿に中野さんが写っています。 アカウント名: 世間知らズ さおり",
-      "url": "https://www.instagram.com/stories/saori19950108/3989739997207120956?utm_source=ig_story_item_share&stkn=bzFjdTdkM3Nmd3I3"
+      "url": "https://www.instagram.com/stories/saori19950108/3989739997207120956?utm_source=ig_story_item_share&stkn=bzFjdTdkM3Nmd3I3",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2101485902862373113"
+        }
+      ]
     },
     {
       "date": "2026-09-20",
       "tag": "SNS",
       "title": "Instagram",
       "comment": "ストーリーズが投稿されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3989734649684443538?utm_source=ig_story_item_share&stkn=MWN6ODNqbDlyYzJkNw=="
+      "url": "https://www.instagram.com/stories/nakalthyn/3989734649684443538?utm_source=ig_story_item_share&stkn=MWN6ODNqbDlyYzJkNw==",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2101484735327605165"
+        }
+      ]
     },
     {
       "date": "2026-09-19",
@@ -362,7 +410,13 @@
       "tag": "SNS",
       "title": "Instagram",
       "comment": "ストーリーズが投稿されています。 アカウント名: 中野なかるてぃん 🔗 Instagram @nakalthyn https://t.co/1zVG37p0il",
-      "url": "https://www.instagram.com/stories/nakalthyn/3988944285062999443?utm_source=ig_story_item_share&stkn=ZXc0bmhmaGpkYXgz"
+      "url": "https://www.instagram.com/stories/nakalthyn/3988944285062999443?utm_source=ig_story_item_share&stkn=ZXc0bmhmaGpkYXgz",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2100971374089314571"
+        }
+      ]
     },
     {
       "date": "2026-09-18",
@@ -378,6 +432,14 @@
       "title": "【クイズ】スカイラークのどこのメニュー？【スカイラーク】",
       "comment": "",
       "url": "https://www.youtube.com/shorts/-9yAfyOPR9g",
+      "channelName": "ナイチンゲールダンスチャンネル"
+    },
+    {
+      "date": "2026-09-27",
+      "tag": "YouTube",
+      "title": "【ハリーポッター】神保町芸人をホグワーツ寮に当てはめてたら【板橋ハウス】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/L4L5DO20Fmo",
       "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
@@ -418,7 +480,13 @@
       "tag": "SNS",
       "title": "Instagram",
       "comment": "ストーリーズが投稿されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3984594015910780121?utm_source=ig_story_item_share&stkn=MTFjbm10aWhzZDlvMw=="
+      "url": "https://www.instagram.com/stories/nakalthyn/3984594015910780121?utm_source=ig_story_item_share&stkn=MTFjbm10aWhzZDlvMw==",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2098823339200676237"
+        }
+      ]
     },
     {
       "date": "2026-09-12",
@@ -470,7 +538,13 @@
       "tag": "SNS",
       "title": "Instagram",
       "comment": "ストーリーズに中野さんとの写真が投稿されています。 アカウント名: 金魚番長 古市",
-      "url": "https://www.instagram.com/stories/full_bantyo_/3982386354868447387?utm_source=ig_story_item_share&stkn=Z2VpY3BoNTZpOXR0"
+      "url": "https://www.instagram.com/stories/full_bantyo_/3982386354868447387?utm_source=ig_story_item_share&stkn=Z2VpY3BoNTZpOXR0",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2097722689586954649"
+        }
+      ]
     },
     {
       "date": "2026-09-09",
@@ -505,7 +579,13 @@
       "tag": "SNS",
       "title": "Instagram",
       "comment": "ストーリーが更新されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3980936826944364124?utm_source=ig_story_item_share&stkn=eHQ0MTNvb2Y4cHUx"
+      "url": "https://www.instagram.com/stories/nakalthyn/3980936826944364124?utm_source=ig_story_item_share&stkn=eHQ0MTNvb2Y4cHUx",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2096942467883151551"
+        }
+      ]
     },
     {
       "date": "2026-09-07",
@@ -579,7 +659,21 @@
       "tag": "SNS",
       "title": "Instagram",
       "comment": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3979601157080335758?utm_source=ig_story_item_share&stkn=bTRzNzVmazlpcGhl"
+      "url": "https://www.instagram.com/stories/nakalthyn/3979601157080335758?utm_source=ig_story_item_share&stkn=bTRzNzVmazlpcGhl",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2096419819872727476"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "tag": "YouTube",
+      "title": "【癒し】３人で仲良く実食タイム【切り抜き】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/GDs4ZHcCdao",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-05",
@@ -590,18 +684,46 @@
       "channelName": "ワラケンTube"
     },
     {
-      "date": "2026-09-03",
-      "tag": "SNS",
-      "title": "Instagram",
-      "comment": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3977989728292240556?utm_source=ig_story_item_share&igsi=cmI0YnIyODczcGRr"
+      "date": "2026-09-27",
+      "tag": "YouTube",
+      "title": "【タンクトップやっちん】あのセリフでチャーハンを完成させる【アムロ・レイ】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/_qRl3luRqCw",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-03",
       "tag": "SNS",
       "title": "Instagram",
       "comment": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3977971459137117463?utm_source=ig_story_item_share&igsi=MTJkYjNzOTJzc29mNA=="
+      "url": "https://www.instagram.com/stories/nakalthyn/3977989728292240556?utm_source=ig_story_item_share&igsi=cmI0YnIyODczcGRr",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2095473814817898691"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "tag": "SNS",
+      "title": "Instagram",
+      "comment": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
+      "url": "https://www.instagram.com/stories/nakalthyn/3977971459137117463?utm_source=ig_story_item_share&igsi=MTJkYjNzOTJzc29mNA==",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2095458691164287044"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "tag": "YouTube",
+      "title": "【切り抜き】理解できない工程にキレるヤス【タンクトップやっちん】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/Ou5Q6R9NqUM",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-02",
@@ -646,11 +768,25 @@
       ]
     },
     {
+      "date": "2026-09-27",
+      "tag": "YouTube",
+      "title": "【事故】痛くて熱くて大慌て【ナイチンゲールダンス】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/4fGPmJF75l0",
+      "channelName": "ナイチンゲールダンスチャンネル"
+    },
+    {
       "date": "2026-09-02",
       "tag": "SNS",
       "title": "Instagram",
       "comment": "ストーリーズが更新されました。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3977208265107911299?utm_source=ig_story_item_share&igsi=bGltd3A4NGY1ZHBr"
+      "url": "https://www.instagram.com/stories/nakalthyn/3977208265107911299?utm_source=ig_story_item_share&igsi=bGltd3A4NGY1ZHBr",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2095081917788172783"
+        }
+      ]
     },
     {
       "date": "2026-09-02",
@@ -659,6 +795,14 @@
       "comment": "",
       "url": "https://www.youtube.com/shorts/XVMeZkOUzeY",
       "channelName": "中野なかるてぃん状態"
+    },
+    {
+      "date": "2026-09-27",
+      "tag": "YouTube",
+      "title": "【切り抜き】つい熱さを忘れてしまうBeauty Beast【ネギ油】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/2WShYqeO1xc",
+      "channelName": "ナイチンゲールダンスチャンネル"
     },
     {
       "date": "2026-09-01",
@@ -673,7 +817,13 @@
       "tag": "SNS",
       "title": "Instagram",
       "comment": "ストーリーズが更新されています。 アカウント名: 中野なかるてぃん",
-      "url": "https://www.instagram.com/stories/nakalthyn/3976412871046440230?utm_source=ig_story_item_share&igsi=M2dpanc1dTR3eGh0"
+      "url": "https://www.instagram.com/stories/nakalthyn/3976412871046440230?utm_source=ig_story_item_share&igsi=M2dpanc1dTR3eGh0",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2094717031363002703"
+        }
+      ]
     }
   ],
   "schedule": [
