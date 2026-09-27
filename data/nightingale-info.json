@@ -1,6 +1,52 @@
 {
-  "updatedAt": "2026-09-27T17:32:05+09:00",
+  "updatedAt": "2026-09-27T17:57:29+09:00",
   "news": [
+    {
+      "date": "2026-09-27",
+      "tag": "公演情報",
+      "title": "俺たち！大喜利部",
+      "comment": "※中野さんのみ出演",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20858",
+      "scheduleDate": "2026-10-13",
+      "day": "火",
+      "openTime": "19:00",
+      "startTime": "19:15",
+      "endTime": "20:15",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDプレミアムメンバー抽選先行",
+          "startAt": "2026-08-25T11:00:00+09:00",
+          "endAt": "2026-08-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-10-13&to=2026-10-13&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-08-25T11:00:00+09:00",
+          "endAt": "2026-08-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-10-13&to=2026-10-13&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-09-05T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-10-13&to=2026-10-13&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-10-13&to=2026-10-13&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/%E4%BF%BA%E3%81%9F%E3%81%A1-%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8-10-13-19-15"
+        }
+      ]
+    },
     {
       "date": "2026-09-27",
       "tag": "公演情報",
@@ -881,6 +927,50 @@
       "url": "https://bsy.co.jp/timetable"
     },
     {
+      "date": "2026-10-13",
+      "day": "火",
+      "startTime": "19:15",
+      "endTime": "20:15",
+      "tag": "公演情報",
+      "title": "俺たち！大喜利部",
+      "comment": "※中野さんのみ出演",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20858",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDプレミアムメンバー抽選先行",
+          "startAt": "2026-08-25T11:00:00+09:00",
+          "endAt": "2026-08-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-10-13&to=2026-10-13&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-08-25T11:00:00+09:00",
+          "endAt": "2026-08-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-10-13&to=2026-10-13&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-09-05T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-10-13&to=2026-10-13&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-10-13&to=2026-10-13&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/%E4%BF%BA%E3%81%9F%E3%81%A1-%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8-10-13-19-15"
+        }
+      ]
+    },
+    {
       "date": "2026-10-16",
       "day": "金",
       "startTime": "14:30",
@@ -1091,6 +1181,14 @@
         {
           "title": "FANY Online Ticket",
           "url": "https://online-ticket.yoshimoto.co.jp/products/%E7%A5%9E%E5%9B%9E%E3%82%B5%E3%83%9F%E3%83%83%E3%83%88-10-24-21-00"
+        },
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-10-13&to=2026-10-13&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/%E4%BF%BA%E3%81%9F%E3%81%A1-%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8-10-13-19-15"
         }
       ]
     },
