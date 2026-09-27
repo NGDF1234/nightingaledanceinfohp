@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T21:22:17+09:00",
+  "updatedAt": "2026-09-28T00:02:36+09:00",
   "news": [
     {
       "date": "2026-09-27",
@@ -827,17 +827,6 @@
     }
   ],
   "schedule": [
-    {
-      "date": "2026-09-27",
-      "day": "日",
-      "startTime": "18:00",
-      "endTime": "19:00",
-      "tag": "テレビ",
-      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
-      "place": "BSよしもと 265ch",
-      "url": "https://bsy.co.jp/timetable"
-    },
     {
       "date": "2026-10-02",
       "day": "金",
@@ -2646,6 +2635,39 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
+      "comment": "",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-03-27",
+      "day": "土",
+      "startTime": "00:00",
+      "endTime": "00:30",
+      "tag": "ラジオ",
+      "title": "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
+      "comment": "",
+      "place": "CBCラジオ",
+      "url": "https://hicbc.com/radio/nightin/"
+    },
+    {
+      "date": "2027-03-27",
+      "day": "土",
+      "startTime": "09:25",
+      "endTime": "10:15",
+      "tag": "テレビ",
+      "title": "Vタイムズ",
+      "comment": "",
+      "place": "長崎国際テレビ（NIB）",
+      "url": "https://www.nib.jp/tv/vtimes/"
+    },
+    {
+      "date": "2027-03-27",
+      "day": "土",
+      "startTime": "22:00",
+      "endTime": "23:00",
+      "tag": "テレビ",
+      "title": "東西南北よしもと麻雀リーグ season7",
       "comment": "",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
