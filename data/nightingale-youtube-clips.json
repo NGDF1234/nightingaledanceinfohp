@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T19:22:43+09:00",
+  "updatedAt": "2026-09-28T19:52:25+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -22,6 +22,24 @@
   ],
   "clips": [
     {
+      "id": "youtube|QGDvEGzGeIQ",
+      "videoId": "QGDvEGzGeIQ",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【名場面】ヤスの無茶振り【単独ライブ】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/QGDvEGzGeIQ",
+      "viewCount": 432,
+      "durationSeconds": 152,
+      "duration": "2:32",
+      "uploadDate": "2026-09-28",
+      "firstSeenAt": "2026-09-28T19:52:25+09:00",
+      "lastStatsUpdatedAt": "2026-09-28T19:52:25+09:00"
+    },
+    {
       "id": "youtube|rhhijcL8Sc4",
       "videoId": "rhhijcL8Sc4",
       "kind": "video",
@@ -38,6 +56,24 @@
       "uploadDate": "2026-09-28",
       "firstSeenAt": "2026-09-28T19:22:43+09:00",
       "lastStatsUpdatedAt": ""
+    },
+    {
+      "id": "youtube|EICeHDlWqnQ",
+      "videoId": "EICeHDlWqnQ",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【裏話】あの後輩芸人のbio欄はこうしてできた【クイズ】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/EICeHDlWqnQ",
+      "viewCount": 858,
+      "durationSeconds": 68,
+      "duration": "1:08",
+      "uploadDate": "2026-09-27",
+      "firstSeenAt": "2026-09-28T19:52:25+09:00",
+      "lastStatsUpdatedAt": "2026-09-28T19:52:25+09:00"
     },
     {
       "id": "youtube|lnlyYp7iR_w",
@@ -58,6 +94,60 @@
       "lastStatsUpdatedAt": ""
     },
     {
+      "id": "youtube|5w0tdw5JBCM",
+      "videoId": "5w0tdw5JBCM",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【クイズ】相方のストーリーズは最速で見に行きます【切り抜き】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/5w0tdw5JBCM",
+      "viewCount": 7099,
+      "durationSeconds": 107,
+      "duration": "1:47",
+      "uploadDate": "2026-09-26",
+      "firstSeenAt": "2026-09-28T19:52:25+09:00",
+      "lastStatsUpdatedAt": "2026-09-28T19:52:25+09:00"
+    },
+    {
+      "id": "youtube|l4JtFzUIkK4",
+      "videoId": "l4JtFzUIkK4",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【クイズ】守備範囲が広くて即正解を叩き出すなかるてぃん【ナイチンゲールダンス】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/l4JtFzUIkK4",
+      "viewCount": 14952,
+      "durationSeconds": 66,
+      "duration": "1:06",
+      "uploadDate": "2026-09-25",
+      "firstSeenAt": "2026-09-28T19:52:25+09:00",
+      "lastStatsUpdatedAt": "2026-09-28T19:52:25+09:00"
+    },
+    {
+      "id": "youtube|fWL58vL7jN4",
+      "videoId": "fWL58vL7jN4",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【クイズ】秒でわかる人いる？【ナイチンゲールダンス】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/fWL58vL7jN4",
+      "viewCount": 14899,
+      "durationSeconds": 51,
+      "duration": "0:51",
+      "uploadDate": "2026-09-24",
+      "firstSeenAt": "2026-09-28T19:52:25+09:00",
+      "lastStatsUpdatedAt": "2026-09-28T19:52:25+09:00"
+    },
+    {
       "id": "youtube|-iqlPh8_Wak",
       "videoId": "-iqlPh8_Wak",
       "kind": "video",
@@ -74,6 +164,24 @@
       "uploadDate": "2026-09-23",
       "firstSeenAt": "2026-09-23T18:12:24+09:00",
       "lastStatsUpdatedAt": ""
+    },
+    {
+      "id": "youtube|yiK9xj2bFQA",
+      "videoId": "yiK9xj2bFQA",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【sns】芸人bio欄クイズ【ナイチンゲールダンス】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/yiK9xj2bFQA",
+      "viewCount": 5876,
+      "durationSeconds": 73,
+      "duration": "1:13",
+      "uploadDate": "2026-09-23",
+      "firstSeenAt": "2026-09-28T19:52:25+09:00",
+      "lastStatsUpdatedAt": "2026-09-28T19:52:25+09:00"
     },
     {
       "id": "youtube|dTUfic4qMYU",
