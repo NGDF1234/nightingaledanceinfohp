@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T00:22:22+09:00",
+  "updatedAt": "2026-09-28T19:22:43+09:00",
   "news": [
     {
       "date": "2026-09-28",
@@ -2684,32 +2684,6 @@
   ],
   "regular": [],
   "ticketReminders": [
-    {
-      "id": "ticket_push_reminder|end|【芸辞苑】|fanyidプレミアムメンバ抽選先行|202609281100",
-      "title": "【芸辞苑】",
-      "ticketKind": "抽選販売",
-      "ticketLabel": "FANY IDプレミアムメンバー抽選先行",
-      "reminderType": "end",
-      "reminderLabel": "受付終了30分前",
-      "notifyAt": "2026-09-28T10:30:00+09:00",
-      "targetAt": "2026-09-28T11:00:00+09:00",
-      "startAt": "2026-09-25T11:00:00+09:00",
-      "endAt": "2026-09-28T11:00:00+09:00",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
-    },
-    {
-      "id": "ticket_push_reminder|end|【芸辞苑】|fanyidメンバ抽選先行|202609281100",
-      "title": "【芸辞苑】",
-      "ticketKind": "抽選販売",
-      "ticketLabel": "FANY IDメンバー抽選先行",
-      "reminderType": "end",
-      "reminderLabel": "受付終了30分前",
-      "notifyAt": "2026-09-28T10:30:00+09:00",
-      "targetAt": "2026-09-28T11:00:00+09:00",
-      "startAt": "2026-09-25T11:00:00+09:00",
-      "endAt": "2026-09-28T11:00:00+09:00",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
-    },
     {
       "id": "ticket_push_reminder|start|【芸辞苑】|一般販売|202610051000",
       "title": "【芸辞苑】",

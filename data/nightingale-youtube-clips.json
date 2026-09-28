@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T00:22:22+09:00",
+  "updatedAt": "2026-09-28T19:22:43+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|rhhijcL8Sc4",
+      "videoId": "rhhijcL8Sc4",
+      "kind": "video",
+      "channelName": "文化シヤッターpresentsナイチンゲールダンスのもうきてるラジオ【CBCラジオ】",
+      "channelType": "appearance",
+      "channelUrl": "https://www.youtube.com/channel/UCx-M0mLiKfilc96JqQ6JOdw",
+      "channelId": "UCx-M0mLiKfilc96JqQ6JOdw",
+      "title": "#24「令和のフェイスライン≠優しい亀」【ナイチンゲールダンスのもうきてるラジオ】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=rhhijcL8Sc4",
+      "viewCount": 0,
+      "durationSeconds": 1875,
+      "duration": "31:15",
+      "uploadDate": "2026-09-28",
+      "firstSeenAt": "2026-09-28T19:22:43+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|lnlyYp7iR_w",
       "videoId": "lnlyYp7iR_w",
