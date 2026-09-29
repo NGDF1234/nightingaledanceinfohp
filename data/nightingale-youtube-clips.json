@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T18:27:27+09:00",
+  "updatedAt": "2026-09-29T19:07:33+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|6TnjFPItlrM",
+      "videoId": "6TnjFPItlrM",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【名場面】なかるてぃん変顔コレクション【単独ライブ】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/6TnjFPItlrM",
+      "viewCount": 19,
+      "durationSeconds": 124,
+      "duration": "2:04",
+      "uploadDate": "2026-09-29",
+      "firstSeenAt": "2026-09-29T19:07:33+09:00",
+      "lastStatsUpdatedAt": "2026-09-29T19:07:33+09:00"
+    },
     {
       "id": "youtube|QGDvEGzGeIQ",
       "videoId": "QGDvEGzGeIQ",
