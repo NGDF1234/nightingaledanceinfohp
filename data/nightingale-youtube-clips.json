@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T18:22:17+09:00",
+  "updatedAt": "2026-09-30T19:07:41+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|yFGxaWu6amc",
+      "videoId": "yFGxaWu6amc",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【名場面】ヤスの青春【単独ライブ】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/yFGxaWu6amc",
+      "viewCount": 24,
+      "durationSeconds": 41,
+      "duration": "0:41",
+      "uploadDate": "2026-09-30",
+      "firstSeenAt": "2026-09-30T19:07:41+09:00",
+      "lastStatsUpdatedAt": "2026-09-30T19:07:41+09:00"
+    },
     {
       "id": "youtube|6TnjFPItlrM",
       "videoId": "6TnjFPItlrM",
