@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-30T02:22:22+09:00",
+  "updatedAt": "2026-09-30T18:22:17+09:00",
   "news": [
+    {
+      "date": "2026-09-23",
+      "tag": "SNS",
+      "title": "Instagram",
+      "comment": "ストーリーズが投稿されています。 アカウント名: 中野なかるてぃん",
+      "url": "https://www.instagram.com/stories/nakalthyn/3997380127225924453?utm_source=ig_story_item_share&stkn=a2E1MG93bm1ldTY4",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2105226122451669418"
+        }
+      ]
+    },
     {
       "date": "2026-09-23",
       "tag": "SNS",
