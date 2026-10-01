@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T12:27:42+09:00",
+  "updatedAt": "2026-10-01T19:07:30+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|CkJtudRcsXk",
+      "videoId": "CkJtudRcsXk",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【名場面】尻相撲対決【単独ライブ】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/CkJtudRcsXk",
+      "viewCount": 88,
+      "durationSeconds": 24,
+      "duration": "0:24",
+      "uploadDate": "2026-10-01",
+      "firstSeenAt": "2026-10-01T19:07:30+09:00",
+      "lastStatsUpdatedAt": "2026-10-01T19:07:30+09:00"
+    },
     {
       "id": "youtube|yFGxaWu6amc",
       "videoId": "yFGxaWu6amc",
