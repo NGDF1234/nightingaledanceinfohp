@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T06:02:03+09:00",
+  "updatedAt": "2026-10-03T19:22:04+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|YEd__FA78PU",
+      "videoId": "YEd__FA78PU",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【名場面】卓球【単独ライブ】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/YEd__FA78PU",
+      "viewCount": 95,
+      "durationSeconds": 39,
+      "duration": "0:39",
+      "uploadDate": "2026-10-03",
+      "firstSeenAt": "2026-10-03T19:22:04+09:00",
+      "lastStatsUpdatedAt": "2026-10-03T19:22:04+09:00"
+    },
     {
       "id": "youtube|hOec65rDBoY",
       "videoId": "hOec65rDBoY",
