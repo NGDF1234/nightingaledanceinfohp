@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T19:22:04+09:00",
+  "updatedAt": "2026-10-04T00:02:33+09:00",
   "news": [
     {
       "date": "2026-10-02",
@@ -946,79 +946,6 @@
     }
   ],
   "schedule": [
-    {
-      "date": "2026-10-03",
-      "day": "土",
-      "startTime": "00:00",
-      "endTime": "00:30",
-      "tag": "ラジオ",
-      "title": "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
-      "comment": "",
-      "place": "CBCラジオ",
-      "url": "https://hicbc.com/radio/nightin/"
-    },
-    {
-      "date": "2026-10-03",
-      "day": "土",
-      "startTime": "09:25",
-      "endTime": "10:15",
-      "tag": "テレビ",
-      "title": "Vタイムズ",
-      "comment": "",
-      "place": "長崎国際テレビ（NIB）",
-      "url": "https://www.nib.jp/tv/vtimes/"
-    },
-    {
-      "date": "2026-10-03",
-      "day": "土",
-      "startTime": "19:00",
-      "endTime": "",
-      "tag": "公演情報",
-      "title": "第五回 全日本クイズ1億2300万位決定戦",
-      "comment": "※中野さんのみ出演",
-      "place": "新宿シアターモリエール（東京都）",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E7%AC%AC%E4%BA%94%E5%9B%9E%20%E5%85%A8%E6%97%A5%E6%9C%AC%E3%82%AF%E3%82%A4%E3%82%BA1%E5%84%842300%E4%B8%87%E4%BD%8D%E6%B1%BA%E5%AE%9A%E6%88%A6&from=2026-10-03&to=2026-10-03&prefectures=0&genre=0&search_type=form",
-      "ticketSales": [
-        {
-          "type": "抽選販売",
-          "label": "FANY IDプレミアムメンバー抽選先行",
-          "startAt": "2026-08-29T11:00:00+09:00",
-          "endAt": "2026-08-31T11:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E7%AC%AC%E4%BA%94%E5%9B%9E%20%E5%85%A8%E6%97%A5%E6%9C%AC%E3%82%AF%E3%82%A4%E3%82%BA1%E5%84%842300%E4%B8%87%E4%BD%8D%E6%B1%BA%E5%AE%9A%E6%88%A6&from=2026-10-03&to=2026-10-03&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "抽選販売",
-          "label": "FANY IDメンバー抽選先行",
-          "startAt": "2026-08-29T11:00:00+09:00",
-          "endAt": "2026-08-31T11:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E7%AC%AC%E4%BA%94%E5%9B%9E%20%E5%85%A8%E6%97%A5%E6%9C%AC%E3%82%AF%E3%82%A4%E3%82%BA1%E5%84%842300%E4%B8%87%E4%BD%8D%E6%B1%BA%E5%AE%9A%E6%88%A6&from=2026-10-03&to=2026-10-03&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "一般販売",
-          "label": "一般発売",
-          "startAt": "2026-09-05T10:00:00+09:00",
-          "endAt": "2026-10-02T23:59:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E7%AC%AC%E4%BA%94%E5%9B%9E%20%E5%85%A8%E6%97%A5%E6%9C%AC%E3%82%AF%E3%82%A4%E3%82%BA1%E5%84%842300%E4%B8%87%E4%BD%8D%E6%B1%BA%E5%AE%9A%E6%88%A6&from=2026-10-03&to=2026-10-03&prefectures=0&genre=0&search_type=form"
-        }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=第五回　全日本クイズ1億2300万位決定戦"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "day": "土",
-      "startTime": "22:00",
-      "endTime": "23:00",
-      "tag": "テレビ",
-      "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
-      "place": "BSよしもと 265ch",
-      "url": "https://bsy.co.jp/timetable"
-    },
     {
       "date": "2026-10-04",
       "day": "日",
@@ -2785,6 +2712,17 @@
       "day": "日",
       "startTime": "18:00",
       "endTime": "19:00",
+      "tag": "テレビ",
+      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
+      "comment": "",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-04-02",
+      "day": "金",
+      "startTime": "14:30",
+      "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
       "comment": "",
