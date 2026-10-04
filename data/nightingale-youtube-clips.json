@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T19:07:23+09:00",
+  "updatedAt": "2026-10-04T21:22:13+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -74,6 +74,24 @@
       "uploadDate": "2026-10-03",
       "firstSeenAt": "2026-10-03T19:22:04+09:00",
       "lastStatsUpdatedAt": "2026-10-03T19:22:04+09:00"
+    },
+    {
+      "id": "youtube|2EMOp0pTSes",
+      "videoId": "2EMOp0pTSes",
+      "kind": "live",
+      "channelName": "生ファラオのデカチャンネル",
+      "channelType": "appearance",
+      "channelUrl": "https://www.youtube.com/channel/UCzbnZyANpuZB5ifh_g4KkvA",
+      "channelId": "UCzbnZyANpuZB5ifh_g4KkvA",
+      "title": "トランプで同色13連続引く1/8192引くまで終われない生配信DAY4",
+      "comment": "※3:15:16〜中野さんが出演されています。",
+      "url": "https://www.youtube.com/live/2EMOp0pTSes",
+      "viewCount": 0,
+      "durationSeconds": 0,
+      "duration": "",
+      "uploadDate": "2026-10-03",
+      "firstSeenAt": "2026-10-04T21:22:13+09:00",
+      "lastStatsUpdatedAt": ""
     },
     {
       "id": "youtube|hOec65rDBoY",
