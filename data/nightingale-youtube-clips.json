@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T15:52:15+09:00",
+  "updatedAt": "2026-10-04T18:42:06+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|XhaHV8-Ar9g",
+      "videoId": "XhaHV8-Ar9g",
+      "kind": "video",
+      "channelName": "佐川ピン芸人のアカウント",
+      "channelType": "appearance",
+      "channelUrl": "https://www.youtube.com/channel/UCboZUrjR0jDSZx7mB1gCCAg",
+      "channelId": "UCboZUrjR0jDSZx7mB1gCCAg",
+      "title": "【意外な人としゃべろう】ナイチンゲールダンス 中野なかるてぃん",
+      "comment": "【意外な人としゃべろう】ナイチンゲールダンス 中野なかるてぃん ※中野さんが出演されています。",
+      "url": "https://www.youtube.com/watch?v=XhaHV8-Ar9g",
+      "viewCount": 4,
+      "durationSeconds": 1702,
+      "duration": "28:22",
+      "uploadDate": "2026-10-04",
+      "firstSeenAt": "2026-10-04T18:42:06+09:00",
+      "lastStatsUpdatedAt": "2026-10-04T18:42:06+09:00"
+    },
     {
       "id": "youtube|YEd__FA78PU",
       "videoId": "YEd__FA78PU",
