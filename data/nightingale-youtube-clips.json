@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T21:22:13+09:00",
+  "updatedAt": "2026-10-04T21:57:19+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -56,6 +56,24 @@
       "uploadDate": "2026-10-04",
       "firstSeenAt": "2026-10-04T18:42:06+09:00",
       "lastStatsUpdatedAt": "2026-10-04T18:42:06+09:00"
+    },
+    {
+      "id": "youtube|6PFXCNT1gMc",
+      "videoId": "6PFXCNT1gMc",
+      "kind": "video",
+      "channelName": "【公式】渋谷よしもと漫才劇場・神保町よしもと漫才劇場YouTubeチャンネル",
+      "channelType": "appearance",
+      "channelUrl": "https://www.youtube.com/channel/UCB1hPXm83fHgwZuZiRSNDDw",
+      "channelId": "UCB1hPXm83fHgwZuZiRSNDDw",
+      "title": "【密着】トーキョーマンゲキフェス2026ー渋神三世代決戦ーの裏側大公開！",
+      "comment": "※映っているチャプター→前説•OP、木原、パフォーマンスバトル裏、終演後",
+      "url": "https://www.youtube.com/watch?v=6PFXCNT1gMc",
+      "viewCount": 0,
+      "durationSeconds": 0,
+      "duration": "",
+      "uploadDate": "2026-10-04",
+      "firstSeenAt": "2026-10-04T21:57:19+09:00",
+      "lastStatsUpdatedAt": ""
     },
     {
       "id": "youtube|YEd__FA78PU",
