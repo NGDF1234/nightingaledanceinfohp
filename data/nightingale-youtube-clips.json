@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T06:02:03+09:00",
+  "updatedAt": "2026-10-05T19:07:26+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|HGEThhj0UP4",
+      "videoId": "HGEThhj0UP4",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【自撮り】見てはいけない瞬間を見てしまったなかるてぃん【切り抜き】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/HGEThhj0UP4",
+      "viewCount": 24,
+      "durationSeconds": 177,
+      "duration": "2:57",
+      "uploadDate": "2026-10-05",
+      "firstSeenAt": "2026-10-05T19:07:26+09:00",
+      "lastStatsUpdatedAt": "2026-10-05T19:07:26+09:00"
+    },
     {
       "id": "youtube|LpV0FH2HYPY",
       "videoId": "LpV0FH2HYPY",
