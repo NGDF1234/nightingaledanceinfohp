@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T19:07:26+09:00",
+  "updatedAt": "2026-10-05T20:52:24+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|hIwCZpo-nd0",
+      "videoId": "hIwCZpo-nd0",
+      "kind": "video",
+      "channelName": "中野なかるてぃん状態",
+      "channelType": "nakano_personal",
+      "channelUrl": "https://www.youtube.com/channel/UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "channelId": "UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "title": "ひとり八丈島2泊３日状態【vlog】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=hIwCZpo-nd0",
+      "viewCount": 11,
+      "durationSeconds": 1081,
+      "duration": "18:01",
+      "uploadDate": "2026-10-05",
+      "firstSeenAt": "2026-10-05T20:52:24+09:00",
+      "lastStatsUpdatedAt": "2026-10-05T20:52:24+09:00"
+    },
     {
       "id": "youtube|HGEThhj0UP4",
       "videoId": "HGEThhj0UP4",
