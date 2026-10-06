@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T18:27:11+09:00",
+  "updatedAt": "2026-10-06T19:12:18+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|j68pmNY4V0k",
+      "videoId": "j68pmNY4V0k",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【自撮り】ヤスの行動にムカつくなかるてぃん【切り抜き】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/j68pmNY4V0k",
+      "viewCount": 0,
+      "durationSeconds": 168,
+      "duration": "2:48",
+      "uploadDate": "2026-10-06",
+      "firstSeenAt": "2026-10-06T19:12:18+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|RqCupfPLp6c",
       "videoId": "RqCupfPLp6c",
