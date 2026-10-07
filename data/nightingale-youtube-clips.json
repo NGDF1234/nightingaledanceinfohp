@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T19:02:27+09:00",
+  "updatedAt": "2026-10-07T19:17:26+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|aA2qDoiC70Q",
+      "videoId": "aA2qDoiC70Q",
+      "kind": "video",
+      "channelName": "中野なかるてぃん状態",
+      "channelType": "nakano_personal",
+      "channelUrl": "https://www.youtube.com/channel/UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "channelId": "UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "title": "【part4】みんはやC -からSまで駆け上がる配信",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=aA2qDoiC70Q",
+      "viewCount": 0,
+      "durationSeconds": 0,
+      "duration": "",
+      "uploadDate": "2026-10-07",
+      "firstSeenAt": "2026-10-07T19:17:26+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|mpDpCpUKz6c",
       "videoId": "mpDpCpUKz6c",
