@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T18:42:14+09:00",
+  "updatedAt": "2026-10-07T19:02:27+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|mpDpCpUKz6c",
+      "videoId": "mpDpCpUKz6c",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【M 1】ヤスが選ぶなかるてぃんの笑ったコメント【ランキング】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/mpDpCpUKz6c",
+      "viewCount": 0,
+      "durationSeconds": 110,
+      "duration": "1:50",
+      "uploadDate": "2026-10-07",
+      "firstSeenAt": "2026-10-07T19:02:27+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|KzmSnlpfXT0",
       "videoId": "KzmSnlpfXT0",
