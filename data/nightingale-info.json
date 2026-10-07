@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-10-07T20:12:22+09:00",
+  "updatedAt": "2026-10-07T23:32:24+09:00",
   "news": [
+    {
+      "date": "2026-10-07",
+      "tag": "公演情報",
+      "title": "RPG仕立ての大喜利ライブ「OGIRI QUEST」",
+      "comment": "※中野さんのみ出演",
+      "url": "https://livepocket.jp/e/ogiriquest2",
+      "scheduleDate": "2026-10-31",
+      "day": "土",
+      "openTime": "20:10",
+      "startTime": "20:30",
+      "place": "window->event_detail_nav"
+    },
     {
       "date": "2026-10-07",
       "tag": "YouTube",
@@ -1567,6 +1579,28 @@
           "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%82%A4%E3%83%B3%E3%83%88%E3%83%AD%E3%82%AF%E3%82%A4%E3%82%BA%E3%83%8D%E3%82%AA&from=2026-10-31&to=2026-10-31&prefectures=0&genre=0&search_type=form"
         }
       ]
+    },
+    {
+      "date": "2026-10-31",
+      "day": "土",
+      "startTime": "20:10",
+      "endTime": "",
+      "tag": "公演情報",
+      "title": "RPG仕立ての大喜利ライブ「OGIRI QUEST」",
+      "comment": "※中野さんのみ出演",
+      "place": "渋谷ユーロライブ (東京都)",
+      "url": "https://livepocket.jp/e/ogiriquest2"
+    },
+    {
+      "date": "2026-10-31",
+      "day": "土",
+      "startTime": "20:30",
+      "endTime": "",
+      "tag": "公演情報",
+      "title": "RPG仕立ての大喜利ライブ「OGIRI QUEST」",
+      "comment": "※中野さんのみ出演",
+      "place": "window->event_detail_nav",
+      "url": "https://livepocket.jp/e/ogiriquest2"
     },
     {
       "date": "2026-10-31",
