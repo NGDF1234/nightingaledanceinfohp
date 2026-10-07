@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T06:02:20+09:00",
+  "updatedAt": "2026-10-07T18:42:14+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|KzmSnlpfXT0",
+      "videoId": "KzmSnlpfXT0",
+      "kind": "video",
+      "channelName": "佐川ピン芸人のアカウント",
+      "channelType": "appearance",
+      "channelUrl": "https://www.youtube.com/channel/UCboZUrjR0jDSZx7mB1gCCAg",
+      "channelId": "UCboZUrjR0jDSZx7mB1gCCAg",
+      "title": "【芸人の片鱗】ナイチンゲールダンス 中野なかるてぃん偏",
+      "comment": "【芸人の片鱗】ナイチンゲールダンス 中野なかるてぃん偏",
+      "url": "https://www.youtube.com/watch?v=KzmSnlpfXT0",
+      "viewCount": 4,
+      "durationSeconds": 915,
+      "duration": "15:15",
+      "uploadDate": "2026-10-07",
+      "firstSeenAt": "2026-10-07T18:42:14+09:00",
+      "lastStatsUpdatedAt": "2026-10-07T18:42:14+09:00"
+    },
     {
       "id": "youtube|j68pmNY4V0k",
       "videoId": "j68pmNY4V0k",

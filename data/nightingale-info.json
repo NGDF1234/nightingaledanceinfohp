@@ -1,6 +1,27 @@
 {
-  "updatedAt": "2026-10-07T06:02:20+09:00",
+  "updatedAt": "2026-10-07T18:42:14+09:00",
   "news": [
+    {
+      "date": "2026-10-07",
+      "tag": "YouTube",
+      "title": "【芸人の片鱗】ナイチンゲールダンス 中野なかるてぃん偏",
+      "comment": "【芸人の片鱗】ナイチンゲールダンス 中野なかるてぃん偏",
+      "url": "https://www.youtube.com/watch?v=KzmSnlpfXT0",
+      "channelName": "佐川ピン芸人のアカウント"
+    },
+    {
+      "date": "2026-10-07",
+      "tag": "Instagram",
+      "title": "Instagram",
+      "comment": "ストーリーズの投稿に中野さんが写っています。 アカウント名: ド桜 村田大樹",
+      "url": "https://www.instagram.com/stories/daiki_10.05/4001934942622126908?utm_source=ig_story_item_share&stkn=cTE2bzlkOWoxcnd3",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2107678114998530216"
+        }
+      ]
+    },
     {
       "date": "2026-10-07",
       "tag": "YouTube",
