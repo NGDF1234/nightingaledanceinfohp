@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T06:02:12+09:00",
+  "updatedAt": "2026-10-08T19:07:23+09:00",
   "news": [
     {
       "date": "2026-10-07",
@@ -1103,7 +1103,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1139,6 +1139,7 @@
       "comment": "※中野さんのみ出演",
       "place": "渋谷よしもと漫才劇場（東京都）",
       "url": "https://ticket.fany.lol/search/event?keywords=%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96&from=2026-10-10&to=2026-10-10&prefectures=0&genre=0&search_type=form",
+      "openTime": "20:45",
       "links": [
         {
           "title": "FANY Online Ticket",
@@ -1153,7 +1154,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1166,7 +1167,8 @@
       "title": "替え歌キングダム",
       "comment": "※中野さんのみ出演",
       "place": "新宿バティオス",
-      "url": "https://tiget.net/events/521125"
+      "url": "https://tiget.net/events/521125",
+      "openTime": "13:00"
     },
     {
       "date": "2026-10-11",
@@ -1175,7 +1177,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1189,6 +1191,7 @@
       "comment": "※中野さんのみ出演",
       "place": "渋谷よしもと漫才劇場（東京都）",
       "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20858",
+      "openTime": "19:00",
       "ticketSales": [
         {
           "type": "抽選販売",
@@ -1230,7 +1233,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1266,6 +1269,7 @@
       "comment": "※中野さんのみ出演",
       "place": "YOSHIMOTO ROPPONGI THEATER（東京都）",
       "url": "https://roppongi.yoshimoto.co.jp/schedule/?id=20956",
+      "openTime": "14:45",
       "links": [
         {
           "title": "FANYチケット",
@@ -1287,6 +1291,7 @@
       "comment": "※中野さんのみ出演",
       "place": "YOSHIMOTO ROPPONGI THEATER（東京都）",
       "url": "https://roppongi.yoshimoto.co.jp/schedule/?id=20958",
+      "openTime": "16:45",
       "links": [
         {
           "title": "FANYチケット",
@@ -1301,7 +1306,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1312,7 +1317,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1323,7 +1328,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1359,6 +1364,7 @@
       "comment": "※中野さんのみ出演",
       "place": "渋谷よしもと漫才劇場（東京都）",
       "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=21228",
+      "openTime": "18:45",
       "ticketSales": [
         {
           "type": "抽選販売",
@@ -1403,6 +1409,7 @@
       "comment": "※中野さんのみ出演",
       "place": "渋谷よしもと漫才劇場（東京都）",
       "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=21229",
+      "openTime": "20:45",
       "ticketSales": [
         {
           "type": "抽選販売",
@@ -1452,7 +1459,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1463,7 +1470,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1474,7 +1481,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1488,6 +1495,7 @@
       "comment": "※中野さんのみ出演",
       "place": "よしもと幕張イオンモール劇場（千葉県）",
       "url": "https://makuhari.yoshimoto.co.jp/schedule/?id=21832",
+      "openTime": "17:45",
       "ticketSales": [
         {
           "type": "抽選販売",
@@ -1550,6 +1558,7 @@
       "comment": "※中野さんのみ出演",
       "place": "渋谷よしもと漫才劇場（東京都）",
       "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20871",
+      "openTime": "18:45",
       "ticketSales": [
         {
           "type": "抽選販売",
@@ -1600,7 +1609,8 @@
       "title": "RPG仕立ての大喜利ライブ「OGIRI QUEST」",
       "comment": "※中野さんのみ出演",
       "place": "window->event_detail_nav",
-      "url": "https://livepocket.jp/e/ogiriquest2"
+      "url": "https://livepocket.jp/e/ogiriquest2",
+      "openTime": "20:10"
     },
     {
       "date": "2026-10-31",
@@ -1609,7 +1619,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1620,7 +1630,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1631,7 +1641,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1645,6 +1655,7 @@
       "comment": "※中野さんのみ出演",
       "place": "神保町よしもと漫才劇場（東京都）",
       "url": "https://jimbocho-manzaigekijyo.yoshimoto.co.jp/schedule/?id=21791",
+      "openTime": "19:00",
       "ticketSales": [
         {
           "type": "抽選販売",
@@ -1708,7 +1719,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1719,7 +1730,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1730,7 +1741,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1763,7 +1774,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1774,7 +1785,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1785,7 +1796,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1818,7 +1829,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1829,7 +1840,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1840,7 +1851,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1873,7 +1884,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1884,7 +1895,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1895,7 +1906,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1928,7 +1939,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1939,7 +1950,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1950,7 +1961,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1983,7 +1994,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -1994,7 +2005,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2005,7 +2016,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2038,7 +2049,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2049,7 +2060,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2060,7 +2071,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2093,7 +2104,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2104,7 +2115,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2115,7 +2126,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2148,7 +2159,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2159,7 +2170,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2170,7 +2181,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2203,7 +2214,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2214,7 +2225,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2225,7 +2236,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2258,7 +2269,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2269,7 +2280,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2280,7 +2291,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2313,7 +2324,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2324,7 +2335,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2335,7 +2346,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2368,7 +2379,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2379,7 +2390,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2390,7 +2401,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2423,7 +2434,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2434,7 +2445,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2445,7 +2456,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2478,7 +2489,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2489,7 +2500,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2500,7 +2511,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2533,7 +2544,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2544,7 +2555,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2555,7 +2566,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2588,7 +2599,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2599,7 +2610,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2610,7 +2621,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2643,7 +2654,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2654,7 +2665,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2665,7 +2676,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2698,7 +2709,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2709,7 +2720,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2720,7 +2731,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2753,7 +2764,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2764,7 +2775,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2775,7 +2786,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2808,7 +2819,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2819,7 +2830,7 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2830,7 +2841,7 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2863,7 +2874,7 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     },
@@ -2874,12 +2885,26 @@
       "endTime": "19:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "",
+      "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
     }
   ],
   "regular": [],
-  "ticketReminders": [],
+  "ticketReminders": [
+    {
+      "id": "ticket_push_reminder|start|si_entapresents舞台エックスミツエックス|一般販売|202610101000",
+      "title": "Si_EnTa presents 舞台「エックスミーツエックス」",
+      "ticketKind": "一般販売",
+      "ticketLabel": "一般販売",
+      "reminderType": "start",
+      "reminderLabel": "発売開始30分前",
+      "notifyAt": "2026-10-10T09:30:00+09:00",
+      "targetAt": "2026-10-10T10:00:00+09:00",
+      "startAt": "2026-10-10T10:00:00+09:00",
+      "endAt": "2026-10-15T23:00:00+09:00",
+      "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710"
+    }
+  ],
   "clips": []
 }
