@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-10-08T19:07:23+09:00",
+  "updatedAt": "2026-10-09T00:22:23+09:00",
   "news": [
+    {
+      "date": "2026-10-09",
+      "tag": "Instagram",
+      "title": "Instagram",
+      "comment": "ストーリーズが投稿されています。 アカウント名: 中野なかるてぃん",
+      "url": "https://www.instagram.com/stories/nakalthyn/4003405698443704603?utm_source=ig_story_item_share&stkn=YnpsazFqc3UzOTVq",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2108215302224011462"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "tag": "公演情報",
+      "title": "Si_EnTa presents 舞台「エックスミーツエックス」",
+      "comment": "※★印は四谷真佑（OCTPATH）出演回です。\n※★印のない公演は中野なかるてぃん（ナイチンゲールダンス）が出演いたします。\n※中野さんのみ出演",
+      "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710",
+      "scheduleDate": "2026-11-03",
+      "day": "火",
+      "place": "シアター・アルファ東京",
+      "ticketSales": [
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-10-10T10:00:00+09:00",
+          "endAt": "2026-10-15T23:00:00+09:00",
+          "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710"
+        }
+      ]
+    },
     {
       "date": "2026-10-07",
       "tag": "公演情報",
@@ -1635,6 +1667,48 @@
       "url": "https://bsy.co.jp/timetable"
     },
     {
+      "date": "2026-11-03",
+      "day": "火",
+      "startTime": "19:00",
+      "endTime": "",
+      "tag": "公演情報",
+      "title": "Si_EnTa presents 舞台「エックスミーツエックス」",
+      "comment": "※★印は四谷真佑（OCTPATH）出演回です。\n※★印のない公演は中野なかるてぃん（ナイチンゲールダンス）が出演いたします。\n※中野さんのみ出演",
+      "place": "シアター・アルファ東京",
+      "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710",
+      "openTime": "18:30",
+      "ticketSales": [
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-10-10T10:00:00+09:00",
+          "endAt": "2026-10-15T23:00:00+09:00",
+          "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "day": "木",
+      "startTime": "19:00",
+      "endTime": "",
+      "tag": "公演情報",
+      "title": "Si_EnTa presents 舞台「エックスミーツエックス」",
+      "comment": "※★印は四谷真佑（OCTPATH）出演回です。\n※★印のない公演は中野なかるてぃん（ナイチンゲールダンス）が出演いたします。\n※中野さんのみ出演",
+      "place": "シアター・アルファ東京",
+      "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710",
+      "openTime": "18:30",
+      "ticketSales": [
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-10-10T10:00:00+09:00",
+          "endAt": "2026-10-15T23:00:00+09:00",
+          "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710"
+        }
+      ]
+    },
+    {
       "date": "2026-11-06",
       "day": "金",
       "startTime": "14:30",
@@ -1715,6 +1789,27 @@
     {
       "date": "2026-11-07",
       "day": "土",
+      "startTime": "17:30",
+      "endTime": "",
+      "tag": "公演情報",
+      "title": "Si_EnTa presents 舞台「エックスミーツエックス」",
+      "comment": "※★印は四谷真佑（OCTPATH）出演回です。\n※★印のない公演は中野なかるてぃん（ナイチンゲールダンス）が出演いたします。\n※中野さんのみ出演",
+      "place": "シアター・アルファ東京",
+      "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710",
+      "openTime": "17:00",
+      "ticketSales": [
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-10-10T10:00:00+09:00",
+          "endAt": "2026-10-15T23:00:00+09:00",
+          "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "day": "土",
       "startTime": "22:00",
       "endTime": "23:00",
       "tag": "テレビ",
@@ -1722,6 +1817,48 @@
       "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2026-11-08",
+      "day": "日",
+      "startTime": "12:30",
+      "endTime": "",
+      "tag": "公演情報",
+      "title": "Si_EnTa presents 舞台「エックスミーツエックス」",
+      "comment": "※★印は四谷真佑（OCTPATH）出演回です。\n※★印のない公演は中野なかるてぃん（ナイチンゲールダンス）が出演いたします。\n※中野さんのみ出演",
+      "place": "シアター・アルファ東京",
+      "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710",
+      "openTime": "12:00",
+      "ticketSales": [
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-10-10T10:00:00+09:00",
+          "endAt": "2026-10-15T23:00:00+09:00",
+          "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "day": "日",
+      "startTime": "16:30",
+      "endTime": "",
+      "tag": "公演情報",
+      "title": "Si_EnTa presents 舞台「エックスミーツエックス」",
+      "comment": "※★印は四谷真佑（OCTPATH）出演回です。\n※★印のない公演は中野なかるてぃん（ナイチンゲールダンス）が出演いたします。\n※中野さんのみ出演",
+      "place": "シアター・アルファ東京",
+      "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710",
+      "openTime": "16:00",
+      "ticketSales": [
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-10-10T10:00:00+09:00",
+          "endAt": "2026-10-15T23:00:00+09:00",
+          "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710"
+        }
+      ]
     },
     {
       "date": "2026-11-08",
