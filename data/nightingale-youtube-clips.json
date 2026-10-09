@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T06:02:03+09:00",
+  "updatedAt": "2026-10-09T19:07:04+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|ZzFd5MD0U9I",
+      "videoId": "ZzFd5MD0U9I",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【ランキング】ヤスが大好きななかるてぃんのモノボケ【切り抜き】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/ZzFd5MD0U9I",
+      "viewCount": 0,
+      "durationSeconds": 159,
+      "duration": "2:39",
+      "uploadDate": "2026-10-09",
+      "firstSeenAt": "2026-10-09T19:07:04+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|RcmRDrM4zHo",
       "videoId": "RcmRDrM4zHo",
