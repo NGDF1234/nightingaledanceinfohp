@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T19:17:28+09:00",
+  "updatedAt": "2026-10-10T23:57:24+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -55,6 +55,24 @@
       "duration": "2:25",
       "uploadDate": "2026-10-10",
       "firstSeenAt": "2026-10-10T19:02:26+09:00",
+      "lastStatsUpdatedAt": ""
+    },
+    {
+      "id": "youtube|1StSGfkEFG8",
+      "videoId": "1StSGfkEFG8",
+      "kind": "shorts",
+      "channelName": "9番街レトロ",
+      "channelType": "appearance",
+      "channelUrl": "https://www.youtube.com/channel/UCE_WM8m0-WSg0NtBoab3OQg",
+      "channelId": "UCE_WM8m0-WSg0NtBoab3OQg",
+      "title": "痛すぎるグループLINEを発見しました。【9番街レトロ】",
+      "comment": "※4:13〜ヤスさんのお母様とのLINEのお話されてます。",
+      "url": "https://www.youtube.com/shorts/1StSGfkEFG8",
+      "viewCount": 0,
+      "durationSeconds": 0,
+      "duration": "",
+      "uploadDate": "2026-10-10",
+      "firstSeenAt": "2026-10-10T23:57:24+09:00",
       "lastStatsUpdatedAt": ""
     },
     {
