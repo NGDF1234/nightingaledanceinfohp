@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T06:02:14+09:00",
+  "updatedAt": "2026-10-10T19:02:26+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|9NguHouSLaY",
+      "videoId": "9NguHouSLaY",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【ランキング】ヤスに褒められてとても嬉しそうななかるてぃん【切り抜き】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/9NguHouSLaY",
+      "viewCount": 0,
+      "durationSeconds": 145,
+      "duration": "2:25",
+      "uploadDate": "2026-10-10",
+      "firstSeenAt": "2026-10-10T19:02:26+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|ZzFd5MD0U9I",
       "videoId": "ZzFd5MD0U9I",
