@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T23:57:24+09:00",
+  "updatedAt": "2026-10-11T00:02:14+09:00",
   "news": [
     {
       "date": "2026-10-10",
@@ -1145,57 +1145,6 @@
     }
   ],
   "schedule": [
-    {
-      "date": "2026-10-10",
-      "day": "土",
-      "startTime": "00:00",
-      "endTime": "00:30",
-      "tag": "ラジオ",
-      "title": "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
-      "comment": "",
-      "place": "CBCラジオ",
-      "url": "https://hicbc.com/radio/nightin/"
-    },
-    {
-      "date": "2026-10-10",
-      "day": "土",
-      "startTime": "09:25",
-      "endTime": "10:15",
-      "tag": "テレビ",
-      "title": "Vタイムズ",
-      "comment": "",
-      "place": "長崎国際テレビ（NIB）",
-      "url": "https://www.nib.jp/tv/vtimes/"
-    },
-    {
-      "date": "2026-10-10",
-      "day": "土",
-      "startTime": "21:00",
-      "endTime": "22:00",
-      "tag": "公演情報",
-      "title": "鈴木バイダン漫才修行ライブ",
-      "comment": "※中野さんのみ出演",
-      "place": "渋谷よしもと漫才劇場（東京都）",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96&from=2026-10-10&to=2026-10-10&prefectures=0&genre=0&search_type=form",
-      "openTime": "20:45",
-      "links": [
-        {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/collections/%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E6%BC%AB%E6%89%8D%E5%8A%87%E5%A0%B4/products/%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96-10-10-21-00"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "day": "土",
-      "startTime": "22:00",
-      "endTime": "23:00",
-      "tag": "テレビ",
-      "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "※ヤスさんのみ出演",
-      "place": "BSよしもと 265ch",
-      "url": "https://bsy.co.jp/timetable"
-    },
     {
       "date": "2026-10-11",
       "day": "日",
@@ -3026,6 +2975,17 @@
       "day": "日",
       "startTime": "18:00",
       "endTime": "19:00",
+      "tag": "テレビ",
+      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
+      "comment": "※ヤスさんのみ出演",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-04-09",
+      "day": "金",
+      "startTime": "14:30",
+      "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
       "comment": "※ヤスさんのみ出演",
