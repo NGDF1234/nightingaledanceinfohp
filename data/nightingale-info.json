@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T19:07:46+09:00",
+  "updatedAt": "2026-10-12T06:02:02+09:00",
   "news": [
     {
       "date": "2026-10-11",
@@ -1153,29 +1153,6 @@
     }
   ],
   "schedule": [
-    {
-      "date": "2026-10-11",
-      "day": "日",
-      "startTime": "13:15",
-      "endTime": "",
-      "tag": "公演情報",
-      "title": "替え歌キングダム",
-      "comment": "※中野さんのみ出演",
-      "place": "新宿バティオス",
-      "url": "https://tiget.net/events/521125",
-      "openTime": "13:00"
-    },
-    {
-      "date": "2026-10-11",
-      "day": "日",
-      "startTime": "18:00",
-      "endTime": "19:00",
-      "tag": "テレビ",
-      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "※ヤスさんのみ出演",
-      "place": "BSよしもと 265ch",
-      "url": "https://bsy.co.jp/timetable"
-    },
     {
       "date": "2026-10-13",
       "day": "火",
@@ -2996,6 +2973,39 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
+      "comment": "※ヤスさんのみ出演",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-04-10",
+      "day": "土",
+      "startTime": "00:00",
+      "endTime": "00:30",
+      "tag": "ラジオ",
+      "title": "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
+      "comment": "",
+      "place": "CBCラジオ",
+      "url": "https://hicbc.com/radio/nightin/"
+    },
+    {
+      "date": "2027-04-10",
+      "day": "土",
+      "startTime": "09:25",
+      "endTime": "10:15",
+      "tag": "テレビ",
+      "title": "Vタイムズ",
+      "comment": "",
+      "place": "長崎国際テレビ（NIB）",
+      "url": "https://www.nib.jp/tv/vtimes/"
+    },
+    {
+      "date": "2027-04-10",
+      "day": "土",
+      "startTime": "22:00",
+      "endTime": "23:00",
+      "tag": "テレビ",
+      "title": "東西南北よしもと麻雀リーグ season7",
       "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
