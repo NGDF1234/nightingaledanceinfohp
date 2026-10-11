@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T06:02:22+09:00",
+  "updatedAt": "2026-10-11T19:07:46+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|1WlP__hUt4Y",
+      "videoId": "1WlP__hUt4Y",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【ギャグ】なかるてぃんがみんなに伝えたいヤスのボケ【インテイク】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/1WlP__hUt4Y",
+      "viewCount": 28,
+      "durationSeconds": 134,
+      "duration": "2:14",
+      "uploadDate": "2026-10-11",
+      "firstSeenAt": "2026-10-11T19:07:46+09:00",
+      "lastStatsUpdatedAt": "2026-10-11T19:07:46+09:00"
+    },
     {
       "id": "youtube|dFO_-5CzcOg",
       "videoId": "dFO_-5CzcOg",
