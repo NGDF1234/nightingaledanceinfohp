@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T06:02:02+09:00",
+  "updatedAt": "2026-10-12T19:08:10+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|Hls0_hByovo",
+      "videoId": "Hls0_hByovo",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【モノボケ】コーナー中に生き生きしているヤスを楽しむなかるてぃん【切り抜き】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/Hls0_hByovo",
+      "viewCount": 69,
+      "durationSeconds": 154,
+      "duration": "2:34",
+      "uploadDate": "2026-10-12",
+      "firstSeenAt": "2026-10-12T19:08:10+09:00",
+      "lastStatsUpdatedAt": "2026-10-12T19:08:10+09:00"
+    },
     {
       "id": "youtube|1WlP__hUt4Y",
       "videoId": "1WlP__hUt4Y",
