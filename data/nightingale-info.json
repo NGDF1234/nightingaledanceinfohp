@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-13T01:02:03+09:00",
+  "updatedAt": "2026-10-13T18:12:03+09:00",
   "news": [
+    {
+      "date": "2026-10-13",
+      "tag": "Instagram",
+      "title": "Instagram",
+      "comment": "ストーリーズが投稿されています。 アカウント名: 中野なかるてぃん",
+      "url": "https://www.instagram.com/stories/nakalthyn/4006859244065311353?utm_source=ig_story_item_share&obrf=N3M4ZXpyeG43bmp0",
+      "links": [
+        {
+          "title": "X",
+          "url": "https://x.com/ngdinfo/status/2109934451207946240"
+        }
+      ]
+    },
     {
       "date": "2026-10-11",
       "tag": "YouTube",
@@ -296,10 +309,10 @@
     {
       "date": "2026-09-29",
       "tag": "ラジオ",
-      "title": "いしいそうたろうのチューチューレディオ の放送回一覧 | radiko(ラジコ)",
-      "comment": "※中野さんのみ電話出演 いしいそうたろうのチューチューレディオ ※中野さんのみ電話出演 2026/09/29 19:00 YBSラジオ YBSラジオ ※中野さんのみ電話出演",
+      "title": "いしいそうたろうのチューチューレディオ",
+      "comment": "※中野さんのみ電話出演",
       "url": "https://radiko.jp/r_seasons/10017220",
-      "media": "TBSラジオ"
+      "media": "YBSラジオ"
     },
     {
       "date": "2026-09-29",
