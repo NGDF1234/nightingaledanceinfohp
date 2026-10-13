@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T23:32:04+09:00",
+  "updatedAt": "2026-10-14T01:02:11+09:00",
   "news": [
     {
       "date": "2026-10-13",
@@ -267,10 +267,10 @@
     {
       "date": "2026-09-29",
       "tag": "ラジオ",
-      "title": "いしいそうたろうのチューチューレディオ",
-      "comment": "※中野さんのみ電話出演",
+      "title": "いしいそうたろうのチューチューレディオ の放送回一覧 | radiko(ラジコ)",
+      "comment": "※中野さんのみ電話出演 いしいそうたろうのチューチューレディオ ※中野さんのみ電話出演 2026/09/29 19:00 YBSラジオ YBSラジオ ※中野さんのみ電話出演",
       "url": "https://radiko.jp/r_seasons/10017220",
-      "media": "YBSラジオ"
+      "media": "TBSラジオ"
     },
     {
       "date": "2026-09-29",
@@ -1016,51 +1016,6 @@
     }
   ],
   "schedule": [
-    {
-      "date": "2026-10-13",
-      "day": "火",
-      "startTime": "19:15",
-      "endTime": "20:15",
-      "tag": "公演情報",
-      "title": "俺たち！大喜利部",
-      "comment": "※中野さんのみ出演",
-      "place": "渋谷よしもと漫才劇場（東京都）",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20858",
-      "openTime": "19:00",
-      "ticketSales": [
-        {
-          "type": "抽選販売",
-          "label": "FANY IDプレミアムメンバー抽選先行",
-          "startAt": "2026-08-25T11:00:00+09:00",
-          "endAt": "2026-08-28T11:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-10-13&to=2026-10-13&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "抽選販売",
-          "label": "FANY IDメンバー抽選先行",
-          "startAt": "2026-08-25T11:00:00+09:00",
-          "endAt": "2026-08-28T11:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-10-13&to=2026-10-13&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "一般販売",
-          "label": "一般販売",
-          "startAt": "2026-09-05T10:00:00+09:00",
-          "endAt": "",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-10-13&to=2026-10-13&prefectures=0&genre=0&search_type=form"
-        }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-10-13&to=2026-10-13&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/products/%E4%BF%BA%E3%81%9F%E3%81%A1-%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8-10-13-19-15"
-        }
-      ]
-    },
     {
       "date": "2026-10-16",
       "day": "金",
