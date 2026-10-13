@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T18:52:09+09:00",
+  "updatedAt": "2026-10-13T19:32:07+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|o3D0ojhtmZM",
+      "videoId": "o3D0ojhtmZM",
+      "kind": "video",
+      "channelName": "中野なかるてぃん状態",
+      "channelType": "nakano_personal",
+      "channelUrl": "https://www.youtube.com/channel/UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "channelId": "UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "title": "誰が遠くに立ってるか当てるゲーム",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=o3D0ojhtmZM",
+      "viewCount": 0,
+      "durationSeconds": 0,
+      "duration": "",
+      "uploadDate": "2026-10-13",
+      "firstSeenAt": "2026-10-13T19:32:07+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|Hls0_hByovo",
       "videoId": "Hls0_hByovo",
@@ -1650,7 +1668,7 @@
       "channelUrl": "https://www.youtube.com/channel/UC38KfsSDR8JJmJ6XV9pIBpw",
       "channelId": "UC38KfsSDR8JJmJ6XV9pIBpw",
       "title": "「超超超、超超超、超超超超超難問王決定戦 超東阪福ツアー ダイジェスト」",
-      "comment": "",
+      "comment": "🎭中野なかるてぃんのイントロクイズネオ 2026/10/31 18:45 渋谷よしもと漫才劇場（東京都） ※中野さんのみ出演",
       "url": "https://www.youtube.com/watch?v=KpQ6ZzJB588",
       "viewCount": 13521,
       "durationSeconds": 323,
