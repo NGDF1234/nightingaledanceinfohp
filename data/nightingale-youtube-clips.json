@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T06:02:25+09:00",
+  "updatedAt": "2026-10-14T19:12:19+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|0s5tF8SNyOg",
+      "videoId": "0s5tF8SNyOg",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【名場面】すかいらーくクイズ【単独ライブ】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/0s5tF8SNyOg",
+      "viewCount": 17,
+      "durationSeconds": 169,
+      "duration": "2:49",
+      "uploadDate": "2026-10-14",
+      "firstSeenAt": "2026-10-14T19:12:19+09:00",
+      "lastStatsUpdatedAt": "2026-10-14T19:12:19+09:00"
+    },
     {
       "id": "youtube|o3D0ojhtmZM",
       "videoId": "o3D0ojhtmZM",
