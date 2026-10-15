@@ -150,37 +150,37 @@ async function runNotifications(env: Env, now = new Date()) {
 }
 
 async function runNewsNotifications(env: Env, news: News[]) {
-  const initializedKey = "state:news-notifications-v2";
-  if (!(await env.PUSH_STORE.get(initializedKey))) {
-    await Promise.all(news.map((item) => markNewsNotificationSeen(env, item)));
-    await env.PUSH_STORE.put(initializedKey, "1");
+  const stateKey = "state:news-notifications-v3";
+  const current = news.map((item) => ({ item, id: newsNotificationId(item) }));
+  const saved = await env.PUSH_STORE.get(stateKey, "json");
+  if (!Array.isArray(saved)) {
+    await env.PUSH_STORE.put(stateKey, JSON.stringify(current.map(({ id }) => id)));
     return;
   }
 
-  for (const item of [...news].reverse()) {
-    const key = newsNotificationKey(item);
-    if (await env.PUSH_STORE.get(key)) continue;
+  const seen = new Set(saved.filter((value): value is string => typeof value === "string"));
+  const additions = current.filter(({ id }) => !seen.has(id));
+  for (const { item, id } of [...additions].reverse()) {
     await broadcast(env, {
       title: `新着NEWS｜${item.tag}`,
       body: item.title,
       url: `${env.SITE_URL}/news.html`,
-      tag: key,
+      tag: `news-${id}`,
     });
-    await env.PUSH_STORE.put(key, "1");
+  }
+  if (additions.length) {
+    const next = [...new Set([...current.map(({ id }) => id), ...seen])].slice(0, 5000);
+    await env.PUSH_STORE.put(stateKey, JSON.stringify(next));
   }
 }
 
-function markNewsNotificationSeen(env: Env, item: News) {
-  return env.PUSH_STORE.put(newsNotificationKey(item), "1");
-}
-
-function newsNotificationKey(item: News) {
-  return `sent:news:${fingerprint({
+function newsNotificationId(item: News) {
+  return fingerprint({
     date: item.date,
     tag: item.tag,
     title: item.title.trim(),
     url: normalizedNewsUrl(item.url || ""),
-  })}`;
+  });
 }
 
 function normalizedNewsUrl(value: string) {
