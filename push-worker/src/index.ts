@@ -150,21 +150,62 @@ async function runNotifications(env: Env, now = new Date()) {
 }
 
 async function runNewsNotifications(env: Env, news: News[]) {
-  const previous = await env.PUSH_STORE.get("state:latest-news");
-  const latest = news[0] ? fingerprint(news[0]) : "";
-  if (previous && latest !== previous) {
-    const index = news.findIndex((item) => fingerprint(item) === previous);
-    const targets = news.slice(0, index < 0 ? 1 : index).reverse();
-    for (const item of targets) {
-      await broadcast(env, {
-        title: `新着NEWS｜${item.tag}`,
-        body: item.title,
-        url: `${env.SITE_URL}/news.html`,
-        tag: `news-${fingerprint(item)}`,
-      });
-    }
+  const initializedKey = "state:news-notifications-v2";
+  if (!(await env.PUSH_STORE.get(initializedKey))) {
+    await Promise.all(news.map((item) => markNewsNotificationSeen(env, item)));
+    await env.PUSH_STORE.put(initializedKey, "1");
+    return;
   }
-  if (latest && latest !== previous) await env.PUSH_STORE.put("state:latest-news", latest);
+
+  for (const item of [...news].reverse()) {
+    const key = newsNotificationKey(item);
+    if (await env.PUSH_STORE.get(key)) continue;
+    await broadcast(env, {
+      title: `新着NEWS｜${item.tag}`,
+      body: item.title,
+      url: `${env.SITE_URL}/news.html`,
+      tag: key,
+    });
+    await env.PUSH_STORE.put(key, "1");
+  }
+}
+
+function markNewsNotificationSeen(env: Env, item: News) {
+  return env.PUSH_STORE.put(newsNotificationKey(item), "1");
+}
+
+function newsNotificationKey(item: News) {
+  return `sent:news:${fingerprint({
+    date: item.date,
+    tag: item.tag,
+    title: item.title.trim(),
+    url: normalizedNewsUrl(item.url || ""),
+  })}`;
+}
+
+function normalizedNewsUrl(value: string) {
+  if (!value) return "";
+  try {
+    const url = new URL(value);
+    const youtubeId = youtubeVideoId(url);
+    if (youtubeId) return `youtube:${youtubeId}`;
+    for (const name of [...url.searchParams.keys()]) {
+      if (/^(?:utm_|si$|fbclid$|gclid$|igshid$|xtok$|exln$|obrf$)/i.test(name)) url.searchParams.delete(name);
+    }
+    url.hash = "";
+    return url.toString();
+  } catch {
+    return value;
+  }
+}
+
+function youtubeVideoId(url: URL) {
+  const host = url.hostname.replace(/^www\./, "");
+  if (host === "youtu.be") return url.pathname.split("/").filter(Boolean)[0] || "";
+  if (!host.endsWith("youtube.com")) return "";
+  if (url.pathname === "/watch") return url.searchParams.get("v") || "";
+  const match = url.pathname.match(/^\/(?:shorts|live|embed)\/([^/?#]+)/);
+  return match?.[1] || "";
 }
 
 async function runDailyScheduleNotification(env: Env, schedule: Schedule[], now: Date) {
@@ -230,7 +271,7 @@ async function runTicketReminderNotifications(env: Env, reminders: TicketReminde
     if (!isValidDate(notifyAt) || !isValidDate(targetAt)) continue;
     if (!isInMinuteWindow(notifyAt, now)) continue;
 
-    const key = `sent:ticket:${fingerprint({ id: item.id, notifyAt: item.notifyAt })}`;
+    const key = `sent:ticket:${fingerprint(ticketReminderIdentity(item))}`;
     if (await env.PUSH_STORE.get(key)) continue;
 
     await broadcast(env, {
@@ -263,7 +304,36 @@ function ticketRemindersFromData(data: HomepageData) {
     }
   }
 
-  return reminders;
+  const unique = new Map<string, TicketReminder>();
+  for (const reminder of reminders) {
+    const key = JSON.stringify(ticketReminderIdentity(reminder));
+    if (!unique.has(key)) unique.set(key, reminder);
+  }
+  return [...unique.values()];
+}
+
+function ticketReminderIdentity(item: TicketReminder) {
+  return {
+    notifyAt: normalizedDateTime(item.notifyAt),
+    targetAt: normalizedDateTime(item.targetAt),
+    reminderType: item.reminderType,
+    ticketKind: normalizeTicketKind(item.ticketKind),
+    ticketLabel: normalizedTicketLabel(item),
+    title: item.title.trim(),
+  };
+}
+
+function normalizedTicketLabel(item: TicketReminder) {
+  const label = item.ticketLabel.trim();
+  if (normalizeTicketKind(item.ticketKind) === "一般販売" && /^(?:一般発売|一般販売)$/.test(label)) {
+    return "一般販売";
+  }
+  return label;
+}
+
+function normalizedDateTime(value: string) {
+  const date = new Date(value);
+  return isValidDate(date) ? date.toISOString() : value;
 }
 
 function ticketRemindersFromSale(item: News | Schedule, sale: TicketSale) {
