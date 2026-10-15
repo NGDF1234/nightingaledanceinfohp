@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-10-15T06:02:01+09:00",
+  "updatedAt": "2026-10-15T19:02:24+09:00",
   "news": [
+    {
+      "date": "2026-10-15",
+      "tag": "YouTube",
+      "title": "【名場面】コンビで共感してしまう【単独ライブ】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/CUyNvYwKlWM",
+      "channelName": "ナイチンゲールダンスチャンネル"
+    },
+    {
+      "date": "2026-10-15",
+      "tag": "Instagram",
+      "title": "Instagram",
+      "comment": "ストーリーズが投稿されています。 アカウント名: 中野なかるてぃん",
+      "url": "https://www.instagram.com/stories/nakalthyn/4007908432987302107?utm_source=ig_story_item_share&xtok=MWFtZGZtNHBlYWtqaA=="
+    },
     {
       "date": "2026-10-14",
       "tag": "公演情報",
@@ -33,6 +48,10 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%E4%BA%95%E4%B8%8A%E4%BC%9A%E8%AD%B0&from=2026-11-14&to=2026-11-14&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/なかむら井上会議-11-14-19-45"
         }
       ]
     },
@@ -1730,6 +1749,10 @@
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%E4%BA%95%E4%B8%8A%E4%BC%9A%E8%AD%B0&from=2026-11-14&to=2026-11-14&prefectures=0&genre=0&search_type=form"
         },
         {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/なかむら井上会議-11-14-19-45"
+        },
+        {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96&from=2026-10-10&to=2026-10-10&prefectures=0&genre=0&search_type=form"
         },
@@ -2918,20 +2941,6 @@
     }
   ],
   "regular": [],
-  "ticketReminders": [
-    {
-      "id": "ticket_push_reminder|start|なかむら井上会議|一般販売|202610151000",
-      "title": "なかむら井上会議",
-      "ticketKind": "一般販売",
-      "ticketLabel": "一般販売",
-      "reminderType": "start",
-      "reminderLabel": "発売開始30分前",
-      "notifyAt": "2026-10-15T09:30:00+09:00",
-      "targetAt": "2026-10-15T10:00:00+09:00",
-      "startAt": "2026-10-15T10:00:00+09:00",
-      "endAt": "",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%E4%BA%95%E4%B8%8A%E4%BC%9A%E8%AD%B0&from=2026-11-14&to=2026-11-14&prefectures=0&genre=0&search_type=form"
-    }
-  ],
+  "ticketReminders": [],
   "clips": []
 }

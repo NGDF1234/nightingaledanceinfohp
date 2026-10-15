@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T06:02:01+09:00",
+  "updatedAt": "2026-10-15T19:02:24+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|CUyNvYwKlWM",
+      "videoId": "CUyNvYwKlWM",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【名場面】コンビで共感してしまう【単独ライブ】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/CUyNvYwKlWM",
+      "viewCount": 0,
+      "durationSeconds": 148,
+      "duration": "2:28",
+      "uploadDate": "2026-10-15",
+      "firstSeenAt": "2026-10-15T19:02:24+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|0s5tF8SNyOg",
       "videoId": "0s5tF8SNyOg",
