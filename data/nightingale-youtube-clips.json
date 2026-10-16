@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T00:22:03+09:00",
+  "updatedAt": "2026-10-16T19:02:21+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|QiyibmcrNZs",
+      "videoId": "QiyibmcrNZs",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【進研ゼミ】本当に高学歴なのか…？ 思わず疑うなかるてぃんの癖【切り抜き】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/QiyibmcrNZs",
+      "viewCount": 0,
+      "durationSeconds": 150,
+      "duration": "2:30",
+      "uploadDate": "2026-10-16",
+      "firstSeenAt": "2026-10-16T19:02:21+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|CUyNvYwKlWM",
       "videoId": "CUyNvYwKlWM",
