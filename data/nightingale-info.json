@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T19:02:21+09:00",
+  "updatedAt": "2026-10-16T23:42:21+09:00",
   "news": [
     {
       "date": "2026-10-16",
@@ -1087,6 +1087,17 @@
       "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2026-10-16",
+      "day": "金",
+      "startTime": "21:15",
+      "endTime": "22:15",
+      "tag": "チケット",
+      "title": "本田たかお1on1",
+      "comment": "※シークレットゲストとして出演",
+      "place": "神保町よしもと漫才劇場",
+      "url": "https://online-ticket.yoshimoto.co.jp/products/%E6%9C%AC%E7%94%B0%E3%81%9F%E3%81%8B%E3%81%8A1on1-10-16-21-15?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E6%9C%AC%E7%94%B0%E3%81%9F%E3%81%8B%E3%81%8A1on1"
     },
     {
       "date": "2026-10-17",
