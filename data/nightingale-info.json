@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T21:42:14+09:00",
+  "updatedAt": "2026-10-18T00:02:08+09:00",
   "news": [
     {
       "date": "2026-10-17",
@@ -1101,79 +1101,6 @@
       "comment": "※シークレットゲストとして出演",
       "place": "神保町よしもと漫才劇場",
       "url": "https://online-ticket.yoshimoto.co.jp/products/%E6%9C%AC%E7%94%B0%E3%81%9F%E3%81%8B%E3%81%8A1on1-10-16-21-15?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E6%9C%AC%E7%94%B0%E3%81%9F%E3%81%8B%E3%81%8A1on1"
-    },
-    {
-      "date": "2026-10-17",
-      "day": "土",
-      "startTime": "00:00",
-      "endTime": "00:30",
-      "tag": "ラジオ",
-      "title": "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
-      "comment": "",
-      "place": "CBCラジオ",
-      "url": "https://hicbc.com/radio/nightin/"
-    },
-    {
-      "date": "2026-10-17",
-      "day": "土",
-      "startTime": "09:25",
-      "endTime": "10:15",
-      "tag": "テレビ",
-      "title": "Vタイムズ",
-      "comment": "",
-      "place": "長崎国際テレビ（NIB）",
-      "url": "https://www.nib.jp/tv/vtimes/"
-    },
-    {
-      "date": "2026-10-17",
-      "day": "土",
-      "startTime": "15:00",
-      "endTime": "16:00",
-      "tag": "公演情報",
-      "title": "野澤輸出単独ライブ「お笑いコント」",
-      "comment": "※中野さんのみ出演",
-      "place": "YOSHIMOTO ROPPONGI THEATER（東京都）",
-      "url": "https://roppongi.yoshimoto.co.jp/schedule/?id=20956",
-      "openTime": "14:45",
-      "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E9%87%8E%E6%BE%A4%E8%BC%B8%E5%87%BA%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%8A%E7%AC%91%E3%81%84%E3%82%B3%E3%83%B3%E3%83%88%E3%80%8D&from=2026-10-17&to=2026-10-17&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/collections/live/products/%E9%87%8E%E6%BE%A4%E8%BC%B8%E5%87%BA%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96-%E3%81%8A%E7%AC%91%E3%81%84%E3%82%B3%E3%83%B3%E3%83%88-10-17-15-00"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "day": "土",
-      "startTime": "17:00",
-      "endTime": "18:20",
-      "tag": "公演情報",
-      "title": "野澤輸出のコント「カラオケ」",
-      "comment": "※中野さんのみ出演",
-      "place": "YOSHIMOTO ROPPONGI THEATER（東京都）",
-      "url": "https://roppongi.yoshimoto.co.jp/schedule/?id=20958",
-      "openTime": "16:45",
-      "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E9%87%8E%E6%BE%A4%E8%BC%B8%E5%87%BA%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%88%E3%80%8C%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1%E3%80%8D&from=2026-10-17&to=2026-10-17&prefectures=0&genre=0&search_type=form"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "day": "土",
-      "startTime": "22:00",
-      "endTime": "23:00",
-      "tag": "テレビ",
-      "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "※ヤスさんのみ出演",
-      "place": "BSよしもと 265ch",
-      "url": "https://bsy.co.jp/timetable"
     },
     {
       "date": "2026-10-18",
@@ -2954,6 +2881,17 @@
       "day": "日",
       "startTime": "18:00",
       "endTime": "19:00",
+      "tag": "テレビ",
+      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
+      "comment": "※ヤスさんのみ出演",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-04-16",
+      "day": "金",
+      "startTime": "14:30",
+      "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
       "comment": "※ヤスさんのみ出演",
