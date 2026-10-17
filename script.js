@@ -129,7 +129,7 @@ const fallbackRegularItems = [
   },
   {
     title: "ヤスのコラム",
-    tag: "連載・コラム",
+    tag: "連載・コラム・インタビュー記事",
     media: "ウォーカープラス",
     comment: "",
     time: "毎月第1金曜日頃 更新予定",
@@ -168,9 +168,7 @@ function formatNewsDate(date = "") {
 }
 
 function newsCategory(item = {}) {
-  if (item.category) return item.category;
-
-  const tag = String(item.tag || "").trim();
+  const tag = String(item.category || item.tag || "").trim();
   const upperTag = tag.toUpperCase();
   const title = String(item.title || "");
   const url = String(item.url || "");
@@ -186,7 +184,14 @@ function newsCategory(item = {}) {
   if (tag === "YouTube Shorts" || tag === "Shorts") return "YouTube Shorts";
   if (upperTag === "AWARD" || tag === "賞レース") return "賞レース";
   if (upperTag === "MAGAZINE" || tag === "雑誌・書籍") return "雑誌・書籍";
-  if (upperTag === "COLUMN" || upperTag === "WEB" || tag === "連載・コラム") return "連載・コラム";
+  if (
+    upperTag === "COLUMN" ||
+    upperTag === "WEB" ||
+    tag === "連載・コラム" ||
+    tag === "連載・コラム・インタビュー記事"
+  ) {
+    return "連載・コラム・インタビュー記事";
+  }
   if (upperTag === "INFO" || tag === "公式情報") return "公式情報";
   return tag || "その他";
 }
@@ -529,7 +534,7 @@ function scheduleDetail(item = {}) {
 
 function regularDetail(item = {}) {
   return {
-    tag: item.tag || item.category || "REGULAR",
+    tag: newsCategory(item) || "REGULAR",
     title: item.title || "",
     details: [
       item.comment,
@@ -828,7 +833,7 @@ function renderRegular(items = fallbackRegularItems) {
 
   regularGrid.innerHTML = sourceItems.map((item) => `
     <article class="news-card regular-card" ${detailAttributes(regularDetail(item))}>
-      <span class="news-tag">${escapeHtml(item.tag || item.category || "REGULAR")}</span>
+      <span class="news-tag">${escapeHtml(newsCategory(item) || "REGULAR")}</span>
       <h3>${escapeHtml(item.title)}</h3>
       ${item.comment ? `<p class="regular-note">${escapeHtml(item.comment)}</p>` : ""}
       ${regularMedia(item) ? `<div class="regular-detail">${escapeHtml(regularMedia(item))}</div>` : ""}
