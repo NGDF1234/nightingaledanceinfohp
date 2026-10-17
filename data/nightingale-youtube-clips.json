@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T23:42:21+09:00",
+  "updatedAt": "2026-10-17T19:02:21+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|MrK-9q-lYqU",
+      "videoId": "MrK-9q-lYqU",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【ランキング】身内に壁を作ってしまう なかるてぃん【切り抜き】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/MrK-9q-lYqU",
+      "viewCount": 2,
+      "durationSeconds": 95,
+      "duration": "1:35",
+      "uploadDate": "2026-10-17",
+      "firstSeenAt": "2026-10-17T19:02:21+09:00",
+      "lastStatsUpdatedAt": "2026-10-17T19:02:21+09:00"
+    },
     {
       "id": "youtube|QiyibmcrNZs",
       "videoId": "QiyibmcrNZs",
