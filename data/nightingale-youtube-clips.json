@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T18:32:31+09:00",
+  "updatedAt": "2026-10-18T19:02:27+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -38,6 +38,24 @@
       "uploadDate": "2026-10-18",
       "firstSeenAt": "2026-10-18T18:32:31+09:00",
       "lastStatsUpdatedAt": "2026-10-18T18:32:31+09:00"
+    },
+    {
+      "id": "youtube|F7vg2vOWtQU",
+      "videoId": "F7vg2vOWtQU",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【高学歴】なかるてぃんから聞こえる 「チュンチュン…」の正体とは【切り抜き】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/F7vg2vOWtQU",
+      "viewCount": 0,
+      "durationSeconds": 141,
+      "duration": "2:21",
+      "uploadDate": "2026-10-18",
+      "firstSeenAt": "2026-10-18T19:02:27+09:00",
+      "lastStatsUpdatedAt": ""
     },
     {
       "id": "youtube|MrK-9q-lYqU",
