@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-10-18T00:02:08+09:00",
+  "updatedAt": "2026-10-18T15:42:08+09:00",
   "news": [
+    {
+      "date": "2026-10-18",
+      "tag": "テレビ",
+      "title": "沼にハマってきいてみた",
+      "comment": "※中野さんのみ出演",
+      "url": "https://www.web.nhk/tv/an/hamatta/pl/series-tep-KNY2YKWLG9",
+      "media": "NHK Eテレ"
+    },
     {
       "date": "2026-10-17",
       "tag": "連載・コラム•インタビュー記事",
