@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T19:12:24+09:00",
+  "updatedAt": "2026-10-20T00:02:26+09:00",
   "news": [
     {
       "date": "2026-10-19",
@@ -2947,6 +2947,17 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
+      "comment": "※ヤスさんのみ出演",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-04-18",
+      "day": "日",
+      "startTime": "18:00",
+      "endTime": "19:00",
+      "tag": "テレビ",
+      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
       "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
