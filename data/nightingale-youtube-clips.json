@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T00:02:08+09:00",
+  "updatedAt": "2026-10-19T19:12:24+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|wmuV2EjZYRU",
+      "videoId": "wmuV2EjZYRU",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【ガチで抜き打ち！】カバンの中身チェック【遠征】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/wmuV2EjZYRU",
+      "viewCount": 98,
+      "durationSeconds": 165,
+      "duration": "2:45",
+      "uploadDate": "2026-10-19",
+      "firstSeenAt": "2026-10-19T19:12:24+09:00",
+      "lastStatsUpdatedAt": "2026-10-19T19:12:24+09:00"
+    },
     {
       "id": "youtube|o0T0543kIKM",
       "videoId": "o0T0543kIKM",
