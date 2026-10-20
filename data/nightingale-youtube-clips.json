@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T00:02:26+09:00",
+  "updatedAt": "2026-10-20T19:02:24+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|W7m9Zq0hi5o",
+      "videoId": "W7m9Zq0hi5o",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【ガチで抜き打ち！】なかるてぃんの化粧水はIPSA【遠征】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/W7m9Zq0hi5o",
+      "viewCount": 2,
+      "durationSeconds": 162,
+      "duration": "2:42",
+      "uploadDate": "2026-10-20",
+      "firstSeenAt": "2026-10-20T19:02:24+09:00",
+      "lastStatsUpdatedAt": "2026-10-20T19:02:24+09:00"
+    },
     {
       "id": "youtube|wmuV2EjZYRU",
       "videoId": "wmuV2EjZYRU",
