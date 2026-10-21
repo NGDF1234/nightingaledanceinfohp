@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T20:12:18+09:00",
+  "updatedAt": "2026-10-21T19:02:37+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|cl-Tg6t9h5Y",
+      "videoId": "cl-Tg6t9h5Y",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【ガチで抜き打ち！】ヤスの本気のメガネ【遠征】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/cl-Tg6t9h5Y",
+      "viewCount": 2,
+      "durationSeconds": 114,
+      "duration": "1:54",
+      "uploadDate": "2026-10-21",
+      "firstSeenAt": "2026-10-21T19:02:37+09:00",
+      "lastStatsUpdatedAt": "2026-10-21T19:02:37+09:00"
+    },
     {
       "id": "youtube|W7m9Zq0hi5o",
       "videoId": "W7m9Zq0hi5o",
