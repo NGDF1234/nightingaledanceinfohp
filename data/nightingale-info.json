@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-10-21T19:52:06+09:00",
+  "updatedAt": "2026-10-22T02:42:20+09:00",
   "news": [
+    {
+      "date": "2026-10-22",
+      "tag": "YouTube",
+      "title": "30代、1週間の出来事を思い出せなくてピンチ。【9番街レトロ】",
+      "comment": "※4:27〜ヤスさんのお名前出てます。",
+      "url": "https://youtu.be/EPu1lVaKBG0?si=NKdHc_LewA6DjMTr",
+      "channelName": "9番街レトロ",
+      "media": "テレビ長崎"
+    },
     {
       "date": "2026-10-21",
       "tag": "YouTube",
@@ -62,7 +71,7 @@
       "title": "沼にハマってきいてみた",
       "comment": "※中野さんのみ出演",
       "url": "https://www.web.nhk/tv/an/hamatta/pl/series-tep-KNY2YKWLG9",
-      "media": "NHK Eテレ"
+      "media": "NHK"
     },
     {
       "date": "2026-10-17",
