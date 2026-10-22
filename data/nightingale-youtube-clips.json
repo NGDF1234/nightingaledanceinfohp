@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T19:12:17+09:00",
+  "updatedAt": "2026-10-22T19:22:05+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -38,6 +38,24 @@
       "uploadDate": "2026-10-22",
       "firstSeenAt": "2026-10-22T19:12:17+09:00",
       "lastStatsUpdatedAt": "2026-10-22T19:12:17+09:00"
+    },
+    {
+      "id": "youtube|cxpeG3RKsHY",
+      "videoId": "cxpeG3RKsHY",
+      "kind": "video",
+      "channelName": "きむのけんすいチャンネル",
+      "channelType": "appearance",
+      "channelUrl": "https://www.youtube.com/channel/UCga6HlJyXIJ1gaCCCO8Tihw",
+      "channelId": "UCga6HlJyXIJ1gaCCCO8Tihw",
+      "title": "【念願】可愛すぎ！なかるてぃんがよしもとコレカ撮らせてくれました【ナイチンゲールダンス】",
+      "comment": "※中野さんが出演されています。",
+      "url": "https://www.youtube.com/watch?v=cxpeG3RKsHY",
+      "viewCount": 0,
+      "durationSeconds": 0,
+      "duration": "",
+      "uploadDate": "2026-10-22",
+      "firstSeenAt": "2026-10-22T19:22:05+09:00",
+      "lastStatsUpdatedAt": ""
     },
     {
       "id": "youtube|cl-Tg6t9h5Y",
