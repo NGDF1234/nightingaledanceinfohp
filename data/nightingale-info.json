@@ -1,6 +1,132 @@
 {
-  "updatedAt": "2026-10-23T19:07:20+09:00",
+  "updatedAt": "2026-10-23T21:27:07+09:00",
   "news": [
+    {
+      "date": "2026-10-23",
+      "tag": "公演情報",
+      "title": "中野なかるてぃんのおもしろゲームライブ",
+      "comment": "※中野さんのみ出演",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=22988",
+      "scheduleDate": "2026-12-01",
+      "day": "火",
+      "openTime": "19:00",
+      "startTime": "19:15",
+      "endTime": "20:15",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDプレミアムメンバー抽選先行",
+          "startAt": "2026-10-25T11:00:00+09:00",
+          "endAt": "2026-10-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-10-25T11:00:00+09:00",
+          "endAt": "2026-10-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-11-05T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "tag": "公演情報",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
+      "comment": "※中野さんのみ出演",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=23033",
+      "scheduleDate": "2026-12-03",
+      "day": "木",
+      "openTime": "20:45",
+      "startTime": "21:00",
+      "endTime": "22:00",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDプレミアムメンバー抽選先行",
+          "startAt": "2026-10-25T11:00:00+09:00",
+          "endAt": "2026-10-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-10-25T11:00:00+09:00",
+          "endAt": "2026-10-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-11-05T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "tag": "公演情報",
+      "title": "22期同期ライブ2026反省会～狩野が査定します～",
+      "comment": "※中野さんのみ出演",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=23041",
+      "scheduleDate": "2026-12-17",
+      "day": "木",
+      "openTime": "20:45",
+      "startTime": "21:00",
+      "endTime": "22:00",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDプレミアムメンバー抽選先行",
+          "startAt": "2026-10-25T11:00:00+09:00",
+          "endAt": "2026-10-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-10-25T11:00:00+09:00",
+          "endAt": "2026-10-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-11-05T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
     {
       "date": "2026-10-23",
       "tag": "Instagram",
@@ -163,10 +289,6 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%E4%BA%95%E4%B8%8A%E4%BC%9A%E8%AD%B0&from=2026-11-14&to=2026-11-14&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/products/なかむら井上会議-11-14-19-45"
         }
       ]
     },
@@ -626,10 +748,6 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/products/芸辞苑-11-6-19-15"
         }
       ]
     },
@@ -1600,10 +1718,6 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/products/芸辞苑-11-6-19-15"
         }
       ]
     },
@@ -1780,10 +1894,6 @@
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%E4%BA%95%E4%B8%8A%E4%BC%9A%E8%AD%B0&from=2026-11-14&to=2026-11-14&prefectures=0&genre=0&search_type=form"
         },
         {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/products/なかむら井上会議-11-14-19-45"
-        },
-        {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96&from=2026-10-10&to=2026-10-10&prefectures=0&genre=0&search_type=form"
         },
@@ -1926,6 +2036,88 @@
       "url": "https://bsy.co.jp/timetable"
     },
     {
+      "date": "2026-12-01",
+      "day": "火",
+      "startTime": "19:15",
+      "endTime": "20:15",
+      "tag": "公演情報",
+      "title": "中野なかるてぃんのおもしろゲームライブ",
+      "comment": "※中野さんのみ出演",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=22988",
+      "openTime": "19:00",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDプレミアムメンバー抽選先行",
+          "startAt": "2026-10-25T11:00:00+09:00",
+          "endAt": "2026-10-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-10-25T11:00:00+09:00",
+          "endAt": "2026-10-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-11-05T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-03",
+      "day": "木",
+      "startTime": "21:00",
+      "endTime": "22:00",
+      "tag": "公演情報",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
+      "comment": "※中野さんのみ出演",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=23033",
+      "openTime": "20:45",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDプレミアムメンバー抽選先行",
+          "startAt": "2026-10-25T11:00:00+09:00",
+          "endAt": "2026-10-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-10-25T11:00:00+09:00",
+          "endAt": "2026-10-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-11-05T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
       "date": "2026-12-04",
       "day": "金",
       "startTime": "14:30",
@@ -2034,6 +2226,47 @@
       "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2026-12-17",
+      "day": "木",
+      "startTime": "21:00",
+      "endTime": "22:00",
+      "tag": "公演情報",
+      "title": "22期同期ライブ2026反省会～狩野が査定します～",
+      "comment": "※中野さんのみ出演",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=23041",
+      "openTime": "20:45",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDプレミアムメンバー抽選先行",
+          "startAt": "2026-10-25T11:00:00+09:00",
+          "endAt": "2026-10-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-10-25T11:00:00+09:00",
+          "endAt": "2026-10-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-11-05T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form"
+        }
+      ]
     },
     {
       "date": "2026-12-18",
@@ -3027,6 +3260,202 @@
     }
   ],
   "regular": [],
-  "ticketReminders": [],
+  "ticketReminders": [
+    {
+      "id": "ticket_push_reminder|start|22期同期ライブ2026反省会狩野が査定します|fanyidプレミアムメンバ抽選先行|202610251100",
+      "title": "22期同期ライブ2026反省会～狩野が査定します～",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "FANY IDプレミアムメンバー抽選先行",
+      "reminderType": "start",
+      "reminderLabel": "発売開始時刻",
+      "notifyAt": "2026-10-25T11:00:00+09:00",
+      "targetAt": "2026-10-25T11:00:00+09:00",
+      "startAt": "2026-10-25T11:00:00+09:00",
+      "endAt": "2026-10-28T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|start|22期同期ライブ2026反省会狩野が査定します|fanyidメンバ抽選先行|202610251100",
+      "title": "22期同期ライブ2026反省会～狩野が査定します～",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "FANY IDメンバー抽選先行",
+      "reminderType": "start",
+      "reminderLabel": "発売開始時刻",
+      "notifyAt": "2026-10-25T11:00:00+09:00",
+      "targetAt": "2026-10-25T11:00:00+09:00",
+      "startAt": "2026-10-25T11:00:00+09:00",
+      "endAt": "2026-10-28T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|start|中野なかるてぃんのおもしろゲムライブ|fanyidプレミアムメンバ抽選先行|202610251100",
+      "title": "中野なかるてぃんのおもしろゲームライブ",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "FANY IDプレミアムメンバー抽選先行",
+      "reminderType": "start",
+      "reminderLabel": "発売開始時刻",
+      "notifyAt": "2026-10-25T11:00:00+09:00",
+      "targetAt": "2026-10-25T11:00:00+09:00",
+      "startAt": "2026-10-25T11:00:00+09:00",
+      "endAt": "2026-10-28T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|start|中野なかるてぃんのおもしろゲムライブ|fanyidメンバ抽選先行|202610251100",
+      "title": "中野なかるてぃんのおもしろゲームライブ",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "FANY IDメンバー抽選先行",
+      "reminderType": "start",
+      "reminderLabel": "発売開始時刻",
+      "notifyAt": "2026-10-25T11:00:00+09:00",
+      "targetAt": "2026-10-25T11:00:00+09:00",
+      "startAt": "2026-10-25T11:00:00+09:00",
+      "endAt": "2026-10-28T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|start|中野なかるてぃん単独ライブてぃん独ライブ|fanyidプレミアムメンバ抽選先行|202610251100",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "FANY IDプレミアムメンバー抽選先行",
+      "reminderType": "start",
+      "reminderLabel": "発売開始時刻",
+      "notifyAt": "2026-10-25T11:00:00+09:00",
+      "targetAt": "2026-10-25T11:00:00+09:00",
+      "startAt": "2026-10-25T11:00:00+09:00",
+      "endAt": "2026-10-28T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|start|中野なかるてぃん単独ライブてぃん独ライブ|fanyidメンバ抽選先行|202610251100",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "FANY IDメンバー抽選先行",
+      "reminderType": "start",
+      "reminderLabel": "発売開始時刻",
+      "notifyAt": "2026-10-25T11:00:00+09:00",
+      "targetAt": "2026-10-25T11:00:00+09:00",
+      "startAt": "2026-10-25T11:00:00+09:00",
+      "endAt": "2026-10-28T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|end|22期同期ライブ2026反省会狩野が査定します|fanyidプレミアムメンバ抽選先行|202610281100",
+      "title": "22期同期ライブ2026反省会～狩野が査定します～",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "FANY IDプレミアムメンバー抽選先行",
+      "reminderType": "end",
+      "reminderLabel": "受付終了30分前",
+      "notifyAt": "2026-10-28T10:30:00+09:00",
+      "targetAt": "2026-10-28T11:00:00+09:00",
+      "startAt": "2026-10-25T11:00:00+09:00",
+      "endAt": "2026-10-28T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|end|22期同期ライブ2026反省会狩野が査定します|fanyidメンバ抽選先行|202610281100",
+      "title": "22期同期ライブ2026反省会～狩野が査定します～",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "FANY IDメンバー抽選先行",
+      "reminderType": "end",
+      "reminderLabel": "受付終了30分前",
+      "notifyAt": "2026-10-28T10:30:00+09:00",
+      "targetAt": "2026-10-28T11:00:00+09:00",
+      "startAt": "2026-10-25T11:00:00+09:00",
+      "endAt": "2026-10-28T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|end|中野なかるてぃんのおもしろゲムライブ|fanyidプレミアムメンバ抽選先行|202610281100",
+      "title": "中野なかるてぃんのおもしろゲームライブ",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "FANY IDプレミアムメンバー抽選先行",
+      "reminderType": "end",
+      "reminderLabel": "受付終了30分前",
+      "notifyAt": "2026-10-28T10:30:00+09:00",
+      "targetAt": "2026-10-28T11:00:00+09:00",
+      "startAt": "2026-10-25T11:00:00+09:00",
+      "endAt": "2026-10-28T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|end|中野なかるてぃんのおもしろゲムライブ|fanyidメンバ抽選先行|202610281100",
+      "title": "中野なかるてぃんのおもしろゲームライブ",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "FANY IDメンバー抽選先行",
+      "reminderType": "end",
+      "reminderLabel": "受付終了30分前",
+      "notifyAt": "2026-10-28T10:30:00+09:00",
+      "targetAt": "2026-10-28T11:00:00+09:00",
+      "startAt": "2026-10-25T11:00:00+09:00",
+      "endAt": "2026-10-28T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|end|中野なかるてぃん単独ライブてぃん独ライブ|fanyidプレミアムメンバ抽選先行|202610281100",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "FANY IDプレミアムメンバー抽選先行",
+      "reminderType": "end",
+      "reminderLabel": "受付終了30分前",
+      "notifyAt": "2026-10-28T10:30:00+09:00",
+      "targetAt": "2026-10-28T11:00:00+09:00",
+      "startAt": "2026-10-25T11:00:00+09:00",
+      "endAt": "2026-10-28T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|end|中野なかるてぃん単独ライブてぃん独ライブ|fanyidメンバ抽選先行|202610281100",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "FANY IDメンバー抽選先行",
+      "reminderType": "end",
+      "reminderLabel": "受付終了30分前",
+      "notifyAt": "2026-10-28T10:30:00+09:00",
+      "targetAt": "2026-10-28T11:00:00+09:00",
+      "startAt": "2026-10-25T11:00:00+09:00",
+      "endAt": "2026-10-28T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|start|22期同期ライブ2026反省会狩野が査定します|一般販売|202611051000",
+      "title": "22期同期ライブ2026反省会～狩野が査定します～",
+      "ticketKind": "一般販売",
+      "ticketLabel": "一般販売",
+      "reminderType": "start",
+      "reminderLabel": "発売開始30分前",
+      "notifyAt": "2026-11-05T09:30:00+09:00",
+      "targetAt": "2026-11-05T10:00:00+09:00",
+      "startAt": "2026-11-05T10:00:00+09:00",
+      "endAt": "",
+      "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|start|中野なかるてぃんのおもしろゲムライブ|一般販売|202611051000",
+      "title": "中野なかるてぃんのおもしろゲームライブ",
+      "ticketKind": "一般販売",
+      "ticketLabel": "一般販売",
+      "reminderType": "start",
+      "reminderLabel": "発売開始30分前",
+      "notifyAt": "2026-11-05T09:30:00+09:00",
+      "targetAt": "2026-11-05T10:00:00+09:00",
+      "startAt": "2026-11-05T10:00:00+09:00",
+      "endAt": "",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|start|中野なかるてぃん単独ライブてぃん独ライブ|一般販売|202611051000",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
+      "ticketKind": "一般販売",
+      "ticketLabel": "一般販売",
+      "reminderType": "start",
+      "reminderLabel": "発売開始30分前",
+      "notifyAt": "2026-11-05T09:30:00+09:00",
+      "targetAt": "2026-11-05T10:00:00+09:00",
+      "startAt": "2026-11-05T10:00:00+09:00",
+      "endAt": "",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form"
+    }
+  ],
   "clips": []
 }
