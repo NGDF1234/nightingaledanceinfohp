@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T14:18:23+09:00",
+  "updatedAt": "2026-10-24T19:12:19+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|KbH1reegW8k",
+      "videoId": "KbH1reegW8k",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【ネタ振り返り】1年目の時なかるてぃんが ツッコミだった？【切り抜き】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/KbH1reegW8k",
+      "viewCount": 113,
+      "durationSeconds": 108,
+      "duration": "1:48",
+      "uploadDate": "2026-10-24",
+      "firstSeenAt": "2026-10-24T19:12:19+09:00",
+      "lastStatsUpdatedAt": "2026-10-24T19:12:19+09:00"
+    },
     {
       "id": "youtube|NDzkPG6CC64",
       "videoId": "NDzkPG6CC64",
