@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T19:02:20+09:00",
+  "updatedAt": "2026-10-26T00:02:18+09:00",
   "news": [
     {
       "date": "2026-10-25",
@@ -345,10 +345,6 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%E4%BA%95%E4%B8%8A%E4%BC%9A%E8%AD%B0&from=2026-11-14&to=2026-11-14&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/products/なかむら井上会議-11-14-19-45"
         }
       ]
     },
@@ -808,10 +804,6 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/products/芸辞苑-11-6-19-15"
         }
       ]
     },
@@ -1379,17 +1371,6 @@
       "url": "https://online-ticket.yoshimoto.co.jp/products/%E6%9C%AC%E7%94%B0%E3%81%9F%E3%81%8B%E3%81%8A1on1-10-16-21-15?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E6%9C%AC%E7%94%B0%E3%81%9F%E3%81%8B%E3%81%8A1on1"
     },
     {
-      "date": "2026-10-25",
-      "day": "日",
-      "startTime": "18:00",
-      "endTime": "19:00",
-      "tag": "テレビ",
-      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "※ヤスさんのみ出演",
-      "place": "BSよしもと 265ch",
-      "url": "https://bsy.co.jp/timetable"
-    },
-    {
       "date": "2026-10-30",
       "day": "金",
       "startTime": "14:30",
@@ -1640,10 +1621,6 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/products/芸辞苑-11-6-19-15"
         }
       ]
     },
@@ -1818,10 +1795,6 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%E4%BA%95%E4%B8%8A%E4%BC%9A%E8%AD%B0&from=2026-11-14&to=2026-11-14&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/products/なかむら井上会議-11-14-19-45"
         },
         {
           "title": "FANYチケット",
@@ -3236,6 +3209,39 @@
       "endTime": "15:30",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7（再放送）",
+      "comment": "※ヤスさんのみ出演",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-04-24",
+      "day": "土",
+      "startTime": "00:00",
+      "endTime": "00:30",
+      "tag": "ラジオ",
+      "title": "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
+      "comment": "",
+      "place": "CBCラジオ",
+      "url": "https://hicbc.com/radio/nightin/"
+    },
+    {
+      "date": "2027-04-24",
+      "day": "土",
+      "startTime": "09:25",
+      "endTime": "10:15",
+      "tag": "テレビ",
+      "title": "Vタイムズ",
+      "comment": "",
+      "place": "長崎国際テレビ（NIB）",
+      "url": "https://www.nib.jp/tv/vtimes/"
+    },
+    {
+      "date": "2027-04-24",
+      "day": "土",
+      "startTime": "22:00",
+      "endTime": "23:00",
+      "tag": "テレビ",
+      "title": "東西南北よしもと麻雀リーグ season7",
       "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
