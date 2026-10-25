@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T11:02:25+09:00",
+  "updatedAt": "2026-10-25T19:02:20+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|VF6cN9yHkR8",
+      "videoId": "VF6cN9yHkR8",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【感想】過去ネタを3人で見て 出た感想が完全に一致【切り抜き】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/VF6cN9yHkR8",
+      "viewCount": 1,
+      "durationSeconds": 164,
+      "duration": "2:44",
+      "uploadDate": "2026-10-25",
+      "firstSeenAt": "2026-10-25T19:02:20+09:00",
+      "lastStatsUpdatedAt": "2026-10-25T19:02:20+09:00"
+    },
     {
       "id": "youtube|KbH1reegW8k",
       "videoId": "KbH1reegW8k",
