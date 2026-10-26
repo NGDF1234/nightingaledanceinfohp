@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T14:47:26+09:00",
+  "updatedAt": "2026-10-26T19:07:28+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|pnk-9eLOmDQ",
+      "videoId": "pnk-9eLOmDQ",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【過去ネタ】ナイチンゲールダンス 今と1年目の圧倒的違い【切り抜き】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/pnk-9eLOmDQ",
+      "viewCount": 69,
+      "durationSeconds": 62,
+      "duration": "1:02",
+      "uploadDate": "2026-10-26",
+      "firstSeenAt": "2026-10-26T19:07:28+09:00",
+      "lastStatsUpdatedAt": "2026-10-26T19:07:28+09:00"
+    },
     {
       "id": "youtube|VF6cN9yHkR8",
       "videoId": "VF6cN9yHkR8",
