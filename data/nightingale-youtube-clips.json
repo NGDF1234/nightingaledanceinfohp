@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T00:02:46+09:00",
+  "updatedAt": "2026-10-27T19:02:30+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|rDJpKS3uQTU",
+      "videoId": "rDJpKS3uQTU",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【漫画】1年目の自分達に感心するナイチンゲールダンス【切り抜き】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/rDJpKS3uQTU",
+      "viewCount": 2,
+      "durationSeconds": 83,
+      "duration": "1:23",
+      "uploadDate": "2026-10-27",
+      "firstSeenAt": "2026-10-27T19:02:30+09:00",
+      "lastStatsUpdatedAt": "2026-10-27T19:02:30+09:00"
+    },
     {
       "id": "youtube|pnk-9eLOmDQ",
       "videoId": "pnk-9eLOmDQ",
