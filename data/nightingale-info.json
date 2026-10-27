@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T19:42:21+09:00",
+  "updatedAt": "2026-10-28T00:07:14+09:00",
   "news": [
     {
       "date": "2026-10-27",
@@ -9,6 +9,52 @@
       "url": "https://youtu.be/ut8iQ22BRIA?si=UvSdmkecXSsmlYGG",
       "channelName": "文化シヤッターpresentsナイチンゲールダンスのもうきてるラジオ【CBCラジオ】",
       "media": "CBCラジオ"
+    },
+    {
+      "date": "2026-09-27",
+      "tag": "公演情報",
+      "title": "俺たち！大喜利部",
+      "comment": "※中野さんのみ出演",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=22057",
+      "scheduleDate": "2026-11-22",
+      "day": "日",
+      "openTime": "18:15",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDプレミアムメンバー抽選先行",
+          "startAt": "2026-09-25T11:00:00+09:00",
+          "endAt": "2026-09-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-11-22&to=2026-11-22&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-09-25T11:00:00+09:00",
+          "endAt": "2026-09-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-11-22&to=2026-11-22&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-10-05T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-11-22&to=2026-11-22&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-11-22&to=2026-11-22&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/%E4%BF%BA%E3%81%9F%E3%81%A1-%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8-11-22-18-30"
+        }
+      ]
     },
     {
       "date": "2026-10-26",
@@ -1898,6 +1944,51 @@
       "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2026-11-22",
+      "day": "日",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "tag": "公演情報",
+      "title": "俺たち！大喜利部",
+      "comment": "※中野さんのみ出演",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=22057",
+      "openTime": "18:15",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDプレミアムメンバー抽選先行",
+          "startAt": "2026-09-25T11:00:00+09:00",
+          "endAt": "2026-09-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-11-22&to=2026-11-22&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-09-25T11:00:00+09:00",
+          "endAt": "2026-09-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-11-22&to=2026-11-22&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-10-05T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-11-22&to=2026-11-22&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-11-22&to=2026-11-22&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/%E4%BF%BA%E3%81%9F%E3%81%A1-%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8-11-22-18-30"
+        }
+      ]
     },
     {
       "date": "2026-11-27",
