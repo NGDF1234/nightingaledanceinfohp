@@ -1,18 +1,19 @@
 {
-  "updatedAt": "2026-10-29T00:22:12+09:00",
+  "updatedAt": "2026-10-29T08:23:05+09:00",
   "news": [
     {
       "date": "2026-10-29",
       "tag": "その他",
       "title": "公演中止のお知らせ：なかむら井上会議",
       "comment": "",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E5%85%AC%E6%BC%94%E4%B8%AD%E6%AD%A2%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%9A%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%E4%BA%95%E4%B8%8A%E4%BC%9A%E8%AD%B0&from=2026-11-14&to=2026-11-14&prefectures=0&genre=0&search_type=form",
+      "url": "https://ticket.fany.lol/event/refund/performance/55517",
+      "linkTitle": "払い戻しのお知らせ",
       "scheduleDate": "2026-11-14",
       "day": "土",
       "startTime": "19:45",
       "links": [
         {
-          "title": "FANY Online Ticket",
+          "title": "払い戻しのお知らせ",
           "url": "https://online-ticket.yoshimoto.co.jp/blogs/cancel-info/20261028_2"
         }
       ]
@@ -1855,11 +1856,12 @@
       "openTime": "19:30",
       "links": [
         {
-          "title": "FANY Online Ticket",
+          "title": "払い戻しのお知らせ",
           "url": "https://online-ticket.yoshimoto.co.jp/blogs/cancel-info/20261028_2"
         }
       ],
-      "cancelled": true
+      "cancelled": true,
+      "linkTitle": "払い戻しのお知らせ"
     },
     {
       "date": "2026-11-14",
