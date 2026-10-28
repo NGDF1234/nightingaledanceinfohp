@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T00:07:14+09:00",
+  "updatedAt": "2026-10-28T19:02:29+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|pcvv5WqNJgI",
+      "videoId": "pcvv5WqNJgI",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【1年目】なかるてぃん、恥つかしがる【切り抜き】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/pcvv5WqNJgI",
+      "viewCount": 0,
+      "durationSeconds": 125,
+      "duration": "2:05",
+      "uploadDate": "2026-10-28",
+      "firstSeenAt": "2026-10-28T19:02:29+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|rDJpKS3uQTU",
       "videoId": "rDJpKS3uQTU",
