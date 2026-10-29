@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T08:23:05+09:00",
+  "updatedAt": "2026-10-29T19:02:40+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|wcuQrbjmsj8",
+      "videoId": "wcuQrbjmsj8",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【猫】なかるてぃん初めての猫【アニマル】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/wcuQrbjmsj8",
+      "viewCount": 1,
+      "durationSeconds": 103,
+      "duration": "1:43",
+      "uploadDate": "2026-10-29",
+      "firstSeenAt": "2026-10-29T19:02:40+09:00",
+      "lastStatsUpdatedAt": "2026-10-29T19:02:40+09:00"
+    },
     {
       "id": "youtube|pcvv5WqNJgI",
       "videoId": "pcvv5WqNJgI",
