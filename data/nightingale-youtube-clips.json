@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T19:02:40+09:00",
+  "updatedAt": "2026-10-29T20:22:08+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -38,6 +38,24 @@
       "uploadDate": "2026-10-29",
       "firstSeenAt": "2026-10-29T19:02:40+09:00",
       "lastStatsUpdatedAt": "2026-10-29T19:02:40+09:00"
+    },
+    {
+      "id": "youtube|XlzF6sGAGVQ",
+      "videoId": "XlzF6sGAGVQ",
+      "kind": "video",
+      "channelName": "前川優希",
+      "channelType": "appearance",
+      "channelUrl": "https://www.youtube.com/channel/UCoJrQJhqPM5agqpe2_bllgA",
+      "channelId": "UCoJrQJhqPM5agqpe2_bllgA",
+      "title": "【舞台裏】「エックスミーツエックス」撮影現場に密着！キャストインタビュー＆オフショット公開！",
+      "comment": "※3:25〜中野さんが出演されています。",
+      "url": "https://www.youtube.com/watch?v=XlzF6sGAGVQ",
+      "viewCount": 67,
+      "durationSeconds": 1101,
+      "duration": "18:21",
+      "uploadDate": "2026-10-29",
+      "firstSeenAt": "2026-10-29T20:22:08+09:00",
+      "lastStatsUpdatedAt": "2026-10-29T20:22:08+09:00"
     },
     {
       "id": "youtube|pcvv5WqNJgI",
