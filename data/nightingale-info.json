@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T08:23:05+09:00",
+  "updatedAt": "2026-10-29T10:57:34+09:00",
   "news": [
     {
       "date": "2026-10-29",
@@ -7,13 +7,13 @@
       "title": "公演中止のお知らせ：なかむら井上会議",
       "comment": "",
       "url": "https://ticket.fany.lol/event/refund/performance/55517",
-      "linkTitle": "払い戻しのお知らせ",
+      "linkTitle": "劇場チケット 払い戻しのお知らせ",
       "scheduleDate": "2026-11-14",
       "day": "土",
       "startTime": "19:45",
       "links": [
         {
-          "title": "払い戻しのお知らせ",
+          "title": "配信チケット 払い戻しのお知らせ",
           "url": "https://online-ticket.yoshimoto.co.jp/blogs/cancel-info/20261028_2"
         }
       ]
@@ -424,6 +424,10 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%E4%BA%95%E4%B8%8A%E4%BC%9A%E8%AD%B0&from=2026-11-14&to=2026-11-14&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/なかむら井上会議-11-14-19-45"
         }
       ]
     },
@@ -883,6 +887,10 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/芸辞苑-11-6-19-15"
         }
       ]
     },
@@ -1700,6 +1708,10 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/芸辞苑-11-6-19-15"
         }
       ]
     },
@@ -1856,12 +1868,12 @@
       "openTime": "19:30",
       "links": [
         {
-          "title": "払い戻しのお知らせ",
+          "title": "配信チケット 払い戻しのお知らせ",
           "url": "https://online-ticket.yoshimoto.co.jp/blogs/cancel-info/20261028_2"
         }
       ],
       "cancelled": true,
-      "linkTitle": "払い戻しのお知らせ"
+      "linkTitle": "劇場チケット 払い戻しのお知らせ"
     },
     {
       "date": "2026-11-14",
