@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T21:27:07+09:00",
+  "updatedAt": "2026-10-29T22:32:06+09:00",
   "news": [
     {
       "date": "2026-10-29",
@@ -432,6 +432,10 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%E4%BA%95%E4%B8%8A%E4%BC%9A%E8%AD%B0&from=2026-11-14&to=2026-11-14&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/なかむら井上会議-11-14-19-45"
         }
       ]
     },
@@ -891,6 +895,10 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/芸辞苑-11-6-19-15"
         }
       ]
     },
@@ -1708,6 +1716,10 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/芸辞苑-11-6-19-15"
         }
       ]
     },
