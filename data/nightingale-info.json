@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T16:27:15+09:00",
+  "updatedAt": "2026-10-31T00:02:28+09:00",
   "news": [
     {
       "date": "2026-10-29",
@@ -1464,58 +1464,6 @@
       "comment": "※シークレットゲストとして出演",
       "place": "神保町よしもと漫才劇場",
       "url": "https://online-ticket.yoshimoto.co.jp/products/%E6%9C%AC%E7%94%B0%E3%81%9F%E3%81%8B%E3%81%8A1on1-10-16-21-15?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E6%9C%AC%E7%94%B0%E3%81%9F%E3%81%8B%E3%81%8A1on1"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "金",
-      "startTime": "14:30",
-      "endTime": "15:30",
-      "tag": "テレビ",
-      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "※ヤスさんのみ出演",
-      "place": "BSよしもと 265ch",
-      "url": "https://bsy.co.jp/timetable"
-    },
-    {
-      "date": "2026-10-30",
-      "day": "金",
-      "startTime": "18:00",
-      "endTime": "19:00",
-      "tag": "公演情報",
-      "title": "秋のピンまつり",
-      "comment": "※中野さんのみ出演",
-      "place": "よしもと幕張イオンモール劇場（千葉県）",
-      "url": "https://makuhari.yoshimoto.co.jp/schedule/?id=21832",
-      "openTime": "17:45",
-      "ticketSales": [
-        {
-          "type": "抽選販売",
-          "label": "FANY IDプレミアムメンバー抽選先行",
-          "startAt": "2026-09-22T11:00:00+09:00",
-          "endAt": "2026-09-24T11:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E7%A7%8B%E3%81%AE%E3%83%94%E3%83%B3%E3%81%BE%E3%81%A4%E3%82%8A&from=2026-10-30&to=2026-10-30&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "抽選販売",
-          "label": "FANY IDメンバー抽選先行",
-          "startAt": "2026-09-22T11:00:00+09:00",
-          "endAt": "2026-09-24T11:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E7%A7%8B%E3%81%AE%E3%83%94%E3%83%B3%E3%81%BE%E3%81%A4%E3%82%8A&from=2026-10-30&to=2026-10-30&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "一般販売",
-          "label": "一般発売",
-          "startAt": "2026-09-26T10:00:00+09:00",
-          "endAt": "2026-10-30T16:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E7%A7%8B%E3%81%AE%E3%83%94%E3%83%B3%E3%81%BE%E3%81%A4%E3%82%8A&from=2026-10-30&to=2026-10-30&prefectures=0&genre=0&search_type=form"
-        }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E7%A7%8B%E3%81%AE%E3%83%94%E3%83%B3%E3%81%BE%E3%81%A4%E3%82%8A&from=2026-10-30&to=2026-10-30&prefectures=0&genre=0&search_type=form"
-        }
-      ]
     },
     {
       "date": "2026-10-31",
