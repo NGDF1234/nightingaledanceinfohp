@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T20:22:08+09:00",
+  "updatedAt": "2026-10-30T19:07:27+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|t4BQVf9V53Y",
+      "videoId": "t4BQVf9V53Y",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【猫】挨拶は礼儀【アニマル】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/t4BQVf9V53Y",
+      "viewCount": 11,
+      "durationSeconds": 128,
+      "duration": "2:08",
+      "uploadDate": "2026-10-30",
+      "firstSeenAt": "2026-10-30T19:07:27+09:00",
+      "lastStatsUpdatedAt": "2026-10-30T19:07:27+09:00"
+    },
     {
       "id": "youtube|wcuQrbjmsj8",
       "videoId": "wcuQrbjmsj8",
