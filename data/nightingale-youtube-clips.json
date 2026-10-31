@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T19:07:27+09:00",
+  "updatedAt": "2026-10-31T19:12:26+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|4qb-50EMP-M",
+      "videoId": "4qb-50EMP-M",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【猫】お尻ギャグでわからせにいく【アニマル】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/4qb-50EMP-M",
+      "viewCount": 85,
+      "durationSeconds": 173,
+      "duration": "2:53",
+      "uploadDate": "2026-10-31",
+      "firstSeenAt": "2026-10-31T19:12:26+09:00",
+      "lastStatsUpdatedAt": "2026-10-31T19:12:26+09:00"
+    },
     {
       "id": "youtube|t4BQVf9V53Y",
       "videoId": "t4BQVf9V53Y",
