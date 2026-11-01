@@ -44,6 +44,7 @@ git push
 - `script.js`: JSON読み込み、NEWS、SCHEDULE、CLIPS、YouTubeポップアップ、検索処理。
 - `assets/`: ロゴ、背景、見出し、読み込み中画像など。
 - `data/nightingale-info.json`: NEWS と SCHEDULE の入力データ。
+- `data/schedule-history.json`: 過去を含むSCHEDULEの保存データ。通常は直接編集しません。
 - `data/nightingale-youtube-clips.json`: YouTube動画一覧の入力データ。
 
 ## 画像を差し替えるとき
@@ -63,8 +64,11 @@ git push
 
 ```text
 data/nightingale-info.json
+data/schedule-history.json
 data/nightingale-youtube-clips.json
 ```
+
+`data/nightingale-info.json` 更新時はGitHub Actionsが現在のSCHEDULEを `data/schedule-history.json` に統合します。過去の予定は削除せず、一覧画面の開始日は初期状態で当日に設定します。
 
 別ワークスペースでも絶対パスを固定しないで、ホームページフォルダ基準の相対パスで出力してください。
 

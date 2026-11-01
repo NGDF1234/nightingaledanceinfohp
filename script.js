@@ -167,6 +167,25 @@ function formatNewsDate(date = "") {
   return normalizeDate(date).replaceAll("-", ".");
 }
 
+function scheduleKey(item = {}) {
+  return [item.date, item.startTime, item.title, item.place || item.media]
+    .map((value) => String(value || "").trim().replaceAll("/", "-").replace(/\s+/g, " ").toLowerCase())
+    .join("|");
+}
+
+function mergeScheduleItems(history = [], current = []) {
+  const rows = new Map();
+  [...history, ...current].forEach((item) => {
+    if (!item?.date || !item?.title) return;
+    rows.set(scheduleKey(item), item);
+  });
+  return [...rows.values()].sort((a, b) => {
+    const dateOrder = normalizeDate(a.date).localeCompare(normalizeDate(b.date));
+    if (dateOrder) return dateOrder;
+    return String(a.startTime || "").localeCompare(String(b.startTime || ""));
+  });
+}
+
 function newsCategory(item = {}) {
   const tag = String(item.category || item.tag || "").trim();
   const upperTag = tag.toUpperCase();
@@ -1032,11 +1051,18 @@ function hidePageLoader() {
 
 async function loadInfo() {
   try {
-    const response = await fetch(DATA_PATH, { cache: "no-store" });
+    const [response, historyResponse] = await Promise.all([
+      fetch(DATA_PATH, { cache: "no-store" }),
+      fetch("data/schedule-history.json", { cache: "no-store" }).catch(() => null)
+    ]);
     if (!response.ok) throw new Error(`Failed to load ${DATA_PATH}`);
     const data = await response.json();
+    const historyData = historyResponse?.ok ? await historyResponse.json() : {};
     newsItems = Array.isArray(data.news) ? data.news : fallbackNewsItems;
-    scheduleItems = Array.isArray(data.schedule) ? data.schedule : [];
+    scheduleItems = mergeScheduleItems(
+      Array.isArray(historyData.schedule) ? historyData.schedule : [],
+      Array.isArray(data.schedule) ? data.schedule : []
+    );
     renderNews(newsItems);
     renderNewsList(newsItems);
     renderRegular(Array.isArray(data.regular) ? data.regular : fallbackRegularItems);
