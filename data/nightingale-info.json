@@ -1,23 +1,6 @@
 {
-  "updatedAt": "2026-11-01T13:12:20+09:00",
+  "updatedAt": "2026-11-01T13:27:35+09:00",
   "news": [
-    {
-      "date": "2026-11-01",
-      "tag": "その他",
-      "title": "公演中止のお知らせ：中野なかるてぃんのおもしろゲームライブ",
-      "comment": "",
-      "url": "https://ticket.fany.lol/event/refund/performance/56481",
-      "linkTitle": "劇場チケット 払い戻しのお知らせ",
-      "scheduleDate": "2026-12-01",
-      "day": "火",
-      "startTime": "19:15",
-      "links": [
-        {
-          "title": "劇場チケット 払い戻しのお知らせ",
-          "url": "https://ticket.fany.lol/event/refund/performance/56489"
-        }
-      ]
-    },
     {
       "date": "2026-11-01",
       "tag": "公演情報",
