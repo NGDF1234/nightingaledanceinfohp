@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T19:12:26+09:00",
+  "updatedAt": "2026-11-01T20:07:35+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|brCPFFenqrU",
+      "videoId": "brCPFFenqrU",
+      "kind": "video",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "ナイチンゲールダンスの今後について",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=brCPFFenqrU",
+      "viewCount": 340,
+      "durationSeconds": 242,
+      "duration": "4:02",
+      "uploadDate": "2026-11-01",
+      "firstSeenAt": "2026-11-01T20:07:35+09:00",
+      "lastStatsUpdatedAt": "2026-11-01T20:07:35+09:00"
+    },
     {
       "id": "youtube|4qb-50EMP-M",
       "videoId": "4qb-50EMP-M",
