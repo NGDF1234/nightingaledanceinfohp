@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-11-01T12:02:21+09:00",
+  "updatedAt": "2026-11-01T12:52:34+09:00",
   "news": [
+    {
+      "date": "2026-11-01",
+      "tag": "その他",
+      "title": "公演中止のお知らせ：中野なかるてぃんのおもしろゲームライブ",
+      "comment": "",
+      "url": "https://ticket.fany.lol/event/refund/performance/56481",
+      "linkTitle": "劇場チケット 払い戻しのお知らせ",
+      "scheduleDate": "2026-12-01",
+      "day": "火",
+      "startTime": "19:15",
+      "links": [
+        {
+          "title": "劇場チケット 払い戻しのお知らせ",
+          "url": "https://ticket.fany.lol/event/refund/performance/56489"
+        }
+      ]
+    },
     {
       "date": "2026-11-01",
       "tag": "公演情報",
@@ -2028,40 +2045,19 @@
       "startTime": "19:15",
       "endTime": "20:15",
       "tag": "公演情報",
-      "title": "中野なかるてぃんのおもしろゲームライブ",
+      "title": "【公演中止】中野なかるてぃんのおもしろゲームライブ",
       "comment": "※中野さんのみ出演",
       "place": "渋谷よしもと漫才劇場（東京都）",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=22988",
+      "url": "https://ticket.fany.lol/event/refund/performance/56481",
       "openTime": "19:00",
-      "ticketSales": [
-        {
-          "type": "抽選販売",
-          "label": "FANY IDプレミアムメンバー抽選先行",
-          "startAt": "2026-10-25T11:00:00+09:00",
-          "endAt": "2026-10-28T11:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "抽選販売",
-          "label": "FANY IDメンバー抽選先行",
-          "startAt": "2026-10-25T11:00:00+09:00",
-          "endAt": "2026-10-28T11:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "一般販売",
-          "label": "一般販売",
-          "startAt": "2026-11-05T10:00:00+09:00",
-          "endAt": "",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
-        }
-      ],
       "links": [
         {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
+          "title": "劇場チケット 払い戻しのお知らせ",
+          "url": "https://ticket.fany.lol/event/refund/performance/56489"
         }
-      ]
+      ],
+      "cancelled": true,
+      "linkTitle": "劇場チケット 払い戻しのお知らせ"
     },
     {
       "date": "2026-12-03",
