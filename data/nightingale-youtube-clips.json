@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T20:07:35+09:00",
+  "updatedAt": "2026-11-02T19:02:38+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,42 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|k1XD2RyAkbc",
+      "videoId": "k1XD2RyAkbc",
+      "kind": "video",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "皆様へ",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=k1XD2RyAkbc",
+      "viewCount": 33,
+      "durationSeconds": 64,
+      "duration": "1:04",
+      "uploadDate": "2026-11-02",
+      "firstSeenAt": "2026-11-02T19:02:38+09:00",
+      "lastStatsUpdatedAt": "2026-11-02T19:02:38+09:00"
+    },
+    {
+      "id": "youtube|d4BpRDUI8q0",
+      "videoId": "d4BpRDUI8q0",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【ご報告】ナイチンゲールダンスヤス吉本退所【謝罪】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/d4BpRDUI8q0",
+      "viewCount": 2,
+      "durationSeconds": 71,
+      "duration": "1:11",
+      "uploadDate": "2026-11-02",
+      "firstSeenAt": "2026-11-02T19:02:38+09:00",
+      "lastStatsUpdatedAt": "2026-11-02T19:02:38+09:00"
+    },
     {
       "id": "youtube|brCPFFenqrU",
       "videoId": "brCPFFenqrU",
