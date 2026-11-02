@@ -1,6 +1,41 @@
 {
-  "updatedAt": "2026-11-02T12:22:11+09:00",
+  "updatedAt": "2026-11-02T13:02:32+09:00",
   "news": [
+    {
+      "date": "2026-11-02",
+      "tag": "公演情報",
+      "title": "幕張土日祝ネタSP12時",
+      "comment": "※中野さんのみ出演",
+      "url": "https://makuhari.yoshimoto.co.jp/schedule/?id=22397",
+      "scheduleDate": "2026-11-15",
+      "day": "日",
+      "openTime": "11:30",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "place": "よしもと幕張イオンモール劇場（千葉県）",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-10-04T11:00:00+09:00",
+          "endAt": "2026-10-06T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E5%9C%9F%E6%97%A5%E7%A5%9D%E3%83%8D%E3%82%BFSP12%E6%99%82&from=2026-11-15&to=2026-11-15&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-10-11T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E5%9C%9F%E6%97%A5%E7%A5%9D%E3%83%8D%E3%82%BFSP12%E6%99%82&from=2026-11-15&to=2026-11-15&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E5%9C%9F%E6%97%A5%E7%A5%9D%E3%83%8D%E3%82%BFSP12%E6%99%82&from=2026-11-15&to=2026-11-15&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
     {
       "date": "2026-11-01",
       "tag": "YouTube",
@@ -1852,6 +1887,40 @@
       "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2026-11-15",
+      "day": "日",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "tag": "公演情報",
+      "title": "幕張土日祝ネタSP12時",
+      "comment": "※中野さんのみ出演",
+      "place": "よしもと幕張イオンモール劇場（千葉県）",
+      "url": "https://makuhari.yoshimoto.co.jp/schedule/?id=22397",
+      "openTime": "11:30",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-10-04T11:00:00+09:00",
+          "endAt": "2026-10-06T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E5%9C%9F%E6%97%A5%E7%A5%9D%E3%83%8D%E3%82%BFSP12%E6%99%82&from=2026-11-15&to=2026-11-15&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-10-11T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E5%9C%9F%E6%97%A5%E7%A5%9D%E3%83%8D%E3%82%BFSP12%E6%99%82&from=2026-11-15&to=2026-11-15&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E5%9C%9F%E6%97%A5%E7%A5%9D%E3%83%8D%E3%82%BFSP12%E6%99%82&from=2026-11-15&to=2026-11-15&prefectures=0&genre=0&search_type=form"
+        }
+      ]
     },
     {
       "date": "2026-11-15",
