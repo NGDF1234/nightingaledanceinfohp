@@ -60,6 +60,7 @@ interface HomepageData {
 
 const MINUTE_MS = 60 * 1000;
 const TICKET_SENT_TTL_SECONDS = 60 * 60 * 24 * 200;
+const SCHEDULE_PUSH_TTL_SECONDS = 5 * 60;
 
 const json = (data: unknown, status = 200, headers = {}) =>
   new Response(JSON.stringify(data), {
@@ -95,13 +96,13 @@ async function subscriptions(env: Env) {
   return result;
 }
 
-async function broadcast(env: Env, payload: object) {
+async function broadcast(env: Env, payload: object, ttl = 3600) {
   let delivered = 0;
   await Promise.all(
     (await subscriptions(env)).map(async (subscription) => {
       try {
         const request = await buildPushPayload(
-          { data: JSON.stringify(payload), options: { ttl: 3600 } },
+          { data: JSON.stringify(payload), options: { ttl } },
           subscription,
           {
             subject: env.VAPID_SUBJECT,
@@ -242,8 +243,8 @@ async function runScheduleStartNotifications(env: Env, schedule: Schedule[], now
           title: "開始30分前",
           body,
           url: `${env.SITE_URL}/schedule.html`,
-          tag: key,
-        });
+          tag: scheduleNotificationTag(item),
+        }, SCHEDULE_PUSH_TTL_SECONDS);
         await env.PUSH_STORE.put(key, "1", { expirationTtl: 604800 });
       }
     }
@@ -255,12 +256,16 @@ async function runScheduleStartNotifications(env: Env, schedule: Schedule[], now
           title: "開始時間です",
           body,
           url: `${env.SITE_URL}/schedule.html`,
-          tag: key,
-        });
+          tag: scheduleNotificationTag(item),
+        }, SCHEDULE_PUSH_TTL_SECONDS);
         await env.PUSH_STORE.put(key, "1", { expirationTtl: 604800 });
       }
     }
   }
+}
+
+function scheduleNotificationTag(item: Schedule) {
+  return `schedule-${fingerprint(item)}`;
 }
 
 async function runTicketReminderNotifications(env: Env, reminders: TicketReminder[], now: Date) {
