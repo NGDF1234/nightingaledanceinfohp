@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T19:03:36+09:00",
+  "updatedAt": "2026-11-03T20:12:26+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|6ykUyLM08Sc",
+      "videoId": "6ykUyLM08Sc",
+      "kind": "video",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【復帰】ヤスは一体何をしていたのか？【ナイチンゲールダンス】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=6ykUyLM08Sc",
+      "viewCount": 513,
+      "durationSeconds": 1763,
+      "duration": "29:23",
+      "uploadDate": "2026-11-03",
+      "firstSeenAt": "2026-11-03T20:12:26+09:00",
+      "lastStatsUpdatedAt": "2026-11-03T20:12:26+09:00"
+    },
     {
       "id": "youtube|qP9rg72G65A",
       "videoId": "qP9rg72G65A",
