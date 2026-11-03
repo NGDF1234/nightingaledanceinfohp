@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T19:02:38+09:00",
+  "updatedAt": "2026-11-03T19:03:36+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|qP9rg72G65A",
+      "videoId": "qP9rg72G65A",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【ご報告】ナイチンゲールダンスの今後について【退所】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/qP9rg72G65A",
+      "viewCount": 0,
+      "durationSeconds": 73,
+      "duration": "1:13",
+      "uploadDate": "2026-11-03",
+      "firstSeenAt": "2026-11-03T19:03:36+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|k1XD2RyAkbc",
       "videoId": "k1XD2RyAkbc",
