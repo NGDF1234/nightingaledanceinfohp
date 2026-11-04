@@ -61,6 +61,7 @@ interface HomepageData {
 const MINUTE_MS = 60 * 1000;
 const TICKET_SENT_TTL_SECONDS = 60 * 60 * 24 * 200;
 const SCHEDULE_PUSH_TTL_SECONDS = 5 * 60;
+const NOTIFICATIONS_ENABLED = false;
 
 const json = (data: unknown, status = 200, headers = {}) =>
   new Response(JSON.stringify(data), {
@@ -97,6 +98,7 @@ async function subscriptions(env: Env) {
 }
 
 async function broadcast(env: Env, payload: object, ttl = 3600) {
+  if (!NOTIFICATIONS_ENABLED) return 0;
   let delivered = 0;
   await Promise.all(
     (await subscriptions(env)).map(async (subscription) => {
