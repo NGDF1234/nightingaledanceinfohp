@@ -1730,6 +1730,27 @@
       "comment": "※ヤスさんのみ出演"
     },
     {
+      "date": "2026-11-16",
+      "day": "月",
+      "startTime": "19:00",
+      "endTime": "",
+      "tag": "公演情報",
+      "title": "「ツッコミマンへの道～東京予選～」",
+      "comment": "※中野さんのみ出演",
+      "place": "四谷区民ホール（東京都）",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%8C%E3%83%84%E3%83%83%E3%82%B3%E3%83%9F%E3%83%9E%E3%83%B3%E3%81%B8%E3%81%AE%E9%81%93%EF%BD%9E%E6%9D%B1%E4%BA%AC%E4%BA%88%E9%81%B8%EF%BD%9E%E3%80%8D&from=2026-11-16&to=2026-11-16&prefectures=0&genre=0&search_type=form",
+      "openTime": "18:30",
+      "ticketSales": [
+        {
+          "type": "一般販売",
+          "label": "一般発売",
+          "startAt": "2026-11-04T19:00:00+09:00",
+          "endAt": "2026-11-15T23:59:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%8C%E3%83%84%E3%83%83%E3%82%B3%E3%83%9F%E3%83%9E%E3%83%B3%E3%81%B8%E3%81%AE%E9%81%93%EF%BD%9E%E6%9D%B1%E4%BA%AC%E4%BA%88%E9%81%B8%EF%BD%9E%E3%80%8D&from=2026-11-16&to=2026-11-16&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
       "date": "2026-11-20",
       "day": "金",
       "startTime": "14:30",
