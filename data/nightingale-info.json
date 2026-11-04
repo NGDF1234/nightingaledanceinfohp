@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T10:42:10+09:00",
+  "updatedAt": "2026-11-04T11:02:09+09:00",
   "news": [
     {
       "date": "2026-11-03",
@@ -3531,19 +3531,6 @@
   ],
   "regular": [],
   "ticketReminders": [
-    {
-      "id": "ticket_push_reminder|start|海賊バレエ|fanyidメンバ抽選先行|202611041100",
-      "title": "海賊バレエ",
-      "ticketKind": "抽選販売",
-      "ticketLabel": "FANY IDメンバー抽選先行",
-      "reminderType": "start",
-      "reminderLabel": "発売開始時刻",
-      "notifyAt": "2026-11-04T11:00:00+09:00",
-      "targetAt": "2026-11-04T11:00:00+09:00",
-      "startAt": "2026-11-04T11:00:00+09:00",
-      "endAt": "2026-11-06T11:00:00+09:00",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E6%B5%B7%E8%B3%8A%E3%83%90%E3%83%AC%E3%82%A8&from=2026-12-16&to=2026-12-16&prefectures=0&genre=0&search_type=form"
-    },
     {
       "id": "ticket_push_reminder|start|1人芸|一般販売|202611051000",
       "title": "1人芸",
