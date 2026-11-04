@@ -61,7 +61,8 @@ interface HomepageData {
 const MINUTE_MS = 60 * 1000;
 const TICKET_SENT_TTL_SECONDS = 60 * 60 * 24 * 200;
 const SCHEDULE_PUSH_TTL_SECONDS = 5 * 60;
-const NOTIFICATIONS_ENABLED = false;
+const MAX_NEWS_NOTIFICATIONS_PER_RUN = 5;
+const NOTIFICATIONS_ENABLED = true;
 
 const json = (data: unknown, status = 200, headers = {}) =>
   new Response(JSON.stringify(data), {
@@ -97,11 +98,15 @@ async function subscriptions(env: Env) {
   return result;
 }
 
-async function broadcast(env: Env, payload: object, ttl = 3600) {
+async function broadcast(
+  env: Env,
+  payload: object,
+  ttl = 3600,
+  recipients?: PushSubscription[],
+) {
   if (!NOTIFICATIONS_ENABLED) return 0;
-  let delivered = 0;
-  await Promise.all(
-    (await subscriptions(env)).map(async (subscription) => {
+  const results = await Promise.all(
+    (recipients || (await subscriptions(env))).map(async (subscription) => {
       try {
         const request = await buildPushPayload(
           { data: JSON.stringify(payload), options: { ttl } },
@@ -113,26 +118,19 @@ async function broadcast(env: Env, payload: object, ttl = 3600) {
           },
         );
         const response = await fetch(subscription.endpoint, { ...request, body: request.body as BodyInit });
-        if (response.ok) delivered += 1;
         if (response.status === 404 || response.status === 410) {
           await env.PUSH_STORE.delete(`sub:${fingerprint({ endpoint: subscription.endpoint })}`);
         }
-        await env.PUSH_STORE.put(
-          "debug:last-push",
-          JSON.stringify({
-            at: new Date().toISOString(),
-            status: response.status,
-            ok: response.ok,
-            endpointHost: new URL(subscription.endpoint).host,
-          }),
-        );
+        return { status: response.status, ok: response.ok, endpointHost: new URL(subscription.endpoint).host };
       } catch (error) {
-        await env.PUSH_STORE.put(
-          "debug:last-push",
-          JSON.stringify({ at: new Date().toISOString(), status: 0, ok: false, error: String(error) }),
-        );
+        return { status: 0, ok: false, error: String(error) };
       }
     }),
+  );
+  const delivered = results.filter(({ ok }) => ok).length;
+  await env.PUSH_STORE.put(
+    "debug:last-push",
+    JSON.stringify({ at: new Date().toISOString(), delivered, total: results.length, results }),
   );
   return delivered;
 }
@@ -163,17 +161,20 @@ async function runNewsNotifications(env: Env, news: News[]) {
 
   const seen = new Set(saved.filter((value): value is string => typeof value === "string"));
   const additions = current.filter(({ id }) => !seen.has(id));
+  if (!additions.length) return;
+
+  const next = [...new Set([...current.map(({ id }) => id), ...seen])].slice(0, 5000);
+  await env.PUSH_STORE.put(stateKey, JSON.stringify(next));
+
+  if (additions.length > MAX_NEWS_NOTIFICATIONS_PER_RUN) return;
+  const recipients = await subscriptions(env);
   for (const { item, id } of [...additions].reverse()) {
     await broadcast(env, {
       title: `新着NEWS｜${item.tag}`,
       body: item.title,
       url: `${env.SITE_URL}/news.html`,
       tag: `news-${id}`,
-    });
-  }
-  if (additions.length) {
-    const next = [...new Set([...current.map(({ id }) => id), ...seen])].slice(0, 5000);
-    await env.PUSH_STORE.put(stateKey, JSON.stringify(next));
+    }, 3600, recipients);
   }
 }
 
@@ -221,13 +222,13 @@ async function runDailyScheduleNotification(env: Env, schedule: Schedule[], now:
 
   const key = `sent:daily:${date}`;
   if (await env.PUSH_STORE.get(key)) return;
+  await env.PUSH_STORE.put(key, "1", { expirationTtl: 604800 });
   await broadcast(env, {
     title: "今日の出演予定",
     body: today.map((item) => `${item.startTime} ${item.title}`).join("\n"),
     url: `${env.SITE_URL}/news.html`,
     tag: `daily-${date}`,
   });
-  await env.PUSH_STORE.put(key, "1", { expirationTtl: 604800 });
 }
 
 async function runScheduleStartNotifications(env: Env, schedule: Schedule[], now: Date) {
@@ -241,26 +242,26 @@ async function runScheduleStartNotifications(env: Env, schedule: Schedule[], now
     if (diff > 1740000 && diff <= 1860000) {
       const key = `sent:30min:${fingerprint(item)}`;
       if (!(await env.PUSH_STORE.get(key))) {
+        await env.PUSH_STORE.put(key, "1", { expirationTtl: 604800 });
         await broadcast(env, {
           title: "開始30分前",
           body,
           url: `${env.SITE_URL}/schedule.html`,
           tag: scheduleNotificationTag(item),
         }, SCHEDULE_PUSH_TTL_SECONDS);
-        await env.PUSH_STORE.put(key, "1", { expirationTtl: 604800 });
       }
     }
 
     if (diff <= 0 && diff > -120000) {
       const key = `sent:start:${fingerprint(item)}`;
       if (!(await env.PUSH_STORE.get(key))) {
+        await env.PUSH_STORE.put(key, "1", { expirationTtl: 604800 });
         await broadcast(env, {
           title: "開始時間です",
           body,
           url: `${env.SITE_URL}/schedule.html`,
           tag: scheduleNotificationTag(item),
         }, SCHEDULE_PUSH_TTL_SECONDS);
-        await env.PUSH_STORE.put(key, "1", { expirationTtl: 604800 });
       }
     }
   }
@@ -281,13 +282,13 @@ async function runTicketReminderNotifications(env: Env, reminders: TicketReminde
     const key = `sent:ticket:${fingerprint(ticketReminderIdentity(item))}`;
     if (await env.PUSH_STORE.get(key)) continue;
 
+    await env.PUSH_STORE.put(key, "1", { expirationTtl: TICKET_SENT_TTL_SECONDS });
     await broadcast(env, {
       title: ticketNotificationTitle(item),
       body: ticketNotificationBody(item, targetAt),
       url: item.url || `${env.SITE_URL}/schedule.html`,
       tag: key,
     });
-    await env.PUSH_STORE.put(key, "1", { expirationTtl: TICKET_SENT_TTL_SECONDS });
   }
 }
 

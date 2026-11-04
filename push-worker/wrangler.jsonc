@@ -4,7 +4,7 @@
   "main": "src/index.ts",
   "compatibility_date": "2026-08-26",
   "compatibility_flags": ["nodejs_compat"],
-  "triggers": { "crons": [] },
+  "triggers": { "crons": ["* * * * *"] },
   "vars": {
     "SITE_URL": "https://ngdf1234.github.io/nightingaledanceinfohp",
     "DATA_URL": "https://ngdf1234.github.io/nightingaledanceinfohp/data/nightingale-info.json",
