@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T20:12:26+09:00",
+  "updatedAt": "2026-11-04T19:07:34+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|84djqN5_Tb4",
+      "videoId": "84djqN5_Tb4",
+      "kind": "video",
+      "channelName": "中野なかるてぃん状態",
+      "channelType": "nakano_personal",
+      "channelUrl": "https://www.youtube.com/channel/UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "channelId": "UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "title": "心配ダービー",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=84djqN5_Tb4",
+      "viewCount": 31,
+      "durationSeconds": 2517,
+      "duration": "41:57",
+      "uploadDate": "2026-11-04",
+      "firstSeenAt": "2026-11-04T19:07:34+09:00",
+      "lastStatsUpdatedAt": "2026-11-04T19:07:34+09:00"
+    },
     {
       "id": "youtube|6ykUyLM08Sc",
       "videoId": "6ykUyLM08Sc",
