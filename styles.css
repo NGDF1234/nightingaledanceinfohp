@@ -155,30 +155,6 @@ main {
   border-color: var(--blue);
 }
 
-.incident-banner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px 20px;
-  width: 100%;
-  padding: 12px clamp(18px, 5vw, 64px);
-  border-left: 10px solid var(--yellow);
-  color: #fff;
-  background: #111;
-  font-family: "Yu Gothic", Meiryo, sans-serif;
-  line-height: 1.5;
-}
-
-.incident-banner strong {
-  flex: 0 0 auto;
-  color: var(--yellow);
-  font-weight: 900;
-}
-
-.incident-banner span {
-  font-weight: 700;
-}
-
 .hero {
   position: relative;
   display: block;
@@ -1547,15 +1523,6 @@ body[data-schedule-mode="all"] .schedule-date {
 
   .topbar {
     display: none;
-  }
-
-  .incident-banner {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 2px;
-    padding: 10px 14px;
-    border-left-width: 7px;
-    font-size: .82rem;
   }
 
   .site-logo {
