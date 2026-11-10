@@ -1,12 +1,6 @@
 {
   "updatedAt": "2026-11-10T12:07:43+09:00",
   "newsNotificationsEnabled": false,
-  "newsNotificationSummary": {
-    "id": "news-backfill-20261110-13",
-    "title": "NEWSを更新しました",
-    "body": "未反映のNEWS 13件を追加しました。",
-    "url": "https://ngdf1234.github.io/nightingaledanceinfohp/news.html"
-  },
   "news": [
     {
       "date": "2026-10-23",
