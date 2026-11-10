@@ -56,6 +56,15 @@ interface HomepageData {
   news?: News[];
   schedule?: Schedule[];
   ticketReminders?: TicketReminder[];
+  newsNotificationsEnabled?: boolean;
+  newsNotificationSummary?: NewsNotificationSummary;
+}
+
+interface NewsNotificationSummary {
+  id: string;
+  title: string;
+  body: string;
+  url?: string;
 }
 
 const MINUTE_MS = 60 * 1000;
@@ -144,13 +153,14 @@ async function runNotifications(env: Env, now = new Date()) {
   const schedule = Array.isArray(data.schedule) ? data.schedule : [];
   const ticketReminders = ticketRemindersFromData(data);
 
-  await runNewsNotifications(env, news);
+  await runNewsNotifications(env, news, data.newsNotificationsEnabled !== false);
+  await runNewsNotificationSummary(env, data.newsNotificationSummary);
   await runDailyScheduleNotification(env, schedule, now);
   await runScheduleStartNotifications(env, schedule, now);
   await runTicketReminderNotifications(env, ticketReminders, now);
 }
 
-async function runNewsNotifications(env: Env, news: News[]) {
+async function runNewsNotifications(env: Env, news: News[], enabled = true) {
   const stateKey = "state:news-notifications-v3";
   const current = news.map((item) => ({ item, id: newsNotificationId(item) }));
   const saved = await env.PUSH_STORE.get(stateKey, "json");
@@ -166,6 +176,7 @@ async function runNewsNotifications(env: Env, news: News[]) {
   const next = [...new Set([...current.map(({ id }) => id), ...seen])].slice(0, 5000);
   await env.PUSH_STORE.put(stateKey, JSON.stringify(next));
 
+  if (!enabled) return;
   if (additions.length > MAX_NEWS_NOTIFICATIONS_PER_RUN) return;
   const recipients = await subscriptions(env);
   for (const { item, id } of [...additions].reverse()) {
@@ -176,6 +187,20 @@ async function runNewsNotifications(env: Env, news: News[]) {
       tag: `news-${id}`,
     }, 3600, recipients);
   }
+}
+
+async function runNewsNotificationSummary(env: Env, summary?: NewsNotificationSummary) {
+  if (!summary?.id || !summary.title || !summary.body) return;
+  const key = `sent:news-summary:${summary.id}`;
+  if (await env.PUSH_STORE.get(key)) return;
+
+  await env.PUSH_STORE.put(key, "1", { expirationTtl: TICKET_SENT_TTL_SECONDS });
+  await broadcast(env, {
+    title: summary.title,
+    body: summary.body,
+    url: summary.url || `${env.SITE_URL}/news.html`,
+    tag: key,
+  });
 }
 
 function newsNotificationId(item: News) {

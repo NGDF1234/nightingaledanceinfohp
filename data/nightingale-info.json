@@ -1,6 +1,191 @@
 {
-  "updatedAt": "2026-11-04T21:47:15+09:00",
+  "updatedAt": "2026-11-10T12:07:43+09:00",
+  "newsNotificationsEnabled": false,
+  "newsNotificationSummary": {
+    "id": "news-backfill-20261110-13",
+    "title": "NEWSを更新しました",
+    "body": "未反映のNEWS 13件を追加しました。",
+    "url": "https://ngdf1234.github.io/nightingaledanceinfohp/news.html"
+  },
   "news": [
+    {
+      "date": "2026-10-23",
+      "tag": "公演情報",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
+      "comment": "",
+      "url": "https://makuhari.yoshimoto.co.jp/schedule/?id=23700",
+      "scheduleDate": "2026-12-12",
+      "day": "土",
+      "openTime": "18:15",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "place": "よしもと幕張イオンモール劇場（千葉県）",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-11-11T11:00:00+09:00",
+          "endAt": "2026-11-13T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-11-15T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "tag": "YouTube",
+      "title": "\"中村さん\"ばかりがいる島、なかむらのルーツの答志島に行ってきました。【9番街レトロ】",
+      "comment": "※中野さんのお名前が出ています。",
+      "url": "https://youtu.be/zINbBSmkSwI?si=WhBWDO2HUBeKGA_i",
+      "channelName": "9番街レトロ",
+      "media": "テレビ長崎"
+    },
+    {
+      "date": "2026-11-09",
+      "tag": "YouTube",
+      "title": "ナルちゃん、襲来",
+      "comment": "※3:49 中野さんのお名前出てます。",
+      "url": "https://youtu.be/iohaHbjOuvI?si=eLYso41ZvY0cHJ_G",
+      "channelName": "金魚番長ちゃんねる",
+      "media": "stand.fm"
+    },
+    {
+      "date": "2026-11-09",
+      "tag": "YouTube",
+      "title": "岩２トン運んだ",
+      "comment": "",
+      "url": "https://youtu.be/v9u2AZMrD68?si=pvTqeru3t9rzANKO",
+      "channelName": "終了くんチャンネル"
+    },
+    {
+      "date": "2026-11-08",
+      "tag": "WEBメディア",
+      "title": "熱闘！Mリーグ：#398 Mのルーティーン",
+      "comment": "",
+      "url": "https://abema.tv/channels/abema-news/slots/9FYQyofyPowGpo?utm_campaign=slot_share_cy&utm_medium=referral&utm_source=referral",
+      "media": "ABEMA",
+      "scheduleDate": "2026-11-09",
+      "day": "月",
+      "startTime": "01:10",
+      "endTime": "01:40"
+    },
+    {
+      "date": "2026-11-08",
+      "tag": "YouTube",
+      "title": "#30「ヤス流 英会話マスター法」【ナイチンゲールダンスのもうきてるラジオ】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=AJX7oiGptTY",
+      "channelName": "文化シヤッターpresentsナイチンゲールダンスのもうきてるラジオ【CBCラジオ】",
+      "media": "CBCラジオ"
+    },
+    {
+      "date": "2026-11-07",
+      "tag": "YouTube",
+      "title": "【なかるて⚪︎ん】僕たちは被害者です",
+      "comment": "※中野さんが電話出演されています",
+      "url": "https://youtu.be/cWiVjHUz_m0?si=Sx1upRpfjZmBIrwX",
+      "channelName": "山添ノ国"
+    },
+    {
+      "date": "2026-11-08",
+      "tag": "公演情報",
+      "title": "幕張お気軽寄席！～笑ってホット～12時の部",
+      "comment": "※中野さんのみ出演",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E3%81%8A%E6%B0%97%E8%BB%BD%E5%AF%84%E5%B8%AD%EF%BC%81%EF%BD%9E%E7%AC%91%E3%81%A3%E3%81%A6%E3%83%9B%E3%83%83%E3%83%88%EF%BD%9E12%E6%99%82%E3%81%AE%E9%83%A8&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form",
+      "scheduleDate": "2026-12-12",
+      "day": "土",
+      "openTime": "11:45",
+      "startTime": "12:00",
+      "place": "よしもと幕張イオンモール劇場（千葉県）",
+      "ticketSales": [
+        {
+          "type": "一般販売",
+          "label": "一般発売",
+          "startAt": "2026-11-08T10:00:00+09:00",
+          "endAt": "2026-12-12T10:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E3%81%8A%E6%B0%97%E8%BB%BD%E5%AF%84%E5%B8%AD%EF%BC%81%EF%BD%9E%E7%AC%91%E3%81%A3%E3%81%A6%E3%83%9B%E3%83%83%E3%83%88%EF%BD%9E12%E6%99%82%E3%81%AE%E9%83%A8&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "tag": "公演情報",
+      "title": "幕張お気軽寄席！～笑ってホット～14時の部",
+      "comment": "※中野さんのみ出演",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E3%81%8A%E6%B0%97%E8%BB%BD%E5%AF%84%E5%B8%AD%EF%BC%81%EF%BD%9E%E7%AC%91%E3%81%A3%E3%81%A6%E3%83%9B%E3%83%83%E3%83%88%EF%BD%9E14%E6%99%82%E3%81%AE%E9%83%A8&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form",
+      "scheduleDate": "2026-12-12",
+      "day": "土",
+      "openTime": "13:45",
+      "startTime": "14:00",
+      "place": "よしもと幕張イオンモール劇場（千葉県）",
+      "ticketSales": [
+        {
+          "type": "一般販売",
+          "label": "一般発売",
+          "startAt": "2026-11-08T10:00:00+09:00",
+          "endAt": "2026-12-12T12:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E3%81%8A%E6%B0%97%E8%BB%BD%E5%AF%84%E5%B8%AD%EF%BC%81%EF%BD%9E%E7%AC%91%E3%81%A3%E3%81%A6%E3%83%9B%E3%83%83%E3%83%88%EF%BD%9E14%E6%99%82%E3%81%AE%E9%83%A8&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "tag": "公演情報",
+      "title": "幕張お気軽寄席！～笑ってホット～16時の部",
+      "comment": "※中野さんのみ出演",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E3%81%8A%E6%B0%97%E8%BB%BD%E5%AF%84%E5%B8%AD%EF%BC%81%EF%BD%9E%E7%AC%91%E3%81%A3%E3%81%A6%E3%83%9B%E3%83%83%E3%83%88%EF%BD%9E16%E6%99%82%E3%81%AE%E9%83%A8&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form",
+      "scheduleDate": "2026-12-12",
+      "day": "土",
+      "openTime": "15:45",
+      "startTime": "16:00",
+      "place": "よしもと幕張イオンモール劇場（千葉県）",
+      "ticketSales": [
+        {
+          "type": "一般販売",
+          "label": "一般発売",
+          "startAt": "2026-11-08T10:00:00+09:00",
+          "endAt": "2026-12-12T14:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E3%81%8A%E6%B0%97%E8%BB%BD%E5%AF%84%E5%B8%AD%EF%BC%81%EF%BD%9E%E7%AC%91%E3%81%A3%E3%81%A6%E3%83%9B%E3%83%83%E3%83%88%EF%BD%9E16%E6%99%82%E3%81%AE%E9%83%A8&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "tag": "ラジオ",
+      "title": "とろサーモン久保田の冠ラジオ 枠買ってもらった",
+      "comment": "※放送中です。中野さんが出演されています。",
+      "url": "https://shibuyacrossfm.jp",
+      "media": "ShibuyaCross-FM",
+      "startTime": "22:00"
+    },
+    {
+      "date": "2026-11-06",
+      "tag": "YouTube",
+      "title": "【吉本興業】ヤス、最後の本社をまわる【ナイチンゲールダンス】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=3i6EWqPS2wU",
+      "channelName": "ナイチンゲールダンスチャンネル"
+    },
+    {
+      "date": "2026-11-05",
+      "tag": "YouTube",
+      "title": "【ガチ】ヤス改名【ナイチンゲールダンス】",
+      "comment": "",
+      "url": "https://youtu.be/oEsm0VBXwIM?si=nXPrYctSpE_M_RVp",
+      "channelName": "ナイチンゲールダンスチャンネル"
+    },
     {
       "date": "2026-11-04",
       "tag": "公演情報",
@@ -70,6 +255,10 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E6%B5%B7%E8%B3%8A%E3%83%90%E3%83%AC%E3%82%A8&from=2026-12-16&to=2026-12-16&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/海賊バレエ-12-16-18-00"
         }
       ]
     },
@@ -460,6 +649,10 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/22期同期ライブ2026反省会-狩野が査定します-12-17-21-00"
         }
       ]
     },
@@ -603,6 +796,10 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%E4%BA%95%E4%B8%8A%E4%BC%9A%E8%AD%B0&from=2026-11-14&to=2026-11-14&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/なかむら井上会議-11-14-19-45"
         }
       ]
     },
@@ -1046,6 +1243,10 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/芸辞苑-11-6-19-15"
         }
       ]
     },
@@ -1613,227 +1814,6 @@
       "url": "https://online-ticket.yoshimoto.co.jp/products/%E6%9C%AC%E7%94%B0%E3%81%9F%E3%81%8B%E3%81%8A1on1-10-16-21-15?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E6%9C%AC%E7%94%B0%E3%81%9F%E3%81%8B%E3%81%8A1on1"
     },
     {
-      "date": "2026-11-05",
-      "day": "木",
-      "startTime": "19:00",
-      "endTime": "",
-      "tag": "公演情報",
-      "title": "Si_EnTa presents 舞台「エックスミーツエックス」",
-      "comment": "※★印は四谷真佑（OCTPATH）出演回です。\n※★印のない公演は中野なかるてぃん（ナイチンゲールダンス）が出演いたします。\n※中野さんのみ出演",
-      "place": "シアター・アルファ東京",
-      "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710",
-      "openTime": "18:30",
-      "ticketSales": [
-        {
-          "type": "一般販売",
-          "label": "一般販売",
-          "startAt": "2026-10-10T10:00:00+09:00",
-          "endAt": "2026-10-15T23:00:00+09:00",
-          "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "day": "金",
-      "startTime": "14:30",
-      "endTime": "15:30",
-      "tag": "テレビ",
-      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "※ヤスさんのみ出演",
-      "place": "BSよしもと 265ch",
-      "url": "https://bsy.co.jp/timetable"
-    },
-    {
-      "date": "2026-11-06",
-      "day": "金",
-      "startTime": "19:15",
-      "endTime": "20:15",
-      "tag": "公演情報",
-      "title": "【芸辞苑】",
-      "comment": "※中野さんのみ出演",
-      "place": "神保町よしもと漫才劇場（東京都）",
-      "url": "https://jimbocho-manzaigekijyo.yoshimoto.co.jp/schedule/?id=21791",
-      "openTime": "19:00",
-      "ticketSales": [
-        {
-          "type": "抽選販売",
-          "label": "FANY IDプレミアムメンバー抽選先行",
-          "startAt": "2026-09-25T11:00:00+09:00",
-          "endAt": "2026-09-28T11:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "抽選販売",
-          "label": "FANY IDメンバー抽選先行",
-          "startAt": "2026-09-25T11:00:00+09:00",
-          "endAt": "2026-09-28T11:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "一般販売",
-          "label": "一般販売",
-          "startAt": "2026-10-05T10:00:00+09:00",
-          "endAt": "",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
-        }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "day": "土",
-      "startTime": "00:00",
-      "endTime": "00:30",
-      "tag": "ラジオ",
-      "title": "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
-      "comment": "",
-      "place": "CBCラジオ",
-      "url": "https://hicbc.com/radio/nightin/"
-    },
-    {
-      "date": "2026-11-07",
-      "day": "土",
-      "startTime": "09:25",
-      "endTime": "10:15",
-      "tag": "テレビ",
-      "title": "Vタイムズ",
-      "comment": "",
-      "place": "長崎国際テレビ（NIB）",
-      "url": "https://www.nib.jp/tv/vtimes/"
-    },
-    {
-      "date": "2026-11-07",
-      "day": "土",
-      "startTime": "17:30",
-      "endTime": "",
-      "tag": "公演情報",
-      "title": "Si_EnTa presents 舞台「エックスミーツエックス」",
-      "comment": "※★印は四谷真佑（OCTPATH）出演回です。\n※★印のない公演は中野なかるてぃん（ナイチンゲールダンス）が出演いたします。\n※中野さんのみ出演",
-      "place": "シアター・アルファ東京",
-      "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710",
-      "openTime": "17:00",
-      "ticketSales": [
-        {
-          "type": "一般販売",
-          "label": "一般販売",
-          "startAt": "2026-10-10T10:00:00+09:00",
-          "endAt": "2026-10-15T23:00:00+09:00",
-          "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "day": "土",
-      "startTime": "22:00",
-      "endTime": "23:00",
-      "tag": "テレビ",
-      "title": "東西南北よしもと麻雀リーグ season7",
-      "comment": "※ヤスさんのみ出演",
-      "place": "BSよしもと 265ch",
-      "url": "https://bsy.co.jp/timetable"
-    },
-    {
-      "date": "2026-11-08",
-      "day": "日",
-      "startTime": "12:30",
-      "endTime": "",
-      "tag": "公演情報",
-      "title": "Si_EnTa presents 舞台「エックスミーツエックス」",
-      "comment": "※★印は四谷真佑（OCTPATH）出演回です。\n※★印のない公演は中野なかるてぃん（ナイチンゲールダンス）が出演いたします。\n※中野さんのみ出演",
-      "place": "シアター・アルファ東京",
-      "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710",
-      "openTime": "12:00",
-      "ticketSales": [
-        {
-          "type": "一般販売",
-          "label": "一般販売",
-          "startAt": "2026-10-10T10:00:00+09:00",
-          "endAt": "2026-10-15T23:00:00+09:00",
-          "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "day": "日",
-      "startTime": "16:30",
-      "endTime": "",
-      "tag": "公演情報",
-      "title": "Si_EnTa presents 舞台「エックスミーツエックス」",
-      "comment": "※★印は四谷真佑（OCTPATH）出演回です。\n※★印のない公演は中野なかるてぃん（ナイチンゲールダンス）が出演いたします。\n※中野さんのみ出演",
-      "place": "シアター・アルファ東京",
-      "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710",
-      "openTime": "16:00",
-      "ticketSales": [
-        {
-          "type": "一般販売",
-          "label": "一般販売",
-          "startAt": "2026-10-10T10:00:00+09:00",
-          "endAt": "2026-10-15T23:00:00+09:00",
-          "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "day": "日",
-      "startTime": "18:00",
-      "endTime": "19:00",
-      "tag": "テレビ",
-      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
-      "comment": "※ヤスさんのみ出演",
-      "place": "BSよしもと 265ch",
-      "url": "https://bsy.co.jp/timetable"
-    },
-    {
-      "date": "2026-11-09",
-      "day": "月",
-      "startTime": "21:00",
-      "endTime": "22:15",
-      "tag": "公演情報",
-      "title": "やさしいズタイpresents 「パドック大喜利 ～目指せ喜利馬記念～」",
-      "comment": "",
-      "place": "渋谷よしもと漫才劇場（東京都）",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents%20%E3%80%8C%E3%83%91%E3%83%89%E3%83%83%E3%82%AF%E5%A4%A7%E5%96%9C%E5%88%A9%20%EF%BD%9E%E7%9B%AE%E6%8C%87%E3%81%9B&from=2026-11-09&to=2026-11-09&prefectures=0&genre=0&search_type=form",
-      "openTime": "20:45",
-      "ticketSales": [
-        {
-          "type": "抽選販売",
-          "label": "FANY IDプレミアムメンバー抽選先行",
-          "startAt": "2026-09-25T11:00:00+09:00",
-          "endAt": "2026-09-28T11:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents%20%E3%80%8C%E3%83%91%E3%83%89%E3%83%83%E3%82%AF%E5%A4%A7%E5%96%9C%E5%88%A9%20%EF%BD%9E%E7%9B%AE%E6%8C%87%E3%81%9B&from=2026-11-09&to=2026-11-09&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "抽選販売",
-          "label": "FANY IDメンバー抽選先行",
-          "startAt": "2026-09-25T11:00:00+09:00",
-          "endAt": "2026-09-28T11:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents%20%E3%80%8C%E3%83%91%E3%83%89%E3%83%83%E3%82%AF%E5%A4%A7%E5%96%9C%E5%88%A9%20%EF%BD%9E%E7%9B%AE%E6%8C%87%E3%81%9B&from=2026-11-09&to=2026-11-09&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "一般販売",
-          "label": "一般販売",
-          "startAt": "2026-10-05T10:00:00+09:00",
-          "endAt": "",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents%20%E3%80%8C%E3%83%91%E3%83%89%E3%83%83%E3%82%AF%E5%A4%A7%E5%96%9C%E5%88%A9%20%EF%BD%9E%E7%9B%AE%E6%8C%87%E3%81%9B&from=2026-11-09&to=2026-11-09&prefectures=0&genre=0&search_type=form"
-        }
-      ],
-      "links": [
-        {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents-%E3%83%91%E3%83%89%E3%83%83%E3%82%AF%E5%A4%A7%E5%96%9C%E5%88%A9-%E7%9B%AE%E6%8C%87%E3%81%9B%E5%96%9C%E5%88%A9%E9%A6%AC%E8%A8%98%E5%BF%B5-11-9-21-00"
-        }
-      ]
-    },
-    {
       "date": "2026-11-13",
       "day": "金",
       "startTime": "14:30",
@@ -2311,6 +2291,111 @@
     {
       "date": "2026-12-12",
       "day": "土",
+      "startTime": "12:00",
+      "endTime": "",
+      "tag": "公演情報",
+      "title": "幕張お気軽寄席！～笑ってホット～12時の部",
+      "comment": "※中野さんのみ出演",
+      "place": "よしもと幕張イオンモール劇場（千葉県）",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E3%81%8A%E6%B0%97%E8%BB%BD%E5%AF%84%E5%B8%AD%EF%BC%81%EF%BD%9E%E7%AC%91%E3%81%A3%E3%81%A6%E3%83%9B%E3%83%83%E3%83%88%EF%BD%9E12%E6%99%82%E3%81%AE%E9%83%A8&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form",
+      "openTime": "11:45",
+      "ticketSales": [
+        {
+          "type": "一般販売",
+          "label": "一般発売",
+          "startAt": "2026-11-08T10:00:00+09:00",
+          "endAt": "2026-12-12T10:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E3%81%8A%E6%B0%97%E8%BB%BD%E5%AF%84%E5%B8%AD%EF%BC%81%EF%BD%9E%E7%AC%91%E3%81%A3%E3%81%A6%E3%83%9B%E3%83%83%E3%83%88%EF%BD%9E12%E6%99%82%E3%81%AE%E9%83%A8&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-12",
+      "day": "土",
+      "startTime": "14:00",
+      "endTime": "",
+      "tag": "公演情報",
+      "title": "幕張お気軽寄席！～笑ってホット～14時の部",
+      "comment": "※中野さんのみ出演",
+      "place": "よしもと幕張イオンモール劇場（千葉県）",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E3%81%8A%E6%B0%97%E8%BB%BD%E5%AF%84%E5%B8%AD%EF%BC%81%EF%BD%9E%E7%AC%91%E3%81%A3%E3%81%A6%E3%83%9B%E3%83%83%E3%83%88%EF%BD%9E14%E6%99%82%E3%81%AE%E9%83%A8&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form",
+      "openTime": "13:45",
+      "ticketSales": [
+        {
+          "type": "一般販売",
+          "label": "一般発売",
+          "startAt": "2026-11-08T10:00:00+09:00",
+          "endAt": "2026-12-12T12:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E3%81%8A%E6%B0%97%E8%BB%BD%E5%AF%84%E5%B8%AD%EF%BC%81%EF%BD%9E%E7%AC%91%E3%81%A3%E3%81%A6%E3%83%9B%E3%83%83%E3%83%88%EF%BD%9E14%E6%99%82%E3%81%AE%E9%83%A8&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-12",
+      "day": "土",
+      "startTime": "16:00",
+      "endTime": "",
+      "tag": "公演情報",
+      "title": "幕張お気軽寄席！～笑ってホット～16時の部",
+      "comment": "※中野さんのみ出演",
+      "place": "よしもと幕張イオンモール劇場（千葉県）",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E3%81%8A%E6%B0%97%E8%BB%BD%E5%AF%84%E5%B8%AD%EF%BC%81%EF%BD%9E%E7%AC%91%E3%81%A3%E3%81%A6%E3%83%9B%E3%83%83%E3%83%88%EF%BD%9E16%E6%99%82%E3%81%AE%E9%83%A8&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form",
+      "openTime": "15:45",
+      "ticketSales": [
+        {
+          "type": "一般販売",
+          "label": "一般発売",
+          "startAt": "2026-11-08T10:00:00+09:00",
+          "endAt": "2026-12-12T14:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E3%81%8A%E6%B0%97%E8%BB%BD%E5%AF%84%E5%B8%AD%EF%BC%81%EF%BD%9E%E7%AC%91%E3%81%A3%E3%81%A6%E3%83%9B%E3%83%83%E3%83%88%EF%BD%9E16%E6%99%82%E3%81%AE%E9%83%A8&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-12",
+      "day": "土",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "tag": "公演情報",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
+      "comment": "※配信チケットに中野さんのお名前がありますが、チケットにはお名前がありません。",
+      "place": "よしもと幕張イオンモール劇場（千葉県）",
+      "url": "https://makuhari.yoshimoto.co.jp/schedule/?id=23700",
+      "openTime": "18:15",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-11-11T11:00:00+09:00",
+          "endAt": "2026-11-13T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-11-15T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96&from=2026-10-10&to=2026-10-10&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96-10-10-21-00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-12",
+      "day": "土",
       "startTime": "22:00",
       "endTime": "23:00",
       "tag": "テレビ",
@@ -2363,12 +2448,8 @@
           "url": "https://ticket.fany.lol/search/event?keywords=%E6%B5%B7%E8%B3%8A%E3%83%90%E3%83%AC%E3%82%A8&from=2026-12-16&to=2026-12-16&prefectures=0&genre=0&search_type=form"
         },
         {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96&from=2026-10-10&to=2026-10-10&prefectures=0&genre=0&search_type=form"
-        },
-        {
           "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/products/%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96-10-10-21-00"
+          "url": "https://online-ticket.yoshimoto.co.jp/products/海賊バレエ-12-16-18-00"
         }
       ]
     },
@@ -2410,6 +2491,10 @@
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/22期同期ライブ2026反省会-狩野が査定します-12-17-21-00"
         }
       ]
     },
@@ -3539,87 +3624,103 @@
       "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-05-07",
+      "day": "金",
+      "startTime": "14:30",
+      "endTime": "15:30",
+      "tag": "テレビ",
+      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
+      "comment": "※ヤスさんのみ出演",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-05-08",
+      "day": "土",
+      "startTime": "00:00",
+      "endTime": "00:30",
+      "tag": "ラジオ",
+      "title": "文化シヤッターpresents ナイチンゲールダンスのもうきてるラジオ",
+      "comment": "",
+      "place": "CBCラジオ",
+      "url": "https://hicbc.com/radio/nightin/"
+    },
+    {
+      "date": "2027-05-08",
+      "day": "土",
+      "startTime": "09:25",
+      "endTime": "10:15",
+      "tag": "テレビ",
+      "title": "Vタイムズ",
+      "comment": "",
+      "place": "長崎国際テレビ（NIB）",
+      "url": "https://www.nib.jp/tv/vtimes/"
+    },
+    {
+      "date": "2027-05-08",
+      "day": "土",
+      "startTime": "22:00",
+      "endTime": "23:00",
+      "tag": "テレビ",
+      "title": "東西南北よしもと麻雀リーグ season7",
+      "comment": "※ヤスさんのみ出演",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-05-09",
+      "day": "日",
+      "startTime": "18:00",
+      "endTime": "19:00",
+      "tag": "テレビ",
+      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
+      "comment": "※ヤスさんのみ出演",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
     }
   ],
   "regular": [],
   "ticketReminders": [
     {
-      "id": "ticket_push_reminder|start|1人芸|一般販売|202611051000",
-      "title": "1人芸",
-      "ticketKind": "一般販売",
-      "ticketLabel": "一般販売",
+      "id": "ticket_push_reminder|start|中野なかるてぃん単独ライブてぃん独ライブ|fanyidメンバ抽選先行|202611111100",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "FANY IDメンバー抽選先行",
       "reminderType": "start",
-      "reminderLabel": "発売開始30分前",
-      "notifyAt": "2026-11-05T09:30:00+09:00",
-      "targetAt": "2026-11-05T10:00:00+09:00",
-      "startAt": "2026-11-05T10:00:00+09:00",
-      "endAt": "",
-      "url": "https://ticket.fany.lol/search/event?keywords=1%E4%BA%BA%E8%8A%B8&from=2026-12-05&to=2026-12-05&prefectures=0&genre=0&search_type=form"
+      "reminderLabel": "発売開始時刻",
+      "notifyAt": "2026-11-11T11:00:00+09:00",
+      "targetAt": "2026-11-11T11:00:00+09:00",
+      "startAt": "2026-11-11T11:00:00+09:00",
+      "endAt": "2026-11-13T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
     },
     {
-      "id": "ticket_push_reminder|start|22期同期ライブ2026反省会狩野が査定します|一般販売|202611051000",
-      "title": "22期同期ライブ2026反省会～狩野が査定します～",
-      "ticketKind": "一般販売",
-      "ticketLabel": "一般販売",
-      "reminderType": "start",
-      "reminderLabel": "発売開始30分前",
-      "notifyAt": "2026-11-05T09:30:00+09:00",
-      "targetAt": "2026-11-05T10:00:00+09:00",
-      "startAt": "2026-11-05T10:00:00+09:00",
-      "endAt": "",
-      "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form"
+      "id": "ticket_push_reminder|end|中野なかるてぃん単独ライブてぃん独ライブ|fanyidメンバ抽選先行|202611131100",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "FANY IDメンバー抽選先行",
+      "reminderType": "end",
+      "reminderLabel": "受付終了30分前",
+      "notifyAt": "2026-11-13T10:30:00+09:00",
+      "targetAt": "2026-11-13T11:00:00+09:00",
+      "startAt": "2026-11-11T11:00:00+09:00",
+      "endAt": "2026-11-13T11:00:00+09:00",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
     },
     {
-      "id": "ticket_push_reminder|start|中野なかるてぃんのおもしろゲムライブ|一般販売|202611051000",
-      "title": "中野なかるてぃんのおもしろゲームライブ",
-      "ticketKind": "一般販売",
-      "ticketLabel": "一般販売",
-      "reminderType": "start",
-      "reminderLabel": "発売開始30分前",
-      "notifyAt": "2026-11-05T09:30:00+09:00",
-      "targetAt": "2026-11-05T10:00:00+09:00",
-      "startAt": "2026-11-05T10:00:00+09:00",
-      "endAt": "",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
-    },
-    {
-      "id": "ticket_push_reminder|start|中野なかるてぃん単独ライブてぃん独ライブ|一般販売|202611051000",
+      "id": "ticket_push_reminder|start|中野なかるてぃん単独ライブてぃん独ライブ|一般販売|202611151000",
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
       "ticketKind": "一般販売",
       "ticketLabel": "一般販売",
       "reminderType": "start",
       "reminderLabel": "発売開始30分前",
-      "notifyAt": "2026-11-05T09:30:00+09:00",
-      "targetAt": "2026-11-05T10:00:00+09:00",
-      "startAt": "2026-11-05T10:00:00+09:00",
+      "notifyAt": "2026-11-15T09:30:00+09:00",
+      "targetAt": "2026-11-15T10:00:00+09:00",
+      "startAt": "2026-11-15T10:00:00+09:00",
       "endAt": "",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form"
-    },
-    {
-      "id": "ticket_push_reminder|end|海賊バレエ|fanyidメンバ抽選先行|202611061100",
-      "title": "海賊バレエ",
-      "ticketKind": "抽選販売",
-      "ticketLabel": "FANY IDメンバー抽選先行",
-      "reminderType": "end",
-      "reminderLabel": "受付終了30分前",
-      "notifyAt": "2026-11-06T10:30:00+09:00",
-      "targetAt": "2026-11-06T11:00:00+09:00",
-      "startAt": "2026-11-04T11:00:00+09:00",
-      "endAt": "2026-11-06T11:00:00+09:00",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E6%B5%B7%E8%B3%8A%E3%83%90%E3%83%AC%E3%82%A8&from=2026-12-16&to=2026-12-16&prefectures=0&genre=0&search_type=form"
-    },
-    {
-      "id": "ticket_push_reminder|start|海賊バレエ|一般販売|202611081000",
-      "title": "海賊バレエ",
-      "ticketKind": "一般販売",
-      "ticketLabel": "一般販売",
-      "reminderType": "start",
-      "reminderLabel": "発売開始30分前",
-      "notifyAt": "2026-11-08T09:30:00+09:00",
-      "targetAt": "2026-11-08T10:00:00+09:00",
-      "startAt": "2026-11-08T10:00:00+09:00",
-      "endAt": "",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E6%B5%B7%E8%B3%8A%E3%83%90%E3%83%AC%E3%82%A8&from=2026-12-16&to=2026-12-16&prefectures=0&genre=0&search_type=form"
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
     }
   ],
   "clips": []
