@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-10T12:07:43+09:00",
+  "updatedAt": "2026-11-10T20:07:21+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-10",
+      "tag": "YouTube",
+      "title": "ヤス元気か？風呂洗え！",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=aA_bnCVRgwk",
+      "channelName": "ナイチンゲールダンスチャンネル"
+    },
     {
       "date": "2026-10-23",
       "tag": "公演情報",
