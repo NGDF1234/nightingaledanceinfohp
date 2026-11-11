@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-11T19:12:19+09:00",
+  "updatedAt": "2026-11-11T20:37:11+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-11",
+      "tag": "YouTube",
+      "title": "【初ゲーム配信】バイオハザードレクイエム",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=g3sFXV7o2nI",
+      "channelName": "中野なかるてぃん状態"
+    },
     {
       "date": "2026-11-11",
       "tag": "YouTube",
