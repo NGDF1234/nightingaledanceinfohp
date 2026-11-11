@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-11T11:02:05+09:00",
+  "updatedAt": "2026-11-11T19:12:19+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-11",
+      "tag": "YouTube",
+      "title": "【復帰】休んでる間に相方が垢抜け過ぎていた【ナイチンゲールダンス】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/ufRDV3gQpEM",
+      "channelName": "ナイチンゲールダンスチャンネル"
+    },
     {
       "date": "2026-11-11",
       "tag": "Instagram",

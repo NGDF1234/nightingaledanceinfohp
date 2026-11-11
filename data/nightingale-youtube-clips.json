@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T20:07:21+09:00",
+  "updatedAt": "2026-11-11T19:12:19+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|ufRDV3gQpEM",
+      "videoId": "ufRDV3gQpEM",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【復帰】休んでる間に相方が垢抜け過ぎていた【ナイチンゲールダンス】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/ufRDV3gQpEM",
+      "viewCount": 252,
+      "durationSeconds": 66,
+      "duration": "1:06",
+      "uploadDate": "2026-11-11",
+      "firstSeenAt": "2026-11-11T19:12:19+09:00",
+      "lastStatsUpdatedAt": "2026-11-11T19:12:19+09:00"
+    },
     {
       "id": "youtube|aA_bnCVRgwk",
       "videoId": "aA_bnCVRgwk",
