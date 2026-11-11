@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-11T20:37:11+09:00",
+  "updatedAt": "2026-11-12T08:17:03+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-12",
+      "tag": "YouTube",
+      "title": "très bien radio #39 海賊バレエ、幕張へ",
+      "comment": "※4:34〜中野さんのお名前出てます。",
+      "url": "https://youtu.be/un1Yy3v38uA?si=fUSLhLYBS4CXzx4R",
+      "channelName": "CITY文化記念会館"
+    },
     {
       "date": "2026-11-11",
       "tag": "YouTube",
