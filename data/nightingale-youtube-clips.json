@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T17:17:20+09:00",
+  "updatedAt": "2026-11-12T19:12:22+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -56,6 +56,24 @@
       "uploadDate": "2026-11-12",
       "firstSeenAt": "2026-11-12T17:17:20+09:00",
       "lastStatsUpdatedAt": "2026-11-12T17:17:20+09:00"
+    },
+    {
+      "id": "youtube|z6WPVYKZc9c",
+      "videoId": "z6WPVYKZc9c",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【復帰】休止の経緯 まず最初何があった？【ナイチンゲールダンス】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/z6WPVYKZc9c",
+      "viewCount": 173,
+      "durationSeconds": 101,
+      "duration": "1:41",
+      "uploadDate": "2026-11-12",
+      "firstSeenAt": "2026-11-12T19:12:22+09:00",
+      "lastStatsUpdatedAt": "2026-11-12T19:12:22+09:00"
     },
     {
       "id": "youtube|g3sFXV7o2nI",

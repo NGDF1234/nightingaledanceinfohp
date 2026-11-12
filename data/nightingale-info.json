@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-12T17:17:20+09:00",
+  "updatedAt": "2026-11-12T19:12:22+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-12",
+      "tag": "YouTube",
+      "title": "【復帰】休止の経緯 まず最初何があった？【ナイチンゲールダンス】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/z6WPVYKZc9c",
+      "channelName": "ナイチンゲールダンスチャンネル"
+    },
     {
       "date": "2026-11-12",
       "tag": "YouTube",
