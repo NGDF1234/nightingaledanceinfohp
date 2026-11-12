@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-12T19:12:22+09:00",
+  "updatedAt": "2026-11-12T21:02:47+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-12",
+      "tag": "YouTube",
+      "title": "木3本引っこ抜いた",
+      "comment": "",
+      "url": "https://youtu.be/3T7dOrSUrvI?si=k_VA6cbwzU3hL52e",
+      "channelName": "終了くんチャンネル"
+    },
     {
       "date": "2026-11-12",
       "tag": "YouTube",

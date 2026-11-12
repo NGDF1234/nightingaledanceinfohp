@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T19:12:22+09:00",
+  "updatedAt": "2026-11-12T21:02:47+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|3T7dOrSUrvI",
+      "videoId": "3T7dOrSUrvI",
+      "kind": "video",
+      "channelName": "ヤスチャンネル",
+      "channelType": "yasu_personal",
+      "channelUrl": "https://www.youtube.com/@vlog-ju3mn",
+      "channelId": "UC2sTd5vefWLrDsm6U99a0vg",
+      "title": "木3本引っこ抜いた",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=3T7dOrSUrvI",
+      "viewCount": 0,
+      "durationSeconds": 0,
+      "duration": "",
+      "uploadDate": "2026-11-12",
+      "firstSeenAt": "2026-11-12T21:02:47+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|_k_zValBfGA",
       "videoId": "_k_zValBfGA",
