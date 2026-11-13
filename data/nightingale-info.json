@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-13T16:52:06+09:00",
+  "updatedAt": "2026-11-13T19:12:17+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-13",
+      "tag": "YouTube",
+      "title": "【復帰】なかるてぃん絶好調【ナイチンゲールダンス】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/4ZgyOMFZC6c",
+      "channelName": "ナイチンゲールダンスチャンネル"
+    },
     {
       "date": "2026-11-13",
       "tag": "Instagram",

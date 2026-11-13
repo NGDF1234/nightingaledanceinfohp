@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T21:02:47+09:00",
+  "updatedAt": "2026-11-13T19:12:17+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|4ZgyOMFZC6c",
+      "videoId": "4ZgyOMFZC6c",
+      "kind": "shorts",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【復帰】なかるてぃん絶好調【ナイチンゲールダンス】",
+      "comment": "",
+      "url": "https://www.youtube.com/shorts/4ZgyOMFZC6c",
+      "viewCount": 256,
+      "durationSeconds": 69,
+      "duration": "1:09",
+      "uploadDate": "2026-11-13",
+      "firstSeenAt": "2026-11-13T19:12:17+09:00",
+      "lastStatsUpdatedAt": "2026-11-13T19:12:17+09:00"
+    },
     {
       "id": "youtube|3T7dOrSUrvI",
       "videoId": "3T7dOrSUrvI",
