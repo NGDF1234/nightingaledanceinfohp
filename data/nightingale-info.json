@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T12:22:08+09:00",
+  "updatedAt": "2026-11-13T12:53:42+09:00",
   "newsNotificationsEnabled": false,
   "news": [
     {
@@ -7,7 +7,7 @@
       "tag": "公演情報",
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」in 大阪",
       "comment": "",
-      "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8Din%20%E5%A4%A7%E9%98%AA&from=2026-12-20&to=2026-12-20&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-12-20",
       "day": "日",
       "openTime": "16:15",
@@ -20,14 +20,14 @@
           "label": "先行受付",
           "startAt": "2026-11-18T11:00:00+09:00",
           "endAt": "2026-11-20T11:00:00+09:00",
-          "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852"
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8Din%20%E5%A4%A7%E9%98%AA&from=2026-12-20&to=2026-12-20&prefectures=0&genre=0&search_type=form"
         },
         {
           "type": "一般販売",
           "label": "一般販売",
           "startAt": "2026-11-23T10:00:00+09:00",
           "endAt": "",
-          "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852"
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8Din%20%E5%A4%A7%E9%98%AA&from=2026-12-20&to=2026-12-20&prefectures=0&genre=0&search_type=form"
         }
       ]
     },
@@ -860,7 +860,7 @@
       "tag": "公演情報",
       "title": "中野なかるてぃんのイントロクイズネオ",
       "comment": "※中野さんのみ出演",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20871",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%82%A4%E3%83%B3%E3%83%88%E3%83%AD%E3%82%AF%E3%82%A4%E3%82%BA%E3%83%8D%E3%82%AA&from=2026-10-31&to=2026-10-31&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-10-31",
       "day": "土",
       "openTime": "18:45",
@@ -887,12 +887,6 @@
           "label": "一般発売",
           "startAt": "2026-09-05T10:00:00+09:00",
           "endAt": "",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%82%A4%E3%83%B3%E3%83%88%E3%83%AD%E3%82%AF%E3%82%A4%E3%82%BA%E3%83%8D%E3%82%AA&from=2026-10-31&to=2026-10-31&prefectures=0&genre=0&search_type=form"
-        }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%82%A4%E3%83%B3%E3%83%88%E3%83%AD%E3%82%AF%E3%82%A4%E3%82%BA%E3%83%8D%E3%82%AA&from=2026-10-31&to=2026-10-31&prefectures=0&genre=0&search_type=form"
         }
       ]
@@ -1747,7 +1741,7 @@
       "tag": "公演情報",
       "title": "なかむら井上会議",
       "comment": "※中野さんのみ出演",
-      "url": "https://makuhari.yoshimoto.co.jp/schedule/?id=22458",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%E4%BA%95%E4%B8%8A%E4%BC%9A%E8%AD%B0&from=2026-11-14&to=2026-11-14&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-11-14",
       "day": "土",
       "openTime": "19:30",
@@ -1771,10 +1765,6 @@
         }
       ],
       "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%E4%BA%95%E4%B8%8A%E4%BC%9A%E8%AD%B0&from=2026-11-14&to=2026-11-14&prefectures=0&genre=0&search_type=form"
-        },
         {
           "title": "FANY Online Ticket",
           "url": "https://online-ticket.yoshimoto.co.jp/products/なかむら井上会議-11-14-19-45"
@@ -1849,7 +1839,7 @@
       "tag": "公演情報",
       "title": "Si_EnTa presents 舞台「エックスミーツエックス」",
       "comment": "※★印は四谷真佑（OCTPATH）出演回です。\n※★印のない公演は中野なかるてぃん（ナイチンゲールダンス）が出演いたします。\n※中野さんのみ出演",
-      "url": "https://l-tike.com/order/?gLcode=33643&gPfKey=&gEntryMthd=02&gScheduleNo=1&gCarrierCd=01&gPfName=%EF%BC%B3%EF%BD%89%EF%BC%BF%EF%BC%A5%EF%BD%8E%EF%BC%B4%EF%BD%81%E3%80%80%EF%BD%90%EF%BD%92%EF%BD%85%EF%BD%93%EF%BD%85%EF%BD%8E%EF%BD%94%EF%BD%93%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%80%8D&gBaseVenueCd=33710",
+      "url": "https://ticket.fany.lol/search/event?keywords=Si_EnTa%20presents%20%E8%88%9E%E5%8F%B0%E3%80%8C%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%84%E3%82%A8%E3%83%83&from=2026-11-03&to=2026-11-03&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-11-03",
       "day": "火",
       "place": "シアター・アルファ東京",
@@ -2057,7 +2047,7 @@
       "tag": "公演情報",
       "title": "神回サミット",
       "comment": "※中野さんのみ出演",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=21229",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E7%A5%9E%E5%9B%9E%E3%82%B5%E3%83%9F%E3%83%83%E3%83%88&from=2026-10-24&to=2026-10-24&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-10-24",
       "day": "土",
       "openTime": "20:45",
@@ -2088,10 +2078,6 @@
         }
       ],
       "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E7%A5%9E%E5%9B%9E%E3%82%B5%E3%83%9F%E3%83%83%E3%83%88&from=2026-10-24&to=2026-10-24&prefectures=0&genre=0&search_type=form"
-        },
         {
           "title": "FANY Online Ticket",
           "url": "https://online-ticket.yoshimoto.co.jp/products/%E7%A5%9E%E5%9B%9E%E3%82%B5%E3%83%9F%E3%83%83%E3%83%88-10-24-21-00"
@@ -2141,7 +2127,7 @@
       "tag": "公演情報",
       "title": "【芸辞苑】",
       "comment": "※中野さんのみ出演",
-      "url": "https://jimbocho-manzaigekijyo.yoshimoto.co.jp/schedule/?id=21791",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-11-06",
       "day": "金",
       "openTime": "19:00",
@@ -2172,10 +2158,6 @@
         }
       ],
       "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2026-11-06&to=2026-11-06&prefectures=0&genre=0&search_type=form"
-        },
         {
           "title": "FANY Online Ticket",
           "url": "https://online-ticket.yoshimoto.co.jp/products/芸辞苑-11-6-19-15"
@@ -2278,7 +2260,7 @@
       "tag": "公演情報",
       "title": "秋のピンまつり",
       "comment": "※中野さんのみ出演",
-      "url": "https://makuhari.yoshimoto.co.jp/schedule/?id=21832",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E7%A7%8B%E3%81%AE%E3%83%94%E3%83%B3%E3%81%BE%E3%81%A4%E3%82%8A&from=2026-10-30&to=2026-10-30&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-10-30",
       "day": "金",
       "openTime": "17:45",
@@ -2305,12 +2287,6 @@
           "label": "一般発売",
           "startAt": "2026-09-26T10:00:00+09:00",
           "endAt": "2026-10-30T16:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E7%A7%8B%E3%81%AE%E3%83%94%E3%83%B3%E3%81%BE%E3%81%A4%E3%82%8A&from=2026-10-30&to=2026-10-30&prefectures=0&genre=0&search_type=form"
-        }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E7%A7%8B%E3%81%AE%E3%83%94%E3%83%B3%E3%81%BE%E3%81%A4%E3%82%8A&from=2026-10-30&to=2026-10-30&prefectures=0&genre=0&search_type=form"
         }
       ]
@@ -2510,7 +2486,7 @@
       "tag": "公演情報",
       "title": "替え歌キングダム",
       "comment": "※中野さんのみ出演",
-      "url": "https://tiget.net/events/521125",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E6%9B%BF%E3%81%88%E6%AD%8C%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0&from=2026-10-11&to=2026-10-11&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-10-11",
       "day": "日",
       "openTime": "13:00",
@@ -2649,7 +2625,7 @@
       "tag": "公演情報",
       "title": "ド桜かつやまpresents村田大樹に即興漫才トーナメントプレゼントライブ2",
       "comment": "※中野さんのみ出演",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20855",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%89%E6%A1%9C%E3%81%8B%E3%81%A4%E3%82%84%E3%81%BEpresents%E6%9D%91%E7%94%B0%E5%A4%A7%E6%A8%B9%E3%81%AB%E5%8D%B3%E8%88%88%E6%BC%AB%E6%89%8D%E3%83%88%E3%83%BC%E3%83%8A%E3%83%A1%E3%83%B3%E3%83%88&from=2026-10-06&to=2026-10-06&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-10-06",
       "day": "火",
       "openTime": "19:00",
@@ -2676,12 +2652,6 @@
           "label": "一般発売",
           "startAt": "2026-09-05T10:00:00+09:00",
           "endAt": "",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%89%E6%A1%9C%E3%81%8B%E3%81%A4%E3%82%84%E3%81%BEpresents%E6%9D%91%E7%94%B0%E5%A4%A7%E6%A8%B9%E3%81%AB%E5%8D%B3%E8%88%88%E6%BC%AB%E6%89%8D%E3%83%88%E3%83%BC%E3%83%8A%E3%83%A1%E3%83%B3%E3%83%88&from=2026-10-06&to=2026-10-06&prefectures=0&genre=0&search_type=form"
-        }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%83%89%E6%A1%9C%E3%81%8B%E3%81%A4%E3%82%84%E3%81%BEpresents%E6%9D%91%E7%94%B0%E5%A4%A7%E6%A8%B9%E3%81%AB%E5%8D%B3%E8%88%88%E6%BC%AB%E6%89%8D%E3%83%88%E3%83%BC%E3%83%8A%E3%83%A1%E3%83%B3%E3%83%88&from=2026-10-06&to=2026-10-06&prefectures=0&genre=0&search_type=form"
         }
       ]
@@ -2745,7 +2715,7 @@
       "tag": "公演情報",
       "title": "海賊バレエ",
       "comment": "※中野さんのみ出演",
-      "url": "https://makuhari.yoshimoto.co.jp/schedule/?id=23590",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E6%B5%B7%E8%B3%8A%E3%83%90%E3%83%AC%E3%82%A8&from=2026-12-16&to=2026-12-16&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-12-16",
       "day": "水",
       "openTime": "17:45",
@@ -2770,10 +2740,6 @@
       ],
       "links": [
         {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E6%B5%B7%E8%B3%8A%E3%83%90%E3%83%AC%E3%82%A8&from=2026-12-16&to=2026-12-16&prefectures=0&genre=0&search_type=form"
-        },
-        {
           "title": "FANY Online Ticket",
           "url": "https://online-ticket.yoshimoto.co.jp/products/海賊バレエ-12-16-18-00"
         }
@@ -2792,7 +2758,7 @@
       "tag": "公演情報",
       "title": "幕張土日祝ネタSP12時",
       "comment": "※中野さんのみ出演",
-      "url": "https://makuhari.yoshimoto.co.jp/schedule/?id=22397",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E5%9C%9F%E6%97%A5%E7%A5%9D%E3%83%8D%E3%82%BFSP12%E6%99%82&from=2026-11-15&to=2026-11-15&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-11-15",
       "day": "日",
       "openTime": "11:30",
@@ -2828,12 +2794,6 @@
           "endAt": "",
           "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E5%9C%9F%E6%97%A5%E7%A5%9D%E3%83%8D%E3%82%BFSP12%E6%99%82&from=2026-11-15&to=2026-11-15&prefectures=0&genre=0&search_type=form"
         }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E5%9C%9F%E6%97%A5%E7%A5%9D%E3%83%8D%E3%82%BFSP12%E6%99%82&from=2026-11-15&to=2026-11-15&prefectures=0&genre=0&search_type=form"
-        }
       ]
     },
     {
@@ -2849,7 +2809,7 @@
       "tag": "公演情報",
       "title": "よしもとお笑いレストラン",
       "comment": "",
-      "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23472",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3&from=2026-12-20&to=2026-12-20&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-12-20",
       "day": "日",
       "openTime": "11:30",
@@ -2862,12 +2822,6 @@
           "label": "一般販売",
           "startAt": "2026-11-04T10:00:00+09:00",
           "endAt": "",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3&from=2026-12-20&to=2026-12-20&prefectures=0&genre=0&search_type=form"
-        }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3&from=2026-12-20&to=2026-12-20&prefectures=0&genre=0&search_type=form"
         }
       ]
@@ -2960,7 +2914,7 @@
       "tag": "公演情報",
       "title": "1人芸",
       "comment": "※中野さんのみ出演",
-      "url": "https://jimbocho-manzaigekijyo.yoshimoto.co.jp/schedule/?id=23279",
+      "url": "https://ticket.fany.lol/search/event?keywords=1%E4%BA%BA%E8%8A%B8&from=2026-12-05&to=2026-12-05&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-12-05",
       "day": "土",
       "openTime": "17:00",
@@ -2989,12 +2943,6 @@
           "endAt": "",
           "url": "https://ticket.fany.lol/search/event?keywords=1%E4%BA%BA%E8%8A%B8&from=2026-12-05&to=2026-12-05&prefectures=0&genre=0&search_type=form"
         }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=1%E4%BA%BA%E8%8A%B8&from=2026-12-05&to=2026-12-05&prefectures=0&genre=0&search_type=form"
-        }
       ]
     },
     {
@@ -3016,7 +2964,7 @@
       "tag": "公演情報",
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
       "comment": "",
-      "url": "https://makuhari.yoshimoto.co.jp/schedule/?id=23700",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-12-12",
       "day": "土",
       "openTime": "18:15",
@@ -3038,12 +2986,6 @@
           "endAt": "",
           "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
         }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
-        }
       ]
     },
     {
@@ -3051,7 +2993,7 @@
       "tag": "公演情報",
       "title": "中野なかるてぃんのおもしろゲームライブ",
       "comment": "※中野さんのみ出演",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=22988",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-12-01",
       "day": "火",
       "openTime": "19:00",
@@ -3080,12 +3022,6 @@
           "endAt": "",
           "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
         }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
-        }
       ]
     },
     {
@@ -3093,7 +3029,7 @@
       "tag": "公演情報",
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
       "comment": "※中野さんのみ出演",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=23033",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-12-03",
       "day": "木",
       "openTime": "20:45",
@@ -3122,12 +3058,6 @@
           "endAt": "",
           "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form"
         }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form"
-        }
       ]
     },
     {
@@ -3135,7 +3065,7 @@
       "tag": "公演情報",
       "title": "22期同期ライブ2026反省会～狩野が査定します～",
       "comment": "※中野さんのみ出演",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=23041",
+      "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-12-17",
       "day": "木",
       "openTime": "20:45",
@@ -3167,10 +3097,6 @@
       ],
       "links": [
         {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form"
-        },
-        {
           "title": "FANY Online Ticket",
           "url": "https://online-ticket.yoshimoto.co.jp/products/22期同期ライブ2026反省会-狩野が査定します-12-17-21-00"
         }
@@ -3195,7 +3121,7 @@
       "tag": "公演情報",
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
       "comment": "※中野さんのみ出演",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=21228",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-10-24&to=2026-10-24&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-10-24",
       "day": "土",
       "openTime": "18:45",
@@ -3227,10 +3153,6 @@
       ],
       "links": [
         {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-10-24&to=2026-10-24&prefectures=0&genre=0&search_type=form"
-        },
-        {
           "title": "FANY Online Ticket",
           "url": "https://online-ticket.yoshimoto.co.jp/collections/%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E6%BC%AB%E6%89%8D%E5%8A%87%E5%A0%B4/products/%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96-%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96-10-24-19-00"
         }
@@ -3241,7 +3163,7 @@
       "tag": "公演情報",
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
       "comment": "※中野さんのみ出演",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20874",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-09-26&to=2026-09-26&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-09-26",
       "day": "土",
       "openTime": "18:45",
@@ -3272,10 +3194,6 @@
         }
       ],
       "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-09-26&to=2026-09-26&prefectures=0&genre=0&search_type=form"
-        },
         {
           "title": "FANY Online Ticket",
           "url": "https://online-ticket.yoshimoto.co.jp/products/%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96-%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96-9-26-19-00"
@@ -3359,7 +3277,7 @@
       "tag": "公演情報",
       "title": "俺たち！大喜利部",
       "comment": "※中野さんのみ出演",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=22057",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-11-22&to=2026-11-22&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-11-22",
       "day": "日",
       "openTime": "18:15",
@@ -3391,10 +3309,6 @@
       ],
       "links": [
         {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-11-22&to=2026-11-22&prefectures=0&genre=0&search_type=form"
-        },
-        {
           "title": "FANY Online Ticket",
           "url": "https://online-ticket.yoshimoto.co.jp/products/%E4%BF%BA%E3%81%9F%E3%81%A1-%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8-11-22-18-30"
         }
@@ -3405,7 +3319,7 @@
       "tag": "公演情報",
       "title": "俺たち！大喜利部",
       "comment": "※中野さんのみ出演",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=20858",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-10-13&to=2026-10-13&prefectures=0&genre=0&search_type=form",
       "scheduleDate": "2026-10-13",
       "day": "火",
       "openTime": "19:00",
@@ -3436,10 +3350,6 @@
         }
       ],
       "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-10-13&to=2026-10-13&prefectures=0&genre=0&search_type=form"
-        },
         {
           "title": "FANY Online Ticket",
           "url": "https://online-ticket.yoshimoto.co.jp/products/%E4%BF%BA%E3%81%9F%E3%81%A1-%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8-10-13-19-15"
@@ -3532,7 +3442,7 @@
       "title": "幕張土日祝ネタSP12時",
       "comment": "※中野さんのみ出演",
       "place": "よしもと幕張イオンモール劇場（千葉県）",
-      "url": "https://makuhari.yoshimoto.co.jp/schedule/?id=22397",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E5%9C%9F%E6%97%A5%E7%A5%9D%E3%83%8D%E3%82%BFSP12%E6%99%82&from=2026-11-15&to=2026-11-15&prefectures=0&genre=0&search_type=form",
       "openTime": "11:30",
       "ticketSales": [
         {
@@ -3561,12 +3471,6 @@
           "label": "一般販売",
           "startAt": "2026-10-11T10:00:00+09:00",
           "endAt": "",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E5%9C%9F%E6%97%A5%E7%A5%9D%E3%83%8D%E3%82%BFSP12%E6%99%82&from=2026-11-15&to=2026-11-15&prefectures=0&genre=0&search_type=form"
-        }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E5%B9%95%E5%BC%B5%E5%9C%9F%E6%97%A5%E7%A5%9D%E3%83%8D%E3%82%BFSP12%E6%99%82&from=2026-11-15&to=2026-11-15&prefectures=0&genre=0&search_type=form"
         }
       ]
@@ -3667,7 +3571,7 @@
       "title": "俺たち！大喜利部",
       "comment": "※中野さんのみ出演",
       "place": "渋谷よしもと漫才劇場（東京都）",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=22057",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-11-22&to=2026-11-22&prefectures=0&genre=0&search_type=form",
       "openTime": "18:15",
       "ticketSales": [
         {
@@ -3693,10 +3597,6 @@
         }
       ],
       "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&from=2026-11-22&to=2026-11-22&prefectures=0&genre=0&search_type=form"
-        },
         {
           "title": "FANY Online Ticket",
           "url": "https://online-ticket.yoshimoto.co.jp/products/%E4%BF%BA%E3%81%9F%E3%81%A1-%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8-11-22-18-30"
@@ -3769,14 +3669,14 @@
       "place": "渋谷よしもと漫才劇場（東京都）",
       "url": "https://ticket.fany.lol/event/refund/performance/56481",
       "openTime": "19:00",
+      "cancelled": true,
+      "linkTitle": "劇場チケット 払い戻しのお知らせ",
       "links": [
         {
           "title": "劇場チケット 払い戻しのお知らせ",
           "url": "https://ticket.fany.lol/event/refund/performance/56489"
         }
-      ],
-      "cancelled": true,
-      "linkTitle": "劇場チケット 払い戻しのお知らせ"
+      ]
     },
     {
       "date": "2026-12-03",
@@ -3787,7 +3687,7 @@
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
       "comment": "※中野さんのみ出演",
       "place": "渋谷よしもと漫才劇場（東京都）",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=23033",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form",
       "openTime": "20:45",
       "ticketSales": [
         {
@@ -3809,12 +3709,6 @@
           "label": "一般販売",
           "startAt": "2026-11-05T10:00:00+09:00",
           "endAt": "",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form"
-        }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-03&to=2026-12-03&prefectures=0&genre=0&search_type=form"
         }
       ]
@@ -3896,7 +3790,7 @@
       "title": "1人芸",
       "comment": "※中野さんのみ出演",
       "place": "神保町よしもと漫才劇場（東京都）",
-      "url": "https://jimbocho-manzaigekijyo.yoshimoto.co.jp/schedule/?id=23279",
+      "url": "https://ticket.fany.lol/search/event?keywords=1%E4%BA%BA%E8%8A%B8&from=2026-12-05&to=2026-12-05&prefectures=0&genre=0&search_type=form",
       "openTime": "17:00",
       "ticketSales": [
         {
@@ -3918,12 +3812,6 @@
           "label": "一般販売",
           "startAt": "2026-11-05T10:00:00+09:00",
           "endAt": "",
-          "url": "https://ticket.fany.lol/search/event?keywords=1%E4%BA%BA%E8%8A%B8&from=2026-12-05&to=2026-12-05&prefectures=0&genre=0&search_type=form"
-        }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=1%E4%BA%BA%E8%8A%B8&from=2026-12-05&to=2026-12-05&prefectures=0&genre=0&search_type=form"
         }
       ]
@@ -4055,7 +3943,7 @@
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
       "comment": "※配信チケットに中野さんのお名前がありますが、チケットにはお名前がありません。",
       "place": "よしもと幕張イオンモール劇場（千葉県）",
-      "url": "https://makuhari.yoshimoto.co.jp/schedule/?id=23700",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form",
       "openTime": "18:15",
       "ticketSales": [
         {
@@ -4074,10 +3962,6 @@
         }
       ],
       "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
-        },
         {
           "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96&from=2026-10-10&to=2026-10-10&prefectures=0&genre=0&search_type=form"
@@ -4119,7 +4003,7 @@
       "title": "海賊バレエ",
       "comment": "※中野さんのみ出演",
       "place": "よしもと幕張イオンモール劇場（千葉県）",
-      "url": "https://makuhari.yoshimoto.co.jp/schedule/?id=23590",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E6%B5%B7%E8%B3%8A%E3%83%90%E3%83%AC%E3%82%A8&from=2026-12-16&to=2026-12-16&prefectures=0&genre=0&search_type=form",
       "openTime": "17:45",
       "ticketSales": [
         {
@@ -4139,10 +4023,6 @@
       ],
       "links": [
         {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E6%B5%B7%E8%B3%8A%E3%83%90%E3%83%AC%E3%82%A8&from=2026-12-16&to=2026-12-16&prefectures=0&genre=0&search_type=form"
-        },
-        {
           "title": "FANY Online Ticket",
           "url": "https://online-ticket.yoshimoto.co.jp/products/海賊バレエ-12-16-18-00"
         }
@@ -4157,7 +4037,7 @@
       "title": "22期同期ライブ2026反省会～狩野が査定します～",
       "comment": "※中野さんのみ出演",
       "place": "渋谷よしもと漫才劇場（東京都）",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/?id=23041",
+      "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form",
       "openTime": "20:45",
       "ticketSales": [
         {
@@ -4183,10 +4063,6 @@
         }
       ],
       "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=22%E6%9C%9F%E5%90%8C%E6%9C%9F%E3%83%A9%E3%82%A4%E3%83%962026%E5%8F%8D%E7%9C%81%E4%BC%9A%EF%BD%9E%E7%8B%A9%E9%87%8E%E3%81%8C%E6%9F%BB%E5%AE%9A%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E&from=2026-12-17&to=2026-12-17&prefectures=0&genre=0&search_type=form"
-        },
         {
           "title": "FANY Online Ticket",
           "url": "https://online-ticket.yoshimoto.co.jp/products/22期同期ライブ2026反省会-狩野が査定します-12-17-21-00"
@@ -4246,7 +4122,7 @@
       "title": "よしもとお笑いレストラン",
       "comment": "",
       "place": "よしもと道頓堀シアター",
-      "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23472",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3&from=2026-12-20&to=2026-12-20&prefectures=0&genre=0&search_type=form",
       "openTime": "11:30",
       "ticketSales": [
         {
@@ -4254,12 +4130,6 @@
           "label": "一般販売",
           "startAt": "2026-11-04T10:00:00+09:00",
           "endAt": "",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3&from=2026-12-20&to=2026-12-20&prefectures=0&genre=0&search_type=form"
-        }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3&from=2026-12-20&to=2026-12-20&prefectures=0&genre=0&search_type=form"
         }
       ]
@@ -4273,7 +4143,7 @@
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」in 大阪",
       "comment": "",
       "place": "よしもと道頓堀シアター",
-      "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8Din%20%E5%A4%A7%E9%98%AA&from=2026-12-20&to=2026-12-20&prefectures=0&genre=0&search_type=form",
       "openTime": "16:15",
       "ticketSales": [
         {
@@ -4281,14 +4151,14 @@
           "label": "先行受付",
           "startAt": "2026-11-18T11:00:00+09:00",
           "endAt": "2026-11-20T11:00:00+09:00",
-          "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852"
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8Din%20%E5%A4%A7%E9%98%AA&from=2026-12-20&to=2026-12-20&prefectures=0&genre=0&search_type=form"
         },
         {
           "type": "一般販売",
           "label": "一般販売",
           "startAt": "2026-11-23T10:00:00+09:00",
           "endAt": "",
-          "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852"
+          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8Din%20%E5%A4%A7%E9%98%AA&from=2026-12-20&to=2026-12-20&prefectures=0&genre=0&search_type=form"
         }
       ]
     },
@@ -5482,7 +5352,7 @@
       "targetAt": "2026-11-18T11:00:00+09:00",
       "startAt": "2026-11-18T11:00:00+09:00",
       "endAt": "2026-11-20T11:00:00+09:00",
-      "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852"
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8Din%20%E5%A4%A7%E9%98%AA&from=2026-12-20&to=2026-12-20&prefectures=0&genre=0&search_type=form"
     },
     {
       "id": "ticket_push_reminder|end|中野なかるてぃん単独ライブてぃん独ライブin大阪|先行受付|202611201100",
@@ -5495,7 +5365,7 @@
       "targetAt": "2026-11-20T11:00:00+09:00",
       "startAt": "2026-11-18T11:00:00+09:00",
       "endAt": "2026-11-20T11:00:00+09:00",
-      "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852"
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8Din%20%E5%A4%A7%E9%98%AA&from=2026-12-20&to=2026-12-20&prefectures=0&genre=0&search_type=form"
     },
     {
       "id": "ticket_push_reminder|start|rgが60分あるある歌い続け、中野なかるてぃんがピンネタ|一般発売|202611211000",
@@ -5521,7 +5391,7 @@
       "targetAt": "2026-11-23T10:00:00+09:00",
       "startAt": "2026-11-23T10:00:00+09:00",
       "endAt": "",
-      "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852"
+      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8Din%20%E5%A4%A7%E9%98%AA&from=2026-12-20&to=2026-12-20&prefectures=0&genre=0&search_type=form"
     }
   ],
   "clips": []
