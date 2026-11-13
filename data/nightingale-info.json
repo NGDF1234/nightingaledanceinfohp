@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-13T19:12:17+09:00",
+  "updatedAt": "2026-11-13T22:12:22+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-13",
+      "tag": "YouTube",
+      "title": "金貸してる先輩に曲作らせた",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=sjQ568HvfU4",
+      "channelName": "中野なかるてぃん状態"
+    },
     {
       "date": "2026-11-13",
       "tag": "YouTube",

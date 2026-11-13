@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T19:12:17+09:00",
+  "updatedAt": "2026-11-13T22:12:22+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|sjQ568HvfU4",
+      "videoId": "sjQ568HvfU4",
+      "kind": "video",
+      "channelName": "中野なかるてぃん状態",
+      "channelType": "nakano_personal",
+      "channelUrl": "https://www.youtube.com/channel/UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "channelId": "UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "title": "金貸してる先輩に曲作らせた",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=sjQ568HvfU4",
+      "viewCount": 73,
+      "durationSeconds": 1436,
+      "duration": "23:56",
+      "uploadDate": "2026-11-13",
+      "firstSeenAt": "2026-11-13T22:12:22+09:00",
+      "lastStatsUpdatedAt": "2026-11-13T22:12:22+09:00"
+    },
     {
       "id": "youtube|4ZgyOMFZC6c",
       "videoId": "4ZgyOMFZC6c",
