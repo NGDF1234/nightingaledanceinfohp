@@ -1,7 +1,36 @@
 {
-  "updatedAt": "2026-11-13T12:07:05+09:00",
+  "updatedAt": "2026-11-13T12:21:39+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-13",
+      "tag": "公演情報",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」in 大阪",
+      "comment": "",
+      "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852",
+      "scheduleDate": "2026-12-20",
+      "day": "日",
+      "openTime": "16:15",
+      "startTime": "16:30",
+      "endTime": "17:30",
+      "place": "よしもと道頓堀シアター",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "先行受付",
+          "startAt": "2026-11-18T11:00:00+09:00",
+          "endAt": "2026-11-20T11:00:00+09:00",
+          "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-11-23T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852"
+        }
+      ]
+    },
     {
       "date": "2026-11-13",
       "tag": "公演情報",
@@ -4210,6 +4239,34 @@
     {
       "date": "2026-12-20",
       "day": "日",
+      "startTime": "16:30",
+      "endTime": "17:30",
+      "tag": "公演情報",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」in 大阪",
+      "comment": "",
+      "place": "よしもと道頓堀シアター",
+      "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852",
+      "openTime": "16:15",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "先行受付",
+          "startAt": "2026-11-18T11:00:00+09:00",
+          "endAt": "2026-11-20T11:00:00+09:00",
+          "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-11-23T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-20",
+      "day": "日",
       "startTime": "18:00",
       "endTime": "19:00",
       "tag": "テレビ",
@@ -5385,6 +5442,32 @@
       "startAt": "2026-11-14T11:00:00+09:00",
       "endAt": "2026-11-16T11:00:00+09:00",
       "url": "https://ticket.fany.lol/search/event?keywords=RG%E3%81%8C60%E5%88%86%E3%81%82%E3%82%8B%E3%81%82%E3%82%8B%E6%AD%8C%E3%81%84%E7%B6%9A%E3%81%91%E3%80%81%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%8C%E3%83%94%E3%83%B3%E3%83%8D%E3%82%BF%E3%83%BB&from=2026-12-05&to=2026-12-05&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|start|中野なかるてぃん単独ライブてぃん独ライブin大阪|先行受付|202611181100",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」in 大阪",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "先行受付",
+      "reminderType": "start",
+      "reminderLabel": "発売開始時刻",
+      "notifyAt": "2026-11-18T11:00:00+09:00",
+      "targetAt": "2026-11-18T11:00:00+09:00",
+      "startAt": "2026-11-18T11:00:00+09:00",
+      "endAt": "2026-11-20T11:00:00+09:00",
+      "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852"
+    },
+    {
+      "id": "ticket_push_reminder|end|中野なかるてぃん単独ライブてぃん独ライブin大阪|先行受付|202611201100",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」in 大阪",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "先行受付",
+      "reminderType": "end",
+      "reminderLabel": "受付終了30分前",
+      "notifyAt": "2026-11-20T10:30:00+09:00",
+      "targetAt": "2026-11-20T11:00:00+09:00",
+      "startAt": "2026-11-18T11:00:00+09:00",
+      "endAt": "2026-11-20T11:00:00+09:00",
+      "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852"
     },
     {
       "id": "ticket_push_reminder|start|rgが60分あるある歌い続け、中野なかるてぃんがピンネタ|一般発売|202611211000",
