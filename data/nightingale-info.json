@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T23:18:26+09:00",
+  "updatedAt": "2026-11-13T11:02:22+09:00",
   "newsNotificationsEnabled": false,
   "news": [
     {
@@ -5251,19 +5251,6 @@
   ],
   "regular": [],
   "ticketReminders": [
-    {
-      "id": "ticket_push_reminder|end|中野なかるてぃん単独ライブてぃん独ライブ|fanyidメンバ抽選先行|202611131100",
-      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
-      "ticketKind": "抽選販売",
-      "ticketLabel": "FANY IDメンバー抽選先行",
-      "reminderType": "end",
-      "reminderLabel": "受付終了30分前",
-      "notifyAt": "2026-11-13T10:30:00+09:00",
-      "targetAt": "2026-11-13T11:00:00+09:00",
-      "startAt": "2026-11-11T11:00:00+09:00",
-      "endAt": "2026-11-13T11:00:00+09:00",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
-    },
     {
       "id": "ticket_push_reminder|start|中野なかるてぃん単独ライブてぃん独ライブ|一般販売|202611151000",
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
