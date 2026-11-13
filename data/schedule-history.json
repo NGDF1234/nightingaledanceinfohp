@@ -2495,6 +2495,34 @@
     {
       "date": "2026-12-20",
       "day": "日",
+      "startTime": "16:30",
+      "endTime": "17:30",
+      "tag": "公演情報",
+      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」in 大阪",
+      "comment": "",
+      "place": "よしもと道頓堀シアター",
+      "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852",
+      "openTime": "16:15",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "先行受付",
+          "startAt": "2026-11-18T11:00:00+09:00",
+          "endAt": "2026-11-20T11:00:00+09:00",
+          "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-11-23T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-20",
+      "day": "日",
       "startTime": "18:00",
       "endTime": "19:00",
       "tag": "テレビ",
