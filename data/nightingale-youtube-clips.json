@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T20:02:23+09:00",
+  "updatedAt": "2026-11-14T22:12:02+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -56,6 +56,24 @@
       "uploadDate": "2026-11-14",
       "firstSeenAt": "2026-11-14T20:02:23+09:00",
       "lastStatsUpdatedAt": ""
+    },
+    {
+      "id": "youtube|7AwHP1z5Noc",
+      "videoId": "7AwHP1z5Noc",
+      "kind": "video",
+      "channelName": "もう久保田が言うてるから仕方ないやん〆",
+      "channelType": "appearance",
+      "channelUrl": "https://www.youtube.com/channel/UCnv0r4e4cP0V3ESEuqt99rA",
+      "channelId": "UCnv0r4e4cP0V3ESEuqt99rA",
+      "title": "第132回とろサーモン久保田の冠ラジオ「枠買ってもらった」ゲスト オズワルド伊藤 ナイチンゲールダンス中野なかるてぃん",
+      "comment": "※5:30〜中野さんが出演されています。",
+      "url": "https://www.youtube.com/watch?v=7AwHP1z5Noc",
+      "viewCount": 1546,
+      "durationSeconds": 2902,
+      "duration": "48:22",
+      "uploadDate": "2026-11-14",
+      "firstSeenAt": "2026-11-14T22:12:02+09:00",
+      "lastStatsUpdatedAt": "2026-11-14T22:12:02+09:00"
     },
     {
       "id": "youtube|sjQ568HvfU4",

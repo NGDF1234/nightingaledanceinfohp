@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-14T20:02:23+09:00",
+  "updatedAt": "2026-11-14T22:12:02+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-14",
+      "tag": "YouTube",
+      "title": "第132回とろサーモン久保田の冠ラジオ「枠買ってもらった」ゲスト オズワルド伊藤 ナイチンゲールダンス中野なかるてぃん",
+      "comment": "※5:30〜中野さんが出演されています。",
+      "url": "https://www.youtube.com/watch?v=7AwHP1z5Noc",
+      "channelName": "もう久保田が言うてるから仕方ないやん〆"
+    },
     {
       "date": "2026-11-14",
       "tag": "YouTube",
