@@ -13,6 +13,49 @@ function isSafariBrowserTab() {
   return isSafari && !isStandalone;
 }
 
+function isStandaloneApp() {
+  return window.matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+}
+
+async function sendTestNotification(button) {
+  const registration = await navigator.serviceWorker.ready;
+  const subscription = await registration.pushManager.getSubscription();
+  if (!subscription) throw new Error("この端末の通知登録が見つかりません");
+  const response = await fetch(`${PUSH_API_URL}/test-current-device`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(subscription)
+  });
+  if (!response.ok) throw new Error("テスト通知の送信に失敗しました");
+  button.textContent = "送信しました";
+  setTimeout(() => {
+    button.disabled = false;
+    button.textContent = "通知テスト";
+  }, 2000);
+}
+
+function addTestNotificationButton() {
+  if (!("Notification" in window) || !("PushManager" in window)) return;
+  if (!isStandaloneApp() || Notification.permission !== "granted") return;
+  if (document.querySelector(".push-test-button")) return;
+  const button = document.createElement("button");
+  button.className = "push-notification-button push-test-button";
+  button.type = "button";
+  button.textContent = "通知テスト";
+  button.addEventListener("click", async () => {
+    button.disabled = true;
+    button.textContent = "送信中…";
+    try {
+      await sendTestNotification(button);
+    } catch (error) {
+      button.disabled = false;
+      button.textContent = "通知テスト";
+      alert(error.message);
+    }
+  });
+  document.body.append(button);
+}
+
 async function enableNotifications(button) {
   if (PUSH_API_URL.startsWith("__")) throw new Error("通知サーバーは準備中です");
   const registration = await navigator.serviceWorker.ready;
@@ -33,6 +76,7 @@ async function enableNotifications(button) {
   });
   if (!response.ok) throw new Error("通知の登録に失敗しました");
   button.remove();
+  addTestNotificationButton();
 }
 
 function addNotificationButton() {
@@ -80,6 +124,7 @@ if ("serviceWorker" in navigator) {
       .then((registration) => {
         registration.update();
         addNotificationButton();
+        addTestNotificationButton();
       })
       .catch(() => {});
   });

@@ -475,6 +475,19 @@ export default {
     const headers = cors(origin, env);
     if (request.method === "OPTIONS") return new Response(null, { status: 204, headers });
     if (url.pathname === "/vapid-public-key") return json({ publicKey: env.VAPID_PUBLIC_KEY }, 200, headers);
+    if (url.pathname === "/test-current-device" && request.method === "POST") {
+      const subscription = (await request.json()) as PushSubscription;
+      if (!subscription.endpoint || !subscription.keys?.auth || !subscription.keys?.p256dh) {
+        return json({ error: "invalid subscription" }, 400, headers);
+      }
+      const delivered = await broadcast(env, {
+        title: "通知テスト",
+        body: "この端末だけに送信されたテスト通知です。",
+        url: `${env.SITE_URL}/index.html`,
+        tag: `current-device-test-${Date.now()}`,
+      }, 60, [subscription]);
+      return json({ ok: delivered === 1, delivered }, delivered === 1 ? 200 : 502, headers);
+    }
     if (url.pathname === "/test" && request.method === "POST") {
       if (request.headers.get("X-Test-Key") !== env.TEST_KEY) return json({ error: "unauthorized" }, 401, headers);
       const delivered = await broadcast(env, {
