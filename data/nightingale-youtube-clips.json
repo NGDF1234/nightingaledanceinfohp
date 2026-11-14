@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T13:37:35+09:00",
+  "updatedAt": "2026-11-14T20:02:23+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -37,6 +37,24 @@
       "duration": "",
       "uploadDate": "2026-11-14",
       "firstSeenAt": "2026-11-14T13:37:35+09:00",
+      "lastStatsUpdatedAt": ""
+    },
+    {
+      "id": "youtube|HtbVzFYyupg",
+      "videoId": "HtbVzFYyupg",
+      "kind": "video",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【ダイエット】10キロ痩せたそばを終了くんに食べさせよう【料理】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=HtbVzFYyupg",
+      "viewCount": 0,
+      "durationSeconds": 1194,
+      "duration": "19:54",
+      "uploadDate": "2026-11-14",
+      "firstSeenAt": "2026-11-14T20:02:23+09:00",
       "lastStatsUpdatedAt": ""
     },
     {

@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-14T19:07:17+09:00",
+  "updatedAt": "2026-11-14T20:02:23+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-14",
+      "tag": "YouTube",
+      "title": "【ダイエット】10キロ痩せたそばを終了くんに食べさせよう【料理】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=HtbVzFYyupg",
+      "channelName": "ナイチンゲールダンスチャンネル"
+    },
     {
       "date": "2026-11-14",
       "tag": "YouTube",
