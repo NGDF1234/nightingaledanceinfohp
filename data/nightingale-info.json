@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T00:02:11+09:00",
+  "updatedAt": "2026-11-14T11:02:06+09:00",
   "newsNotificationsEnabled": false,
   "news": [
     {
@@ -5300,32 +5300,6 @@
   ],
   "regular": [],
   "ticketReminders": [
-    {
-      "id": "ticket_push_reminder|start|rgが60分あるある歌い続け、中野なかるてぃんがピンネタ|fanyidプレミアムメンバ抽選先行|202611141100",
-      "title": "RGが60分あるある歌い続け、中野なかるてぃんがピンネタ・・・",
-      "ticketKind": "抽選販売",
-      "ticketLabel": "FANY IDプレミアムメンバー抽選先行",
-      "reminderType": "start",
-      "reminderLabel": "発売開始時刻",
-      "notifyAt": "2026-11-14T11:00:00+09:00",
-      "targetAt": "2026-11-14T11:00:00+09:00",
-      "startAt": "2026-11-14T11:00:00+09:00",
-      "endAt": "2026-11-16T11:00:00+09:00",
-      "url": "https://ticket.fany.lol/search/event?keywords=RG%E3%81%8C60%E5%88%86%E3%81%82%E3%82%8B%E3%81%82%E3%82%8B%E6%AD%8C%E3%81%84%E7%B6%9A%E3%81%91%E3%80%81%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%8C%E3%83%94%E3%83%B3%E3%83%8D%E3%82%BF%E3%83%BB&from=2026-12-05&to=2026-12-05&prefectures=0&genre=0&search_type=form"
-    },
-    {
-      "id": "ticket_push_reminder|start|rgが60分あるある歌い続け、中野なかるてぃんがピンネタ|fanyidメンバ抽選先行|202611141100",
-      "title": "RGが60分あるある歌い続け、中野なかるてぃんがピンネタ・・・",
-      "ticketKind": "抽選販売",
-      "ticketLabel": "FANY IDメンバー抽選先行",
-      "reminderType": "start",
-      "reminderLabel": "発売開始時刻",
-      "notifyAt": "2026-11-14T11:00:00+09:00",
-      "targetAt": "2026-11-14T11:00:00+09:00",
-      "startAt": "2026-11-14T11:00:00+09:00",
-      "endAt": "2026-11-16T11:00:00+09:00",
-      "url": "https://ticket.fany.lol/search/event?keywords=RG%E3%81%8C60%E5%88%86%E3%81%82%E3%82%8B%E3%81%82%E3%82%8B%E6%AD%8C%E3%81%84%E7%B6%9A%E3%81%91%E3%80%81%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%8C%E3%83%94%E3%83%B3%E3%83%8D%E3%82%BF%E3%83%BB&from=2026-12-05&to=2026-12-05&prefectures=0&genre=0&search_type=form"
-    },
     {
       "id": "ticket_push_reminder|start|中野なかるてぃん単独ライブてぃん独ライブ|一般販売|202611151000",
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
