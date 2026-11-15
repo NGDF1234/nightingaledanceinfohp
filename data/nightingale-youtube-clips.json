@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T15:42:27+09:00",
+  "updatedAt": "2026-11-15T20:07:07+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|IkiUzpQTfh4",
+      "videoId": "IkiUzpQTfh4",
+      "kind": "video",
+      "channelName": "ヤスチャンネル",
+      "channelType": "yasu_personal",
+      "channelUrl": "https://www.youtube.com/@vlog-ju3mn",
+      "channelId": "UC2sTd5vefWLrDsm6U99a0vg",
+      "title": "ゲタ飛ばし大会 腹痛で大宮で帰った",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=IkiUzpQTfh4",
+      "viewCount": 0,
+      "durationSeconds": 0,
+      "duration": "",
+      "uploadDate": "2026-11-15",
+      "firstSeenAt": "2026-11-15T20:07:07+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|sQiZoiv6ulY",
       "videoId": "sQiZoiv6ulY",
