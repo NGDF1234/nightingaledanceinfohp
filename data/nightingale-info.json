@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T23:52:23+09:00",
+  "updatedAt": "2026-11-17T00:02:08+09:00",
   "newsNotificationsEnabled": false,
   "news": [
     {
@@ -3437,38 +3437,6 @@
       "url": "https://online-ticket.yoshimoto.co.jp/products/%E6%9C%AC%E7%94%B0%E3%81%9F%E3%81%8B%E3%81%8A1on1-10-16-21-15?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E6%9C%AC%E7%94%B0%E3%81%9F%E3%81%8B%E3%81%8A1on1"
     },
     {
-      "date": "2026-11-16",
-      "day": "月",
-      "startTime": "19:00",
-      "endTime": "",
-      "tag": "公演情報",
-      "title": "「ツッコミマンへの道～東京予選～」",
-      "comment": "※中野さんのみ出演",
-      "place": "四谷区民ホール（東京都）",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%8C%E3%83%84%E3%83%83%E3%82%B3%E3%83%9F%E3%83%9E%E3%83%B3%E3%81%B8%E3%81%AE%E9%81%93%EF%BD%9E%E6%9D%B1%E4%BA%AC%E4%BA%88%E9%81%B8%EF%BD%9E%E3%80%8D&from=2026-11-16&to=2026-11-16&prefectures=0&genre=0&search_type=form",
-      "openTime": "18:30",
-      "ticketSales": [
-        {
-          "type": "一般販売",
-          "label": "一般発売",
-          "startAt": "2026-11-04T19:00:00+09:00",
-          "endAt": "2026-11-15T23:59:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%8C%E3%83%84%E3%83%83%E3%82%B3%E3%83%9F%E3%83%9E%E3%83%B3%E3%81%B8%E3%81%AE%E9%81%93%EF%BD%9E%E6%9D%B1%E4%BA%AC%E4%BA%88%E9%81%B8%EF%BD%9E%E3%80%8D&from=2026-11-16&to=2026-11-16&prefectures=0&genre=0&search_type=form"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "day": "月",
-      "startTime": "20:30",
-      "endTime": "21:54",
-      "tag": "テレビ",
-      "title": "Qさま",
-      "comment": "",
-      "place": "テレビ朝日",
-      "url": "https://www.tv-asahi.co.jp/qsama/next/"
-    },
-    {
       "date": "2026-11-18",
       "day": "水",
       "startTime": "23:30",
@@ -5279,6 +5247,17 @@
       "endTime": "23:00",
       "tag": "テレビ",
       "title": "東西南北よしもと麻雀リーグ season7",
+      "comment": "※ヤスさんのみ出演",
+      "place": "BSよしもと 265ch",
+      "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-05-16",
+      "day": "日",
+      "startTime": "18:00",
+      "endTime": "19:00",
+      "tag": "テレビ",
+      "title": "東西南北よしもと麻雀リーグ season7（再放送）",
       "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
