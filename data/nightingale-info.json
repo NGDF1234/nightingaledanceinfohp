@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T21:07:03+09:00",
+  "updatedAt": "2026-11-16T21:47:10+09:00",
   "newsNotificationsEnabled": false,
   "news": [
     {
@@ -17,6 +17,8 @@
       "comment": "",
       "url": "https://www.tv-asahi.co.jp/qsama/next/",
       "media": "テレビ朝日",
+      "scheduleDate": "2026-11-16",
+      "day": "月",
       "startTime": "20:30",
       "endTime": "21:54"
     },
@@ -3433,6 +3435,17 @@
           "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%8C%E3%83%84%E3%83%83%E3%82%B3%E3%83%9F%E3%83%9E%E3%83%B3%E3%81%B8%E3%81%AE%E9%81%93%EF%BD%9E%E6%9D%B1%E4%BA%AC%E4%BA%88%E9%81%B8%EF%BD%9E%E3%80%8D&from=2026-11-16&to=2026-11-16&prefectures=0&genre=0&search_type=form"
         }
       ]
+    },
+    {
+      "date": "2026-11-16",
+      "day": "月",
+      "startTime": "20:30",
+      "endTime": "21:54",
+      "tag": "テレビ",
+      "title": "Qさま",
+      "comment": "",
+      "place": "テレビ朝日",
+      "url": "https://www.tv-asahi.co.jp/qsama/next/"
     },
     {
       "date": "2026-11-20",
