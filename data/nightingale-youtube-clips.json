@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T20:12:20+09:00",
+  "updatedAt": "2026-11-16T20:12:19+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|AXr78S7JREM",
+      "videoId": "AXr78S7JREM",
+      "kind": "video",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "ヤス元気か？ゲーム実況させろ！",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=AXr78S7JREM",
+      "viewCount": 744,
+      "durationSeconds": 1399,
+      "duration": "23:19",
+      "uploadDate": "2026-11-16",
+      "firstSeenAt": "2026-11-16T20:12:19+09:00",
+      "lastStatsUpdatedAt": "2026-11-16T20:12:19+09:00"
+    },
     {
       "id": "youtube|IkiUzpQTfh4",
       "videoId": "IkiUzpQTfh4",
