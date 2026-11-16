@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-16T22:57:18+09:00",
+  "updatedAt": "2026-11-16T23:27:29+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-16",
+      "tag": "YouTube",
+      "title": "ツッコミマンへの道予選合格者発表",
+      "comment": "※中野さんのお名前出てます。",
+      "url": "https://youtu.be/UNNiXPI3o9U?si=qLkfhblGoLS1iu9I",
+      "channelName": "粗品 Official Channel"
+    },
     {
       "date": "2026-11-16",
       "tag": "YouTube",
