@@ -512,8 +512,8 @@ function formatNewsScheduleDateTime(item = {}) {
   const day = item.day ? `（${item.day}）` : "";
   const timeParts = [];
   if (item.openTime) timeParts.push(`開場 ${item.openTime}`);
-  if (item.startTime) timeParts.push(`開演 ${item.startTime}`);
-  if (item.endTime) timeParts.push(`終演 ${item.endTime}`);
+  if (item.startTime) timeParts.push(`開始 ${item.startTime}`);
+  if (item.endTime) timeParts.push(`終了 ${item.endTime}`);
   return [date ? `${date}${day}` : "", timeParts.join(" / ")].filter(Boolean).join(" ");
 }
 
