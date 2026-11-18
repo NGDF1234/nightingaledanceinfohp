@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T15:27:23+09:00",
+  "updatedAt": "2026-11-18T18:32:20+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|-KFd6d4dP4I",
+      "videoId": "-KFd6d4dP4I",
+      "kind": "video",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【R.E.P.O】今試されるコンビの絆＃１【コンビゲーム実況】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=-KFd6d4dP4I",
+      "viewCount": 0,
+      "durationSeconds": 0,
+      "duration": "",
+      "uploadDate": "2026-11-18",
+      "firstSeenAt": "2026-11-18T18:32:20+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|flU6ElBrOH8",
       "videoId": "flU6ElBrOH8",
