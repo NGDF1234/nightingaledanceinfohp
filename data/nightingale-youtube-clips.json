@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T18:32:20+09:00",
+  "updatedAt": "2026-11-19T01:27:19+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|Uj08G__tM5s",
+      "videoId": "Uj08G__tM5s",
+      "kind": "video",
+      "channelName": "ヤスチャンネル",
+      "channelType": "yasu_personal",
+      "channelUrl": "https://www.youtube.com/@vlog-ju3mn",
+      "channelId": "UC2sTd5vefWLrDsm6U99a0vg",
+      "title": "【グラセフ６】さすがにみんなとやりたくて突発配信＃１",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=Uj08G__tM5s",
+      "viewCount": 0,
+      "durationSeconds": 0,
+      "duration": "",
+      "uploadDate": "2026-11-19",
+      "firstSeenAt": "2026-11-19T01:27:19+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|-KFd6d4dP4I",
       "videoId": "-KFd6d4dP4I",

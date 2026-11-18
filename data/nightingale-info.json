@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-19T01:02:05+09:00",
+  "updatedAt": "2026-11-19T01:27:19+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-19",
+      "tag": "YouTube",
+      "title": "【グラセフ６】さすがにみんなとやりたくて突発配信＃１",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=Uj08G__tM5s",
+      "channelName": "終了くんチャンネル"
+    },
     {
       "date": "2026-11-18",
       "tag": "YouTube",
