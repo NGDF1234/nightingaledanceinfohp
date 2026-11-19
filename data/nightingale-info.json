@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-19T16:02:01+09:00",
+  "updatedAt": "2026-11-19T20:02:20+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-19",
+      "tag": "YouTube",
+      "title": "心配ダービー 終了くん編",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=dZoXIi92Y4g",
+      "channelName": "ナイチンゲールダンスチャンネル"
+    },
     {
       "date": "2026-11-19",
       "tag": "YouTube",

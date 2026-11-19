@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T01:27:19+09:00",
+  "updatedAt": "2026-11-19T20:02:20+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -38,6 +38,24 @@
       "uploadDate": "2026-11-19",
       "firstSeenAt": "2026-11-19T01:27:19+09:00",
       "lastStatsUpdatedAt": ""
+    },
+    {
+      "id": "youtube|dZoXIi92Y4g",
+      "videoId": "dZoXIi92Y4g",
+      "kind": "video",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "心配ダービー 終了くん編",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=dZoXIi92Y4g",
+      "viewCount": 8,
+      "durationSeconds": 1109,
+      "duration": "18:29",
+      "uploadDate": "2026-11-19",
+      "firstSeenAt": "2026-11-19T20:02:20+09:00",
+      "lastStatsUpdatedAt": "2026-11-19T20:02:20+09:00"
     },
     {
       "id": "youtube|-KFd6d4dP4I",
