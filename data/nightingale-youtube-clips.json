@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T20:52:20+09:00",
+  "updatedAt": "2026-11-20T21:07:23+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|0qTAM3ABgJI",
+      "videoId": "0qTAM3ABgJI",
+      "kind": "video",
+      "channelName": "ヤスチャンネル",
+      "channelType": "yasu_personal",
+      "channelUrl": "https://www.youtube.com/@vlog-ju3mn",
+      "channelId": "UC2sTd5vefWLrDsm6U99a0vg",
+      "title": "旅館のヒモになった",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=0qTAM3ABgJI",
+      "viewCount": 42,
+      "durationSeconds": 756,
+      "duration": "12:36",
+      "uploadDate": "2026-11-20",
+      "firstSeenAt": "2026-11-20T21:07:23+09:00",
+      "lastStatsUpdatedAt": "2026-11-20T21:07:23+09:00"
+    },
     {
       "id": "youtube|QeF7tef6hfY",
       "videoId": "QeF7tef6hfY",

@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-20T20:52:20+09:00",
+  "updatedAt": "2026-11-20T21:07:23+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-20",
+      "tag": "YouTube",
+      "title": "旅館のヒモになった",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=0qTAM3ABgJI",
+      "channelName": "終了くんチャンネル"
+    },
     {
       "date": "2026-11-20",
       "tag": "YouTube",
