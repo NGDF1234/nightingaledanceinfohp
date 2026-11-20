@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T22:57:23+09:00",
+  "updatedAt": "2026-11-20T17:42:17+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|QeF7tef6hfY",
+      "videoId": "QeF7tef6hfY",
+      "kind": "video",
+      "channelName": "中野なかるてぃん状態",
+      "channelType": "nakano_personal",
+      "channelUrl": "https://www.youtube.com/channel/UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "channelId": "UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "title": "【ゲーム配信】バイオハザードレクイエム#6",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=QeF7tef6hfY",
+      "viewCount": 0,
+      "durationSeconds": 0,
+      "duration": "",
+      "uploadDate": "2026-11-20",
+      "firstSeenAt": "2026-11-20T17:42:17+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|Uj08G__tM5s",
       "videoId": "Uj08G__tM5s",
