@@ -1,7 +1,14 @@
 {
-  "updatedAt": "2026-11-20T11:02:03+09:00",
+  "updatedAt": "2026-11-20T12:17:09+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-20",
+      "tag": "Instagram",
+      "title": "Instagram",
+      "comment": "※投稿されたストーリーズに中野さんが写っています アカウント名: サンタモニカ マイム",
+      "url": "https://www.instagram.com/stories/maiming_0217/4033706831912183586?utm_source=ig_story_item_share&evlk=MXB4aWhtZjNyMTVtOQ=="
+    },
     {
       "date": "2026-11-19",
       "tag": "YouTube",
