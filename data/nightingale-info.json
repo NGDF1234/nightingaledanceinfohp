@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T10:02:05+09:00",
+  "updatedAt": "2026-11-20T10:07:03+09:00",
   "newsNotificationsEnabled": false,
   "news": [
     {
@@ -90,6 +90,27 @@
       "comment": "",
       "url": "https://www.youtube.com/watch?v=AXr78S7JREM",
       "channelName": "ナイチンゲールダンスチャンネル"
+    },
+    {
+      "date": "2026-11-15",
+      "tag": "公演情報",
+      "title": "渋谷マンゲキちょっと早めの忘年会2026",
+      "comment": "※中野さんのみ出演",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E6%B8%8B%E8%B0%B7%E3%83%9E%E3%83%B3%E3%82%B2%E3%82%AD%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8%E6%97%A9%E3%82%81%E3%81%AE%E5%BF%98%E5%B9%B4%E4%BC%9A2026&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form",
+      "scheduleDate": "2026-12-01",
+      "day": "火",
+      "openTime": "19:00",
+      "startTime": "19:15",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "ticketSales": [
+        {
+          "type": "一般販売",
+          "label": "一般発売",
+          "startAt": "2026-11-21T10:00:00+09:00",
+          "endAt": "2026-12-01T17:15:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E6%B8%8B%E8%B0%B7%E3%83%9E%E3%83%B3%E3%82%B2%E3%82%AD%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8%E6%97%A9%E3%82%81%E3%81%AE%E5%BF%98%E5%B9%B4%E4%BC%9A2026&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
+        }
+      ]
     },
     {
       "date": "2026-11-15",
@@ -828,49 +849,6 @@
       "title": "Instagram",
       "comment": "投稿された動画に中野さんが映っています。 アカウント名: 9番街レトロ なかむらしゅん",
       "url": "https://www.instagram.com/reel/De3FRSoyDv_/?mdxt=MW05cnB4NDJueHF5cA=="
-    },
-    {
-      "date": "2026-11-15",
-      "tag": "公演情報",
-      "title": "中野なかるてぃんのおもしろゲームライブ",
-      "comment": "※中野さんのみ出演",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form",
-      "scheduleDate": "2026-12-01",
-      "day": "火",
-      "openTime": "19:00",
-      "startTime": "19:15",
-      "endTime": "20:15",
-      "place": "渋谷よしもと漫才劇場（東京都）",
-      "ticketSales": [
-        {
-          "type": "抽選販売",
-          "label": "FANY IDプレミアムメンバー抽選先行",
-          "startAt": "2026-10-25T11:00:00+09:00",
-          "endAt": "2026-10-28T11:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "抽選販売",
-          "label": "FANY IDメンバー抽選先行",
-          "startAt": "2026-10-25T11:00:00+09:00",
-          "endAt": "2026-10-28T11:00:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "一般販売",
-          "label": "一般販売",
-          "startAt": "2026-11-05T10:00:00+09:00",
-          "endAt": "",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "type": "一般販売",
-          "label": "一般発売",
-          "startAt": "2026-11-21T10:00:00+09:00",
-          "endAt": "2026-12-01T17:15:00+09:00",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96&from=2026-12-01&to=2026-12-01&prefectures=0&genre=0&search_type=form"
-        }
-      ]
     },
     {
       "date": "2026-11-15",
@@ -3676,14 +3654,14 @@
       "place": "渋谷よしもと漫才劇場（東京都）",
       "url": "https://ticket.fany.lol/event/refund/performance/56481",
       "openTime": "19:00",
-      "cancelled": true,
-      "linkTitle": "劇場チケット 払い戻しのお知らせ",
       "links": [
         {
           "title": "劇場チケット 払い戻しのお知らせ",
           "url": "https://ticket.fany.lol/event/refund/performance/56489"
         }
-      ]
+      ],
+      "cancelled": true,
+      "linkTitle": "劇場チケット 払い戻しのお知らせ"
     },
     {
       "date": "2026-12-03",
@@ -3990,7 +3968,7 @@
       "endTime": "19:30",
       "tag": "公演情報",
       "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」",
-      "comment": "※配信チケットに中野さんのお名前がありますが、チケットにはお名前がありません。",
+      "comment": "",
       "place": "よしもと幕張イオンモール劇場（千葉県）",
       "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form",
       "openTime": "18:15",
@@ -4008,16 +3986,6 @@
           "startAt": "2026-11-15T10:00:00+09:00",
           "endAt": "",
           "url": "https://ticket.fany.lol/search/event?keywords=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E5%8D%98%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%81%A6%E3%81%83%E3%82%93%E7%8B%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8D&from=2026-12-12&to=2026-12-12&prefectures=0&genre=0&search_type=form"
-        }
-      ],
-      "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96&from=2026-10-10&to=2026-10-10&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/products/%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96-10-10-21-00"
         }
       ]
     },
