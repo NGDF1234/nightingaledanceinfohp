@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T17:42:17+09:00",
+  "updatedAt": "2026-11-20T20:52:20+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -38,6 +38,24 @@
       "uploadDate": "2026-11-20",
       "firstSeenAt": "2026-11-20T17:42:17+09:00",
       "lastStatsUpdatedAt": ""
+    },
+    {
+      "id": "youtube|yEHjg7yQ65U",
+      "videoId": "yEHjg7yQ65U",
+      "kind": "video",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【終了くん】なかるてぃんはなぜ終了くんを切らないのか【ナイチンゲールダンス】",
+      "comment": "【終了くん】なかるてぃんはなぜ終了くんを切らないのか【ナイチンゲールダンス】",
+      "url": "https://www.youtube.com/watch?v=yEHjg7yQ65U",
+      "viewCount": 4121,
+      "durationSeconds": 1375,
+      "duration": "22:55",
+      "uploadDate": "2026-11-20",
+      "firstSeenAt": "2026-11-20T20:52:20+09:00",
+      "lastStatsUpdatedAt": "2026-11-20T20:52:20+09:00"
     },
     {
       "id": "youtube|Uj08G__tM5s",

@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-20T19:12:16+09:00",
+  "updatedAt": "2026-11-20T20:52:20+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-20",
+      "tag": "YouTube",
+      "title": "【終了くん】なかるてぃんはなぜ終了くんを切らないのか【ナイチンゲールダンス】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=yEHjg7yQ65U",
+      "channelName": "ナイチンゲールダンスチャンネル"
+    },
     {
       "date": "2026-11-20",
       "tag": "YouTube",
