@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-21T10:02:27+09:00",
+  "updatedAt": "2026-11-21T20:02:24+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-21",
+      "tag": "YouTube",
+      "title": "【本音】なかるてぃんのことどう思ってる？【ナイチンゲールダンス】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=hJbH-hUVevg",
+      "channelName": "ナイチンゲールダンスチャンネル"
+    },
     {
       "date": "2026-11-20",
       "tag": "YouTube",

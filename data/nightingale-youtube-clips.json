@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T21:07:23+09:00",
+  "updatedAt": "2026-11-21T20:02:24+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|hJbH-hUVevg",
+      "videoId": "hJbH-hUVevg",
+      "kind": "video",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【本音】なかるてぃんのことどう思ってる？【ナイチンゲールダンス】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=hJbH-hUVevg",
+      "viewCount": 3,
+      "durationSeconds": 942,
+      "duration": "15:42",
+      "uploadDate": "2026-11-21",
+      "firstSeenAt": "2026-11-21T20:02:24+09:00",
+      "lastStatsUpdatedAt": "2026-11-21T20:02:24+09:00"
+    },
     {
       "id": "youtube|0qTAM3ABgJI",
       "videoId": "0qTAM3ABgJI",
