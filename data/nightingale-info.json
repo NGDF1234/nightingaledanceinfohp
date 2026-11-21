@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T00:02:07+09:00",
+  "updatedAt": "2026-11-22T01:02:01+09:00",
   "newsNotificationsEnabled": false,
   "news": [
     {
@@ -88,7 +88,7 @@
     },
     {
       "date": "2026-11-17",
-      "tag": "公演情報",
+      "tag": "その他",
       "title": "X投稿: @oogiruhitotachi",
       "comment": "※中野さんのみ出演",
       "url": "https://tiget.net/events/533140"
