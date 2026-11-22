@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T21:07:22+09:00",
+  "updatedAt": "2026-11-22T21:37:22+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|08ogLOn6rv4",
+      "videoId": "08ogLOn6rv4",
+      "kind": "video",
+      "channelName": "ヤスチャンネル",
+      "channelType": "yasu_personal",
+      "channelUrl": "https://www.youtube.com/@vlog-ju3mn",
+      "channelId": "UC2sTd5vefWLrDsm6U99a0vg",
+      "title": "終了くん、初パチンコ打ちたいから3万くれよ",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=08ogLOn6rv4",
+      "viewCount": 362,
+      "durationSeconds": 2825,
+      "duration": "47:05",
+      "uploadDate": "2026-11-22",
+      "firstSeenAt": "2026-11-22T21:37:22+09:00",
+      "lastStatsUpdatedAt": "2026-11-22T21:37:22+09:00"
+    },
     {
       "id": "youtube|Jbjb5MYjkAU",
       "videoId": "Jbjb5MYjkAU",

@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-22T21:07:22+09:00",
+  "updatedAt": "2026-11-22T21:37:22+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-22",
+      "tag": "YouTube",
+      "title": "終了くん、初パチンコ打ちたいから3万くれよ",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=08ogLOn6rv4",
+      "channelName": "終了くんチャンネル"
+    },
     {
       "date": "2026-11-22",
       "tag": "YouTube",
