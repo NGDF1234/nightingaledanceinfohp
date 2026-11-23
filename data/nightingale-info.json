@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T15:42:03+09:00",
+  "updatedAt": "2026-11-23T15:47:02+09:00",
   "newsNotificationsEnabled": false,
   "news": [
     {
@@ -182,6 +182,35 @@
       "comment": "",
       "url": "https://www.youtube.com/watch?v=AXr78S7JREM",
       "channelName": "ナイチンゲールダンスチャンネル"
+    },
+    {
+      "date": "2026-11-15",
+      "tag": "公演情報",
+      "title": "【芸辞苑】",
+      "comment": "※中野さんのみ出演",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2027-01-12&to=2027-01-12&prefectures=0&genre=0&search_type=form",
+      "scheduleDate": "2027-01-12",
+      "day": "火",
+      "openTime": "19:00",
+      "startTime": "19:15",
+      "endTime": "20:15",
+      "place": "神保町よしもと漫才劇場（東京都）",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDプレミアムメンバー抽選先行",
+          "startAt": "2026-11-25T11:00:00+09:00",
+          "endAt": "2026-11-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2027-01-12&to=2027-01-12&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-11-25T11:00:00+09:00",
+          "endAt": "2026-11-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2027-01-12&to=2027-01-12&prefectures=0&genre=0&search_type=form"
+        }
+      ]
     },
     {
       "date": "2026-11-15",
@@ -4172,17 +4201,7 @@
       "comment": "※中野さんのみ出演",
       "place": "下北沢シアターミネルヴァ（東京都）",
       "url": "https://ticket.fany.lol/search/event?keywords=%E7%B6%9A%E3%83%BB%E6%96%B0%E3%83%8D%E3%82%BF%E7%97%85%E6%A3%9F24%E6%99%82%EF%BD%9E%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B7%E3%83%A5%E3%83%83%EF%BC%81%E3%82%B8%E3%83%B3%E3%82%B0%E3%83%AB%E3%83%99%E3%83%AB%E3%82%88&from=2026-12-25&to=2026-12-25&prefectures=0&genre=0&search_type=form",
-      "openTime": "16:00",
-      "links": [
-        {
-          "title": "FANYチケット",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96&from=2026-10-10&to=2026-10-10&prefectures=0&genre=0&search_type=form"
-        },
-        {
-          "title": "FANY Online Ticket",
-          "url": "https://online-ticket.yoshimoto.co.jp/products/%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96-10-10-21-00"
-        }
-      ]
+      "openTime": "16:00"
     },
     {
       "date": "2026-12-26",
@@ -4337,6 +4356,44 @@
       "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2027-01-12",
+      "day": "火",
+      "startTime": "19:15",
+      "endTime": "20:15",
+      "tag": "公演情報",
+      "title": "【芸辞苑】",
+      "comment": "※中野さんのみ出演",
+      "place": "神保町よしもと漫才劇場（東京都）",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2027-01-12&to=2027-01-12&prefectures=0&genre=0&search_type=form",
+      "openTime": "19:00",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDプレミアムメンバー抽選先行",
+          "startAt": "2026-11-25T11:00:00+09:00",
+          "endAt": "2026-11-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2027-01-12&to=2027-01-12&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-11-25T11:00:00+09:00",
+          "endAt": "2026-11-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%80%90%E8%8A%B8%E8%BE%9E%E8%8B%91%E3%80%91&from=2027-01-12&to=2027-01-12&prefectures=0&genre=0&search_type=form"
+        }
+      ],
+      "links": [
+        {
+          "title": "FANYチケット",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96&from=2026-10-10&to=2026-10-10&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "title": "FANY Online Ticket",
+          "url": "https://online-ticket.yoshimoto.co.jp/products/%E9%88%B4%E6%9C%A8%E3%83%90%E3%82%A4%E3%83%80%E3%83%B3%E6%BC%AB%E6%89%8D%E4%BF%AE%E8%A1%8C%E3%83%A9%E3%82%A4%E3%83%96-10-10-21-00"
+        }
+      ]
     },
     {
       "date": "2027-01-15",
