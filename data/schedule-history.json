@@ -2671,6 +2671,41 @@
     {
       "date": "2027-01-02",
       "day": "土",
+      "startTime": "21:00",
+      "endTime": "22:15",
+      "tag": "公演情報",
+      "title": "Bentendo direct 4",
+      "comment": "",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "url": "https://ticket.fany.lol/search/event?keywords=Bentendo%20direct%204&from=2027-01-02&to=2027-01-02&prefectures=0&genre=0&search_type=form",
+      "openTime": "20:45",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDプレミアムメンバー抽選先行",
+          "startAt": "2026-11-25T11:00:00+09:00",
+          "endAt": "2026-11-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=Bentendo%20direct%204&from=2027-01-02&to=2027-01-02&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-11-25T11:00:00+09:00",
+          "endAt": "2026-11-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=Bentendo%20direct%204&from=2027-01-02&to=2027-01-02&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-12-05T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=Bentendo%20direct%204&from=2027-01-02&to=2027-01-02&prefectures=0&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-02",
+      "day": "土",
       "startTime": "22:00",
       "endTime": "23:00",
       "tag": "テレビ",
@@ -2909,6 +2944,41 @@
       "url": "https://bsy.co.jp/timetable",
       "note": "",
       "comment": "※ヤスさんのみ出演"
+    },
+    {
+      "date": "2027-01-25",
+      "day": "月",
+      "startTime": "19:15",
+      "endTime": "20:30",
+      "tag": "公演情報",
+      "title": "やさしいズタイpresents 「パドックお笑い～目指せ笑馬記念～」",
+      "comment": "",
+      "place": "渋谷よしもと漫才劇場（東京都）",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents%20%E3%80%8C%E3%83%91%E3%83%89%E3%83%83%E3%82%AF%E3%81%8A%E7%AC%91%E3%81%84%EF%BD%9E%E7%9B%AE%E6%8C%87%E3%81%9B%E7%AC%91&from=2027-01-25&to=2027-01-25&prefectures=0&genre=0&search_type=form",
+      "openTime": "19:00",
+      "ticketSales": [
+        {
+          "type": "抽選販売",
+          "label": "FANY IDプレミアムメンバー抽選先行",
+          "startAt": "2026-11-25T11:00:00+09:00",
+          "endAt": "2026-11-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents%20%E3%80%8C%E3%83%91%E3%83%89%E3%83%83%E3%82%AF%E3%81%8A%E7%AC%91%E3%81%84%EF%BD%9E%E7%9B%AE%E6%8C%87%E3%81%9B%E7%AC%91&from=2027-01-25&to=2027-01-25&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "抽選販売",
+          "label": "FANY IDメンバー抽選先行",
+          "startAt": "2026-11-25T11:00:00+09:00",
+          "endAt": "2026-11-28T11:00:00+09:00",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents%20%E3%80%8C%E3%83%91%E3%83%89%E3%83%83%E3%82%AF%E3%81%8A%E7%AC%91%E3%81%84%EF%BD%9E%E7%9B%AE%E6%8C%87%E3%81%9B%E7%AC%91&from=2027-01-25&to=2027-01-25&prefectures=0&genre=0&search_type=form"
+        },
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-12-05T10:00:00+09:00",
+          "endAt": "",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents%20%E3%80%8C%E3%83%91%E3%83%89%E3%83%83%E3%82%AF%E3%81%8A%E7%AC%91%E3%81%84%EF%BD%9E%E7%9B%AE%E6%8C%87%E3%81%9B%E7%AC%91&from=2027-01-25&to=2027-01-25&prefectures=0&genre=0&search_type=form"
+        }
+      ]
     },
     {
       "date": "2027-01-29",
