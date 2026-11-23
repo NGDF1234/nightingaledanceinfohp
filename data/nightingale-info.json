@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T06:02:01+09:00",
+  "updatedAt": "2026-11-23T10:02:04+09:00",
   "newsNotificationsEnabled": false,
   "news": [
     {
@@ -5366,20 +5366,6 @@
     }
   ],
   "regular": [],
-  "ticketReminders": [
-    {
-      "id": "ticket_push_reminder|start|中野なかるてぃん単独ライブてぃん独ライブin大阪|一般販売|202611231000",
-      "title": "中野なかるてぃん単独ライブ「てぃん独ライブ」in 大阪",
-      "ticketKind": "一般販売",
-      "ticketLabel": "一般販売",
-      "reminderType": "start",
-      "reminderLabel": "発売開始30分前",
-      "notifyAt": "2026-11-23T09:30:00+09:00",
-      "targetAt": "2026-11-23T10:00:00+09:00",
-      "startAt": "2026-11-23T10:00:00+09:00",
-      "endAt": "",
-      "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=23852"
-    }
-  ],
+  "ticketReminders": [],
   "clips": []
 }
