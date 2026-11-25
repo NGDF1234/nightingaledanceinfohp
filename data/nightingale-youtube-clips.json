@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T19:07:28+09:00",
+  "updatedAt": "2026-11-25T20:37:03+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -37,6 +37,24 @@
       "duration": "",
       "uploadDate": "2026-11-25",
       "firstSeenAt": "2026-11-25T19:07:28+09:00",
+      "lastStatsUpdatedAt": ""
+    },
+    {
+      "id": "youtube|HKTj6fezNEc",
+      "videoId": "HKTj6fezNEc",
+      "kind": "video",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "【#1】ナイチンゲールダンスR.E.P.O.名場面集【切り抜き】",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=HKTj6fezNEc",
+      "viewCount": 0,
+      "durationSeconds": 0,
+      "duration": "",
+      "uploadDate": "2026-11-25",
+      "firstSeenAt": "2026-11-25T20:37:03+09:00",
       "lastStatsUpdatedAt": ""
     },
     {
