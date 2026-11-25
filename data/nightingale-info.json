@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-25T13:32:01+09:00",
+  "updatedAt": "2026-11-25T19:07:28+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-25",
+      "tag": "YouTube",
+      "title": "【9番街レトロなかむら】先輩取り立てたらダル絡みされた",
+      "comment": "",
+      "url": "https://youtu.be/u8Bn7XZzAW8?si=1sf4n8MYlDA95an4",
+      "channelName": "中野なかるてぃん状態"
+    },
     {
       "date": "2026-11-25",
       "tag": "公演情報",

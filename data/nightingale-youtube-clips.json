@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T21:37:22+09:00",
+  "updatedAt": "2026-11-25T19:07:28+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -21,6 +21,24 @@
     }
   ],
   "clips": [
+    {
+      "id": "youtube|u8Bn7XZzAW8",
+      "videoId": "u8Bn7XZzAW8",
+      "kind": "video",
+      "channelName": "中野なかるてぃん状態",
+      "channelType": "nakano_personal",
+      "channelUrl": "https://www.youtube.com/channel/UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "channelId": "UCOAIDhwB1GIbAVl35Vj_aIQ",
+      "title": "【9番街レトロなかむら】先輩取り立てたらダル絡みされた",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=u8Bn7XZzAW8",
+      "viewCount": 0,
+      "durationSeconds": 0,
+      "duration": "",
+      "uploadDate": "2026-11-25",
+      "firstSeenAt": "2026-11-25T19:07:28+09:00",
+      "lastStatsUpdatedAt": ""
+    },
     {
       "id": "youtube|08ogLOn6rv4",
       "videoId": "08ogLOn6rv4",
