@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T11:02:04+09:00",
+  "updatedAt": "2026-11-25T12:07:22+09:00",
   "newsNotificationsEnabled": false,
   "news": [
     {
@@ -5664,6 +5664,32 @@
       "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents%20%E3%80%8C%E3%83%91%E3%83%89%E3%83%83%E3%82%AF%E3%81%8A%E7%AC%91%E3%81%84%EF%BD%9E%E7%9B%AE%E6%8C%87%E3%81%9B%E7%AC%91&from=2027-01-25&to=2027-01-25&prefectures=0&genre=0&search_type=form"
     },
     {
+      "id": "ticket_push_reminder|start|中野なかるてぃんのイントロクイズネオ|先行受付|202611301100",
+      "title": "中野なかるてぃんのイントロクイズ ネオ",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "先行受付",
+      "reminderType": "start",
+      "reminderLabel": "発売開始時刻",
+      "notifyAt": "2026-11-30T11:00:00+09:00",
+      "targetAt": "2026-11-30T11:00:00+09:00",
+      "startAt": "2026-11-30T11:00:00+09:00",
+      "endAt": "2026-12-02T11:00:00+09:00",
+      "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=24631"
+    },
+    {
+      "id": "ticket_push_reminder|end|中野なかるてぃんのイントロクイズネオ|先行受付|202612021100",
+      "title": "中野なかるてぃんのイントロクイズ ネオ",
+      "ticketKind": "抽選販売",
+      "ticketLabel": "先行受付",
+      "reminderType": "end",
+      "reminderLabel": "受付終了30分前",
+      "notifyAt": "2026-12-02T10:30:00+09:00",
+      "targetAt": "2026-12-02T11:00:00+09:00",
+      "startAt": "2026-11-30T11:00:00+09:00",
+      "endAt": "2026-12-02T11:00:00+09:00",
+      "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=24631"
+    },
+    {
       "id": "ticket_push_reminder|start|bentendodirect4|一般販売|202612051000",
       "title": "Bentendo direct 4",
       "ticketKind": "一般販売",
@@ -5688,6 +5714,19 @@
       "startAt": "2026-12-05T10:00:00+09:00",
       "endAt": "",
       "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents%20%E3%80%8C%E3%83%91%E3%83%89%E3%83%83%E3%82%AF%E3%81%8A%E7%AC%91%E3%81%84%EF%BD%9E%E7%9B%AE%E6%8C%87%E3%81%9B%E7%AC%91&from=2027-01-25&to=2027-01-25&prefectures=0&genre=0&search_type=form"
+    },
+    {
+      "id": "ticket_push_reminder|start|中野なかるてぃんのイントロクイズネオ|一般販売|202612051000",
+      "title": "中野なかるてぃんのイントロクイズ ネオ",
+      "ticketKind": "一般販売",
+      "ticketLabel": "一般販売",
+      "reminderType": "start",
+      "reminderLabel": "発売開始30分前",
+      "notifyAt": "2026-12-05T09:30:00+09:00",
+      "targetAt": "2026-12-05T10:00:00+09:00",
+      "startAt": "2026-12-05T10:00:00+09:00",
+      "endAt": "",
+      "url": "https://dotonbori.yoshimoto.co.jp/schedule/?id=24631"
     }
   ],
   "clips": []
