@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T20:37:03+09:00",
+  "updatedAt": "2026-11-26T21:32:03+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -55,6 +55,24 @@
       "duration": "",
       "uploadDate": "2026-11-25",
       "firstSeenAt": "2026-11-25T20:37:03+09:00",
+      "lastStatsUpdatedAt": ""
+    },
+    {
+      "id": "youtube|e2XCQU6gkMo",
+      "videoId": "e2XCQU6gkMo",
+      "kind": "video",
+      "channelName": "バッテリィズ寺家の三重おいない百景",
+      "channelType": "appearance",
+      "channelUrl": "https://www.youtube.com/channel/UCqnyXgynIx_NUx3qTvsg07Q",
+      "channelId": "UCqnyXgynIx_NUx3qTvsg07Q",
+      "title": "【応援団限定】答志島行きの船での一部始終",
+      "comment": "※中野さんが出演しています。こちらの動画はメンバーシップ限定です。",
+      "url": "https://www.youtube.com/watch?v=e2XCQU6gkMo",
+      "viewCount": 0,
+      "durationSeconds": 0,
+      "duration": "",
+      "uploadDate": "2026-11-25",
+      "firstSeenAt": "2026-11-26T21:32:03+09:00",
       "lastStatsUpdatedAt": ""
     },
     {

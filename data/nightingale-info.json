@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-26T06:02:04+09:00",
+  "updatedAt": "2026-11-26T21:32:03+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-26",
+      "tag": "YouTube",
+      "title": "【応援団限定】答志島行きの船での一部始終",
+      "comment": "※中野さんが出演しています。こちらの動画はメンバーシップ限定です。",
+      "url": "https://youtu.be/e2XCQU6gkMo?si=kiRrAPLNTN0unmCd",
+      "channelName": "バッテリィズ寺家の三重おいない百景"
+    },
     {
       "date": "2026-11-25",
       "tag": "YouTube",
@@ -250,7 +258,7 @@
     },
     {
       "date": "2026-11-17",
-      "tag": "公演情報",
+      "tag": "その他",
       "title": "X投稿: @oogiruhitotachi",
       "comment": "※中野さんのみ出演",
       "url": "https://tiget.net/events/533140"
