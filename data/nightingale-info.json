@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-11-27T21:42:05+09:00",
+  "updatedAt": "2026-11-27T22:17:07+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-27",
+      "tag": "公演情報",
+      "title": "THE EMPTY STAGE｜吉本興業×THE LIVE お笑いライブシリーズ vol.4",
+      "comment": "※中野さんのみ出演",
+      "url": "https://ticket.fany.lol/search/event?keywords=THE%20EMPTY%20STAGE%EF%BD%9C%E5%90%89%E6%9C%AC%E8%88%88%E6%A5%AD%C3%97THE%20LIVE&from=2026-12-15&to=2026-12-15&prefectures=0&genre=0&search_type=form",
+      "scheduleDate": "2026-12-15",
+      "day": "火",
+      "openTime": "18:30",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "place": "THE LIVE Supported by 大和地所（神奈川県）",
+      "ticketSales": [
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-11-24T12:00:00+09:00",
+          "endAt": "2026-12-15T12:00:00+09:00",
+          "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2645318&rlsCd=001"
+        }
+      ]
+    },
     {
       "date": "2026-11-26",
       "tag": "Instagram",
@@ -4178,6 +4200,27 @@
       "comment": "※ヤスさんのみ出演",
       "place": "BSよしもと 265ch",
       "url": "https://bsy.co.jp/timetable"
+    },
+    {
+      "date": "2026-12-15",
+      "day": "火",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "tag": "公演情報",
+      "title": "THE EMPTY STAGE｜吉本興業×THE LIVE お笑いライブシリーズ vol.4",
+      "comment": "※中野さんのみ出演",
+      "place": "THE LIVE Supported by 大和地所（神奈川県）",
+      "url": "https://ticket.fany.lol/search/event?keywords=THE%20EMPTY%20STAGE%EF%BD%9C%E5%90%89%E6%9C%AC%E8%88%88%E6%A5%AD%C3%97THE%20LIVE&from=2026-12-15&to=2026-12-15&prefectures=0&genre=0&search_type=form",
+      "openTime": "18:30",
+      "ticketSales": [
+        {
+          "type": "一般販売",
+          "label": "一般販売",
+          "startAt": "2026-11-24T12:00:00+09:00",
+          "endAt": "2026-12-15T12:00:00+09:00",
+          "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2645318&rlsCd=001"
+        }
+      ]
     },
     {
       "date": "2026-12-16",
