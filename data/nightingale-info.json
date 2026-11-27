@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T00:02:19+09:00",
+  "updatedAt": "2026-11-27T21:42:05+09:00",
   "newsNotificationsEnabled": false,
   "news": [
     {
@@ -7,7 +7,13 @@
       "tag": "Instagram",
       "title": "Instagram",
       "comment": "ストーリーズが投稿されています。 アカウント名: ヤス ナイチンゲールダンス",
-      "url": "https://www.instagram.com/stories/yasukg1/4038829320721285058?utm_source=ig_story_item_share&hvrq=MWVpMDFoYWthYzl2Zg=="
+      "url": "https://www.instagram.com/stories/yasukg1/4038829320721285058?utm_source=ig_story_item_share&hvrq=MWVpMDFoYWthYzl2Zg==",
+      "links": [
+        {
+          "title": "Instagram",
+          "url": "https://www.instagram.com/yasukg1/live/1510728114246189"
+        }
+      ]
     },
     {
       "date": "2026-11-26",
