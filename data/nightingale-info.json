@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-11-28T13:52:24+09:00",
+  "updatedAt": "2026-11-28T20:07:20+09:00",
   "newsNotificationsEnabled": false,
   "news": [
+    {
+      "date": "2026-11-28",
+      "tag": "YouTube",
+      "title": "同棲王選手権",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=4P6x9C90WKg",
+      "channelName": "ナイチンゲールダンスチャンネル"
+    },
     {
       "date": "2026-11-28",
       "tag": "YouTube",

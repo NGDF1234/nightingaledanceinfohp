@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T13:52:24+09:00",
+  "updatedAt": "2026-11-28T20:07:20+09:00",
   "channels": [
     {
       "channelName": "ナイチンゲールダンスチャンネル",
@@ -38,6 +38,24 @@
       "uploadDate": "2026-11-28",
       "firstSeenAt": "2026-11-28T13:52:24+09:00",
       "lastStatsUpdatedAt": ""
+    },
+    {
+      "id": "youtube|4P6x9C90WKg",
+      "videoId": "4P6x9C90WKg",
+      "kind": "video",
+      "channelName": "ナイチンゲールダンスチャンネル",
+      "channelType": "combo_official",
+      "channelUrl": "https://www.youtube.com/@nightingaledance",
+      "channelId": "UCK_5obaQBnlzrRnVN7G6yrA",
+      "title": "同棲王選手権",
+      "comment": "",
+      "url": "https://www.youtube.com/watch?v=4P6x9C90WKg",
+      "viewCount": 412,
+      "durationSeconds": 1093,
+      "duration": "18:13",
+      "uploadDate": "2026-11-28",
+      "firstSeenAt": "2026-11-28T20:07:20+09:00",
+      "lastStatsUpdatedAt": "2026-11-28T20:07:20+09:00"
     },
     {
       "id": "youtube|u8Bn7XZzAW8",
